@@ -8,7 +8,7 @@
   "repository": "https://github.com/ToxicantX/Movie-Generation",
   "notion": "https://app.notion.com/p/3ce84839dbe48164af66cd166b0b86ae",
   "source": {
-    "mode": "local",
+    "mode": "remote",
     "repository": "https://github.com/ToxicantX/Movie-Generation.git",
     "ref": "main",
     "directory": "diagrams",
