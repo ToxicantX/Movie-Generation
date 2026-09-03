@@ -1,0 +1,14 @@
+{
+    "updated":  "2026-06-09T00:07:55",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\tmp_storyboard_review_decisions_ep02_sc01_server_sandbox_8101.json",
+    "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SANDBOX_SERVER_8101_SSJ_EP02_SC01_STORYBOARD_DASHBOARD.html",
+    "api_base_url":  "http://127.0.0.1:8101",
+    "decision_count":  3,
+    "summary":  {
+                    "pending":  2,
+                    "pass":  1,
+                    "needs_regeneration":  0,
+                    "blocked":  0
+                },
+    "ok":  true
+}

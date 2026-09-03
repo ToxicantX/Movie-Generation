@@ -1,0 +1,62 @@
+﻿{
+    "updated":  "2026-06-12T00:19:45",
+    "mode":  "technical_still_fallback_comfy_node",
+    "comfy_url":  "http://127.0.0.1:8188",
+    "workflow_paths":  [
+                           ".\\workflows\\ssj_ep02_sc17_sh01_technical_still_fallback_v001.json",
+                           ".\\workflows\\ssj_ep02_sc17_sh02_technical_still_fallback_v001.json",
+                           ".\\workflows\\ssj_ep02_sc17_sh03_technical_still_fallback_v001.json",
+                           ".\\workflows\\ssj_ep02_sc17_sh04_technical_still_fallback_v001.json"
+                       ],
+    "runs":  [
+                 {
+                     "workflow_path":  ".\\workflows\\ssj_ep02_sc17_sh01_technical_still_fallback_v001.json",
+                     "prompt_id":  "6d5becbb-4567-47c4-9a8d-6149e1671a33",
+                     "wait":  {
+                                  "prompt_id":  "6d5becbb-4567-47c4-9a8d-6149e1671a33",
+                                  "status":  "success",
+                                  "completed":  true,
+                                  "error":  null
+                              },
+                     "ok":  true,
+                     "error":  null
+                 },
+                 {
+                     "workflow_path":  ".\\workflows\\ssj_ep02_sc17_sh02_technical_still_fallback_v001.json",
+                     "prompt_id":  "b650be72-a5e4-4342-b054-637fd380e5d2",
+                     "wait":  {
+                                  "prompt_id":  "b650be72-a5e4-4342-b054-637fd380e5d2",
+                                  "status":  "success",
+                                  "completed":  true,
+                                  "error":  null
+                              },
+                     "ok":  true,
+                     "error":  null
+                 },
+                 {
+                     "workflow_path":  ".\\workflows\\ssj_ep02_sc17_sh03_technical_still_fallback_v001.json",
+                     "prompt_id":  "ba2e1833-5978-428a-aae4-eafdad4e10e8",
+                     "wait":  {
+                                  "prompt_id":  "ba2e1833-5978-428a-aae4-eafdad4e10e8",
+                                  "status":  "success",
+                                  "completed":  true,
+                                  "error":  null
+                              },
+                     "ok":  true,
+                     "error":  null
+                 },
+                 {
+                     "workflow_path":  ".\\workflows\\ssj_ep02_sc17_sh04_technical_still_fallback_v001.json",
+                     "prompt_id":  "d5e61f85-1504-4478-a024-e7952eb39d66",
+                     "wait":  {
+                                  "prompt_id":  "d5e61f85-1504-4478-a024-e7952eb39d66",
+                                  "status":  "success",
+                                  "completed":  true,
+                                  "error":  null
+                              },
+                     "ok":  true,
+                     "error":  null
+                 }
+             ],
+    "ok":  true
+}

@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "inputs": {
+        "prompt": "A mature ancient Chinese mythic green emperor, austere wise face, age forty to sixty, deep teal and jade green ceremonial robe with subtle wood element embroidery, bronze and jade ornaments, restrained divine ruler presence, cinematic realistic fantasy drama portrait, three-quarter body character reference, misty ancient eastern palace and green wood aura background, clear face and costume, natural film lighting, no text, no watermark",
+        "model": "gpt-image-2",
+        "size": "1024x1536",
+        "negative_prompt": "western king, medieval armor, golden dragon emperor robe, superhero glow, anime, young boy, modern suit, sci-fi armor, excessive neon, text, watermark, logo"
+      },
+      "class_type": "OpenAICompatibleImageGenerate"
+    },
+    "2": {
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/characters/CHAR_qingdi_ref_v001"
+      },
+      "class_type": "SaveImage"
+    }
+  }
+}

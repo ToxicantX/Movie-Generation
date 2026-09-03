@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-10T01:05:00",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC13_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; emotional memory beat is usable. Production must replace with stable I2V and keep memory silhouettes indistinct."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC13_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Qingdi remains absent and the hope-to-disappointment beat is clear."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC13_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; folded blood letter is unreadable. Production should tighten Tuobaye costume identity."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC13_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; production regeneration needed because the white-clothed woman's headpiece drifts too ornate and Tuobaye is too tribal/refined."
+    }
+  ]
+}

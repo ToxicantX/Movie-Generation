@@ -1,0 +1,108 @@
+{
+  "updated": "2026-06-11",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 玄蛇化出，段狂受制",
+  "segment_id": "SSJ_EP02_SC16",
+  "beat_id": "C02_B16",
+  "title": "玄蛇化出，段狂受制",
+  "purpose": "承接 SC15 的请战与挑衅：十四郎正式出手；黑色长鞭化作巨大的玄蛇；段聿铠被逼从竹楼落地、转为守势；躲在院中的拓拔野失声惊呼，白龙鹿也被惊动。全段继续保持无声视觉，不生成字幕、门额文字、咒骂台词文字或任何可读文本。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC15",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc15_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC15_formal_cut_v001.mp4",
+    "previous_duanyukai_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC15_SH03_v001_00001_.png",
+    "previous_gate_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC15_SH04_v001_00003_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc16_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 十四郎出手 / 玄蛇化出 / 段聿铠受制 / 拓拔野惊呼。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 anchors to the corrected SC15 gate storyboard for Shisilang's outside-gate position. SH02 anchors to the Duan Yukai reveal shot so the action remains attached to the same confrontation space. SH03 anchors to the same Duan Yukai reveal for continuity. SH04 anchors to the corrected SC15 gate storyboard so hidden-observer continuity remains stable.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, gate calligraphy, speech bubbles, English words, or clear Chinese inscriptions inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, lip-sync, battle cries, insults, music, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "青帝明鉴，十四郎恳请将这狂徒拿下。",
+      "那条鞭子竟然在刹那间变成了一条长两丈余长的黑色巨蛇！",
+      "段聿铠一招受制，先机尽失。",
+      "拓拔野大吃一惊，忍不住失声惊呼。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_duanyukai_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC15_SH03_v001_00001_.png",
+    "previous_gate_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC15_SH04_v001_00003_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC16_SH01",
+      "beat": "C02_B16",
+      "title": "请战既出手",
+      "duration_seconds": "8-10",
+      "characters": [
+        "十四郎",
+        "段聿铠"
+      ],
+      "location": "禁院门外 / 湖边楼台",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC16_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC16_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC15_SH04_v001_00003_.png",
+      "storyboard_prompt": "Use the corrected SC15 gate storyboard as the positional anchor so Shisilang remains outside the forbidden gate and Duan Yukai remains the outer intruder. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 action-start composition. Shisilang moves decisively from respectful request into the first attack posture, black robe sharp under moonlight, long whip beginning to arc toward Duan Yukai near the lakeside bamboo structure. Keep the scene readable and uncluttered, with no extra interior figures entering the courtyard. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent first-strike beat. Shisilang launches the opening whip attack toward Duan Yukai while robes, hair, lantern light, and mist move subtly. No dialogue, no lip-sync, no battle cries, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC16_SH02",
+      "beat": "C02_B16",
+      "title": "玄蛇破鞭而出",
+      "duration_seconds": "8-10",
+      "characters": [
+        "十四郎",
+        "段聿铠",
+        "玄蛇"
+      ],
+      "location": "湖边竹楼上空",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC16_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC16_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC15_SH03_v001_00001_.png",
+      "storyboard_prompt": "Use the SC15 Duan Yukai reveal storyboard as the confrontation-space anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 supernatural escalation composition. The black whip has transformed into a giant magical black serpent with glowing eyes and an open striking mouth, lunging down toward Duan Yukai from above; keep it non-gory but dangerous and unmistakably supernatural. Shisilang remains in command position, outside the courtyard conflict space. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent monster-reveal beat. The black serpent unfurls and strikes downward while Duan Yukai braces; cloth, mist, serpent body, lantern light, and water reflections move with contained energy. No dialogue, no lip-sync, no battle cries, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC16_SH03",
+      "beat": "C02_B16",
+      "title": "段狂落地守势",
+      "duration_seconds": "8-10",
+      "characters": [
+        "段聿铠",
+        "十四郎",
+        "玄蛇"
+      ],
+      "location": "竹楼残构 / 湖边地面",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC16_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC16_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC15_SH03_v001_00001_.png",
+      "storyboard_prompt": "Use the SC15 Duan Yukai reveal storyboard as the identity and setting anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 pressured-defense composition. Enforce strict fight logic: Duan Yukai has been forced off the bamboo tower to the ground and now survives by empty-hand body-defense only, with open palms, forearm guards, evasive stance, or defensive twisting motion. Do not give him any invented spear, staff, pole, sword, or long weapon. The giant black serpent must pressure him through pursuit, coiling, lunging, or cutting off escape, not by posing as a separate duelist in a balanced tableau. Shisilang may be glimpsed elevated or at distance controlling the attack. Keep the action readable, no gore, no readable text, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent pressure beat. Duan Yukai drops into defense while the serpent presses him; his robes, hair, mist, serpent motion, and shattered bamboo details move with contained tension. No dialogue, no lip-sync, no battle cries, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC16_SH04",
+      "beat": "C02_B16",
+      "title": "拓拔野失声惊呼",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子",
+        "白龙鹿"
+      ],
+      "location": "禁院竹后 / 远望战局",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC16_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC16_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC15_SH04_v001_00003_.png",
+      "storyboard_prompt": "Use the corrected SC15 gate storyboard as the hidden-observer continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 reaction composition. Enforce strict hidden-observer logic: adult Tuobaye and the white dragon-deer stay behind west-side bamboo inside the courtyard, the adult white-clothed woman remains restrained and partly screened inside the courtyard, and the actual battle stays outside the gate beyond the threshold. Do not place any snake, serpent head, or bright magical creature inside the courtyard space. Do not introduce extra male figures inside the courtyard. Tuobaye visibly loses composure and startles while trying to stay hidden. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no gate calligraphy, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent shock beat. Tuobaye jolts in alarm behind bamboo while the white dragon-deer reacts and the woman remains controlled; bamboo leaves, hair, robes, and distant lantern light move subtly. No dialogue, no lip-sync, no battle cries, no sound effects, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

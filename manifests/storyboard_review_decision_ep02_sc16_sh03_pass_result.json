@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T23:10:44",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc16.json",
+    "shot_id":  "TEST_SSJ_EP02_SC16_SH03",
+    "old_decision":  "needs_regeneration",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass after regeneration: Duan Yukai is now unarmed and the pressured-defense beat reads correctly",
+    "notes":  "Approved regenerated version keeps the serpent as pursuit pressure rather than a posed duel. Use this approved image as the only source for downstream video.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

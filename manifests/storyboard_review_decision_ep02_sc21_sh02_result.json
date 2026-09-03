@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T07:47:25",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc21.json",
+    "shot_id":  "TEST_SSJ_EP02_SC21_SH02",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: sustained whipping pressure reads clearly and Tuobaye remains on the defensive",
+    "notes":  "Production caveat: keep the punishment severe but non-gory, with Tuobaye still forcing bravado through pain.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the SC18 challenge storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 sudden-impact composition. Tang Qi has suddenly abandoned the feints and commits to a real, forceful strike at close range. Adult Tuobaye is clearly caught off guard, eyes widening, balance lost, and unable to respond. Duan Yukai may be visible at distance reacting in alarm. Keep the scene readable, with no readable text, captions, subtitles, plaques, gate calligraphy, English words, or UI.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC18_SH04_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC19_SH02_v001"
+                                        }
+                         }
+               }
+}

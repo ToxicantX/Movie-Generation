@@ -1,0 +1,24 @@
+{
+  "updated": "2026-06-08T14:25:00",
+  "reviewer": "codex_ai_precheck",
+  "segment_id": "SSJ_EP01_SC03",
+  "global_decision": "needs_storyboard_revision",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP01_SC03_SH01",
+      "decision": "pass_candidate",
+      "notes": "Dragon Pool arrival storyboard is strong: safe stone platform, cold pool, waterfall mist, Tuobaye adult identity, cloth bundle, and bamboo flute are all visible."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC03_SH02",
+      "decision": "needs_regeneration",
+      "notes": "Storyboard captures Shennong Dan glow and discovery beat, but Wufeng sword is rendered as a sharp long sword. Need a blunt dark edgeless sword/iron bar-like ancient weapon reference before video."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC03_SH03",
+      "decision": "pass_candidate_with_prop_note",
+      "notes": "White dragon-deer reveal is strong and friendly, creature identity is stable, Tuobaye and bamboo flute are visible. Sword still reads sharp, so revise if Wufeng sword remains visible in final cut."
+    }
+  ],
+  "next_action": "Create Wufeng sword prop reference and rerun SH02 storyboard before I2V."
+}

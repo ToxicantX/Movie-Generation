@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the SC18 challenge storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 awkward-aerial composition. Enforce strict helpless-lift logic: adult Tuobaye is unexpectedly yanked backward and upward by unseen force, with startled expression, bent waist or twisted torso, badly controlled limbs, and a clearly involuntary posture. He must not look serene, balanced, elegant, heroic, or in command of the jump. The white-clothed woman remains grounded and composed behind him, with her aid only implied, not shown as visible beam magic. Tang Qi looks surprised below. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC18_SH04_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC19_SH03_v001"
+                                        }
+                         }
+               }
+}

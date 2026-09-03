@@ -1,0 +1,37 @@
+{
+    "updated":  "2026-06-11T20:53:05",
+    "review_path":  ".\\manifests\\ssj_ep02_sc14_storyboard_review.json",
+    "fallback_create_result_path":  ".\\manifests\\ssj_ep02_sc14_technical_still_fallback_workflow_create_result.json",
+    "applied_count":  4,
+    "missing_count":  0,
+    "applied":  [
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC14_SH01",
+                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc14_sh01_technical_still_fallback_v001.json",
+                        "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC14_SH01_technical_still_fallback_v001.mp4",
+                        "video_exists":  true
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC14_SH02",
+                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc14_sh02_technical_still_fallback_v001.json",
+                        "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC14_SH02_technical_still_fallback_v001.mp4",
+                        "video_exists":  true
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC14_SH03",
+                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc14_sh03_technical_still_fallback_v001.json",
+                        "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC14_SH03_technical_still_fallback_v001.mp4",
+                        "video_exists":  true
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC14_SH04",
+                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc14_sh04_technical_still_fallback_v001.json",
+                        "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC14_SH04_technical_still_fallback_v001.mp4",
+                        "video_exists":  true
+                    }
+                ],
+    "missing":  [
+
+                ],
+    "ok":  true
+}

@@ -1,0 +1,62 @@
+{
+  "updated": "2026-06-09T18:05:39",
+  "mode": "technical_still_fallback_comfy_node",
+  "comfy_url": "http://127.0.0.1:8188",
+  "workflow_paths": [
+    ".\\workflows\\ssj_ep02_sc09_sh01_technical_still_fallback_v001.json",
+    ".\\workflows\\ssj_ep02_sc09_sh02_technical_still_fallback_v001.json",
+    ".\\workflows\\ssj_ep02_sc09_sh03_technical_still_fallback_v001.json",
+    ".\\workflows\\ssj_ep02_sc09_sh04_technical_still_fallback_v001.json"
+  ],
+  "runs": [
+    {
+      "workflow_path": ".\\workflows\\ssj_ep02_sc09_sh01_technical_still_fallback_v001.json",
+      "prompt_id": "9c0d6c57-7301-4f12-baea-cc65df008d7a",
+      "wait": {
+        "prompt_id": "9c0d6c57-7301-4f12-baea-cc65df008d7a",
+        "status": "success",
+        "completed": true,
+        "error": null
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "workflow_path": ".\\workflows\\ssj_ep02_sc09_sh02_technical_still_fallback_v001.json",
+      "prompt_id": "10d3fcb0-6f2f-420c-bb4f-dc77069993d0",
+      "wait": {
+        "prompt_id": "10d3fcb0-6f2f-420c-bb4f-dc77069993d0",
+        "status": "success",
+        "completed": true,
+        "error": null
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "workflow_path": ".\\workflows\\ssj_ep02_sc09_sh03_technical_still_fallback_v001.json",
+      "prompt_id": "5a1f1037-288b-4d8f-9872-6ed219f2af63",
+      "wait": {
+        "prompt_id": "5a1f1037-288b-4d8f-9872-6ed219f2af63",
+        "status": "success",
+        "completed": true,
+        "error": null
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "workflow_path": ".\\workflows\\ssj_ep02_sc09_sh04_technical_still_fallback_v001.json",
+      "prompt_id": "e5480f59-5082-4e96-883f-f079986a556f",
+      "wait": {
+        "prompt_id": "e5480f59-5082-4e96-883f-f079986a556f",
+        "status": "success",
+        "completed": true,
+        "error": null
+      },
+      "ok": true,
+      "error": null
+    }
+  ],
+  "ok": true
+}

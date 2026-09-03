@@ -1,0 +1,21 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "GeminiAPIVideoGenerate",
+                             "inputs":  {
+                                            "model":  "gemini-3.1-pro",
+                                            "prompt":  "Animate this storyboard frame as an 8-10 second departure transition. Tuobaye and the white dragon-deer move slowly along the moonlit mountain path toward distant Yuping Mountain and Tianhu. Preserve the destination landscape, white dragon-deer silhouette, adult rider, bamboo flute and relic bundle. Gentle mist, lake shimmer, and slow camera drift only. No combat, no falling, no text.",
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC04_SH03_v001_00001_.png",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC04_SH03_i2v_v001",
+                                            "base_url":  "http://127.0.0.1:7860",
+                                            "reference_field":  "file_ids",
+                                            "video_reference_mode":  "experimental_file_ids",
+                                            "reference_image_paths":  "",
+                                            "aspect_ratio":  "16:9",
+                                            "request_timeout_seconds":  2400,
+                                            "api_key_env_path":  "E:\\workspace\\DockerProjects\\Gemini-API\\.env"
+                                        }
+                         }
+               }
+}

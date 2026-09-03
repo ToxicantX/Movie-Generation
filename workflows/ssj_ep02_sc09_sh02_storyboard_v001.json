@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Tuobaye turnaround as face, costume, and prop identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium close shot. Adult Tuobaye age 28 to 32 in rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute, and bamboo-sheathed broken Wufeng at the right waist honestly gestures to the broken plain blue-grey iron sword as if explaining he found it in a deep pool and broke it while freeing his companion. His expression is sincere, slightly embarrassed, not comic exaggeration. Moonlit pavilion stone ground, lake reflection, bamboo shadows, incense smoke. Wufeng must look broken and rusty but do not render readable inscriptions or clear Chinese characters. No captions, no subtitles, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC09_SH02_v001"
+                                        }
+                         }
+               }
+}

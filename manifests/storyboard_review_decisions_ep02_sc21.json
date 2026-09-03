@@ -1,0 +1,72 @@
+﻿{
+    "updated":  "2026-06-12T08:59:03",
+    "reviewer":  "Codex",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC21",
+                             "review_path":  ".\\manifests\\ssj_ep02_sc21_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC21_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC21",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc21_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC21_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC21_SH01",
+                          "title":  "真鞭抽落肩头",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC21_SH01_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc21_sh01_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc21_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: first real whip hit is readable and Tuobaye remains clearly outmatched",
+                          "notes":  "Production caveat: keep Fourteen as aggressor and avoid making Tuobaye look composed in motion."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC21",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc21_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC21_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC21_SH02",
+                          "title":  "鞭影连落仍嘴硬",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC21_SH02_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc21_sh02_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc21_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: sustained whipping pressure reads clearly and Tuobaye remains on the defensive",
+                          "notes":  "Production caveat: keep the punishment severe but non-gory, with Tuobaye still forcing bravado through pain."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC21",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc21_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC21_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC21_SH03",
+                          "title":  "段狂欲救难起身",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC21_SH03_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc21_sh03_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc21_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass with caveat: Duan Yukai frustration and inability to rise are still legible",
+                          "notes":  "Production caveat: later regeneration should keep Duan Yukai visibly weakened so he does not look ready to re-enter the fight immediately."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC21",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc21_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC21_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC21_SH04",
+                          "title":  "白龙鹿怒扑护主",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC21_SH04_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc21_sh04_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc21_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass after regeneration: white dragon-deer now enters the same gate-space confrontation as a protective ally rather than a separate battle lead",
+                          "notes":  "Approved regenerated version should be the only downstream source. Keep Tuobaye wounded and low, Fourteen active, and the deer as protective interruption."
+                      }
+                  ]
+}

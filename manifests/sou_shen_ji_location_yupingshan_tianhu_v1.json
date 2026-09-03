@@ -1,0 +1,40 @@
+{
+  "updated": "2026-06-08",
+  "location_id": "LOC_yupingshan_tianhu",
+  "name": "玉屏山 / 天湖 / 青帝御苑",
+  "status": "location_v1",
+  "source": "搜神记 第一卷 第二章-第三章",
+  "visual_identity": {
+    "terrain": "four-peak mountain sanctuary with pine forest, bamboo groves, mountain spring, clear heavenly lake, austere wooden and bamboo pavilions",
+    "time_palette": "moonlit blue, jade green, pine shadow, pale incense smoke, calm lake reflection",
+    "recurring_details": ["天湖", "松木山门", "竹楼", "湖边竹亭", "玛瑙香炉", "高石壁文字", "青木禁地气息"],
+    "avoid": ["busy palace", "gold dragon throne room", "modern garden", "western castle", "tourist resort", "crowded city"]
+  },
+  "angle_set": [
+    {
+      "angle_id": "LOC_YP_A01_MOONLIT_LAKE",
+      "use": "Establish 天湖 and 青帝御苑 quiet authority.",
+      "prompt_core": "moonlit heavenly lake on ancient Chinese mythic mountain, pine and bamboo reflections, austere wooden pavilions, jade-green mist, forbidden quiet"
+    },
+    {
+      "angle_id": "LOC_YP_A02_EMPTY_COURTYARD",
+      "use": "Show 青帝's absence and pressure.",
+      "prompt_core": "empty bamboo and pine courtyard of a secluded wood-element divine ruler, moon shadows, incense smoke, silent gate, restrained authority"
+    },
+    {
+      "angle_id": "LOC_YP_A03_BAMBOO_PAVILION_PROP",
+      "use": "刹那芳华曲, 无锋剑, incense, and emotional insert shots.",
+      "prompt_core": "small bamboo pavilion beside a clear moonlit lake, white agate incense burner, stone table, faint purple incense smoke, carved cliff text in the distance"
+    },
+    {
+      "angle_id": "LOC_YP_A04_COURTYARD_CONFLICT_SAFE",
+      "use": "Later action storyboard without gore.",
+      "prompt_core": "moonlit bamboo courtyard outside a forbidden sanctuary, tense silhouettes, pine shadows, controlled fantasy action staging, no explicit injury"
+    }
+  ],
+  "reference_image_status": "usable_v001",
+  "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+  "reference_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_loc_yupingshan_tianhu_ref_v001.json",
+  "reference_prompt_id": "10c10c6f-6c3f-43ab-8dd5-1de938d1d7c4",
+  "reference_review": "Usable moonlit lake, pine/bamboo, wooden pavilions, and empty-courtyard authority. Good anchor for Chapter 2/3 atmosphere."
+}

@@ -1,0 +1,230 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "06 · 图片资产生成",
+    "locale": "zh-CN",
+    "output": "diagrams/06-image-generation.html",
+    "animation": "none",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "load",
+      "label": "读取分镜与资产"
+    },
+    {
+      "id": "prompt",
+      "label": "生成图片提示词"
+    },
+    {
+      "id": "reference",
+      "label": "选择强参考图"
+    },
+    {
+      "id": "generate",
+      "label": "调用图片 API"
+    },
+    {
+      "id": "persist",
+      "label": "保存媒体引用"
+    },
+    {
+      "id": "review",
+      "label": "图片审核"
+    },
+    {
+      "id": "approve",
+      "label": "批准镜头图片"
+    },
+    {
+      "id": "recovery",
+      "label": "异常与返修",
+      "variant": "exception"
+    }
+  ],
+  "semanticChecks": {
+    "allowedRoots": [
+      "load_shot"
+    ],
+    "allowedTerminals": [
+      "approved_frame",
+      "revise_prompt"
+    ],
+    "requiredPaths": [
+      {
+        "from": "load_shot",
+        "to": "approved_frame"
+      },
+      {
+        "from": "call_image_api",
+        "to": "store_image"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "load_shot",
+      "lane": "load",
+      "col": 3,
+      "type": "database",
+      "label": "读取分镜与资产",
+      "sublabel": "shot_id · 风格 · 角色",
+      "width": 132
+    },
+    {
+      "id": "image_prompt",
+      "lane": "prompt",
+      "col": 3,
+      "type": "backend",
+      "label": "生成图片提示词",
+      "sublabel": "单人 · 16:9 · 负向约束",
+      "width": 132
+    },
+    {
+      "id": "select_reference",
+      "lane": "reference",
+      "col": 3,
+      "type": "security",
+      "label": "选择强参考图",
+      "sublabel": "身份与造型锚点",
+      "width": 132
+    },
+    {
+      "id": "call_image_api",
+      "lane": "generate",
+      "col": 3,
+      "width": 132,
+      "type": "cloud",
+      "label": "调用 gpt-image-2",
+      "sublabel": "OpenAI 兼容接口"
+    },
+    {
+      "id": "image_review",
+      "lane": "review",
+      "col": 3,
+      "type": "security",
+      "label": "图片审核",
+      "sublabel": "脸 · 手 · 服装 · 构图",
+      "tag": "人工",
+      "width": 132
+    },
+    {
+      "id": "approved_frame",
+      "lane": "approve",
+      "col": 3,
+      "type": "database",
+      "label": "批准镜头图片",
+      "sublabel": "作为 I2V 首帧",
+      "width": 132
+    },
+    {
+      "id": "store_image",
+      "lane": "persist",
+      "col": 3,
+      "type": "database",
+      "label": "保存媒体引用",
+      "sublabel": "路径 · 状态 · 版本",
+      "width": 132
+    },
+    {
+      "id": "retry_api",
+      "lane": "generate",
+      "col": 5,
+      "type": "messagebus",
+      "label": "API 失败",
+      "sublabel": "记录错误并重试",
+      "width": 132
+    },
+    {
+      "id": "revise_prompt",
+      "lane": "recovery",
+      "col": 3,
+      "type": "frontend",
+      "label": "修正图片提示词",
+      "sublabel": "仅重做当前镜头",
+      "width": 132
+    }
+  ],
+  "edges": [
+    {
+      "from": "load_shot",
+      "to": "image_prompt",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "image_prompt",
+      "to": "select_reference",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "select_reference",
+      "to": "call_image_api",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "image_review",
+      "to": "approved_frame",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "call_image_api",
+      "to": "store_image",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "store_image",
+      "to": "image_review",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "call_image_api",
+      "to": "retry_api",
+      "label": "请求失败",
+      "role": "error",
+      "variant": "security"
+    },
+    {
+      "from": "retry_api",
+      "to": "call_image_api",
+      "label": "重试",
+      "role": "return",
+      "variant": "security"
+    },
+    {
+      "from": "image_review",
+      "to": "revise_prompt",
+      "label": "不通过",
+      "role": "error",
+      "variant": "security"
+    }
+  ],
+  "mainPath": [
+    "load_shot",
+    "image_prompt",
+    "select_reference",
+    "call_image_api",
+    "store_image",
+    "image_review",
+    "approved_frame"
+  ]
+}

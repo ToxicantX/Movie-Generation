@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-09T00:12:15",
+    "shot_id":  "CHAR_shisilang_turnaround_basic_v001",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_shisilang_turnaround_basic_v001.json",
+    "prompt_id":  "832c71e4-e4f5-4bfc-a65e-7641ecfa4497",
+    "status":  "error",
+    "completed":  false,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_shisilang_turnaround_basic_v001.json -\u003e prompt_id=832c71e4-e4f5-4bfc-a65e-7641ecfa4497"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "832c71e4-e4f5-4bfc-a65e-7641ecfa4497",
+                        "status":  "error",
+                        "completed":  false,
+                        "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f2a43c18-0402-4d00-a530-05f1bc548899 in your message.\",\"type\":\"server_error\"}}\n"
+                    },
+    "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f2a43c18-0402-4d00-a530-05f1bc548899 in your message.\",\"type\":\"server_error\"}}\n"
+}

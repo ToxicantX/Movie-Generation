@@ -1,0 +1,28 @@
+{
+    "updated":  "2026-06-12T14:20:08",
+    "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_storyboard_review.json",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_human_decision_video.json",
+    "global_decision":  "approved_for_episode_cut",
+    "shots":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC22_SH01",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC22_SH02",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC22_SH03",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC22_SH04",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  }
+              ]
+}

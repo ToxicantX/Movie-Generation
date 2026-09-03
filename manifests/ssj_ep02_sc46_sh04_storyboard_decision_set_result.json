@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-07-11T18:53:54",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc46.json",
+    "shot_id":  "TEST_SSJ_EP02_SC46_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "The white-clothed woman remains the still emotional axis while the surrounding men show imminent breakup pressure; no readable text is present.",
+    "notes":  "Non-production fallback: generated without the continuity reference; daylight terrace, location, and costume drift must be corrected in production regeneration.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

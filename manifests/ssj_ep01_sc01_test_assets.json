@@ -1,0 +1,44 @@
+{
+  "source": "搜神记 第一卷 第一章 神农使者",
+  "video_cooldown_note": "Gemini-API video blocked until 2026-06-08 06:07:02 Asia/Shanghai observed in this session",
+  "project": "AI短剧生成工厂",
+  "updated": "2026-06-08",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP01_SC01_SH01",
+      "storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH01_v001_00001_.png",
+      "video_prefix": "AIShortDrama/videos/SSJ_EP01_SC01_SH01_i2v_v001",
+      "storyboard_status": "usable_with_safe_meadow_prompt",
+      "retry_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh01_i2v_retry.json",
+      "preferred_video_mode": "image_to_video_required"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC01_SH02",
+      "storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH02_v001_00001_.png",
+      "retry_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh02_i2v_retry.json",
+      "video_prefix": "AIShortDrama/videos/SSJ_EP01_SC01_SH02_i2v_v001",
+      "storyboard_status": "preferred_for_next_i2v_retry",
+      "preferred_video_mode": "image_to_video_required"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC01_SH03",
+      "storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH03_v002_deeppurple_00001_.png",
+      "video_prefix": "AIShortDrama/videos/SSJ_EP01_SC01_SH03_i2v_v001",
+      "storyboard_status": "usable_replaces_v001",
+      "retry_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh03_i2v_retry.json",
+      "preferred_video_mode": "image_to_video_required"
+    }
+  ],
+  "submit_script": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\submit_i2v_when_ready.ps1",
+  "wait_script": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\run_i2v_queue_and_wait.ps1",
+  "concat_script": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\concat_episode_sample.ps1",
+  "i2v_results": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_i2v_results.json",
+  "episode_output": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC01_test_24s_v001.mp4",
+  "submit_single_script": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\submit_single_workflow_when_ready.ps1",
+  "wait_prompt_script": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\wait_comfy_prompt.ps1",
+  "consistency_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+  "production_video_policy": "reference_image_required_t2v_is_smoke_test_only",
+  "ready_to_cut": false,
+  "protected_i2v_probe_script": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\probe_gemini_i2v_when_ready.ps1",
+  "i2v_probe_status": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\gemini_i2v_probe_status.json"
+}

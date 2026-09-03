@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T21:27:34",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc15.json",
+    "shot_id":  "TEST_SSJ_EP02_SC15_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "needs_regeneration",
+    "reason":  "blocking composition mismatch: Shisilang appears effectively inside the courtyard instead of respectfully requesting leave from outside the forbidden gate",
+    "notes":  "Regenerate with stricter gate logic: Tuobaye and white dragon-deer remain hidden in west bamboo, white-clothed woman stays inside east side, Shisilang must remain outside the threshold facing the gate, no extra in-courtyard male figure, no readable plaques or calligraphy.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

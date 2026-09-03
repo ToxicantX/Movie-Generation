@@ -1,0 +1,241 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "05 · 资产清单与作用域",
+    "locale": "zh-CN",
+    "output": "diagrams/05-asset-scope.html",
+    "animation": "none",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "source",
+      "label": "读取故事圣经"
+    },
+    {
+      "id": "catalog",
+      "label": "建立资产清单"
+    },
+    {
+      "id": "scope",
+      "label": "判定资产作用域"
+    },
+    {
+      "id": "split",
+      "label": "拆分通用与单集素材"
+    },
+    {
+      "id": "bind",
+      "label": "匹配分镜需求"
+    },
+    {
+      "id": "review",
+      "label": "完整性审核"
+    },
+    {
+      "id": "approve",
+      "label": "批准资产清单"
+    },
+    {
+      "id": "recovery",
+      "label": "异常与返修",
+      "variant": "exception"
+    }
+  ],
+  "semanticChecks": {
+    "allowedRoots": [
+      "load_sources"
+    ],
+    "allowedTerminals": [
+      "approved_catalog"
+    ],
+    "requiredPaths": [
+      {
+        "from": "load_sources",
+        "to": "approved_catalog"
+      },
+      {
+        "from": "classify_scope",
+        "to": "shared_assets"
+      },
+      {
+        "from": "classify_scope",
+        "to": "episode_assets"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "load_sources",
+      "lane": "source",
+      "col": 3,
+      "type": "database",
+      "label": "读取故事圣经",
+      "sublabel": "角色 · 地点 · 道具",
+      "width": 132
+    },
+    {
+      "id": "build_catalog",
+      "lane": "catalog",
+      "col": 3,
+      "type": "backend",
+      "label": "建立资产清单",
+      "sublabel": "asset_id · 类型 · 状态",
+      "width": 132
+    },
+    {
+      "id": "classify_scope",
+      "lane": "scope",
+      "col": 3,
+      "type": "security",
+      "label": "判定作用域",
+      "sublabel": "shared / episode",
+      "width": 132
+    },
+    {
+      "id": "bind_shots",
+      "lane": "bind",
+      "col": 3,
+      "type": "backend",
+      "label": "匹配分镜需求",
+      "sublabel": "按 episode_id 绑定",
+      "width": 132
+    },
+    {
+      "id": "asset_review",
+      "lane": "review",
+      "col": 3,
+      "type": "security",
+      "label": "完整性审核",
+      "sublabel": "缺失 · 冲突 · 重复",
+      "tag": "人工",
+      "width": 132
+    },
+    {
+      "id": "approved_catalog",
+      "lane": "approve",
+      "col": 3,
+      "type": "database",
+      "label": "批准资产清单",
+      "sublabel": "供图片提示词使用",
+      "width": 132
+    },
+    {
+      "id": "shared_assets",
+      "lane": "split",
+      "col": 1,
+      "type": "database",
+      "label": "通用素材",
+      "sublabel": "跨越多集复用",
+      "width": 132
+    },
+    {
+      "id": "episode_assets",
+      "lane": "split",
+      "col": 5,
+      "type": "database",
+      "label": "单集素材",
+      "sublabel": "仅归属当前集",
+      "width": 132
+    },
+    {
+      "id": "fix_scope",
+      "lane": "recovery",
+      "col": 3,
+      "type": "frontend",
+      "label": "修正作用域",
+      "sublabel": "保留资产身份",
+      "width": 132
+    }
+  ],
+  "edges": [
+    {
+      "from": "load_sources",
+      "to": "build_catalog",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "build_catalog",
+      "to": "classify_scope",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "classify_scope",
+      "to": "bind_shots",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "bind_shots",
+      "to": "asset_review",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "asset_review",
+      "to": "approved_catalog",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "classify_scope",
+      "to": "shared_assets",
+      "label": "跨集",
+      "role": "branch"
+    },
+    {
+      "from": "shared_assets",
+      "to": "bind_shots",
+      "label": "全项目可用",
+      "role": "branch"
+    },
+    {
+      "from": "classify_scope",
+      "to": "episode_assets",
+      "label": "单集",
+      "role": "branch"
+    },
+    {
+      "from": "episode_assets",
+      "to": "bind_shots",
+      "label": "限定集数",
+      "role": "branch"
+    },
+    {
+      "from": "asset_review",
+      "to": "fix_scope",
+      "label": "不通过",
+      "role": "error",
+      "variant": "security"
+    },
+    {
+      "from": "fix_scope",
+      "to": "classify_scope",
+      "label": "重新分类",
+      "role": "return",
+      "variant": "security"
+    }
+  ],
+  "mainPath": [
+    "load_sources",
+    "build_catalog",
+    "classify_scope",
+    "bind_shots",
+    "asset_review",
+    "approved_catalog"
+  ]
+}

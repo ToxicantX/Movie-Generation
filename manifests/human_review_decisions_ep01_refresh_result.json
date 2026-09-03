@@ -1,0 +1,19 @@
+{
+    "updated":  "2026-06-08T18:54:04",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\human_review_decisions_ep01.json",
+    "index_path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_HUMAN_REVIEW_INDEX.md",
+    "review_count":  5,
+    "decision_count":  16,
+    "preserved_non_pending_decision_count":  0,
+    "stale_status_repair_count":  0,
+    "stale_status_repairs":  [
+
+                             ],
+    "summary":  {
+                    "pending":  16,
+                    "pass":  0,
+                    "needs_regeneration":  0,
+                    "blocked":  0
+                },
+    "ok":  true
+}

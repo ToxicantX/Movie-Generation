@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-09T10:51:32",
+    "shot_id":  "TEST_SSJ_EP02_SC02_SH01",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh01_storyboard_v001.json",
+    "prompt_id":  "845ed184-5820-4438-b07a-7f058276f957",
+    "status":  "error",
+    "completed":  false,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh01_storyboard_v001.json -\u003e prompt_id=845ed184-5820-4438-b07a-7f058276f957"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "845ed184-5820-4438-b07a-7f058276f957",
+                        "status":  "error",
+                        "completed":  false,
+                        "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream request failed\",\"type\":\"upstream_error\"}}\n"
+                    },
+    "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream request failed\",\"type\":\"upstream_error\"}}\n"
+}

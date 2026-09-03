@@ -1,0 +1,10 @@
+{
+  "updated": "2026-06-10T22:54:23",
+  "qa_json": "E:\\workspace\\ComfyUIProjects\\manifests\\ssj_comic_episode03_draft_qa.json",
+  "episode_id": "SSJ_COMIC_EP03",
+  "approved": false,
+  "approval_status": "waiting_for_human_review",
+  "reviewer": "runtime_smoke",
+  "note": "ComfyUI modular gate smoke test; should wait for human approval.",
+  "next_action": "review draft markdown and set approve=true"
+}

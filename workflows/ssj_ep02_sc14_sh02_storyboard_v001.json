@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Yuping Mountain Tianhu location reference as setting anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 wide moonlit composition. Across the lake, distant black-clothed Chaoyang Valley visitors arrive near a silent courtyard approach; keep them small or partially obscured by mist and pine shadows. In the foreground, adult Tuobaye and the adult white-clothed woman both turn toward the distant visitors, alerted but silent. Qingdi is absent. Architecture may include closed doors and eaves, but no readable plaques, no gate text, no carved characters, no banners, no signs. No Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC14_SH02_v001"
+                                        }
+                         }
+               }
+}

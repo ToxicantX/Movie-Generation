@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T03:01:00",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc19.json",
+    "shot_id":  "TEST_SSJ_EP02_SC19_SH02",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: real-strike moment is sudden and readable",
+    "notes":  "Production caveat: keep impact credible but avoid turning this into a clean martial exchange dominated by Tang Qi.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

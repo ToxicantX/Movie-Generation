@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T21:27:32",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc15.json",
+    "shot_id":  "TEST_SSJ_EP02_SC15_SH02",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: distant alarm pressure reads correctly and no readable text appears",
+    "notes":  "Production caveat: keep mountain-slope conflict distant in video and avoid turning this into a full battle shot.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

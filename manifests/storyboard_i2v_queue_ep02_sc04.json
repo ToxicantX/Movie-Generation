@@ -1,0 +1,98 @@
+{
+    "updated":  "2026-06-09T13:04:10",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc04.json",
+    "review_paths":  [
+                         ".\\manifests\\ssj_ep02_sc04_storyboard_review.json"
+                     ],
+    "include_pending":  false,
+    "include_blocked":  false,
+    "summary":  {
+                    "pending":  0,
+                    "pass":  4,
+                    "needs_regeneration":  0,
+                    "blocked":  0,
+                    "missing_workflow":  0,
+                    "missing_storyboard":  0
+                },
+    "queue_count":  4,
+    "queue":  [
+                  {
+                      "review_id":  "SSJ_EP02_SC04",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc04_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC04_SH01",
+                      "title":  "峰顶落地相视大笑",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "auto-pass storyboard gate for pipeline test with user authorization",
+                      "notes":  "Visual precheck: landing relief beat is clear; no readable text observed.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC04_SH01_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc04_sh01_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc04_sh01_i2v_v001.json",
+                      "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc04_sh01_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC04",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc04_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC04_SH02",
+                      "title":  "月下松径听见泉声",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "auto-pass storyboard gate for pipeline test with user authorization",
+                      "notes":  "Visual precheck: moonlit path and listening beat are usable; Tuobaye costume reads darker/bluer than target grey-brown, monitor for production.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC04_SH02_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc04_sh02_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc04_sh02_i2v_v001.json",
+                      "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc04_sh02_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC04",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc04_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC04_SH03",
+                      "title":  "清泉饮水精神一振",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "auto-pass storyboard gate for pipeline test with user authorization",
+                      "notes":  "Visual precheck: spring drinking beat is clear; Tuobaye costume reads too white compared with target grey-brown, acceptable for pipeline test only.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC04_SH03_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc04_sh03_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc04_sh03_i2v_v001.json",
+                      "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc04_sh03_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC04",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc04_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC04_SH04",
+                      "title":  "竹溪尽头天湖初现",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "auto-pass storyboard gate for pipeline test with user authorization",
+                      "notes":  "Visual precheck: Tianhu reveal is strong; Tuobaye costume reads darker/bluer, no readable text observed.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC04_SH04_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc04_sh04_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc04_sh04_i2v_v001.json",
+                      "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc04_sh04_i2v_v001.json",
+                      "can_auto_run":  true
+                  }
+              ],
+    "next_actions":  [
+                         "For pass decisions, run_i2v uses the approved storyboard as the single visual source through the prepared Comfy workflow.",
+                         "For needs_regeneration decisions, regenerate the storyboard before rebuilding this queue.",
+                         "Run run_storyboard_i2v_queue.ps1 with -DryRun first."
+                     ],
+    "ok":  true
+}

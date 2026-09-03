@@ -1,0 +1,72 @@
+﻿{
+    "updated":  "2026-06-12T00:15:45",
+    "reviewer":  "Codex",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC17",
+                             "review_path":  ".\\manifests\\ssj_ep02_sc17_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC17_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC17",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc17_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC17_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC17_SH01",
+                          "title":  "春藤反震玄蛇",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC17_SH01_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc17_sh01_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc17_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: spring-vine reversal is readable and non-gory",
+                          "notes":  "Production caveat: keep vine breakout magical rather than horror-like in later regeneration."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC17",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc17_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC17_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC17_SH02",
+                          "title":  "众人合围压制",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC17_SH02_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc17_sh02_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc17_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: group suppression pressure reads correctly",
+                          "notes":  "Production caveat: crowd density is near the upper readability limit, so downstream video should preserve silhouette clarity and not devolve into melee noise."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC17",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc17_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC17_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC17_SH03",
+                          "title":  "段狂倒地长刀齐落",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC17_SH03_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc17_sh03_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc17_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: imminent execution beat is strong without crossing into graphic gore",
+                          "notes":  "Keep blade contact implied rather than shown in motion generation."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC17",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc17_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC17_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC17_SH04",
+                          "title":  "拓拔野怒喝住手",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC17_SH04_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc17_sh04_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc17_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: Tuobaye interruption clearly comes from inside concealment and the outer fighters freeze outside the gate",
+                          "notes":  "Approved as source of truth for the stop-command beat; maintain the same gate geometry in video."
+                      }
+                  ]
+}

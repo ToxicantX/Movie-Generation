@@ -1,0 +1,72 @@
+{
+    "updated":  "2026-06-13T03:22:36",
+    "reviewer":  "Codex test-mode visual review",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC27",
+                             "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc27_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC27_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC27",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc27_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC27_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC27_SH01",
+                          "title":  "科沙度几乎点破",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC27_SH01_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc27_sh01_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc27_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Keshadu now feels truly at the lip of exposure, with Tuobaye strained and the white-clothed woman still unreadable in the same field.",
+                          "notes":  "Codex visual precheck: SH01 works as the truth-at-the-lips beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC27",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc27_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC27_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC27_SH02",
+                          "title":  "十四郎怒势崩线",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC27_SH02_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc27_sh02_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc27_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Shisilang\u0027s rage now clearly reads as control-breaking fury rather than just pressure.",
+                          "notes":  "Codex visual precheck: SH02 works as the control-breaking fury beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC27",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc27_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC27_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC27_SH03",
+                          "title":  "拓拔野撑到极限",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC27_SH03_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc27_sh03_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc27_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Tuobaye\u0027s endurance is visibly near breaking, but he is still forcing himself to remain upright under converging pressure.",
+                          "notes":  "Codex visual precheck: SH03 works as the limit-about-to-break beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC27",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc27_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC27_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC27_SH04",
+                          "title":  "白衣女子静雷欲爆",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC27_SH04_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc27_sh04_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc27_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "The white-clothed woman\u0027s final calm before release is readable, with the whole frame feeling like the last instant before restraint breaks.",
+                          "notes":  "Codex visual precheck: SH04 works as the thunder-before-break beat."
+                      }
+                  ]
+}

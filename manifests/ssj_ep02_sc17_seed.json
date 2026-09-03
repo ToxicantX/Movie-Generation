@@ -1,0 +1,56 @@
+{
+  "updated": "2026-06-11T23:36:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 段狂反扑，拓拔野喝止",
+  "purpose": "Seed for EP02 SC17 after EP02 SC16 formal test-mode segment. Continue the ComfyUI short-drama pipeline from Duan Yukai being driven back into the next turn of escalation: he erupts with the self-damaging wood magic万壑春藤绕 and briefly turns the tide; the black-clothed Chaoyang Valley fighters swarm in; the old musician joins the suppression; Duan Yukai finally falls under combined pressure; outraged, hidden Tuobaye shouts for everyone to stop and is mistakenly taken for Qingdi or someone intimate to him.",
+  "segment_id": "SSJ_EP02_SC17",
+  "beat_id": "C02_B17",
+  "title": "段狂反扑，拓拔野喝止",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC16",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc16_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC16_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC16\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC16_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc16_formal_cut_result.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc16_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC16 is approved only for pipeline validation. All four SC16 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing. SH03 and SH04 required storyboard regeneration before pass."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "玄蛇将段聿铠缠住，庭院内外都因拓拔野的惊呼而注意到院中有人。",
+    "adapted_summary": "段聿铠在盛怒之下震开玄蛇，以万壑春藤绕反制，短暂翻转战局，逼得十四郎狼狈后退。黑衣老者奏琴加入压制，朝阳谷众人一拥而上。段聿铠终因伤重再度倒下，长刀齐落。拓拔野再也按捺不住，大喝住手，院外众人误以为青帝发怒，不敢妄动。拓拔野灵机一动，顺势借势救人，为下一段“假借青帝之名周旋”做铺垫。",
+    "next_source_hint": "随后十四郎与科沙度开始试探拓拔野身份，拓拔野顺势扮作青帝身边人并要求将段聿铠抬到门前。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "previous_serpent_reveal_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC16_SH02_v001_00001_.png",
+    "previous_hidden_gate_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC16_SH04_v001_00002_.png"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, right-waist green bamboo sheath, hidden broken Wufeng.",
+    "White-clothed woman remains elegant, restrained, and mostly hidden; she should not suddenly take over the action beat.",
+    "Duan Yukai remains bloodied, defiant, and increasingly desperate; no invented weapons beyond the described combat and magic.",
+    "Chaoyang Valley forces remain black-clothed and somewhat faceless pressure; do not over-individualize the crowd.",
+    "The black serpent remains dark, magical, and non-gory. If green spring-vine magic appears, it should read as wooden vine overgrowth, not body horror.",
+    "No readable text, captions, subtitles, plaques, gate calligraphy, speech bubbles, English words, or UI."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Keep the escalation readable: reversal, swarm pressure, collapse, and the shouted interruption should each get their own clear beat rather than turning into one dense melee image."
+  }
+}

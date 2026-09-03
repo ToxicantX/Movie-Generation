@@ -1,0 +1,13 @@
+{
+    "updated":  "2026-06-08T23:10:12",
+    "queue_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_i2v_queue_ep02_sc01.json",
+    "dry_run":  true,
+    "max_items":  0,
+    "runs":  [
+
+             ],
+    "skipped":  [
+
+                ],
+    "ok":  true
+}

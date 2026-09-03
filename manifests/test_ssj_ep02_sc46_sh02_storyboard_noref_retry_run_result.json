@@ -1,0 +1,18 @@
+﻿{
+    "updated":  "2026-07-11T18:37:41",
+    "shot_id":  "TEST_SSJ_EP02_SC46_SH02",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc46_sh02_storyboard_v001_noref_retry.json",
+    "prompt_id":  "b3583fe4-b041-46d9-9635-0f25b40108b9",
+    "status":  "error",
+    "completed":  false,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc46_sh02_storyboard_v001_noref_retry.json -\u003e prompt_id=b3583fe4-b041-46d9-9635-0f25b40108b9"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "b3583fe4-b041-46d9-9635-0f25b40108b9",
+                        "status":  "error",
+                        "completed":  false,
+                        "error":  "Image API error 524: top_keys=[\u0027cloudflare_error\u0027, \u0027detail\u0027, \u0027error_category\u0027, \u0027error_code\u0027, \u0027error_name\u0027, \u0027footer\u0027, \u0027instance\u0027, \u0027owner_action_required\u0027, \u0027ray_id\u0027, \u0027retry_after\u0027, \u0027retryable\u0027, \u0027status\u0027]; attempts=json_b64_json:524:top_keys=[\u0027cloudflare_error\u0027, \u0027detail\u0027, \u0027error_category\u0027, \u0027error_code\u0027, \u0027error_name\u0027, \u0027footer\u0027, \u0027instance\u0027, \u0027owner_actio\n"
+                    },
+    "error":  "Image API error 524: top_keys=[\u0027cloudflare_error\u0027, \u0027detail\u0027, \u0027error_category\u0027, \u0027error_code\u0027, \u0027error_name\u0027, \u0027footer\u0027, \u0027instance\u0027, \u0027owner_action_required\u0027, \u0027ray_id\u0027, \u0027retry_after\u0027, \u0027retryable\u0027, \u0027status\u0027]; attempts=json_b64_json:524:top_keys=[\u0027cloudflare_error\u0027, \u0027detail\u0027, \u0027error_category\u0027, \u0027error_code\u0027, \u0027error_name\u0027, \u0027footer\u0027, \u0027instance\u0027, \u0027owner_actio\n"
+}

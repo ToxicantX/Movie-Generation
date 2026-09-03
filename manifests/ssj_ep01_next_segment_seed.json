@@ -1,0 +1,42 @@
+{
+  "updated": "2026-06-08",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第一章 神农使者",
+  "purpose": "Seed package for generating the next short-drama segment after EP01 SC01.",
+  "current_segment": {
+    "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+    "review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\human_review.md",
+    "technical_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC01_test_cv2_v001.mp4",
+    "formal_gate_test_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC01_formal_gate_test.mp4"
+  },
+  "continuity_inputs": {
+    "last_accepted_shot": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+    "last_frame_reference": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH03\\TEST_SSJ_EP01_SC01_SH03_last.jpg",
+    "shot_tail_frames": {
+      "TEST_SSJ_EP01_SC01_SH01": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH01\\TEST_SSJ_EP01_SC01_SH01_last.jpg",
+      "TEST_SSJ_EP01_SC01_SH02": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH02\\TEST_SSJ_EP01_SC01_SH02_last.jpg",
+      "TEST_SSJ_EP01_SC01_SH03": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH03\\TEST_SSJ_EP01_SC01_SH03_last.jpg"
+    }
+  },
+  "locked_assets": {
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "nanjishan_location": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_location_nanjishan_v1.json",
+    "next_scene_locations": [
+      "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_location_yupingshan_tianhu_v1.json",
+      "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_location_dongshishan_pool_v1.json"
+    ]
+  },
+  "generation_policy": {
+    "video_reference_strategy": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\video_reference_strategy.json",
+    "rejected_outputs": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\rejected_video_outputs.json",
+    "key_learning": "For Gemini experimental I2V, treat the storyboard image as the only reliable visual reference. Multi-image file_ids can cause severe semantic drift. Push character and location consistency upstream into storyboard generation.",
+    "if_gemini_api_rebuilt_from_docs": "Switch reference-driven video generation to Runway or another official I2V provider; use Gemini video only for T2V smoke tests."
+  },
+  "next_work": [
+    "Choose the next beat from the close-reading/script plan.",
+    "Generate or select storyboard frames using locked character and location references.",
+    "Run I2V from the approved storyboard frame, preferably single-reference for Gemini experimental path.",
+    "Build review package, reject bad variants, and only then update the episode cut."
+  ]
+}

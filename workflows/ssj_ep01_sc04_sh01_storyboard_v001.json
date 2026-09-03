@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input previous storyboard as continuity anchor, but correct the prop language. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, widescreen composition. Adult Tuobaye age 28 to 32 stands on the safe mossy stone bank of the Dragon Pool, rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute visible, relic bundle secure. He lowers a plain dark blunt rectangular edgeless black iron Wufeng object, not a sharp sword, while the friendly white dragon-deer leans forward through soft mist. White dragon-deer full body visible: white fur, pearl scales along neck and shoulders, pale jade antler curves, long white mane, calm intelligent eyes. Trust, wonder, and departure readiness. Cold jade water, waterfall mist, ancient pine roots, glowing herbs, safe terrain, no attack, no chase, no injury, no text.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC03_SH03_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC04_SH01_v001"
+                                        }
+                         }
+               }
+}

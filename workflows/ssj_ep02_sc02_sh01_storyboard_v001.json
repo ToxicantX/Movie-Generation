@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input EP02 SC01 empty courtyard/Tianhu storyboard as location and mood continuity. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 widescreen. Dusk in a narrow valley between four peaks of Yuping Mountain; pine forest, bamboo shadows, jade-green mist, silent wooden mountain gate in the distance with a blank or unreadable plaque, no readable text. Adult Tuobaye age 28 to 32 hides behind a large mossy boulder with the friendly white dragon-deer crouched quietly beside him; preserve rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, relic bundle, plain dark blunt rectangular edgeless Wufeng iron object tied low. In the distance, thirty black-clad riders and dragon-horses stop before the gate and dismount, their silhouettes disciplined and ominous. Qingdi is not visible. Chinese short-drama suspense, no captions, no subtitles, no English words, no UI text, no combat, no gore, no injury.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC01_SH03_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC02_SH01_v001"
+                                        }
+                         }
+               }
+}

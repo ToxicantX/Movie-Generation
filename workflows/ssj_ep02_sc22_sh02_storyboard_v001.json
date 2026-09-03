@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the SC21 whip-hit storyboard as the spatial and emotional anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 involuntary-counter composition. Adult Tuobaye is still battered, muddy, and off-balance after being secretly yanked clear of danger, and in the same breath he crashes forward with a rough sudden palm strike or shoulder-body blow that knocks Fourteen backward or down. This must read as a hidden-aid-assisted lucky counterattack, not as skilled weapon technique, rope-pulling, whip entangling, or Tuobaye controlling Fourteen through the lash itself. Keep the whip secondary or displaced so the eye reads direct body impact first. Fourteen must look stunned that Tuobaye could connect at all. Keep Tuobaye wounded, disheveled, and barely in command of the moment. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH01_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC22_SH02_v001"
+                                        }
+                         }
+               }
+}

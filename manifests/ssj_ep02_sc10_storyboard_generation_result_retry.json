@@ -1,0 +1,259 @@
+{
+    "updated":  "2026-06-09T18:54:02",
+    "workflow_create_result_path":  ".\\manifests\\ssj_ep02_sc10_workflow_create_result.json",
+    "skip_existing":  true,
+    "force_no_reference":  true,
+    "run_count":  4,
+    "completed_count":  4,
+    "fallback_count":  3,
+    "runs":  [
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC10_SH01",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH01_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001_noref_retry.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc10_sh01_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh01_storyboard_v001_noref_retry.json -\\u003e prompt_id=af54e774-4f30-4725-9b2d-058ed18350a1\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"af54e774-4f30-4725-9b2d-058ed18350a1\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T18:40:38",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC10_SH01",
+                                                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001_noref_retry.json",
+                                                        "prompt_id":  "af54e774-4f30-4725-9b2d-058ed18350a1",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001_noref_retry.json -\u003e prompt_id=af54e774-4f30-4725-9b2d-058ed18350a1"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "af54e774-4f30-4725-9b2d-058ed18350a1",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  0,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  true,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh01_storyboard_v001_noref_retry.json -\\u003e prompt_id=af54e774-4f30-4725-9b2d-058ed18350a1\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"af54e774-4f30-4725-9b2d-058ed18350a1\",",
+                                                                              "                        \"status\":  \"success\",",
+                                                                              "                        \"completed\":  true,",
+                                                                              "                        \"error\":  null",
+                                                                              "                    },",
+                                                                              "    \"error\":  null",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  null,
+                                                          "failure_type":  null,
+                                                          "ok":  true
+                                                      }
+                                                  ],
+                                     "rate_retries_used":  0,
+                                     "transient_retries_used":  0,
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001_noref_retry.json",
+                     "completed":  true,
+                     "fallback_used":  true
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC10_SH02",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH02_v001_00001_.png",
+                     "skipped_existing":  true,
+                     "primary":  null,
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc10_sh02_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC10_SH03",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH03_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh03_storyboard_v001_noref_retry.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc10_sh03_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh03_storyboard_v001_noref_retry.json -\\u003e prompt_id=90c4995c-adb8-4432-8d39-048fa05b214a\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"90c4995c-adb8-4432-8d39-048fa05b214a\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T18:44:09",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC10_SH03",
+                                                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh03_storyboard_v001_noref_retry.json",
+                                                        "prompt_id":  "90c4995c-adb8-4432-8d39-048fa05b214a",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh03_storyboard_v001_noref_retry.json -\u003e prompt_id=90c4995c-adb8-4432-8d39-048fa05b214a"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "90c4995c-adb8-4432-8d39-048fa05b214a",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  0,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  true,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh03_storyboard_v001_noref_retry.json -\\u003e prompt_id=90c4995c-adb8-4432-8d39-048fa05b214a\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"90c4995c-adb8-4432-8d39-048fa05b214a\",",
+                                                                              "                        \"status\":  \"success\",",
+                                                                              "                        \"completed\":  true,",
+                                                                              "                        \"error\":  null",
+                                                                              "                    },",
+                                                                              "    \"error\":  null",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  null,
+                                                          "failure_type":  null,
+                                                          "ok":  true
+                                                      }
+                                                  ],
+                                     "rate_retries_used":  0,
+                                     "transient_retries_used":  0,
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh03_storyboard_v001_noref_retry.json",
+                     "completed":  true,
+                     "fallback_used":  true
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC10_SH04",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH04_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc10_sh04_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json -\\u003e prompt_id=83bf6502-fe10-4570-befd-26585b08a9f4\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"83bf6502-fe10-4570-befd-26585b08a9f4\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T18:51:06",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC10_SH04",
+                                                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json",
+                                                        "prompt_id":  "83bf6502-fe10-4570-befd-26585b08a9f4",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json -\u003e prompt_id=83bf6502-fe10-4570-befd-26585b08a9f4"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "83bf6502-fe10-4570-befd-26585b08a9f4",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  1,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  false,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json -\\u003e prompt_id=9f65512b-741f-404a-a30f-e5f1f14004d2\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"9f65512b-741f-404a-a30f-e5f1f14004d2\",",
+                                                                              "                        \"status\":  \"error\",",
+                                                                              "                        \"completed\":  false,",
+                                                                              "                        \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"Upstream rate limit exceeded, please retry later\\\",\\\"type\\\":\\\"rate_limit_error\\\"}}\\n\"",
+                                                                              "                    },",
+                                                                              "    \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"Upstream rate limit exceeded, please retry later\\\",\\\"type\\\":\\\"rate_limit_error\\\"}}\\n\"",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  "Image API error 429: {\"error\":{\"message\":\"Upstream rate limit exceeded, please retry later\",\"type\":\"rate_limit_error\"}}\n",
+                                                          "failure_type":  "rate_limit",
+                                                          "ok":  false
+                                                      },
+                                                      {
+                                                          "attempt":  2,
+                                                          "exit_code":  0,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  true,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json -\\u003e prompt_id=83bf6502-fe10-4570-befd-26585b08a9f4\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"83bf6502-fe10-4570-befd-26585b08a9f4\",",
+                                                                              "                        \"status\":  \"success\",",
+                                                                              "                        \"completed\":  true,",
+                                                                              "                        \"error\":  null",
+                                                                              "                    },",
+                                                                              "    \"error\":  null",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  null,
+                                                          "failure_type":  null,
+                                                          "ok":  true
+                                                      }
+                                                  ],
+                                     "rate_retries_used":  1,
+                                     "transient_retries_used":  0,
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json",
+                     "completed":  true,
+                     "fallback_used":  true
+                 }
+             ],
+    "ok":  true
+}

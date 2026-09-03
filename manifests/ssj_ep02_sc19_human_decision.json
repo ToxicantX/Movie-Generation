@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-12T04:05:00",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC19_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; probing-feint beat stays readable and Tuobaye still looks tense rather than skilled."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC19_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; real-strike moment is sudden and credible."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC19_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; approved regenerated version keeps the aerial lift awkward and involuntary."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC19_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; approved regenerated version preserves the accidental, surprised feel of the counter."
+    }
+  ]
+}

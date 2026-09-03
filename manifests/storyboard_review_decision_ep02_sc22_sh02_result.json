@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-12T14:05:02",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc22.json",
+    "shot_id":  "TEST_SSJ_EP02_SC22_SH02",
+    "old_decision":  "pending",
+    "new_decision":  "needs_regeneration",
+    "reason":  "The image reads too much like Tuobaye pulling or striking through the whip itself; it does not cleanly communicate the hidden-aid-assisted rough counterattack after being yanked clear.",
+    "notes":  "Regenerate with Tuobaye still visibly battered and off-balance, counterattack landing as a sudden rough palm/body strike rather than a whip/rope drag visual.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

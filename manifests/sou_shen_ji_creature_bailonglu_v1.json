@@ -1,0 +1,26 @@
+{
+  "updated": "2026-06-08",
+  "creature_id": "CRE_bailonglu",
+  "name": "白龙鹿",
+  "status": "creature_v1",
+  "source": "搜神记 第一卷 第一章 神农使者 / C01_B07-C01_B08",
+  "visual_identity": {
+    "body": "adult elegant white deer body with dragon-like pearl scales along neck and shoulders",
+    "head": "gentle intelligent deer face, jade dragon-horn antlers, long white mane",
+    "palette": "white fur, pearl scales, pale jade antlers, cool mountain mist",
+    "temperament": "safe friendly mythic mount, noble and intelligent, not monstrous",
+    "avoid": [
+      "ordinary horse",
+      "western unicorn",
+      "aggressive monster",
+      "horror dragon",
+      "injury",
+      "saddle before bonding scene"
+    ]
+  },
+  "reference_image_status": "usable_v001",
+  "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+  "reference_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_cre_bailonglu_ref_v001.json",
+  "reference_prompt_id": "10455933-dfd1-4a6d-8961-91af39ac916e",
+  "reference_review": "Usable white dragon-deer reference. Deer silhouette, jade antlers, white mane, and dragon scales are clear; reads friendly and noble rather than dangerous."
+}

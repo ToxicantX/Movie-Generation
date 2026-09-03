@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-13T16:06:00",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC38_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Keshadu's truth-break-surface beat now reads as nearly open fact."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC38_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Shisilang's final-thread pressure now reads as almost broken."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC38_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Tuobaye's nearly-emptied-out state is clearly readable."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC38_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; the white-clothed woman's still pressure now reads as about to open."
+    }
+  ]
+}

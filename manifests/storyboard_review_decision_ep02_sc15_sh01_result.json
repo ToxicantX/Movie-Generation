@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T21:28:24",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc15.json",
+    "shot_id":  "TEST_SSJ_EP02_SC15_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: hidden-thought beat is clear and identity is stable",
+    "notes":  "Keep this split-bamboo composition as a continuity anchor for later hidden-observer beats.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

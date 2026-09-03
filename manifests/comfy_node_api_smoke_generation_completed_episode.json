@@ -1,0 +1,67 @@
+﻿{
+    "updated":  "2026-06-10T22:33:10",
+    "episode_number":  3,
+    "episode_plan_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\ssj_comic_episode03_pages.json",
+    "comfy_url":  "http://127.0.0.1:8188",
+    "max_panels_per_batch":  1,
+    "max_batches":  1,
+    "required_idle_polls":  2,
+    "long_running_queue_seconds":  300,
+    "idle_timeout_retries":  1,
+    "idle_retry_seconds":  30,
+    "idle_timeouts_seen":  0,
+    "rate_limit_retries":  1,
+    "rate_limit_retry_seconds":  60,
+    "rate_limit_retries_seen":  0,
+    "upstream_error_retries":  1,
+    "upstream_error_retry_seconds":  60,
+    "upstream_error_retries_seen":  0,
+    "attempts":  0,
+    "completed_batches":  0,
+    "status":  "success",
+    "completed":  true,
+    "partial":  false,
+    "waiting":  false,
+    "waiting_reason":  "",
+    "waiting_detail":  null,
+    "blocked":  false,
+    "failed":  false,
+    "resumable":  false,
+    "next_action":  "none",
+    "initial_status":  {
+                           "refresh":  {
+                                           "exit_code":  0,
+                                           "output_line_count":  480,
+                                           "summary":  {
+                                                           "total_pages":  8,
+                                                           "complete_pages":  8,
+                                                           "incomplete_pages":  0,
+                                                           "total_panels":  32,
+                                                           "generated_panels":  32,
+                                                           "missing_panels":  0
+                                                       }
+                                       },
+                           "summary":  {
+                                           "total_pages":  8,
+                                           "complete_pages":  8,
+                                           "incomplete_pages":  0,
+                                           "total_panels":  32,
+                                           "generated_panels":  32,
+                                           "missing_panels":  0
+                                       }
+                       },
+    "final_status":  {
+                         "summary":  {
+                                         "total_pages":  8,
+                                         "complete_pages":  8,
+                                         "incomplete_pages":  0,
+                                         "total_panels":  32,
+                                         "generated_panels":  32,
+                                         "missing_panels":  0
+                                     }
+                     },
+    "batches":  [
+
+                ],
+    "error":  null
+}

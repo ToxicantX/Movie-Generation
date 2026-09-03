@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "status_values": [
+    "pending",
+    "pending_human_review",
+    "generated_pending_human_review",
+    "generated_invalid_file",
+    "pass",
+    "needs_regeneration",
+    "blocked",
+    "smoke_test_only"
+  ],
+  "required_checks": [
+    {
+      "id": "character_identity",
+      "label": "Character identity",
+      "criteria": "Faces, age presentation, hair, costume silhouette, and key props match the approved character references."
+    },
+    {
+      "id": "character_props",
+      "label": "Character props",
+      "criteria": "Tuobaye keeps the green bamboo flute; Shennong keeps white hair and deep purple robe unless the shot brief explicitly changes it."
+    },
+    {
+      "id": "location_identity",
+      "label": "Location identity",
+      "criteria": "Nanjishan meadow, distant sea, waterfall mist, poplar/catkins, grass, and golden light remain recognizably consistent."
+    },
+    {
+      "id": "storyboard_match",
+      "label": "Storyboard match",
+      "criteria": "Composition, shot size, action beat, and emotional intent match the approved storyboard frame."
+    },
+    {
+      "id": "motion_continuity",
+      "label": "Motion continuity",
+      "criteria": "Camera movement and character motion remain stable, with no face morphing, costume swapping, scene teleporting, or sudden object changes."
+    },
+    {
+      "id": "safety_constraints",
+      "label": "Safety constraints",
+      "criteria": "No minor-looking characters, dangerous cliff emphasis, falling, injury, gore, or unsafe action."
+    },
+    {
+      "id": "clean_output",
+      "label": "Clean output",
+      "criteria": "No captions, calligraphy, watermarks, logos, UI panels, or design-sheet artifacts in video frames."
+    },
+    {
+      "id": "technical_output",
+      "label": "Technical output",
+      "criteria": "MP4 exists, is playable, has expected duration class, and is saved under the shot's planned output path."
+    }
+  ]
+}

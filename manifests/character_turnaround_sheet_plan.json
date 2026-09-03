@@ -1,0 +1,39 @@
+{
+  "updated": "2026-06-08",
+  "status": "turnaround_sheet_plan_v1",
+  "purpose": "Improve character consistency for storyboard generation by creating production-grade multi-angle character sheets.",
+  "why_this_matters": [
+    "Single portrait references are good for face identity but weak for full-body costume continuity.",
+    "Video-stage Gemini experimental file_ids cannot reliably bind multiple reference roles, so character consistency should be solved upstream in storyboard generation.",
+    "A turnaround sheet provides front, side, back, three-quarter views, costume details, and key props in one image that storyboard prompts can cite as the character source of truth."
+  ],
+  "sheet_requirements": {
+    "layout": "cinematic production character reference board, one large face portrait on the left, eight full-body turnarounds across the top/right, lower panels for costume material, prop details, and accessory close-ups",
+    "views": ["front", "front-left 45", "left side", "back-left 45", "back", "back-right 45", "right side", "front-right 45"],
+    "must_include": ["adult-safe age presentation", "full body proportions", "stable face identity", "hair silhouette", "costume palette", "key props", "front/back costume logic", "detail close-ups"],
+    "avoid": ["text labels if the model writes gibberish", "modern fashion sheet", "anime proportions", "childlike face", "overdesigned armor unless character requires it"]
+  },
+  "priority_characters": [
+    {
+      "id": "CHAR_tuobaye",
+      "name": "拓拔野",
+      "priority": "P0",
+      "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_tuobaye_ref_v001_00001_.png",
+      "sheet_prefix": "AIShortDrama/charactersheets/CHAR_tuobaye_turnaround_v001",
+      "design_lock": "adult wandering hero age 28 to 32, rugged weathered face, high messy topknot, ragged practical grey-brown rough cloth layers, rope belt, worn travel pouch, green bamboo flute clearly visible, lean wilderness survivor body, no armor, no noble costume"
+    },
+    {
+      "id": "CHAR_shennong",
+      "name": "神农",
+      "priority": "P0",
+      "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_shennong_ref_v001_00001_.png",
+      "sheet_prefix": "AIShortDrama/charactersheets/CHAR_shennong_turnaround_v001",
+      "design_lock": "ancient white-haired divine elder, long white beard, calm wise eyes, deep purple robe with herbal embroidery and natural leaf/vine motifs, layered ancient fabric, seated and standing costume logic, medicine pouch and herb details, peaceful farewell presence, not dead or injured"
+    }
+  ],
+  "usage_policy": {
+    "storyboard_stage": "Use turnaround sheets as character design references in storyboard prompts and image workflows.",
+    "video_stage": "Do not feed multiple character sheets into Gemini experimental I2V unless explicitly testing; prefer single approved storyboard as video input.",
+    "review": "A sheet is usable only if face, costume, prop, and back/side views are internally consistent."
+  }
+}

@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input adult Yushiqie reference as identity anchor for the white-clothed woman. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 solemn medium two-character composition. The adult white-clothed woman in pale white robes returns the folded sealed blood letter or relic bundle through the air, face thoughtful and grave, implying even Qingdi may not go to Mirage City. Adult Tuobaye in rugged grey-brown clothes receives it with worried urgency and confusion. Keep the document closed, folded, and unreadable; do not show any letter contents. Moonlit bamboo, mist, wet stone, and quiet pavilion background. No readable Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC13_SH04_v001"
+                                        }
+                         }
+               }
+}

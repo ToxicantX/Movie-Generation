@@ -1,0 +1,81 @@
+{
+    "updated":  "2026-06-08T16:20:01",
+    "comfy_node_path":  "G:\\ComfyUI\\custom_nodes\\gemini_api_video_node.py",
+    "required_reference_field":  "file_ids",
+    "required_video_reference_mode":  "experimental_file_ids",
+    "required_aspect_ratio":  "16:9",
+    "strategy_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\video_reference_strategy.json",
+    "checks":  [
+                   {
+                       "name":  "comfy_node_reference_field_input",
+                       "ok":  true,
+                       "message":  "Comfy node exposes reference_field input."
+                   },
+                   {
+                       "name":  "comfy_node_video_reference_mode_input",
+                       "ok":  true,
+                       "message":  "Comfy node exposes explicit official/experimental video reference mode."
+                   },
+                   {
+                       "name":  "comfy_node_aspect_ratio_input",
+                       "ok":  true,
+                       "message":  "Comfy node exposes aspect_ratio input."
+                   },
+                   {
+                       "name":  "comfy_node_api_key_env_path_input",
+                       "ok":  true,
+                       "message":  "Comfy node can read API key from a local env file without storing the key in prompt history."
+                   },
+                   {
+                       "name":  "comfy_node_request_timeout_input",
+                       "ok":  true,
+                       "message":  "Comfy node exposes configurable long video request timeout."
+                   },
+                   {
+                       "name":  "comfy_node_default_reference_contract",
+                       "ok":  true,
+                       "message":  "Comfy node knows the required I2V reference field."
+                   },
+                   {
+                       "name":  "workflow_reference_field:ssj_ep01_sc03_sh02_i2v_v002_wufeng.json",
+                       "ok":  true,
+                       "message":  "reference_field=file_ids"
+                   },
+                   {
+                       "name":  "workflow_video_reference_mode:ssj_ep01_sc03_sh02_i2v_v002_wufeng.json",
+                       "ok":  true,
+                       "message":  "video_reference_mode=experimental_file_ids"
+                   },
+                   {
+                       "name":  "workflow_aspect_ratio:ssj_ep01_sc03_sh02_i2v_v002_wufeng.json",
+                       "ok":  true,
+                       "message":  "aspect_ratio=16:9"
+                   },
+                   {
+                       "name":  "workflow_no_inline_api_key:ssj_ep01_sc03_sh02_i2v_v002_wufeng.json",
+                       "ok":  true,
+                       "message":  "Workflow must not persist a plaintext API key in Comfy prompt inputs."
+                   },
+                   {
+                       "name":  "workflow_request_timeout:ssj_ep01_sc03_sh02_i2v_v002_wufeng.json",
+                       "ok":  true,
+                       "message":  "request_timeout_seconds=2400"
+                   },
+                   {
+                       "name":  "workflow_image_exists:ssj_ep01_sc03_sh02_i2v_v002_wufeng.json",
+                       "ok":  true,
+                       "message":  "image_path=G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC03_SH02_v002_wufeng_00001_.png"
+                   },
+                   {
+                       "name":  "workflow_extra_reference_count:ssj_ep01_sc03_sh02_i2v_v002_wufeng.json",
+                       "ok":  true,
+                       "message":  "extra_reference_count=0; strategy expects single storyboard only."
+                   },
+                   {
+                       "name":  "workflow_prompt_nonempty:ssj_ep01_sc03_sh02_i2v_v002_wufeng.json",
+                       "ok":  true,
+                       "message":  "Prompt is present."
+                   }
+               ],
+    "ok":  true
+}

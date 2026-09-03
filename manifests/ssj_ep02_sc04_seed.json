@@ -1,0 +1,93 @@
+{
+  "updated": "2026-06-09T12:55:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 玉屏峰天湖前奏",
+  "purpose": "Seed for EP02 SC04 after EP02 SC03 formal test-mode segment. Use this to plan the next 8-10 second short-drama shots through ComfyUI.",
+  "segment_id": "SSJ_EP02_SC04",
+  "beat_id": "C02_B04",
+  "title": "月下寻泉入天湖",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC03",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc03_storyboard_review.json",
+    "previous_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC03\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC03_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc03_formal_cut_result.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc03_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC03 is approved only for pipeline validation. SH02 used v002_simplified after Gemini 1155; action-heavy shots should keep simpler motion."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "拓拔野纵身从白龙鹿背上跳了下来，坐在地上与白龙鹿相对哈哈大笑。",
+    "adapted_summary": "拓拔野与白龙鹿飞渡后落到玉屏峰顶，短暂大笑歇息，沿山顶石径下行，在松林月影中听见泉声。二者循声找到清泉饮水，继续沿溪进入竹林，最终穿过巨石阵，看到清澈天湖与对岸松竹亭阁。",
+    "next_source_hint": "天湖对岸亭阁空无人影，之后会进入青帝居所并听见远处箫声。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_tianhu_card": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_location_yupingshan_tianhu_v1.json",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "wufeng_corrected_prop": "G:\\ComfyUI\\output\\AIShortDrama\\props\\PROP_wufeng_blunt_iron_ref_v002_00001_.png",
+    "previous_leap_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC03_SH04_v001_00001_.png"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle.",
+    "White dragon-deer remains a friendly mythic mount with white deer body, pearl neck and shoulder scales, pale jade antlers, long white mane, calm intelligent eyes.",
+    "Wufeng remains a plain dark blunt rectangular edgeless black iron object tied low; it may be used to cut bamboo later but should not look like a sharp heroic sword.",
+    "Yuping peak after landing is quiet, moonlit, pine and bamboo filled, with jade mist and clear mountain water.",
+    "No Qingdi reveal yet. The scene should feel like entering an abandoned sacred residence."
+  ],
+  "localization_rules": [
+    "All planning text and eventual editing dialogue should be Chinese unless a technical field requires English.",
+    "Storyboard prompts may describe Chinese short-drama style, but must request no readable screen text.",
+    "I2V prompts must use silent visual generation: no synthesized speech, no captions, no subtitles, no readable signs, no English words.",
+    "Chinese dialogue, narration, sound design, and subtitles should be added later in editing."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "experimental_file_ids only while current local backend supports it; otherwise use official T2V smoke tests or switch provider for formal I2V",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history."
+  },
+  "suggested_shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC04_SH01",
+      "title": "峰顶落地相视大笑",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye jumps down from the white dragon-deer on Yuping peak, laughing in relief after the dangerous leap.",
+      "reference_anchor": "previous_leap_storyboard or bailonglu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC04_SH02",
+      "title": "月下松径听见泉声",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye and the dragon-deer walk down a winding stone path through moonlit pines, pausing as faint spring water is heard.",
+      "reference_anchor": "yupingshan_tianhu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC04_SH03",
+      "title": "清泉饮水精神一振",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye kneels beside a clear mountain spring and drinks while the white dragon-deer lowers its head to drink too.",
+      "reference_anchor": "tuobaye_turnaround or bailonglu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC04_SH04",
+      "title": "竹溪尽头天湖初现",
+      "duration_seconds": "8-10",
+      "visual_focus": "They follow the stream through green bamboo and jagged stones until a vast clear heavenly lake opens before them, with quiet pavilions across the water.",
+      "reference_anchor": "yupingshan_tianhu_reference"
+    }
+  ],
+  "next_work": [
+    "Create SSJ_EP02_SC04 storyboard plan with 3 to 5 shots, each 8-10 seconds max.",
+    "Keep all video prompts silent/no-caption to avoid English dialogue drift.",
+    "For walking/drinking/landscape shots, keep motion gentle and single-angle to reduce provider errors.",
+    "Run storyboard review, I2V, video review, and formal segment cut using the SC03 pattern."
+  ]
+}

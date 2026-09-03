@@ -1,0 +1,21 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "GeminiAPIVideoGenerate",
+      "inputs": {
+        "model": "gemini-3.1-pro",
+        "prompt": "Animate this storyboard frame as a simple 8-10 second silent shot. Keep the composition almost still. The central black-clad group slowly begins walking up the mossy steps through the gate while the riders and dragon-horses in the background remain mostly still. Only subtle robe movement, horse breathing, and drifting mist. No complex action, no camera shake, no combat, no synthesized speech, no captions, no subtitles, no readable text, no English words. Chinese dialogue will be added later in editing.",
+        "image_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC02_SH04_v001_00001_.png",
+        "filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC02_SH04_i2v_v002_simplified",
+        "base_url": "http://127.0.0.1:7860",
+        "reference_field": "file_ids",
+        "video_reference_mode": "experimental_file_ids",
+        "reference_image_paths": "",
+        "aspect_ratio": "16:9",
+        "request_timeout_seconds": 2400,
+        "api_key_env_path": "E:\\workspace\\DockerProjects\\Gemini-API\\.env"
+      }
+    }
+  }
+}

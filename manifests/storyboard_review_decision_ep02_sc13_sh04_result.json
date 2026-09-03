@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-10T00:55:32",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc13.json",
+    "shot_id":  "TEST_SSJ_EP02_SC13_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "test-mode auto-pass: closed letter and warning beat are readable enough for flow validation",
+    "notes":  "Production caveat: white-clothed woman headpiece drifts too ornate and Tuobaye becomes too tribal/refined; mark for production regeneration with stricter identity locks.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

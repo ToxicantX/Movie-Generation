@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T18:47:03",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc42.json",
+    "shot_id":  "TEST_SSJ_EP02_SC42_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "The white-clothed woman carries the still-pressure-about-to-shatter beat clearly, and the framing keeps the emotional axis readable.",
+    "notes":  "Codex visual precheck: SH04 works as the still pressure about to shatter beat.",
+    "reviewer":  "",
+    "ok":  true
+}

@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T22:00:03",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc15.json",
+    "shot_id":  "TEST_SSJ_EP02_SC15_SH04",
+    "old_decision":  "needs_regeneration",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass after regeneration: Shisilang now remains outside the forbidden gate and the inner/outer courtyard logic is readable",
+    "notes":  "Approved regenerated version uses outer-gate framing correctly. In video, keep Shisilang outside the threshold and preserve no-readable-plaque constraint.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

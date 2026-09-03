@@ -1,0 +1,987 @@
+{
+    "updated":  "2026-06-09T00:25:27",
+    "review_paths":  [
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json"
+                     ],
+    "segment_cut_paths":  [
+
+                          ],
+    "video_probe_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\probe_video_cv2.py",
+    "skipped_segment_cut_checks":  true,
+    "reviews":  [
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                        "segment_id":  "SSJ_EP01_SC01",
+                        "global_decision":  "pending_human_consistency_review",
+                        "failures":  [
+                                         "global_decision must be approved_for_episode_cut, found \u0027pending_human_consistency_review\u0027."
+                                     ],
+                        "shots":  [
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                                          "title":  "",
+                                          "status":  "generated_pending_human_review",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  false,
+                                                              "error":  "python_probe_failed",
+                                                              "fps":  0,
+                                                              "width":  0,
+                                                              "height":  0,
+                                                              "frame_count":  0,
+                                                              "bytes":  0
+                                                          },
+                                          "failures":  [
+                                                           "status must be pass, found \u0027generated_pending_human_review\u0027.",
+                                                           "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "video_path is missing or not decodable: python_probe_failed."
+                                                       ],
+                                          "ok":  false
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                                          "title":  "",
+                                          "status":  "generated_pending_human_review",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  false,
+                                                              "error":  "python_probe_failed",
+                                                              "fps":  0,
+                                                              "width":  0,
+                                                              "height":  0,
+                                                              "frame_count":  0,
+                                                              "bytes":  0
+                                                          },
+                                          "failures":  [
+                                                           "status must be pass, found \u0027generated_pending_human_review\u0027.",
+                                                           "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "video_path is missing or not decodable: python_probe_failed."
+                                                       ],
+                                          "ok":  false
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                                          "title":  "",
+                                          "status":  "generated_pending_human_review",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  false,
+                                                              "error":  "python_probe_failed",
+                                                              "fps":  0,
+                                                              "width":  0,
+                                                              "height":  0,
+                                                              "frame_count":  0,
+                                                              "bytes":  0
+                                                          },
+                                          "failures":  [
+                                                           "status must be pass, found \u0027generated_pending_human_review\u0027.",
+                                                           "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "video_path is missing or not decodable: python_probe_failed."
+                                                       ],
+                                          "ok":  false
+                                      }
+                                  ],
+                        "ok":  false
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                        "segment_id":  "SSJ_EP01_SC02",
+                        "global_decision":  "pending_human_consistency_review",
+                        "failures":  [
+                                         "global_decision must be approved_for_episode_cut, found \u0027pending_human_consistency_review\u0027."
+                                     ],
+                        "shots":  [
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC02_SH01",
+                                          "title":  "Relics secured after the mandate",
+                                          "status":  "generated_pending_human_review",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH01_i2v_v001_00001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH01_i2v_v001_00001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  false,
+                                                              "error":  "python_probe_failed",
+                                                              "fps":  0,
+                                                              "width":  0,
+                                                              "height":  0,
+                                                              "frame_count":  0,
+                                                              "bytes":  0
+                                                          },
+                                          "failures":  [
+                                                           "status must be pass, found \u0027generated_pending_human_review\u0027.",
+                                                           "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "video_path is missing or not decodable: python_probe_failed."
+                                                       ],
+                                          "ok":  false
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC02_SH02",
+                                          "title":  "Last look back from the meadow path",
+                                          "status":  "generated_pending_human_review",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH02_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH02_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  false,
+                                                              "error":  "python_probe_failed",
+                                                              "fps":  0,
+                                                              "width":  0,
+                                                              "height":  0,
+                                                              "frame_count":  0,
+                                                              "bytes":  0
+                                                          },
+                                          "failures":  [
+                                                           "status must be pass, found \u0027generated_pending_human_review\u0027.",
+                                                           "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "video_path is missing or not decodable: python_probe_failed."
+                                                       ],
+                                          "ok":  false
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC02_SH03",
+                                          "title":  "Departure into the mountain night",
+                                          "status":  "generated_pending_human_review",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH03_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH03_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  false,
+                                                              "error":  "python_probe_failed",
+                                                              "fps":  0,
+                                                              "width":  0,
+                                                              "height":  0,
+                                                              "frame_count":  0,
+                                                              "bytes":  0
+                                                          },
+                                          "failures":  [
+                                                           "status must be pass, found \u0027generated_pending_human_review\u0027.",
+                                                           "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "video_path is missing or not decodable: python_probe_failed."
+                                                       ],
+                                          "ok":  false
+                                      }
+                                  ],
+                        "ok":  false
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                        "segment_id":  "SSJ_EP01_SC03",
+                        "global_decision":  "pending_human_consistency_review",
+                        "failures":  [
+                                         "global_decision must be approved_for_episode_cut, found \u0027pending_human_consistency_review\u0027."
+                                     ],
+                        "shots":  [
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC03_SH01",
+                                          "title":  "Arrival at the dragon pool",
+                                          "status":  "generated_pending_human_review",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH01_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH01_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  false,
+                                                              "error":  "python_probe_failed",
+                                                              "fps":  0,
+                                                              "width":  0,
+                                                              "height":  0,
+                                                              "frame_count":  0,
+                                                              "bytes":  0
+                                                          },
+                                          "failures":  [
+                                                           "status must be pass, found \u0027generated_pending_human_review\u0027.",
+                                                           "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "video_path is missing or not decodable: python_probe_failed."
+                                                       ],
+                                          "ok":  false
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC03_SH02",
+                                          "title":  "Shennong Dan awakening and Wufeng sword",
+                                          "status":  "generated_pending_human_review",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH02_i2v_v002_wufeng.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH02_i2v_v002_wufeng.mp4",
+                                                              "exists":  true,
+                                                              "ok":  false,
+                                                              "error":  "python_probe_failed",
+                                                              "fps":  0,
+                                                              "width":  0,
+                                                              "height":  0,
+                                                              "frame_count":  0,
+                                                              "bytes":  0
+                                                          },
+                                          "failures":  [
+                                                           "status must be pass, found \u0027generated_pending_human_review\u0027.",
+                                                           "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "video_path is missing or not decodable: python_probe_failed."
+                                                       ],
+                                          "ok":  false
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC03_SH03",
+                                          "title":  "White dragon-deer reveal",
+                                          "status":  "generated_pending_human_review",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH03_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH03_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  false,
+                                                              "error":  "python_probe_failed",
+                                                              "fps":  0,
+                                                              "width":  0,
+                                                              "height":  0,
+                                                              "frame_count":  0,
+                                                              "bytes":  0
+                                                          },
+                                          "failures":  [
+                                                           "status must be pass, found \u0027generated_pending_human_review\u0027.",
+                                                           "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "video_path is missing or not decodable: python_probe_failed."
+                                                       ],
+                                          "ok":  false
+                                      }
+                                  ],
+                        "ok":  false
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+                        "segment_id":  "SSJ_EP01_SC04",
+                        "global_decision":  "pending_human_consistency_review",
+                        "failures":  [
+                                         "global_decision must be approved_for_episode_cut, found \u0027pending_human_consistency_review\u0027."
+                                     ],
+                        "shots":  [
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC04_SH01",
+                                          "title":  "Trust after the dragon-deer reveal",
+                                          "status":  "generated_pending_human_review",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  false,
+                                                              "error":  "python_probe_failed",
+                                                              "fps":  0,
+                                                              "width":  0,
+                                                              "height":  0,
+                                                              "frame_count":  0,
+                                                              "bytes":  0
+                                                          },
+                                          "failures":  [
+                                                           "status must be pass, found \u0027generated_pending_human_review\u0027.",
+                                                           "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "video_path is missing or not decodable: python_probe_failed."
+                                                       ],
+                                          "ok":  false
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                                          "title":  "Mounting the white dragon-deer",
+                                          "status":  "generated_pending_human_review",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  false,
+                                                              "error":  "python_probe_failed",
+                                                              "fps":  0,
+                                                              "width":  0,
+                                                              "height":  0,
+                                                              "frame_count":  0,
+                                                              "bytes":  0
+                                                          },
+                                          "failures":  [
+                                                           "status must be pass, found \u0027generated_pending_human_review\u0027.",
+                                                           "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "video_path is missing or not decodable: python_probe_failed."
+                                                       ],
+                                          "ok":  false
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC04_SH03",
+                                          "title":  "Departure toward Yuping Mountain",
+                                          "status":  "generated_pending_human_review",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  false,
+                                                              "error":  "python_probe_failed",
+                                                              "fps":  0,
+                                                              "width":  0,
+                                                              "height":  0,
+                                                              "frame_count":  0,
+                                                              "bytes":  0
+                                                          },
+                                          "failures":  [
+                                                           "status must be pass, found \u0027generated_pending_human_review\u0027.",
+                                                           "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027.",
+                                                           "video_path is missing or not decodable: python_probe_failed."
+                                                       ],
+                                          "ok":  false
+                                      }
+                                  ],
+                        "ok":  false
+                    }
+                ],
+    "segment_cuts":  [
+
+                     ],
+    "failure_count":  112,
+    "failures":  [
+                     {
+                         "scope":  "review",
+                         "id":  "SSJ_EP01_SC01",
+                         "reason":  "global_decision must be approved_for_episode_cut, found \u0027pending_human_consistency_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH01",
+                         "reason":  "status must be pass, found \u0027generated_pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH01",
+                         "reason":  "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH01",
+                         "reason":  "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH01",
+                         "reason":  "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH01",
+                         "reason":  "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH01",
+                         "reason":  "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH01",
+                         "reason":  "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH01",
+                         "reason":  "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH01",
+                         "reason":  "video_path is missing or not decodable: python_probe_failed."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH02",
+                         "reason":  "status must be pass, found \u0027generated_pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH02",
+                         "reason":  "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH02",
+                         "reason":  "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH02",
+                         "reason":  "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH02",
+                         "reason":  "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH02",
+                         "reason":  "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH02",
+                         "reason":  "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH02",
+                         "reason":  "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH02",
+                         "reason":  "video_path is missing or not decodable: python_probe_failed."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH03",
+                         "reason":  "status must be pass, found \u0027generated_pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH03",
+                         "reason":  "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH03",
+                         "reason":  "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH03",
+                         "reason":  "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH03",
+                         "reason":  "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH03",
+                         "reason":  "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH03",
+                         "reason":  "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH03",
+                         "reason":  "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC01/TEST_SSJ_EP01_SC01_SH03",
+                         "reason":  "video_path is missing or not decodable: python_probe_failed."
+                     },
+                     {
+                         "scope":  "review",
+                         "id":  "SSJ_EP01_SC02",
+                         "reason":  "global_decision must be approved_for_episode_cut, found \u0027pending_human_consistency_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH01",
+                         "reason":  "status must be pass, found \u0027generated_pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH01",
+                         "reason":  "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH01",
+                         "reason":  "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH01",
+                         "reason":  "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH01",
+                         "reason":  "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH01",
+                         "reason":  "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH01",
+                         "reason":  "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH01",
+                         "reason":  "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH01",
+                         "reason":  "video_path is missing or not decodable: python_probe_failed."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH02",
+                         "reason":  "status must be pass, found \u0027generated_pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH02",
+                         "reason":  "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH02",
+                         "reason":  "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH02",
+                         "reason":  "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH02",
+                         "reason":  "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH02",
+                         "reason":  "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH02",
+                         "reason":  "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH02",
+                         "reason":  "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH02",
+                         "reason":  "video_path is missing or not decodable: python_probe_failed."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH03",
+                         "reason":  "status must be pass, found \u0027generated_pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH03",
+                         "reason":  "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH03",
+                         "reason":  "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH03",
+                         "reason":  "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH03",
+                         "reason":  "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH03",
+                         "reason":  "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH03",
+                         "reason":  "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH03",
+                         "reason":  "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC02/TEST_SSJ_EP01_SC02_SH03",
+                         "reason":  "video_path is missing or not decodable: python_probe_failed."
+                     },
+                     {
+                         "scope":  "review",
+                         "id":  "SSJ_EP01_SC03",
+                         "reason":  "global_decision must be approved_for_episode_cut, found \u0027pending_human_consistency_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH01",
+                         "reason":  "status must be pass, found \u0027generated_pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH01",
+                         "reason":  "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH01",
+                         "reason":  "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH01",
+                         "reason":  "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH01",
+                         "reason":  "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH01",
+                         "reason":  "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH01",
+                         "reason":  "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH01",
+                         "reason":  "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH01",
+                         "reason":  "video_path is missing or not decodable: python_probe_failed."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH02",
+                         "reason":  "status must be pass, found \u0027generated_pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH02",
+                         "reason":  "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH02",
+                         "reason":  "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH02",
+                         "reason":  "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH02",
+                         "reason":  "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH02",
+                         "reason":  "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH02",
+                         "reason":  "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH02",
+                         "reason":  "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH02",
+                         "reason":  "video_path is missing or not decodable: python_probe_failed."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH03",
+                         "reason":  "status must be pass, found \u0027generated_pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH03",
+                         "reason":  "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH03",
+                         "reason":  "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH03",
+                         "reason":  "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH03",
+                         "reason":  "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH03",
+                         "reason":  "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH03",
+                         "reason":  "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH03",
+                         "reason":  "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC03/TEST_SSJ_EP01_SC03_SH03",
+                         "reason":  "video_path is missing or not decodable: python_probe_failed."
+                     },
+                     {
+                         "scope":  "review",
+                         "id":  "SSJ_EP01_SC04",
+                         "reason":  "global_decision must be approved_for_episode_cut, found \u0027pending_human_consistency_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH01",
+                         "reason":  "status must be pass, found \u0027generated_pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH01",
+                         "reason":  "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH01",
+                         "reason":  "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH01",
+                         "reason":  "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH01",
+                         "reason":  "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH01",
+                         "reason":  "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH01",
+                         "reason":  "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH01",
+                         "reason":  "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH01",
+                         "reason":  "video_path is missing or not decodable: python_probe_failed."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH02",
+                         "reason":  "status must be pass, found \u0027generated_pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH02",
+                         "reason":  "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH02",
+                         "reason":  "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH02",
+                         "reason":  "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH02",
+                         "reason":  "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH02",
+                         "reason":  "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH02",
+                         "reason":  "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH02",
+                         "reason":  "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH02",
+                         "reason":  "video_path is missing or not decodable: python_probe_failed."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH03",
+                         "reason":  "status must be pass, found \u0027generated_pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH03",
+                         "reason":  "check \u0027character_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH03",
+                         "reason":  "check \u0027character_props\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH03",
+                         "reason":  "check \u0027location_identity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH03",
+                         "reason":  "check \u0027storyboard_match\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH03",
+                         "reason":  "check \u0027motion_continuity\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH03",
+                         "reason":  "check \u0027safety_constraints\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH03",
+                         "reason":  "check \u0027clean_output\u0027 must be pass, found \u0027pending_human_review\u0027."
+                     },
+                     {
+                         "scope":  "shot",
+                         "id":  "SSJ_EP01_SC04/TEST_SSJ_EP01_SC04_SH03",
+                         "reason":  "video_path is missing or not decodable: python_probe_failed."
+                     }
+                 ],
+    "ok":  false
+}

@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the SC15 Duan Yukai reveal storyboard as the identity and setting anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 pressured-defense composition. Enforce strict fight logic: Duan Yukai has been forced off the bamboo tower to the ground and now survives by empty-hand body-defense only, with open palms, forearm guards, evasive stance, or defensive twisting motion. Do not give him any invented spear, staff, pole, sword, or long weapon. The giant black serpent must pressure him through pursuit, coiling, lunging, or cutting off escape, not by posing as a separate duelist in a balanced tableau. Shisilang may be glimpsed elevated or at distance controlling the attack. Keep the action readable, no gore, no readable text, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC15_SH03_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC16_SH03_v001"
+                                        }
+                         }
+               }
+}

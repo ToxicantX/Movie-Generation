@@ -1,0 +1,37 @@
+{
+    "updated":  "2026-06-08T11:52:18",
+    "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+    "review_package_manifest":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_review_package.json",
+    "updates":  [
+                    {
+                        "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                        "workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh01_i2v_retry.json",
+                        "temporal_refs":  [
+
+                                          ],
+                        "allow_temporal_refs":  false,
+                        "allow_extra_reference_images":  false,
+                        "total_reference_count":  0
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                        "workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh02_i2v_retry.json",
+                        "temporal_refs":  [
+
+                                          ],
+                        "allow_temporal_refs":  false,
+                        "allow_extra_reference_images":  false,
+                        "total_reference_count":  0
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                        "workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh03_i2v_retry.json",
+                        "temporal_refs":  [
+                                              "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH02\\TEST_SSJ_EP01_SC01_SH02_last.jpg"
+                                          ],
+                        "allow_temporal_refs":  true,
+                        "allow_extra_reference_images":  false,
+                        "total_reference_count":  1
+                    }
+                ]
+}

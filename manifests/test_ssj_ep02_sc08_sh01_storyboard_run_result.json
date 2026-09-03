@@ -1,0 +1,18 @@
+﻿{
+    "updated":  "2026-06-09T16:41:46",
+    "shot_id":  "TEST_SSJ_EP02_SC08_SH01",
+    "workflow_path":  ".\\workflows\\ssj_ep02_sc08_sh01_storyboard_v001.json",
+    "prompt_id":  "31c51320-e3ab-4f64-b063-d6e53ea1a619",
+    "status":  "error",
+    "completed":  false,
+    "submit_output":  [
+                          ".\\workflows\\ssj_ep02_sc08_sh01_storyboard_v001.json -\u003e prompt_id=31c51320-e3ab-4f64-b063-d6e53ea1a619"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "31c51320-e3ab-4f64-b063-d6e53ea1a619",
+                        "status":  "error",
+                        "completed":  false,
+                        "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream request failed\",\"type\":\"upstream_error\"}}\n"
+                    },
+    "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream request failed\",\"type\":\"upstream_error\"}}\n"
+}

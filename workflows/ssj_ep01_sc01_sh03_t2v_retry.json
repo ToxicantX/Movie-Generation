@@ -1,0 +1,14 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "GeminiAPIVideoGenerate",
+      "inputs": {
+        "base_url": "http://127.0.0.1:7860",
+        "prompt": "8 second cinematic ancient Chinese fantasy mythic power reveal. Ancient white-haired sage in a deep purple robe smiles gently in a peaceful high mountain meadow. White catkins and tiny warm light motes swirl softly in the wind around a mature adult wandering hero holding a green bamboo flute. The hero reacts with calm wonder. Golden sunset, distant sea, misty waterfall, gentle robe and hair motion, slow camera push in, safe, no violence, no injury, no minors, no falling, no text.",
+        "filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC01_SH03_t2v_v002",
+        "model": "gemini-3.1-pro"
+      }
+    }
+  }
+}

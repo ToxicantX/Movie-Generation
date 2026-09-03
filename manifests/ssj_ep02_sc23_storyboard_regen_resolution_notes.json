@@ -1,0 +1,9 @@
+{
+  "updated": "2026-06-13T00:33:30",
+  "segment_id": "SSJ_EP02_SC23",
+  "shot_id": "TEST_SSJ_EP02_SC23_SH02",
+  "failed_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC23_SH02_v001_00001_.png",
+  "approved_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC23_SH02_v001_00002_.png",
+  "issue": "Initial version stayed too close to the counterattack moment itself and did not clearly transition into Shisilang's post-hit humiliation-and-rage beat.",
+  "resolution": "Approved regenerated version shifts the frame to after the exchange, with Shisilang steadied but burning with wounded pride while Tuobaye remains battered and wary."
+}

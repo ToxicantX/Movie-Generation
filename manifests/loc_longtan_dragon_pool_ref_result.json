@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-08T13:38:18",
+    "shot_id":  "LOC_longtan_dragon_pool_ref",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_loc_longtan_ref_v001.json",
+    "prompt_id":  "e0977c1d-76dc-4bb2-89d9-1d2aaa7d37f2",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_loc_longtan_ref_v001.json -\u003e prompt_id=e0977c1d-76dc-4bb2-89d9-1d2aaa7d37f2"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "e0977c1d-76dc-4bb2-89d9-1d2aaa7d37f2",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

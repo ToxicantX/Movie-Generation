@@ -1,0 +1,54 @@
+{
+  "updated": "2026-06-08",
+  "status": "style_bible_v1",
+  "source": "搜神记 第一卷测试生产",
+  "obsidian_doc": "E:\\WuShengXi-Obsidian\\Projects\\AI短剧生成工厂\\style_bible\\搜神记-视觉风格圣经-v0.md",
+  "visual_positioning": [
+    "ancient Chinese mythic fantasy drama",
+    "Great Wilderness world",
+    "cinematic realistic faces",
+    "natural fabric textures",
+    "five-elements and mountain-sea mythology",
+    "restrained drama lighting"
+  ],
+  "global_prompt_block": "mythic Chinese fantasy drama, ancient Great Wilderness world, cinematic realistic faces, natural fabric textures, Chinese mythological atmosphere, vertical 9:16, dramatic but restrained lighting, high detail, no text, no watermark",
+  "i2v_prompt_block": "Animate this storyboard/reference frame as a serene 8 second cinematic short-drama shot. Preserve the locked character anchors, costume colors, face identity, scene reference, lighting, composition, and ancient Chinese mythic fantasy realism. Gentle natural motion in hair, robe fabric, grass, mist, water, or leaves. Slow subtle camera push in. No danger, no violence, no injury, no minors, no titles, no captions, no text.",
+  "safety_policy": {
+    "age": "All main visual characters must be adult-adapted in generated images and videos.",
+    "tuobaye": "Use adult wandering hero age 28 to 32; express youthful spirit as lively, unrestrained, and new to the world, not as visual minority.",
+    "xianxian": "Adult future-stage only or defer. Do not generate source-stage romantic or sexualized visuals.",
+    "yushiqie": "Adult water/rain-coded character; avoid nudity, seduction framing, and explicit erotic prompt content.",
+    "video": "Formal production requires storyboard/reference/character/scene/previous-tail-frame constraints. T2V is smoke-test only."
+  },
+  "locked_character_refs": {
+    "CHAR_tuobaye": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_tuobaye_ref_v001_00001_.png",
+    "CHAR_shennong": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_shennong_ref_v001_00001_.png",
+    "CHAR_qingdi": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_qingdi_ref_v001_00001_.png",
+    "CHAR_yushiqie": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "CHAR_xianxian": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_xianxian_ref_v001_00001_.png"
+  },
+  "locked_character_turnaround_refs": {
+    "CHAR_tuobaye": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "CHAR_shennong": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_shennong_turnaround_basic_v001_00001_.png"
+  },
+  "turnaround_usage_note": "Use character turnaround sheets in storyboard/image generation prompts to lock costume silhouette, side/back logic, and key props. Keep Gemini video generation on a single approved storyboard image unless explicitly testing provider-specific multi-reference I2V.",
+  "locked_location_refs": {
+    "LOC_nanjishan_clifftop": "G:\\ComfyUI\\output\\AIShortDrama\\SSJ_TEST_anchor_nanjishan_v002_00001_.png",
+    "LOC_yupingshan_tianhu": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "LOC_dongshishan_pool": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_dongshishan_pool_ref_v001_00001_.png",
+    "LOC_longtan_dragon_pool": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_longtan_dragon_pool_ref_v001_00001_.png"
+  },
+  "locked_creature_refs": {
+    "CRE_bailonglu": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png"
+  },
+  "negative_image_prompt": "modern city, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, excessive glowing effects, text, watermark, logo, child, teenager, minor, school age, extra fingers, distorted hands, melted face",
+  "negative_video_prompt": "explicit death, corpse, zombie, turning to stone, cliff edge danger, falling, gore, nudity, seduction framing, sexualized minor, schoolgirl, subtitles, captions, title card",
+  "review_checklist": [
+    "Face identity matches reference image.",
+    "Costume palette remains stable.",
+    "Key props remain visible when required.",
+    "Scene remains the intended location.",
+    "No text, watermark, subtitle, or UI artifacts.",
+    "No unadapted age, danger, nudity, gore, or explicit content."
+  ]
+}

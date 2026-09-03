@@ -1,0 +1,22 @@
+{
+  "updated": "2026-06-08T11:54:27",
+  "reviewer": "codex_pipeline_gate_test",
+  "global_decision": "pass",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP01_SC01_SH01",
+      "decision": "pass",
+      "notes": "Gate test only."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC01_SH02",
+      "decision": "pass",
+      "notes": "Gate test only."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC01_SH03",
+      "decision": "pass",
+      "notes": "Gate test only."
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+    "updated":  "2026-06-08T19:10:17",
+    "review_paths":  [
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json"
+                     ],
+    "segment_cut_paths":  [
+
+                          ],
+    "video_probe_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\probe_video_cv2.py",
+    "skipped_segment_cut_checks":  true,
+    "reviews":  [
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json",
+                        "segment_id":  "SSJ_EP01_SC01",
+                        "global_decision":  "approved_for_episode_cut",
+                        "failures":  [
+
+                                     ],
+                        "shots":  [
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                                          "title":  "",
+                                          "status":  "pass",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  true,
+                                                              "error":  "",
+                                                              "fps":  24.0,
+                                                              "width":  1280,
+                                                              "height":  720,
+                                                              "frame_count":  240,
+                                                              "bytes":  5246292
+                                                          },
+                                          "failures":  [
+
+                                                       ],
+                                          "ok":  true
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                                          "title":  "",
+                                          "status":  "pass",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  true,
+                                                              "error":  "",
+                                                              "fps":  24.0,
+                                                              "width":  1280,
+                                                              "height":  720,
+                                                              "frame_count":  240,
+                                                              "bytes":  4892402
+                                                          },
+                                          "failures":  [
+
+                                                       ],
+                                          "ok":  true
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                                          "title":  "",
+                                          "status":  "pass",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  true,
+                                                              "error":  "",
+                                                              "fps":  24.0,
+                                                              "width":  1280,
+                                                              "height":  720,
+                                                              "frame_count":  240,
+                                                              "bytes":  4340304
+                                                          },
+                                          "failures":  [
+
+                                                       ],
+                                          "ok":  true
+                                      }
+                                  ],
+                        "ok":  true
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json",
+                        "segment_id":  "SSJ_EP01_SC02",
+                        "global_decision":  "approved_for_episode_cut",
+                        "failures":  [
+
+                                     ],
+                        "shots":  [
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC02_SH01",
+                                          "title":  "Relics secured after the mandate",
+                                          "status":  "pass",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH01_i2v_v001_00001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH01_i2v_v001_00001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  true,
+                                                              "error":  "",
+                                                              "fps":  24.0,
+                                                              "width":  1280,
+                                                              "height":  720,
+                                                              "frame_count":  240,
+                                                              "bytes":  5223500
+                                                          },
+                                          "failures":  [
+
+                                                       ],
+                                          "ok":  true
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC02_SH02",
+                                          "title":  "Last look back from the meadow path",
+                                          "status":  "pass",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH02_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH02_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  true,
+                                                              "error":  "",
+                                                              "fps":  24.0,
+                                                              "width":  1280,
+                                                              "height":  720,
+                                                              "frame_count":  240,
+                                                              "bytes":  4344551
+                                                          },
+                                          "failures":  [
+
+                                                       ],
+                                          "ok":  true
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC02_SH03",
+                                          "title":  "Departure into the mountain night",
+                                          "status":  "pass",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH03_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH03_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  true,
+                                                              "error":  "",
+                                                              "fps":  24.0,
+                                                              "width":  1280,
+                                                              "height":  720,
+                                                              "frame_count":  240,
+                                                              "bytes":  4355146
+                                                          },
+                                          "failures":  [
+
+                                                       ],
+                                          "ok":  true
+                                      }
+                                  ],
+                        "ok":  true
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json",
+                        "segment_id":  "SSJ_EP01_SC03",
+                        "global_decision":  "approved_for_episode_cut",
+                        "failures":  [
+
+                                     ],
+                        "shots":  [
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC03_SH01",
+                                          "title":  "Arrival at the dragon pool",
+                                          "status":  "pass",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH01_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH01_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  true,
+                                                              "error":  "",
+                                                              "fps":  24.0,
+                                                              "width":  1280,
+                                                              "height":  720,
+                                                              "frame_count":  240,
+                                                              "bytes":  6282384
+                                                          },
+                                          "failures":  [
+
+                                                       ],
+                                          "ok":  true
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC03_SH02",
+                                          "title":  "Shennong Dan awakening and Wufeng sword",
+                                          "status":  "pass",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH02_i2v_v002_wufeng.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH02_i2v_v002_wufeng.mp4",
+                                                              "exists":  true,
+                                                              "ok":  true,
+                                                              "error":  "",
+                                                              "fps":  24.0,
+                                                              "width":  1280,
+                                                              "height":  720,
+                                                              "frame_count":  240,
+                                                              "bytes":  6057479
+                                                          },
+                                          "failures":  [
+
+                                                       ],
+                                          "ok":  true
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC03_SH03",
+                                          "title":  "White dragon-deer reveal",
+                                          "status":  "pass",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH03_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH03_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  true,
+                                                              "error":  "",
+                                                              "fps":  24.0,
+                                                              "width":  1280,
+                                                              "height":  720,
+                                                              "frame_count":  240,
+                                                              "bytes":  3606631
+                                                          },
+                                          "failures":  [
+
+                                                       ],
+                                          "ok":  true
+                                      }
+                                  ],
+                        "ok":  true
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json",
+                        "segment_id":  "SSJ_EP01_SC04",
+                        "global_decision":  "approved_for_episode_cut",
+                        "failures":  [
+
+                                     ],
+                        "shots":  [
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC04_SH01",
+                                          "title":  "Trust after the dragon-deer reveal",
+                                          "status":  "pass",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  true,
+                                                              "error":  "",
+                                                              "fps":  24.0,
+                                                              "width":  1280,
+                                                              "height":  720,
+                                                              "frame_count":  240,
+                                                              "bytes":  4811147
+                                                          },
+                                          "failures":  [
+
+                                                       ],
+                                          "ok":  true
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                                          "title":  "Mounting the white dragon-deer",
+                                          "status":  "pass",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  true,
+                                                              "error":  "",
+                                                              "fps":  24.0,
+                                                              "width":  1280,
+                                                              "height":  720,
+                                                              "frame_count":  240,
+                                                              "bytes":  4143387
+                                                          },
+                                          "failures":  [
+
+                                                       ],
+                                          "ok":  true
+                                      },
+                                      {
+                                          "shot_id":  "TEST_SSJ_EP01_SC04_SH03",
+                                          "title":  "Departure toward Yuping Mountain",
+                                          "status":  "pass",
+                                          "preferred_video_mode":  "image_to_video_required",
+                                          "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001.mp4",
+                                          "video_probe":  {
+                                                              "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001.mp4",
+                                                              "exists":  true,
+                                                              "ok":  true,
+                                                              "error":  "",
+                                                              "fps":  24.0,
+                                                              "width":  1280,
+                                                              "height":  720,
+                                                              "frame_count":  240,
+                                                              "bytes":  4915161
+                                                          },
+                                          "failures":  [
+
+                                                       ],
+                                          "ok":  true
+                                      }
+                                  ],
+                        "ok":  true
+                    }
+                ],
+    "segment_cuts":  [
+
+                     ],
+    "failure_count":  0,
+    "failures":  [
+
+                 ],
+    "ok":  true
+}

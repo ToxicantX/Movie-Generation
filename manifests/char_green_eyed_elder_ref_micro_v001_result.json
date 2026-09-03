@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-09T00:20:27",
+    "shot_id":  "CHAR_green_eyed_elder_ref_micro_v001",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_green_eyed_elder_ref_micro_v001.json",
+    "prompt_id":  "79acb447-eb49-4710-9262-cd4de946f69a",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_green_eyed_elder_ref_micro_v001.json -\u003e prompt_id=79acb447-eb49-4710-9262-cd4de946f69a"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "79acb447-eb49-4710-9262-cd4de946f69a",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

@@ -1,0 +1,20 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "GeminiAPIVideoGenerate",
+      "inputs": {
+        "model": "gemini-3.1-pro",
+        "prompt": "Animate this storyboard frame as a restrained 8-10 second awakening shot. Tuobaye kneels safely beside cold jade Dragon Pool water. A soft jade-gold Shennong Dan glow pulses from his chest and hand while he studies the blunt black iron Wufeng weapon. Preserve the Wufeng weapon as a heavy rectangular edgeless black iron bar with flat square end, not a sharp sword. Preserve rugged adult Tuobaye, grey-brown cloth, green bamboo flute, relic bundle, waterfall mist, mossy stones, and safe terrain. Gentle glow, mist, and water ripples only; no combat, no gore, no injury, no text.",
+        "image_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC03_SH02_v002_wufeng_00001_.png",
+        "filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC03_SH02_i2v_v002_wufeng",
+        "base_url": "http://127.0.0.1:7860",
+        "reference_field": "file_ids",
+        "video_reference_mode": "experimental_file_ids",
+        "reference_image_paths": "",
+        "aspect_ratio": "16:9",
+        "request_timeout_seconds": 2400
+      }
+    }
+  }
+}

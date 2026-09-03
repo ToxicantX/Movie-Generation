@@ -1,0 +1,13 @@
+{
+  "updated": "2026-06-18T20:16:45",
+  "completed": true,
+  "blocked": false,
+  "waiting": true,
+  "stage": "page_review_qa",
+  "episode_number": 3,
+  "waiting_reason": "review_switch_closed",
+  "next_action": "open the page review switch after generation finishes",
+  "result_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\comfy_modular_page_review.json",
+  "preview_html": "G:\\ComfyUI\\custom_nodes\\comic_episode_pipeline_web.disabled\\comic_previews\\episode03.html",
+  "preview_url": "http://127.0.0.1:8188/extensions/comic_episode_pipeline_node/comic_previews/episode03.html"
+}

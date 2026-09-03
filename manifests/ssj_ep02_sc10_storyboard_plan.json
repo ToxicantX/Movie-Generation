@@ -1,0 +1,103 @@
+{
+  "updated": "2026-06-09",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 借剑一观，剑断情伤",
+  "segment_id": "SSJ_EP02_SC10",
+  "beat_id": "C02_B10",
+  "title": "借剑一观，剑断情伤",
+  "purpose": "承接无锋来历段落：白衣女子请拓拔野借断剑一观；拓拔野恭敬递剑；断剑受无形牵引飞入女子手中；锈迹落下，剑身泛起青白光；女子睹剑伤情落泪。画面只做无声视觉，不生成口播或字幕。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC09",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc09_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC09_formal_cut_v001.mp4",
+    "previous_wufeng_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH02_v001_00001_.png",
+    "previous_bailonglu_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH03_v001_00001_.png",
+    "previous_resolve_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH04_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc10_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 借我一观 / 断剑凌空 / 锈落白芒 / 泪珠滴落。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 uses previous Wufeng storyboard or Tuobaye turnaround for the respectful sword handover. SH02 uses adult Yushiqie reference to stabilize the white-clothed woman. SH03 uses previous Wufeng storyboard to keep the broken sword prop. SH04 uses adult Yushiqie reference or previous resolve storyboard for the tear reaction.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, speech bubbles, musical notes, English words, or clear Chinese inscriptions inside image/video.",
+    "inscription_rule": "If the sword needs old name marks, render only abstract gold/white engraved strokes that are not readable as Chinese characters.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, lip-sync, flute/xiao audio, heartbeat audio, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "不知公子可否将此剑借我一观么？",
+      "人有情，剑无锋。",
+      "这柄剑原是我族七大神器之一。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "previous_wufeng_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH02_v001_00001_.png",
+    "previous_resolve_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH04_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC10_SH01",
+      "beat": "C02_B10",
+      "title": "恭敬递剑",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子"
+      ],
+      "location": "月下竹亭 / 湖边石地",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC10_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC10_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH02_v001_00001_.png",
+      "storyboard_prompt": "Use the input SC09 Wufeng explanation storyboard as continuity for adult Tuobaye, broken sword prop, and moonlit pavilion setting. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium shot. Adult Tuobaye age 28 to 32 in rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, and right-waist bamboo sheath respectfully reverses the broken plain blue-grey Wufeng sword, holding the dull broken blade away as he offers the handle toward the adult white-clothed woman. The woman stands calmly at a respectful distance in pale white robes with a white agate xiao lowered, elegant and fully clothed. Mood is solemn courtesy, not romance-body emphasis. No readable inscriptions on the sword, no clear Chinese characters, no captions, no subtitles, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent handover beat. Tuobaye carefully presents the reversed broken sword; the white-clothed woman remains calm; robe edges, mist, incense smoke, and bamboo shadows move gently. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC10_SH02",
+      "beat": "C02_B10",
+      "title": "断剑凌空入掌",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白衣女子",
+        "拓拔野"
+      ],
+      "location": "月下竹亭 / 湖边雾气",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC10_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC10_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input adult Yushiqie reference as the respectful identity anchor for the adult white-clothed woman. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium-wide. The broken Wufeng sword floats slowly through moonlit mist from Tuobaye toward the adult white-clothed woman palm, pulled by invisible force; the woman extends one hand with calm restraint, white agate xiao lowered in her other hand or at her side. Tuobaye watches in quiet awe from a respectful distance. Keep the woman fully clothed, elegant, distant, non-sexualized; avoid hand fetish framing and avoid extreme close-up. Sword is plain blue-grey and broken, with no readable inscriptions. No captions, no subtitles, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent floating-sword beat. The broken Wufeng drifts slowly through mist into the woman palm, with subtle robe, hair, mist, and bamboo-shadow motion. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC10_SH03",
+      "beat": "C02_B10",
+      "title": "锈落白芒",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白衣女子"
+      ],
+      "location": "月下竹亭 / 湖边石地",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC10_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC10_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH02_v001_00001_.png",
+      "storyboard_prompt": "Use the input Wufeng storyboard only as prop continuity for the broken blue-grey sword; keep the white-clothed woman adult and respectful. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium insert, not an extreme macro. The adult white-clothed woman holds the broken Wufeng horizontally in moonlight; rust flakes fall from the blade, revealing a pale blue-white glow and faint abstract gold engraved strokes. The engraved strokes must be decorative and unreadable, not real Chinese characters or English letters. Her expression begins to change from calm to distant grief. Moonlit bamboo, lake mist, incense smoke. No readable text, no captions, no subtitles, no English words, no speech bubbles, no signs, no plaques, no UI, no clear inscriptions.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent rust-falling reveal. Tiny rust flakes drift away from the broken blade, pale blue-white glow strengthens subtly, the woman gaze grows still. Engraved strokes remain indistinct and unreadable. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC10_SH04",
+      "beat": "C02_B10",
+      "title": "剑断情伤",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白衣女子",
+        "拓拔野"
+      ],
+      "location": "月下竹亭 / 湖边竹影",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC10_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC10_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input adult Yushiqie reference as the respectful identity anchor for the adult white-clothed woman. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 emotional medium two-character composition. The adult white-clothed woman in pale white robes holds the softly glowing broken Wufeng and silently sheds one tear; her grief is restrained and ancient, not melodramatic. Adult Tuobaye stands several steps away in rough grey-brown travel clothes, anxious and unsure whether to speak. Moonlit lake, bamboo shadows, mist, incense smoke. The blade may show faint abstract glow marks but no readable inscriptions or text. No captions, no subtitles, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent grief beat. One tear slowly forms and falls while the woman holds the glowing broken sword; Tuobaye remains respectfully worried in the background; mist and robes move gently. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

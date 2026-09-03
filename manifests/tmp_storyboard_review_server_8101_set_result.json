@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-09T00:07:52",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\tmp_storyboard_review_decisions_ep02_sc01_server_sandbox_8101.json",
+    "shot_id":  "TEST_SSJ_EP02_SC01_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "",
+    "notes":  "",
+    "reviewer":  "",
+    "ok":  true
+}

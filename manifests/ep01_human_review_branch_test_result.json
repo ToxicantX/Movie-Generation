@@ -1,0 +1,1018 @@
+{
+    "updated":  "2026-06-08T19:11:03",
+    "sandbox_dir":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches",
+    "sandbox_output_dir":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches",
+    "skip_formal_cut_build":  false,
+    "all_pass_branch":  {
+                            "ok":  true,
+                            "steps":  [
+                                          {
+                                              "name":  "allpass_apply_decisions",
+                                              "command":  "$reviews = @(\u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json\u0027, \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json\u0027, \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json\u0027, \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json\u0027); \u0026 \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\apply_ep01_human_review_decisions.ps1\u0027 -DecisionPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_human_review_decisions_ep01.json\u0027 -ReviewPaths $reviews -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_apply_result.json\u0027; exit $LASTEXITCODE",
+                                              "exit_code":  0,
+                                              "ok":  true,
+                                              "parsed":  {
+                                                             "updated":  "2026-06-08T19:10:13",
+                                                             "decision_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_human_review_decisions_ep01.json",
+                                                             "review_paths":  [
+                                                                                  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json",
+                                                                                  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json",
+                                                                                  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json",
+                                                                                  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json"
+                                                                              ],
+                                                             "dry_run":  false,
+                                                             "allow_technical_fallback_pass":  false,
+                                                             "applied_count":  12,
+                                                             "skipped_count":  0,
+                                                             "invalid_count":  0,
+                                                             "unsafe_pass_count":  0,
+                                                             "applied":  [
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json",
+                                                                                 "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                                                                                 "decision":  "pass",
+                                                                                 "status":  "pass",
+                                                                                 "technical_fallback":  false
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json",
+                                                                                 "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                                                                                 "decision":  "pass",
+                                                                                 "status":  "pass",
+                                                                                 "technical_fallback":  false
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json",
+                                                                                 "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                                                                                 "decision":  "pass",
+                                                                                 "status":  "pass",
+                                                                                 "technical_fallback":  false
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json",
+                                                                                 "shot_id":  "TEST_SSJ_EP01_SC02_SH01",
+                                                                                 "decision":  "pass",
+                                                                                 "status":  "pass",
+                                                                                 "technical_fallback":  false
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json",
+                                                                                 "shot_id":  "TEST_SSJ_EP01_SC02_SH02",
+                                                                                 "decision":  "pass",
+                                                                                 "status":  "pass",
+                                                                                 "technical_fallback":  false
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json",
+                                                                                 "shot_id":  "TEST_SSJ_EP01_SC02_SH03",
+                                                                                 "decision":  "pass",
+                                                                                 "status":  "pass",
+                                                                                 "technical_fallback":  false
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json",
+                                                                                 "shot_id":  "TEST_SSJ_EP01_SC03_SH01",
+                                                                                 "decision":  "pass",
+                                                                                 "status":  "pass",
+                                                                                 "technical_fallback":  false
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json",
+                                                                                 "shot_id":  "TEST_SSJ_EP01_SC03_SH02",
+                                                                                 "decision":  "pass",
+                                                                                 "status":  "pass",
+                                                                                 "technical_fallback":  false
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json",
+                                                                                 "shot_id":  "TEST_SSJ_EP01_SC03_SH03",
+                                                                                 "decision":  "pass",
+                                                                                 "status":  "pass",
+                                                                                 "technical_fallback":  false
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json",
+                                                                                 "shot_id":  "TEST_SSJ_EP01_SC04_SH01",
+                                                                                 "decision":  "pass",
+                                                                                 "status":  "pass",
+                                                                                 "technical_fallback":  false
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json",
+                                                                                 "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                                                                                 "decision":  "pass",
+                                                                                 "status":  "pass",
+                                                                                 "technical_fallback":  false
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json",
+                                                                                 "shot_id":  "TEST_SSJ_EP01_SC04_SH03",
+                                                                                 "decision":  "pass",
+                                                                                 "status":  "pass",
+                                                                                 "technical_fallback":  false
+                                                                             }
+                                                                         ],
+                                                             "skipped":  [
+
+                                                                         ],
+                                                             "invalid":  [
+
+                                                                         ],
+                                                             "unsafe_passes":  [
+
+                                                                               ],
+                                                             "reviews":  [
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json",
+                                                                                 "changed":  true,
+                                                                                 "global_decision":  "approved_for_episode_cut",
+                                                                                 "shot_statuses":  [
+                                                                                                       {
+                                                                                                           "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                                                                                                           "status":  "pass"
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                                                                                                           "status":  "pass"
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                                                                                                           "status":  "pass"
+                                                                                                       }
+                                                                                                   ]
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json",
+                                                                                 "changed":  true,
+                                                                                 "global_decision":  "approved_for_episode_cut",
+                                                                                 "shot_statuses":  [
+                                                                                                       {
+                                                                                                           "shot_id":  "TEST_SSJ_EP01_SC02_SH01",
+                                                                                                           "status":  "pass"
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "shot_id":  "TEST_SSJ_EP01_SC02_SH02",
+                                                                                                           "status":  "pass"
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "shot_id":  "TEST_SSJ_EP01_SC02_SH03",
+                                                                                                           "status":  "pass"
+                                                                                                       }
+                                                                                                   ]
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json",
+                                                                                 "changed":  true,
+                                                                                 "global_decision":  "approved_for_episode_cut",
+                                                                                 "shot_statuses":  [
+                                                                                                       {
+                                                                                                           "shot_id":  "TEST_SSJ_EP01_SC03_SH01",
+                                                                                                           "status":  "pass"
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "shot_id":  "TEST_SSJ_EP01_SC03_SH02",
+                                                                                                           "status":  "pass"
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "shot_id":  "TEST_SSJ_EP01_SC03_SH03",
+                                                                                                           "status":  "pass"
+                                                                                                       }
+                                                                                                   ]
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json",
+                                                                                 "changed":  true,
+                                                                                 "global_decision":  "approved_for_episode_cut",
+                                                                                 "shot_statuses":  [
+                                                                                                       {
+                                                                                                           "shot_id":  "TEST_SSJ_EP01_SC04_SH01",
+                                                                                                           "status":  "pass"
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                                                                                                           "status":  "pass"
+                                                                                                       },
+                                                                                                       {
+                                                                                                           "shot_id":  "TEST_SSJ_EP01_SC04_SH03",
+                                                                                                           "status":  "pass"
+                                                                                                       }
+                                                                                                   ]
+                                                                             }
+                                                                         ],
+                                                             "ok":  true
+                                                         },
+                                              "output_tail":  [
+                                                                  "                                                  \"shot_id\":  \"TEST_SSJ_EP01_SC04_SH01\",",
+                                                                  "                                                  \"status\":  \"pass\"",
+                                                                  "                                              },",
+                                                                  "                                              {",
+                                                                  "                                                  \"shot_id\":  \"TEST_SSJ_EP01_SC04_SH02\",",
+                                                                  "                                                  \"status\":  \"pass\"",
+                                                                  "                                              },",
+                                                                  "                                              {",
+                                                                  "                                                  \"shot_id\":  \"TEST_SSJ_EP01_SC04_SH03\",",
+                                                                  "                                                  \"status\":  \"pass\"",
+                                                                  "                                              }",
+                                                                  "                                          ]",
+                                                                  "                    }",
+                                                                  "                ],",
+                                                                  "    \"ok\":  true",
+                                                                  "}"
+                                                              ]
+                                          },
+                                          {
+                                              "name":  "allpass_formal_gate",
+                                              "command":  "$reviews = @(\u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json\u0027, \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json\u0027, \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json\u0027, \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json\u0027); \u0026 \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\test_ep01_formal_cut_gate.ps1\u0027 -ReviewPaths $reviews -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_gate.json\u0027 -PythonPath \u0027python\u0027 -VideoProbePath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\probe_video_cv2.py\u0027 -SkipSegmentCutChecks; exit $LASTEXITCODE",
+                                              "exit_code":  0,
+                                              "ok":  true,
+                                              "parsed":  {
+                                                             "updated":  "2026-06-08T19:10:17",
+                                                             "review_paths":  [
+                                                                                  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json",
+                                                                                  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json",
+                                                                                  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json",
+                                                                                  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json"
+                                                                              ],
+                                                             "segment_cut_paths":  [
+
+                                                                                   ],
+                                                             "video_probe_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\probe_video_cv2.py",
+                                                             "skipped_segment_cut_checks":  true,
+                                                             "reviews":  [
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json",
+                                                                                 "segment_id":  "SSJ_EP01_SC01",
+                                                                                 "global_decision":  "approved_for_episode_cut",
+                                                                                 "failures":  [
+
+                                                                                              ],
+                                                                                 "shots":  [
+                                                                                               {
+                                                                                                   "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                                                                                                   "title":  "",
+                                                                                                   "status":  "pass",
+                                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                                                                                                   "video_probe":  {
+                                                                                                                       "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                                                                                                                       "exists":  true,
+                                                                                                                       "ok":  true,
+                                                                                                                       "error":  "",
+                                                                                                                       "fps":  24.0,
+                                                                                                                       "width":  1280,
+                                                                                                                       "height":  720,
+                                                                                                                       "frame_count":  240,
+                                                                                                                       "bytes":  5246292
+                                                                                                                   },
+                                                                                                   "failures":  [
+
+                                                                                                                ],
+                                                                                                   "ok":  true
+                                                                                               },
+                                                                                               {
+                                                                                                   "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                                                                                                   "title":  "",
+                                                                                                   "status":  "pass",
+                                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                                                                                                   "video_probe":  {
+                                                                                                                       "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                                                                                                                       "exists":  true,
+                                                                                                                       "ok":  true,
+                                                                                                                       "error":  "",
+                                                                                                                       "fps":  24.0,
+                                                                                                                       "width":  1280,
+                                                                                                                       "height":  720,
+                                                                                                                       "frame_count":  240,
+                                                                                                                       "bytes":  4892402
+                                                                                                                   },
+                                                                                                   "failures":  [
+
+                                                                                                                ],
+                                                                                                   "ok":  true
+                                                                                               },
+                                                                                               {
+                                                                                                   "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                                                                                                   "title":  "",
+                                                                                                   "status":  "pass",
+                                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                                                                                                   "video_probe":  {
+                                                                                                                       "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                                                                                                                       "exists":  true,
+                                                                                                                       "ok":  true,
+                                                                                                                       "error":  "",
+                                                                                                                       "fps":  24.0,
+                                                                                                                       "width":  1280,
+                                                                                                                       "height":  720,
+                                                                                                                       "frame_count":  240,
+                                                                                                                       "bytes":  4340304
+                                                                                                                   },
+                                                                                                   "failures":  [
+
+                                                                                                                ],
+                                                                                                   "ok":  true
+                                                                                               }
+                                                                                           ],
+                                                                                 "ok":  true
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json",
+                                                                                 "segment_id":  "SSJ_EP01_SC02",
+                                                                                 "global_decision":  "approved_for_episode_cut",
+                                                                                 "failures":  [
+
+                                                                                              ],
+                                                                                 "shots":  [
+                                                                                               {
+                                                                                                   "shot_id":  "TEST_SSJ_EP01_SC02_SH01",
+                                                                                                   "title":  "Relics secured after the mandate",
+                                                                                                   "status":  "pass",
+                                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH01_i2v_v001_00001.mp4",
+                                                                                                   "video_probe":  {
+                                                                                                                       "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH01_i2v_v001_00001.mp4",
+                                                                                                                       "exists":  true,
+                                                                                                                       "ok":  true,
+                                                                                                                       "error":  "",
+                                                                                                                       "fps":  24.0,
+                                                                                                                       "width":  1280,
+                                                                                                                       "height":  720,
+                                                                                                                       "frame_count":  240,
+                                                                                                                       "bytes":  5223500
+                                                                                                                   },
+                                                                                                   "failures":  [
+
+                                                                                                                ],
+                                                                                                   "ok":  true
+                                                                                               },
+                                                                                               {
+                                                                                                   "shot_id":  "TEST_SSJ_EP01_SC02_SH02",
+                                                                                                   "title":  "Last look back from the meadow path",
+                                                                                                   "status":  "pass",
+                                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH02_i2v_v001.mp4",
+                                                                                                   "video_probe":  {
+                                                                                                                       "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH02_i2v_v001.mp4",
+                                                                                                                       "exists":  true,
+                                                                                                                       "ok":  true,
+                                                                                                                       "error":  "",
+                                                                                                                       "fps":  24.0,
+                                                                                                                       "width":  1280,
+                                                                                                                       "height":  720,
+                                                                                                                       "frame_count":  240,
+                                                                                                                       "bytes":  4344551
+                                                                                                                   },
+                                                                                                   "failures":  [
+
+                                                                                                                ],
+                                                                                                   "ok":  true
+                                                                                               },
+                                                                                               {
+                                                                                                   "shot_id":  "TEST_SSJ_EP01_SC02_SH03",
+                                                                                                   "title":  "Departure into the mountain night",
+                                                                                                   "status":  "pass",
+                                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH03_i2v_v001.mp4",
+                                                                                                   "video_probe":  {
+                                                                                                                       "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH03_i2v_v001.mp4",
+                                                                                                                       "exists":  true,
+                                                                                                                       "ok":  true,
+                                                                                                                       "error":  "",
+                                                                                                                       "fps":  24.0,
+                                                                                                                       "width":  1280,
+                                                                                                                       "height":  720,
+                                                                                                                       "frame_count":  240,
+                                                                                                                       "bytes":  4355146
+                                                                                                                   },
+                                                                                                   "failures":  [
+
+                                                                                                                ],
+                                                                                                   "ok":  true
+                                                                                               }
+                                                                                           ],
+                                                                                 "ok":  true
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json",
+                                                                                 "segment_id":  "SSJ_EP01_SC03",
+                                                                                 "global_decision":  "approved_for_episode_cut",
+                                                                                 "failures":  [
+
+                                                                                              ],
+                                                                                 "shots":  [
+                                                                                               {
+                                                                                                   "shot_id":  "TEST_SSJ_EP01_SC03_SH01",
+                                                                                                   "title":  "Arrival at the dragon pool",
+                                                                                                   "status":  "pass",
+                                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH01_i2v_v001.mp4",
+                                                                                                   "video_probe":  {
+                                                                                                                       "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH01_i2v_v001.mp4",
+                                                                                                                       "exists":  true,
+                                                                                                                       "ok":  true,
+                                                                                                                       "error":  "",
+                                                                                                                       "fps":  24.0,
+                                                                                                                       "width":  1280,
+                                                                                                                       "height":  720,
+                                                                                                                       "frame_count":  240,
+                                                                                                                       "bytes":  6282384
+                                                                                                                   },
+                                                                                                   "failures":  [
+
+                                                                                                                ],
+                                                                                                   "ok":  true
+                                                                                               },
+                                                                                               {
+                                                                                                   "shot_id":  "TEST_SSJ_EP01_SC03_SH02",
+                                                                                                   "title":  "Shennong Dan awakening and Wufeng sword",
+                                                                                                   "status":  "pass",
+                                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH02_i2v_v002_wufeng.mp4",
+                                                                                                   "video_probe":  {
+                                                                                                                       "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH02_i2v_v002_wufeng.mp4",
+                                                                                                                       "exists":  true,
+                                                                                                                       "ok":  true,
+                                                                                                                       "error":  "",
+                                                                                                                       "fps":  24.0,
+                                                                                                                       "width":  1280,
+                                                                                                                       "height":  720,
+                                                                                                                       "frame_count":  240,
+                                                                                                                       "bytes":  6057479
+                                                                                                                   },
+                                                                                                   "failures":  [
+
+                                                                                                                ],
+                                                                                                   "ok":  true
+                                                                                               },
+                                                                                               {
+                                                                                                   "shot_id":  "TEST_SSJ_EP01_SC03_SH03",
+                                                                                                   "title":  "White dragon-deer reveal",
+                                                                                                   "status":  "pass",
+                                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH03_i2v_v001.mp4",
+                                                                                                   "video_probe":  {
+                                                                                                                       "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH03_i2v_v001.mp4",
+                                                                                                                       "exists":  true,
+                                                                                                                       "ok":  true,
+                                                                                                                       "error":  "",
+                                                                                                                       "fps":  24.0,
+                                                                                                                       "width":  1280,
+                                                                                                                       "height":  720,
+                                                                                                                       "frame_count":  240,
+                                                                                                                       "bytes":  3606631
+                                                                                                                   },
+                                                                                                   "failures":  [
+
+                                                                                                                ],
+                                                                                                   "ok":  true
+                                                                                               }
+                                                                                           ],
+                                                                                 "ok":  true
+                                                                             },
+                                                                             {
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json",
+                                                                                 "segment_id":  "SSJ_EP01_SC04",
+                                                                                 "global_decision":  "approved_for_episode_cut",
+                                                                                 "failures":  [
+
+                                                                                              ],
+                                                                                 "shots":  [
+                                                                                               {
+                                                                                                   "shot_id":  "TEST_SSJ_EP01_SC04_SH01",
+                                                                                                   "title":  "Trust after the dragon-deer reveal",
+                                                                                                   "status":  "pass",
+                                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001.mp4",
+                                                                                                   "video_probe":  {
+                                                                                                                       "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001.mp4",
+                                                                                                                       "exists":  true,
+                                                                                                                       "ok":  true,
+                                                                                                                       "error":  "",
+                                                                                                                       "fps":  24.0,
+                                                                                                                       "width":  1280,
+                                                                                                                       "height":  720,
+                                                                                                                       "frame_count":  240,
+                                                                                                                       "bytes":  4811147
+                                                                                                                   },
+                                                                                                   "failures":  [
+
+                                                                                                                ],
+                                                                                                   "ok":  true
+                                                                                               },
+                                                                                               {
+                                                                                                   "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                                                                                                   "title":  "Mounting the white dragon-deer",
+                                                                                                   "status":  "pass",
+                                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001.mp4",
+                                                                                                   "video_probe":  {
+                                                                                                                       "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001.mp4",
+                                                                                                                       "exists":  true,
+                                                                                                                       "ok":  true,
+                                                                                                                       "error":  "",
+                                                                                                                       "fps":  24.0,
+                                                                                                                       "width":  1280,
+                                                                                                                       "height":  720,
+                                                                                                                       "frame_count":  240,
+                                                                                                                       "bytes":  4143387
+                                                                                                                   },
+                                                                                                   "failures":  [
+
+                                                                                                                ],
+                                                                                                   "ok":  true
+                                                                                               },
+                                                                                               {
+                                                                                                   "shot_id":  "TEST_SSJ_EP01_SC04_SH03",
+                                                                                                   "title":  "Departure toward Yuping Mountain",
+                                                                                                   "status":  "pass",
+                                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001.mp4",
+                                                                                                   "video_probe":  {
+                                                                                                                       "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001.mp4",
+                                                                                                                       "exists":  true,
+                                                                                                                       "ok":  true,
+                                                                                                                       "error":  "",
+                                                                                                                       "fps":  24.0,
+                                                                                                                       "width":  1280,
+                                                                                                                       "height":  720,
+                                                                                                                       "frame_count":  240,
+                                                                                                                       "bytes":  4915161
+                                                                                                                   },
+                                                                                                   "failures":  [
+
+                                                                                                                ],
+                                                                                                   "ok":  true
+                                                                                               }
+                                                                                           ],
+                                                                                 "ok":  true
+                                                                             }
+                                                                         ],
+                                                             "segment_cuts":  [
+
+                                                                              ],
+                                                             "failure_count":  0,
+                                                             "failures":  [
+
+                                                                          ],
+                                                             "ok":  true
+                                                         },
+                                              "output_tail":  [
+                                                                  "                                                       ],",
+                                                                  "                                          \"ok\":  true",
+                                                                  "                                      }",
+                                                                  "                                  ],",
+                                                                  "                        \"ok\":  true",
+                                                                  "                    }",
+                                                                  "                ],",
+                                                                  "    \"segment_cuts\":  [",
+                                                                  "",
+                                                                  "                     ],",
+                                                                  "    \"failure_count\":  0,",
+                                                                  "    \"failures\":  [",
+                                                                  "",
+                                                                  "                 ],",
+                                                                  "    \"ok\":  true",
+                                                                  "}"
+                                                              ]
+                                          },
+                                          {
+                                              "name":  "allpass_build_formal_cut",
+                                              "command":  "$reviews = @(\u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json\u0027, \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json\u0027, \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json\u0027, \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json\u0027); $segments = @(\u0027G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC01_formal_cut_sandbox.mp4\u0027, \u0027G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC02_formal_cut_sandbox.mp4\u0027, \u0027G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC03_formal_cut_sandbox.mp4\u0027, \u0027G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC04_formal_cut_sandbox.mp4\u0027); \u0026 \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\build_ep01_formal_cut.ps1\u0027 -ReviewPaths $reviews -SegmentOutputPaths $segments -OutputPath \u0027G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_formal_cut_sandbox_allpass.mp4\u0027 -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_build_result.json\u0027 -GatePath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_gate_check.json\u0027 -PostBuildGatePath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_postbuild_gate_check.json\u0027 -AssemblyReviewPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_review.json\u0027 -AssemblyManifestPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_result.json\u0027 -SegmentManifestDir \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\u0027 -SegmentManifestPrefix \u0027allpass_\u0027 -PythonPath \u0027python\u0027; exit $LASTEXITCODE",
+                                              "exit_code":  0,
+                                              "ok":  true,
+                                              "parsed":  {
+                                                             "updated":  "2026-06-08T19:11:02",
+                                                             "ok":  true,
+                                                             "dry_run":  false,
+                                                             "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_formal_cut_sandbox_allpass.mp4",
+                                                             "assembly_review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_review.json",
+                                                             "assembly_manifest_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_result.json",
+                                                             "gate_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_gate_check.json",
+                                                             "postbuild_gate_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_postbuild_gate_check.json",
+                                                             "episode_cut":  {
+                                                                                 "ok":  true,
+                                                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_review.json",
+                                                                                 "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_formal_cut_sandbox_allpass.mp4",
+                                                                                 "sources":  [
+                                                                                                 {
+                                                                                                     "path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC01_formal_cut_sandbox.mp4",
+                                                                                                     "fps":  24.0,
+                                                                                                     "width":  1280,
+                                                                                                     "height":  720,
+                                                                                                     "frame_count":  720
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC02_formal_cut_sandbox.mp4",
+                                                                                                     "fps":  24.0,
+                                                                                                     "width":  1280,
+                                                                                                     "height":  720,
+                                                                                                     "frame_count":  720
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC03_formal_cut_sandbox.mp4",
+                                                                                                     "fps":  24.0,
+                                                                                                     "width":  1280,
+                                                                                                     "height":  720,
+                                                                                                     "frame_count":  720
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC04_formal_cut_sandbox.mp4",
+                                                                                                     "fps":  24.0,
+                                                                                                     "width":  1280,
+                                                                                                     "height":  720,
+                                                                                                     "frame_count":  720
+                                                                                                 }
+                                                                                             ],
+                                                                                 "frame_count":  2880,
+                                                                                 "fps":  24.0,
+                                                                                 "size":  [
+                                                                                              1280,
+                                                                                              720
+                                                                                          ],
+                                                                                 "bytes":  95970450
+                                                                             },
+                                                             "steps":  [
+                                                                           {
+                                                                               "name":  "initial formal gate",
+                                                                               "status":  "success",
+                                                                               "exit_code":  0,
+                                                                               "manifest":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_gate_check.json"
+                                                                           },
+                                                                           {
+                                                                               "name":  "build formal segment cuts",
+                                                                               "status":  "success",
+                                                                               "segment_steps":  [
+                                                                                                     {
+                                                                                                         "segment_id":  "SC01",
+                                                                                                         "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json",
+                                                                                                         "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC01_formal_cut_sandbox.mp4",
+                                                                                                         "manifest":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_sc01_formal_cut_result.json",
+                                                                                                         "status":  "success",
+                                                                                                         "exit_code":  0,
+                                                                                                         "cut":  {
+                                                                                                                     "ok":  true,
+                                                                                                                     "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc01_consistency_review.json",
+                                                                                                                     "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC01_formal_cut_sandbox.mp4",
+                                                                                                                     "sources":  [
+                                                                                                                                     {
+                                                                                                                                         "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                                                                                                                                         "fps":  24.0,
+                                                                                                                                         "width":  1280,
+                                                                                                                                         "height":  720,
+                                                                                                                                         "frame_count":  240
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                         "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                                                                                                                                         "fps":  24.0,
+                                                                                                                                         "width":  1280,
+                                                                                                                                         "height":  720,
+                                                                                                                                         "frame_count":  240
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                         "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                                                                                                                                         "fps":  24.0,
+                                                                                                                                         "width":  1280,
+                                                                                                                                         "height":  720,
+                                                                                                                                         "frame_count":  240
+                                                                                                                                     }
+                                                                                                                                 ],
+                                                                                                                     "frame_count":  720,
+                                                                                                                     "fps":  24.0,
+                                                                                                                     "size":  [
+                                                                                                                                  1280,
+                                                                                                                                  720
+                                                                                                                              ],
+                                                                                                                     "bytes":  26810874
+                                                                                                                 }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "segment_id":  "SSJ_EP01_SC02",
+                                                                                                         "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json",
+                                                                                                         "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC02_formal_cut_sandbox.mp4",
+                                                                                                         "manifest":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_formal_cut_result.json",
+                                                                                                         "status":  "success",
+                                                                                                         "exit_code":  0,
+                                                                                                         "cut":  {
+                                                                                                                     "ok":  true,
+                                                                                                                     "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc02_consistency_review.json",
+                                                                                                                     "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC02_formal_cut_sandbox.mp4",
+                                                                                                                     "sources":  [
+                                                                                                                                     {
+                                                                                                                                         "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH01_i2v_v001_00001.mp4",
+                                                                                                                                         "fps":  24.0,
+                                                                                                                                         "width":  1280,
+                                                                                                                                         "height":  720,
+                                                                                                                                         "frame_count":  240
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                         "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH02_i2v_v001.mp4",
+                                                                                                                                         "fps":  24.0,
+                                                                                                                                         "width":  1280,
+                                                                                                                                         "height":  720,
+                                                                                                                                         "frame_count":  240
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                         "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH03_i2v_v001.mp4",
+                                                                                                                                         "fps":  24.0,
+                                                                                                                                         "width":  1280,
+                                                                                                                                         "height":  720,
+                                                                                                                                         "frame_count":  240
+                                                                                                                                     }
+                                                                                                                                 ],
+                                                                                                                     "frame_count":  720,
+                                                                                                                     "fps":  24.0,
+                                                                                                                     "size":  [
+                                                                                                                                  1280,
+                                                                                                                                  720
+                                                                                                                              ],
+                                                                                                                     "bytes":  22997689
+                                                                                                                 }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "segment_id":  "SSJ_EP01_SC03",
+                                                                                                         "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json",
+                                                                                                         "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC03_formal_cut_sandbox.mp4",
+                                                                                                         "manifest":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_formal_cut_result.json",
+                                                                                                         "status":  "success",
+                                                                                                         "exit_code":  0,
+                                                                                                         "cut":  {
+                                                                                                                     "ok":  true,
+                                                                                                                     "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json",
+                                                                                                                     "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC03_formal_cut_sandbox.mp4",
+                                                                                                                     "sources":  [
+                                                                                                                                     {
+                                                                                                                                         "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH01_i2v_v001.mp4",
+                                                                                                                                         "fps":  24.0,
+                                                                                                                                         "width":  1280,
+                                                                                                                                         "height":  720,
+                                                                                                                                         "frame_count":  240
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                         "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH02_i2v_v002_wufeng.mp4",
+                                                                                                                                         "fps":  24.0,
+                                                                                                                                         "width":  1280,
+                                                                                                                                         "height":  720,
+                                                                                                                                         "frame_count":  240
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                         "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH03_i2v_v001.mp4",
+                                                                                                                                         "fps":  24.0,
+                                                                                                                                         "width":  1280,
+                                                                                                                                         "height":  720,
+                                                                                                                                         "frame_count":  240
+                                                                                                                                     }
+                                                                                                                                 ],
+                                                                                                                     "frame_count":  720,
+                                                                                                                     "fps":  24.0,
+                                                                                                                     "size":  [
+                                                                                                                                  1280,
+                                                                                                                                  720
+                                                                                                                              ],
+                                                                                                                     "bytes":  27395151
+                                                                                                                 }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "segment_id":  "SSJ_EP01_SC04",
+                                                                                                         "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json",
+                                                                                                         "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC04_formal_cut_sandbox.mp4",
+                                                                                                         "manifest":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_formal_cut_result.json",
+                                                                                                         "status":  "success",
+                                                                                                         "exit_code":  0,
+                                                                                                         "cut":  {
+                                                                                                                     "ok":  true,
+                                                                                                                     "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc04_consistency_review.json",
+                                                                                                                     "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC04_formal_cut_sandbox.mp4",
+                                                                                                                     "sources":  [
+                                                                                                                                     {
+                                                                                                                                         "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001.mp4",
+                                                                                                                                         "fps":  24.0,
+                                                                                                                                         "width":  1280,
+                                                                                                                                         "height":  720,
+                                                                                                                                         "frame_count":  240
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                         "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001.mp4",
+                                                                                                                                         "fps":  24.0,
+                                                                                                                                         "width":  1280,
+                                                                                                                                         "height":  720,
+                                                                                                                                         "frame_count":  240
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                         "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001.mp4",
+                                                                                                                                         "fps":  24.0,
+                                                                                                                                         "width":  1280,
+                                                                                                                                         "height":  720,
+                                                                                                                                         "frame_count":  240
+                                                                                                                                     }
+                                                                                                                                 ],
+                                                                                                                     "frame_count":  720,
+                                                                                                                     "fps":  24.0,
+                                                                                                                     "size":  [
+                                                                                                                                  1280,
+                                                                                                                                  720
+                                                                                                                              ],
+                                                                                                                     "bytes":  22959740
+                                                                                                                 }
+                                                                                                     }
+                                                                                                 ]
+                                                                           },
+                                                                           {
+                                                                               "name":  "postbuild formal gate",
+                                                                               "status":  "success",
+                                                                               "exit_code":  0,
+                                                                               "manifest":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_postbuild_gate_check.json"
+                                                                           },
+                                                                           {
+                                                                               "name":  "write formal assembly review",
+                                                                               "status":  "success",
+                                                                               "path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_review.json"
+                                                                           },
+                                                                           {
+                                                                               "name":  "build EP01 formal cut",
+                                                                               "status":  "success",
+                                                                               "exit_code":  0,
+                                                                               "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_formal_cut_sandbox_allpass.mp4",
+                                                                               "manifest":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\allpass_formal_cut_result.json"
+                                                                           }
+                                                                       ]
+                                                         },
+                                              "output_tail":  [
+                                                                  "                      \"manifest\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\manifests\\\\sandbox_ep01_human_review_branches\\\\allpass_formal_cut_postbuild_gate_check.json\"",
+                                                                  "                  },",
+                                                                  "                  {",
+                                                                  "                      \"name\":  \"write formal assembly review\",",
+                                                                  "                      \"status\":  \"success\",",
+                                                                  "                      \"path\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\manifests\\\\sandbox_ep01_human_review_branches\\\\allpass_formal_cut_review.json\"",
+                                                                  "                  },",
+                                                                  "                  {",
+                                                                  "                      \"name\":  \"build EP01 formal cut\",",
+                                                                  "                      \"status\":  \"success\",",
+                                                                  "                      \"exit_code\":  0,",
+                                                                  "                      \"output_path\":  \"G:\\\\ComfyUI\\\\output\\\\AIShortDrama\\\\episodes\\\\sandbox_ep01_human_review_branches\\\\SSJ_EP01_formal_cut_sandbox_allpass.mp4\",",
+                                                                  "                      \"manifest\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\manifests\\\\sandbox_ep01_human_review_branches\\\\allpass_formal_cut_result.json\"",
+                                                                  "                  }",
+                                                                  "              ]",
+                                                                  "}"
+                                                              ]
+                                          }
+                                      ],
+                            "formal_gate_ok":  true,
+                            "formal_gate_failure_count":  0,
+                            "final_output":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_formal_cut_sandbox_allpass.mp4",
+                            "final_probe":  {
+                                                "path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_formal_cut_sandbox_allpass.mp4",
+                                                "exists":  true,
+                                                "ok":  true,
+                                                "error":  "",
+                                                "fps":  24.0,
+                                                "width":  1280,
+                                                "height":  720,
+                                                "frame_count":  2880,
+                                                "bytes":  95970450
+                                            },
+                            "final_probe_exit_code":  0
+                        },
+    "regeneration_branch":  {
+                                "ok":  true,
+                                "steps":  [
+                                              {
+                                                  "name":  "regen_build_queue",
+                                                  "command":  "$reviews = @(\u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\regen_ssj_ep01_sc01_consistency_review.json\u0027, \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\regen_ssj_ep01_sc02_consistency_review.json\u0027, \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\regen_ssj_ep01_sc03_consistency_review.json\u0027, \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\regen_ssj_ep01_sc04_consistency_review.json\u0027); \u0026 \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\build_human_review_regeneration_queue.ps1\u0027 -ReviewPaths $reviews -DecisionPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\regen_human_review_decisions_ep01.json\u0027 -QueuePath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\regen_queue_ep01.json\u0027; exit $LASTEXITCODE",
+                                                  "exit_code":  0,
+                                                  "ok":  true,
+                                                  "parsed":  {
+                                                                 "updated":  "2026-06-08T19:11:03",
+                                                                 "decision_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\regen_human_review_decisions_ep01.json",
+                                                                 "review_paths":  [
+                                                                                      "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\regen_ssj_ep01_sc01_consistency_review.json",
+                                                                                      "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\regen_ssj_ep01_sc02_consistency_review.json",
+                                                                                      "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\regen_ssj_ep01_sc03_consistency_review.json",
+                                                                                      "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\regen_ssj_ep01_sc04_consistency_review.json"
+                                                                                  ],
+                                                                 "include_pending":  false,
+                                                                 "include_technical_fallback":  false,
+                                                                 "summary":  {
+                                                                                 "pass":  0,
+                                                                                 "pending":  11,
+                                                                                 "needs_regeneration":  1,
+                                                                                 "blocked":  0,
+                                                                                 "technical_fallback":  0,
+                                                                                 "missing_workflow":  0
+                                                                             },
+                                                                 "queue_count":  1,
+                                                                 "queue":  [
+                                                                               {
+                                                                                   "review_id":  "SSJ_EP01_SC04",
+                                                                                   "review_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\regen_ssj_ep01_sc04_consistency_review.json",
+                                                                                   "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                                                                                   "title":  "Mounting the white dragon-deer",
+                                                                                   "decision":  "needs_regeneration",
+                                                                                   "regeneration_scope":  "video",
+                                                                                   "reason":  "Sandbox regeneration branch validation.",
+                                                                                   "notes":  "Expected to select SC04 SH02 final I2V workflow.",
+                                                                                   "current_status":  "generated_pending_human_review",
+                                                                                   "preferred_video_mode":  "image_to_video_required",
+                                                                                   "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH02_v001_00001_.png",
+                                                                                   "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001.mp4",
+                                                                                   "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_storyboard_v001_noref_retry.json",
+                                                                                   "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_i2v_v001.json",
+                                                                                   "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_i2v_v001.json",
+                                                                                   "can_auto_rerun":  true,
+                                                                                   "is_technical_fallback":  false
+                                                                               }
+                                                                           ],
+                                                                 "next_actions":  [
+                                                                                      "Fill human_review_decisions_ep01.json after reviewing the packages.",
+                                                                                      "Run this script again to refresh regeneration_queue_ep01.json.",
+                                                                                      "Auto-rerun only queue items where can_auto_rerun is true and regeneration_scope is storyboard or video."
+                                                                                  ],
+                                                                 "ok":  true
+                                                             },
+                                                  "output_tail":  [
+                                                                      "                      \"storyboard_path\":  \"G:\\\\ComfyUI\\\\output\\\\AIShortDrama\\\\storyboards\\\\SSJ_EP01_SC04_SH02_v001_00001_.png\",",
+                                                                      "                      \"video_path\":  \"G:\\\\ComfyUI\\\\output\\\\AIShortDrama\\\\videos\\\\SSJ_EP01_SC04_SH02_i2v_v001.mp4\",",
+                                                                      "                      \"storyboard_workflow\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep01_sc04_sh02_storyboard_v001_noref_retry.json\",",
+                                                                      "                      \"video_workflow\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep01_sc04_sh02_i2v_v001.json\",",
+                                                                      "                      \"selected_workflow\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep01_sc04_sh02_i2v_v001.json\",",
+                                                                      "                      \"can_auto_rerun\":  true,",
+                                                                      "                      \"is_technical_fallback\":  false",
+                                                                      "                  }",
+                                                                      "              ],",
+                                                                      "    \"next_actions\":  [",
+                                                                      "                         \"Fill human_review_decisions_ep01.json after reviewing the packages.\",",
+                                                                      "                         \"Run this script again to refresh regeneration_queue_ep01.json.\",",
+                                                                      "                         \"Auto-rerun only queue items where can_auto_rerun is true and regeneration_scope is storyboard or video.\"",
+                                                                      "                     ],",
+                                                                      "    \"ok\":  true",
+                                                                      "}"
+                                                                  ]
+                                              },
+                                              {
+                                                  "name":  "regen_runner_dry_run",
+                                                  "script":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\run_regeneration_queue.ps1",
+                                                  "arguments":  [
+                                                                    "-QueuePath",
+                                                                    "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\regen_queue_ep01.json",
+                                                                    "-ResultPath",
+                                                                    "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\regen_queue_dry_run_result.json",
+                                                                    "-DryRun",
+                                                                    "-MaxItems",
+                                                                    "1"
+                                                                ],
+                                                  "exit_code":  0,
+                                                  "ok":  true,
+                                                  "parsed":  {
+                                                                 "updated":  "2026-06-08T19:11:03",
+                                                                 "queue_path":  "E:\\workspace\\ComfyUIProjects\\manifests\\sandbox_ep01_human_review_branches\\regen_queue_ep01.json",
+                                                                 "dry_run":  true,
+                                                                 "max_items":  1,
+                                                                 "runs":  [
+                                                                              {
+                                                                                  "review_id":  "SSJ_EP01_SC04",
+                                                                                  "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                                                                                  "decision":  "needs_regeneration",
+                                                                                  "regeneration_scope":  "video",
+                                                                                  "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_i2v_v001.json",
+                                                                                  "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\regen_ssj_ep01_sc04_test_ssj_ep01_sc04_sh02_result.json",
+                                                                                  "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\run_single_i2v_workflow_and_wait.ps1\u0027 -WorkflowPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_i2v_v001.json\u0027 -ShotId \u0027TEST_SSJ_EP01_SC04_SH02\u0027 -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\regen_ssj_ep01_sc04_test_ssj_ep01_sc04_sh02_result.json\u0027",
+                                                                                  "status":  "dry_run",
+                                                                                  "exit_code":  null,
+                                                                                  "output":  [
+
+                                                                                             ]
+                                                                              }
+                                                                          ],
+                                                                 "skipped":  [
+
+                                                                             ],
+                                                                 "ok":  true
+                                                             },
+                                                  "output_tail":  [
+                                                                      "                     \"regeneration_scope\":  \"video\",",
+                                                                      "                     \"selected_workflow\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep01_sc04_sh02_i2v_v001.json\",",
+                                                                      "                     \"result_path\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\manifests\\\\regen_ssj_ep01_sc04_test_ssj_ep01_sc04_sh02_result.json\",",
+                                                                      "                     \"command\":  \"powershell -ExecutionPolicy Bypass -File \\u0027E:\\\\workspace\\\\ComfyUIProjects\\\\scripts\\\\run_single_i2v_workflow_and_wait.ps1\\u0027 -WorkflowPath \\u0027E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep01_sc04_sh02_i2v_v001.json\\u0027 -ShotId \\u0027TEST_SSJ_EP01_SC04_SH02\\u0027 -ResultPath \\u0027E:\\\\workspace\\\\ComfyUIProjects\\\\manifests\\\\regen_ssj_ep01_sc04_test_ssj_ep01_sc04_sh02_result.json\\u0027\",",
+                                                                      "                     \"status\":  \"dry_run\",",
+                                                                      "                     \"exit_code\":  null,",
+                                                                      "                     \"output\":  [",
+                                                                      "",
+                                                                      "                                ]",
+                                                                      "                 }",
+                                                                      "             ],",
+                                                                      "    \"skipped\":  [",
+                                                                      "",
+                                                                      "                ],",
+                                                                      "    \"ok\":  true",
+                                                                      "}"
+                                                                  ]
+                                              }
+                                          ],
+                                "queue_count":  1,
+                                "queue_selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_i2v_v001.json",
+                                "queue_can_auto_rerun":  true,
+                                "dry_run_count":  1,
+                                "dry_run_command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\run_single_i2v_workflow_and_wait.ps1\u0027 -WorkflowPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_i2v_v001.json\u0027 -ShotId \u0027TEST_SSJ_EP01_SC04_SH02\u0027 -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\regen_ssj_ep01_sc04_test_ssj_ep01_sc04_sh02_result.json\u0027"
+                            },
+    "ok":  true
+}

@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Duan Yukai turnaround as the identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 bold reveal composition. A bloodied blue-robed strongman from Mirage City lands atop the lakeside bamboo tower or high pavilion edge, broad-shouldered and dangerous, challenging the absent Qingdi with reckless confidence. Below or at distance, black-clothed Chaoyang Valley visitors recoil or look up. Keep blood limited to battle-worn staining, no gore. No readable Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no signs, no plaques, no gate calligraphy, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC15_SH03_v001"
+                                        }
+                         }
+               }
+}

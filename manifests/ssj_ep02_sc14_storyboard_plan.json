@@ -1,0 +1,108 @@
+{
+  "updated": "2026-06-10",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 朝阳谷来客，后院暂避",
+  "segment_id": "SSJ_EP02_SC14",
+  "beat_id": "C02_B14",
+  "title": "朝阳谷来客，后院暂避",
+  "purpose": "承接血书难动青帝后：拓拔野请求白衣女子陪他去蜃楼城而被婉拒；天湖对岸传来朝阳谷十四郎拜见青帝的动静；白衣女子带拓拔野与白龙鹿避入后院；门外来客恭敬等待，青帝仍不出现。画面只做无声视觉，不生成口播、字幕、门额文字、书信内容或任何可读文字。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC13",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc13_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC13_formal_cut_v001.mp4",
+    "previous_warning_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC13_SH04_v001_00001_.png",
+    "previous_courtyard_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC13_SH02_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc14_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 纵使这血书 / 陪我去蜃楼城 / 朝阳谷十四郎 / 后院竹丛。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 anchors to Yushiqie reference to repair SC13 SH04 headpiece drift. SH02 anchors to Yuping Mountain/Tianhu location reference. SH03 anchors to the previous courtyard storyboard for spatial continuity. SH04 anchors to the previous courtyard storyboard to keep layered doors, bamboo, wet stone, and moonlit architecture consistent.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, gate calligraphy, speech bubbles, English words, or clear Chinese inscriptions inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, lip-sync, crowd shouting, music, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "那么，不知仙女姐姐能不能陪我去一趟蜃楼城呢？",
+      "只怕不能。",
+      "朝阳谷的人来了，咱们避上一避。",
+      "他们不会进到此处。咱们就在这站上一会儿吧。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_warning_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC13_SH04_v001_00001_.png",
+    "previous_courtyard_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC13_SH02_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH01",
+      "beat": "C02_B14",
+      "title": "同行之请被婉拒",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子"
+      ],
+      "location": "月下天湖 / 竹亭边",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC14_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC14_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input adult Yushiqie reference as the identity anchor for the white-clothed woman, repairing ornate headpiece drift: simple elegant hair, pale white robes, restrained expression, no crown-like jewelry. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium two-character composition. Adult Tuobaye in rugged grey-brown travel clothes urgently asks her to accompany him to Mirage City, holding the folded sealed relic bundle close; she gives a faint distant smile and gently refuses, leaving him visibly disappointed. Moonlit Tianhu, bamboo shadows, wet stone, quiet pavilion edge. Keep the folded document closed and unreadable. No readable Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no signs, no plaques, no gate calligraphy, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent refusal beat. Tuobaye leans forward with urgent hope, then sinks into disappointment; the woman remains calm with a small distant smile; mist, sleeves, hair strands, and lake reflection move subtly. No dialogue, no lip-sync, no crowd audio, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH02",
+      "beat": "C02_B14",
+      "title": "天湖对岸来客",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子",
+        "朝阳谷来客"
+      ],
+      "location": "玉屏山天湖 / 对岸庭院入口",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC14_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC14_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input Yuping Mountain Tianhu location reference as setting anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 wide moonlit composition. Across the lake, distant black-clothed Chaoyang Valley visitors arrive near a silent courtyard approach; keep them small or partially obscured by mist and pine shadows. In the foreground, adult Tuobaye and the adult white-clothed woman both turn toward the distant visitors, alerted but silent. Qingdi is absent. Architecture may include closed doors and eaves, but no readable plaques, no gate text, no carved characters, no banners, no signs. No Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent arrival beat. Distant black-clothed visitors approach across the lake while Tuobaye and the woman turn toward them; mist, bamboo, pine shadows, robes, and water reflections move gently. No dialogue, no lip-sync, no crowd shouting audio, no sound effects, no captions, no subtitles, no readable signs, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH03",
+      "beat": "C02_B14",
+      "title": "行云掠入后院",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子",
+        "白龙鹿"
+      ],
+      "location": "三进庭院 / 月下回廊",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC14_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC14_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC13_SH02_v001_00001_.png",
+      "storyboard_prompt": "Use the input SC13 courtyard storyboard as spatial continuity for moonlit Yuping Mountain, wet stone, bamboo, quiet pavilion, and adult Tuobaye/white-clothed woman staging. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 dynamic but graceful composition. The adult white-clothed woman glides like flowing cloud into the rear courtyard, pulling adult Tuobaye through the air by invisible force without touching him; the white dragon-deer follows close behind through mist and bamboo. Keep movement elegant and readable, not combat. No Qingdi present. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no gate calligraphy, no speech bubbles, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent gliding escape beat. The woman moves smoothly ahead, Tuobaye is carried a short distance by invisible airflow, and the white dragon-deer follows; sleeves, hair, mist, bamboo, and moonlit water move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH04",
+      "beat": "C02_B14",
+      "title": "竹影后静候来人",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子",
+        "白龙鹿",
+        "朝阳谷来客"
+      ],
+      "location": "青帝后院 / 东西竹丛",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC14_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC14_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC13_SH02_v001_00001_.png",
+      "storyboard_prompt": "Use the input SC13 courtyard storyboard as spatial continuity for wet stone courtyard, layered doors, bamboo, mist, and moonlit pavilion architecture. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 tense hidden-observer composition. Adult Tuobaye hides behind west-side bamboo with the white dragon-deer, peering through leaves; the adult white-clothed woman stands apart under east-side bamboo, calm and silent. Beyond layered doors and pine shadows, distant black-clothed Chaoyang Valley visitors wait respectfully outside the forbidden courtyard, not entering. Qingdi is absent. Do not show readable plaques, gate signs, door text, banners, or calligraphy. No Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent hidden-wait beat. Tuobaye and the white dragon-deer remain behind bamboo while the woman stands apart; distant visitors wait outside the gate; bamboo leaves, mist, robes, and moonlit shadows move gently. No dialogue, no lip-sync, no crowd audio, no sound effects, no captions, no subtitles, no readable signs, no English words."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+﻿{
+    "updated":  "2026-06-10T00:56:55",
+    "reviewer":  "Codex",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC13",
+                             "review_path":  ".\\manifests\\ssj_ep02_sc13_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC13_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC13",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc13_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC13_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC13_SH01",
+                          "title":  "芳华旧影不可言",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC13_SH01_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc13_sh01_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc13_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "test-mode auto-pass: no readable text; emotional memory beat is usable",
+                          "notes":  "Production caveat: background memory silhouettes are acceptable but should remain indistinct; no dialogue/subtitle/audio should be generated."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC13",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc13_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC13_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC13_SH02",
+                          "title":  "寻访青帝落空",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC13_SH02_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc13_sh02_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc13_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "test-mode auto-pass: Qingdi remains absent; location and hope/disappointment beat are clear",
+                          "notes":  "Production caveat: keep single storyboard as I2V source; do not add spoken dialogue or captions."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC13",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc13_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC13_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC13_SH03",
+                          "title":  "血书隔空借观",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC13_SH03_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc13_sh03_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc13_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "test-mode auto-pass: folded blood letter is unreadable and the trust handoff beat is clear",
+                          "notes":  "Production caveat: Tuobaye is dirtier than the core reference but usable for pipeline validation; preserve no readable letter contents."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC13",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc13_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC13_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC13_SH04",
+                          "title":  "血书难动青帝",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC13_SH04_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc13_sh04_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc13_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "test-mode auto-pass: closed letter and warning beat are readable enough for flow validation",
+                          "notes":  "Production caveat: white-clothed woman headpiece drifts too ornate and Tuobaye becomes too tribal/refined; mark for production regeneration with stricter identity locks."
+                      }
+                  ]
+}

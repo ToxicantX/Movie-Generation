@@ -1,0 +1,38 @@
+{
+  "updated": "2026-06-09T20:46:00",
+  "reviewer": "Codex test-mode auto confirmation; user authorized auto-pass when absent on 2026-06-09",
+  "global_decision": "approved_for_episode_cut",
+  "language_policy": {
+    "mode": "silent_visual_generation",
+    "rule": "Do not synthesize speech, flute/xiao audio, sound effects, captions/subtitles/readable text, or English words. Chinese narration, dialogue, sound design, and subtitles are added later during editing."
+  },
+  "known_quality_notes": [
+    "Test-mode pass only; production review must replace all four SC12 videos with true I2V outputs before release.",
+    "All four SC12 videos are technical still fallback clips because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing.",
+    "SC12 SH04 storyboard used a no-reference retry after upstream image generation errors; character continuity is weaker than the referenced shots.",
+    "SC12 SH03 Tuobaye costume and grooming drift too refined/noble for the rugged adult-adapted target.",
+    "No readable Chinese or English text, captions, lyrics, song title, musical notes, or blood-letter contents were visible in storyboard/video precheck."
+  ],
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC12_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; recollection/listening beat is readable and usable for pipeline continuity."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC12_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Shennong meeting beat is clear, with production caveat to verify Tuobaye styling."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC12_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; entrusted-fate and Dragon Pool memory beat is usable, with production caveat on Tuobaye costume drift."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC12_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; emotional reaction beat is readable, but no-reference storyboard fallback weakens continuity."
+    }
+  ]
+}

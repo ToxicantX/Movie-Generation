@@ -1,0 +1,14 @@
+﻿{
+    "updated":  "2026-06-09T17:11:46",
+    "shot_id":  "TEST_SSJ_EP02_SC08_SH04",
+    "mode":  "image_to_video_with_storyboard_image_path",
+    "workflow_path":  ".\\workflows\\ssj_ep02_sc08_sh04_i2v_v001.json",
+    "prompt_id":  null,
+    "status":  "submit_not_ready_or_failed",
+    "completed":  false,
+    "submit_output":  [
+                          "Gemini-API currently follows official docs and rejects mode=video with file_ids. Refusing to submit experimental I2V workflow."
+                      ],
+    "wait_result":  null,
+    "error":  "Submit script exited with code 4."
+}

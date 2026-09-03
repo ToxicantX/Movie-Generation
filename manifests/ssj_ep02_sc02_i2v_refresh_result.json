@@ -1,0 +1,51 @@
+﻿{
+    "updated":  "2026-06-09T12:12:23",
+    "review_path":  ".\\manifests\\ssj_ep02_sc02_storyboard_review.json",
+    "workflow_create_result_path":  ".\\manifests\\ssj_ep02_sc02_workflow_create_result.json",
+    "found":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC02_SH01",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC02_SH01_i2v_v001.mp4",
+                      "pattern":  "AIShortDrama\\videos\\SSJ_EP02_SC02_SH01_i2v_v001*.mp4",
+                      "searched_patterns":  [
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC02_SH01_i2v_v001*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC02_SH01_*i2v*.mp4"
+                                            ],
+                      "last_write_time":  "2026-06-09T11:57:44"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC02_SH02",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC02_SH02_i2v_v001.mp4",
+                      "pattern":  "AIShortDrama\\videos\\SSJ_EP02_SC02_SH02_i2v_v001*.mp4",
+                      "searched_patterns":  [
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC02_SH02_i2v_v001*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC02_SH02_*i2v*.mp4"
+                                            ],
+                      "last_write_time":  "2026-06-09T12:01:07"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC02_SH03",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC02_SH03_i2v_v001.mp4",
+                      "pattern":  "AIShortDrama\\videos\\SSJ_EP02_SC02_SH03_i2v_v001*.mp4",
+                      "searched_patterns":  [
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC02_SH03_i2v_v001*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC02_SH03_*i2v*.mp4"
+                                            ],
+                      "last_write_time":  "2026-06-09T11:49:18"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC02_SH04",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC02_SH04_i2v_v002_simplified.mp4",
+                      "pattern":  "AIShortDrama\\videos\\SSJ_EP02_SC02_SH04_i2v_v002_simplified*.mp4",
+                      "searched_patterns":  [
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC02_SH04_i2v_v002_simplified*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC02_SH04_*i2v*.mp4"
+                                            ],
+                      "last_write_time":  "2026-06-09T12:06:05"
+                  }
+              ],
+    "invalid":  [
+
+                ],
+    "ready_to_review":  true
+}

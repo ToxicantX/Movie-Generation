@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Create a clean production character reference board for an ancient Chinese mythic fantasy short drama. Character: Shennong, ancient adult divine elder with long white hair, long white beard, calm wise eyes, deep purple robe with subtle herbal and leaf motifs, layered ancient fabric, medicine pouch and herb details, peaceful living farewell presence, not dead, not injured. Layout: four consistent full-body views of the same elder on one neutral dark studio background: front view, left side view, back view, front-right three-quarter view. Full body visible including feet, stable face identity, stable robe silhouette, stable white hair and beard. Cinematic realistic style, natural fabric texture, restrained lighting, no labels, no text.",
+        "model": "gpt-image-2",
+        "size": "1024x1024",
+        "negative_prompt": "text, labels, Chinese characters, watermark, logo, anime, cartoon, child, teenager, minor, modern fashion, sci-fi, western knight armor, glowing armor, inconsistent faces, duplicated heads, cropped feet, missing full body, injury, corpse"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/charactersheets/CHAR_shennong_turnaround_basic_v001"
+      }
+    }
+  }
+}

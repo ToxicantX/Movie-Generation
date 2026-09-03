@@ -1,0 +1,75 @@
+{
+  "updated": "2026-06-08",
+  "source": "搜神记 第一卷 P1角色近读",
+  "status": "close_reading_v1",
+  "purpose": "Upgrade P1 character cards from frequency-based drafts to production-aware role cards for later storyboard, reference-image, and video continuity.",
+  "global_adaptation_policy": {
+    "all_visual_characters": "Use adult visual adaptation for generated images and videos.",
+    "xianxian_safety": "Source-stage Xianxian reads as a young girl in the first volume. Do not generate romanticized, sexualized, or danger-focused visuals for that source-stage version. For testing continuity, use adult future-stage adaptation only, or defer her visual use until the pipeline has a safe adult rewrite.",
+    "yushiqie_safety": "Keep Yushiqie adult, powerful, emotionally complex, and water/rain-coded. Avoid explicit seduction or nudity in prompts; adapt scenes into restrained psychological tension or aftermath."
+  },
+  "characters": [
+    {
+      "id": "CHAR_qingdi",
+      "name": "青帝 / 灵感仰",
+      "status": "close_reading_v1",
+      "chapters": ["第一章", "第二章", "第三章", "第四章"],
+      "production_function": "A mostly absent but dominant power center. His authority shapes 玉屏山, the mission, 朝阳谷's caution, 段聿铠's accusation, and 蜃楼城's crisis.",
+      "close_reading": [
+        "First appears through Shennong's memory as a once-young, proud, formidable figure.",
+        "Second and third chapters build him as an unseen ruler: nobody dares enter his courtyard, even hostile envoys behave carefully.",
+        "His name creates pressure without direct screen presence, making him useful as an environmental and political force before a face-to-face scene.",
+        "蜃楼城 conflict frames him as cold, boundary-keeping, and controversial: he refuses to protect exiled 木族 people, which makes him morally ambiguous."
+      ],
+      "visual_lock": {
+        "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_qingdi_ref_v001_00001_.png",
+        "keep": ["mature divine ruler", "deep green and jade palette", "wood-element embroidery", "restrained authority"],
+        "avoid": ["dragon emperor robe", "golden tyrant", "western king", "young prince"]
+      },
+      "storyboard_use": "Before direct appearance, use 青帝 through courtyard gates, empty bamboo halls, green imperial seal motifs, and reactions from others."
+    },
+    {
+      "id": "CHAR_yushiqie",
+      "name": "雨师妾",
+      "status": "close_reading_v1",
+      "chapters": ["第四章", "第五章"],
+      "production_function": "Water/rain-coded adult woman, initially aligned with 朝阳谷 pursuit, then emotionally destabilized by 拓拔野 and becomes a major continuity and relationship test case.",
+      "close_reading": [
+        "First effective entrance is as 水妖龙女: red hair, dragon-beast mount, 苍龙角, ability to disturb or command beasts.",
+        "Her first impression mixes danger, charisma, and command over water/monster imagery.",
+        "She can track scent and control encounters, but her feelings shift from possession to genuine care after 拓拔野's crisis.",
+        "For production, adapt her into a mature rain/water priestess with restrained tension, not explicit erotic spectacle."
+      ],
+      "visual_lock": {
+        "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+        "keep": ["adult face", "rain-blue and mist-gray palette", "silver ornaments", "water/rain aura", "controlled intensity"],
+        "avoid": ["childlike face", "nudity", "oversexualized costume", "schoolgirl", "explicit seduction"]
+      },
+      "storyboard_use": "Use distant dragon-beast silhouette, rain mist, 苍龙角, red hair or silver-water ornaments as identity anchors. Keep camera language restrained."
+    },
+    {
+      "id": "CHAR_xianxian",
+      "name": "纤纤",
+      "status": "close_reading_v1_with_adult_adaptation_required",
+      "chapters": ["第五章", "第六章"],
+      "production_function": "A lively, sharp-tongued, emotionally transparent companion figure tied to 科汗淮 and the 游侠 group. Good for later group continuity, but source-stage visuals need special care.",
+      "close_reading": [
+        "The earlier '纤纤柔荑' references are descriptive phrasing, not the character's entrance.",
+        "Her actual first-volume character entrance is around the 游侠/科汗淮 section, as 科汗淮's daughter.",
+        "She is witty, observant, jealous, and quickly emotionally invested in 拓拔野's safety.",
+        "Source-stage Xianxian reads young; generated production should either adult-age her explicitly or avoid using her romantic beats."
+      ],
+      "visual_lock": {
+        "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_xianxian_ref_v001_00001_.png",
+        "keep": ["adult future-stage adaptation", "gentle lively eyes", "pale teal and white palette", "bright warm presence"],
+        "avoid": ["child", "teenager", "doll face", "schoolgirl", "romanticized minor", "sexualized styling"]
+      },
+      "storyboard_use": "For first pipeline testing, use her only as adult-adapted future-stage reference or defer visual scenes until an adult rewrite scene is created."
+    }
+  ],
+  "next_outputs": [
+    "Update Obsidian character cards for 青帝、雨师妾、纤纤.",
+    "Update volume01 character-card manifest status.",
+    "Later create 玉屏山 / 天湖 / 东始山水潭 scene cards before expanding beyond first chapter."
+  ]
+}

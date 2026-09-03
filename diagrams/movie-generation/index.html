@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f766e'/%3E%3Cpath d='M9 8h14v16H9z' fill='none' stroke='white' stroke-width='2'/%3E%3Cpath d='m14 12 7 4-7 4z' fill='white'/%3E%3C/svg%3E">
+  <title>电影流水线 · 流程图工作台</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #eef1f4;
+      --panel: #ffffff;
+      --ink: #17212b;
+      --muted: #66727e;
+      --line: #d7dde3;
+      --accent: #0f766e;
+      --accent-soft: #dff3f0;
+      --warm: #b45309;
+      --shadow: 0 12px 36px rgba(26, 38, 50, 0.10);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, "Microsoft YaHei", "PingFang SC", sans-serif;
+      letter-spacing: 0;
+    }
+
+    body {
+      display: grid;
+      grid-template-columns: minmax(240px, 276px) minmax(0, 1fr);
+      align-items: start;
+    }
+
+    aside {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      min-width: 0;
+      padding: 22px 16px 18px;
+      background: #17212b;
+      color: #f7fafc;
+      border-right: 1px solid #263746;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: #526473 #17212b;
+    }
+
+    .brand {
+      padding: 0 8px 18px;
+      border-bottom: 1px solid #31404d;
+    }
+
+    .brand strong {
+      display: block;
+      font-size: 17px;
+      line-height: 1.4;
+      font-weight: 680;
+    }
+
+    .brand span {
+      display: block;
+      margin-top: 5px;
+      color: #aeb9c3;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      margin-bottom: 12px;
+      color: #aeb9c3;
+      font-size: 12px;
+      text-decoration: none;
+    }
+
+    .back-link:hover { color: #ffffff; }
+
+    nav {
+      display: grid;
+      gap: 5px;
+      padding-top: 16px;
+    }
+
+    .flow-link {
+      width: 100%;
+      min-height: 46px;
+      display: grid;
+      grid-template-columns: 30px minmax(0, 1fr);
+      align-items: center;
+      gap: 9px;
+      padding: 7px 10px;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      background: transparent;
+      color: #c7d0d8;
+      font: inherit;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .flow-link:hover {
+      background: #22313e;
+      color: #ffffff;
+    }
+
+    .flow-link[aria-current="page"] {
+      background: #244943;
+      border-color: #37776d;
+      color: #ffffff;
+    }
+
+    .flow-index {
+      width: 28px;
+      height: 28px;
+      display: grid;
+      place-items: center;
+      border-radius: 5px;
+      background: #2a3946;
+      color: #aeb9c3;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .flow-link[aria-current="page"] .flow-index {
+      background: #dff3f0;
+      color: #0f766e;
+    }
+
+    .flow-label {
+      min-width: 0;
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    main {
+      min-width: 0;
+      padding: 14px;
+      display: grid;
+      grid-template-rows: 48px auto;
+      gap: 10px;
+    }
+
+    header {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 0 4px;
+    }
+
+    .current-title {
+      min-width: 0;
+    }
+
+    .current-title strong {
+      display: block;
+      overflow: hidden;
+      color: var(--ink);
+      font-size: 15px;
+      line-height: 1.35;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .current-title span {
+      display: block;
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    #open-current {
+      flex: 0 0 auto;
+      min-height: 34px;
+      padding: 0 13px;
+      border: 1px solid #b8c2ca;
+      border-radius: 5px;
+      background: var(--panel);
+      color: var(--ink);
+      font: inherit;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    #open-current:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .viewer-shell {
+      min-width: 0;
+      overflow: visible;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 720px;
+      border: 0;
+      background: var(--panel);
+    }
+
+    @media (max-width: 760px) {
+      body {
+        min-height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+      }
+
+      aside {
+        position: static;
+        height: auto;
+        padding: 14px;
+        overflow: hidden;
+      }
+
+      .brand { padding-bottom: 12px; }
+
+      nav {
+        display: flex;
+        overflow-x: auto;
+        padding-top: 12px;
+        scrollbar-width: thin;
+      }
+
+      .flow-link {
+        flex: 0 0 174px;
+      }
+
+      main {
+        min-height: 720px;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <aside>
+    <a class="back-link" href="../">← 项目列表</a>
+    <div class="brand">
+      <strong>电影流水线</strong>
+      <span>项目全流程与阶段细化图</span>
+    </div>
+    <nav id="flow-nav" aria-label="流程图列表"></nav>
+  </aside>
+  <main>
+    <header>
+      <div class="current-title">
+        <strong id="current-title"></strong>
+        <span id="current-file"></span>
+      </div>
+      <button id="open-current" type="button">独立打开</button>
+    </header>
+    <section class="viewer-shell" aria-label="流程图预览">
+      <iframe id="viewer" title="电影流水线流程图"></iframe>
+    </section>
+  </main>
+  <script>
+    const flows = [
+      ["00", "完整流水线总览", "../00-full-pipeline-overview.html"],
+      ["01", "项目创建与输入", "../01-project-creation.html"],
+      ["02", "AI 内容规划", "../02-ai-content-planning.html"],
+      ["03", "剧本与导演设计", "../03-screenplay-director.html"],
+      ["04", "分集、场景与镜头", "../04-episode-scene-shot.html"],
+      ["05", "通用与单集资产", "../05-asset-scope.html"],
+      ["06", "图片资产生成", "../06-image-generation.html"],
+      ["07", "视频片段生成", "../07-video-generation.html"],
+      ["08", "音频与后期边界", "../08-audio-postprocess.html"],
+      ["09", "数据状态与重跑", "../09-data-state-rerun.html"]
+    ];
+
+    const nav = document.querySelector("#flow-nav");
+    const viewer = document.querySelector("#viewer");
+    const title = document.querySelector("#current-title");
+    const filename = document.querySelector("#current-file");
+    const openCurrent = document.querySelector("#open-current");
+    let activeFlow = flows[0];
+    let viewerResizeObserver;
+
+    function resizeViewer() {
+      const documentRoot = viewer.contentDocument?.documentElement;
+      const documentBody = viewer.contentDocument?.body;
+      if (!documentRoot || !documentBody) return;
+
+      const contentHeight = Math.ceil(Math.max(documentRoot.scrollHeight, documentBody.scrollHeight));
+      if (contentHeight > 0 && Math.abs(viewer.offsetHeight - contentHeight) > 1) {
+        viewer.style.height = `${contentHeight}px`;
+      }
+    }
+
+    viewer.addEventListener("load", () => {
+      viewerResizeObserver?.disconnect();
+      viewerResizeObserver = new ResizeObserver(() => requestAnimationFrame(resizeViewer));
+      viewerResizeObserver.observe(viewer.contentDocument.documentElement);
+      viewerResizeObserver.observe(viewer.contentDocument.body);
+      resizeViewer();
+      viewer.contentDocument?.fonts?.ready.then(resizeViewer);
+      requestAnimationFrame(() => requestAnimationFrame(resizeViewer));
+    });
+
+    window.addEventListener("resize", () => {
+      viewer.style.height = "720px";
+      requestAnimationFrame(() => requestAnimationFrame(resizeViewer));
+    });
+
+    function selectFlow(flow, updateHash = true) {
+      activeFlow = flow;
+      viewerResizeObserver?.disconnect();
+      viewer.style.height = "720px";
+      viewer.src = flow[2];
+      title.textContent = `${flow[0]} · ${flow[1]}`;
+      filename.textContent = flow[2];
+      document.title = `${flow[1]} · 电影流水线`;
+      nav.querySelectorAll("button").forEach((button) => {
+        button.setAttribute("aria-current", button.dataset.id === flow[0] ? "page" : "false");
+      });
+      if (updateHash) history.replaceState(null, "", `#${flow[0]}`);
+    }
+
+    flows.forEach((flow) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "flow-link";
+      button.dataset.id = flow[0];
+      button.innerHTML = `<span class="flow-index">${flow[0]}</span><span class="flow-label">${flow[1]}</span>`;
+      button.addEventListener("click", () => selectFlow(flow));
+      nav.appendChild(button);
+    });
+
+    openCurrent.addEventListener("click", () => window.open(activeFlow[2], "_blank", "noopener"));
+
+    const initial = flows.find((flow) => flow[0] === location.hash.slice(1)) || flows[0];
+    selectFlow(initial, false);
+  </script>
+</body>
+</html>

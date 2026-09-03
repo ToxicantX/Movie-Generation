@@ -1,0 +1,55 @@
+{
+  "updated": "2026-06-12T06:31:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 鞭落身伤，白鹿惊奔",
+  "purpose": "Seed for EP02 SC21 after EP02 SC20 formal test-mode segment. Continue the ComfyUI short-drama pipeline from the sword reveal and escalation into the next physical setback: the white-clothed woman is quietly angry; Shisilang's whip lands for real; Tuobaye is beaten back and bloodied while still grinning through pain; Duan Yukai tries and fails to intervene; the white dragon-deer rushes forward in alarm; the sense that hidden aid may return begins to build again.",
+  "segment_id": "SSJ_EP02_SC21",
+  "beat_id": "C02_B21",
+  "title": "鞭落身伤，白鹿惊奔",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC20",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc20_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC20_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC20\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC20_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc20_formal_cut_result.json",
+    "previous_formal_segment_probe": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc20_formal_cut_probe.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC20 is approved only for pipeline validation. All four SC20 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing. SH03 and SH04 required storyboard regeneration before pass."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "拓拔野得意忘形亮出无锋剑，十四郎与白衣女子的情绪都被逼到更高处。",
+    "adapted_summary": "白衣女子暗中嗔怒拓拔野不知轻重。十四郎先试探，后忽然真打，拓拔野吃下重鞭与连串毒辣抽击，脸上身上遍布伤痕，却仍强撑嘴硬。段聿铠焦急欲救但伤势未复。白龙鹿终于按捺不住冲上来护主，局势极险，为下一段白衣女子再度暗助、局势忽然翻盘积蓄力量。",
+    "next_source_hint": "随后白衣女子再次以内力遥控拓拔野，十四郎会在猝不及防下被反打并彻底颜面扫地。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_duel_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH04_v001_00002_.png",
+    "previous_sword_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH03_v001_00002_.png"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, right-waist green bamboo sheath, hidden broken Wufeng.",
+    "White-clothed woman remains elegant, emotionally restrained, but her displeasure should be visible in expression or stillness. She should not yet explode into overt magic display.",
+    "Shisilang remains the active aggressor in this segment. Tuobaye should look outmatched, not evenly matched.",
+    "Duan Yukai remains weakened and cannot suddenly return to full combat dominance.",
+    "The white dragon-deer may surge forward protectively, but should remain graceful and believable within the scene.",
+    "No readable text, captions, subtitles, plaques, gate calligraphy, speech bubbles, English words, or UI."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Keep the beat readable: first real whip hit, accumulating damage, failed rescue attempt, and white dragon-deer intervention should each read as separate steps."
+  }
+}

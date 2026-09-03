@@ -1,0 +1,96 @@
+{
+    "project":  "AI Short Drama Factory",
+    "source":  "Sou Shen Ji volume 01 chapter 01",
+    "episode_id":  "SSJ_EP01",
+    "segment_id":  "SSJ_EP01_FORMAL_CUT",
+    "title":  "Episode 01 formal cut from approved SC01-SC04 segment cuts",
+    "updated":  "2026-06-09",
+    "global_decision":  "approved_for_episode_cut",
+    "global_reason":  "All segment reviews passed the formal gate and segment cuts were rebuilt for formal assembly.",
+    "source_reviews":  [
+                           "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                           "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                           "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                           "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json"
+                       ],
+    "source_segment_cuts":  [
+                                "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC01_formal_cut_v001.mp4",
+                                "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC02_formal_cut_v001.mp4",
+                                "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC03_formal_cut_v001.mp4",
+                                "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC04_formal_cut_v001.mp4"
+                            ],
+    "shots":  [
+                  {
+                      "shot_id":  "SSJ_EP01_FORMAL_SC01",
+                      "title":  "EP01 formal segment SC01",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC01_formal_cut_v001.mp4",
+                      "preferred_video_mode":  "approved_segment_formal_cut",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Built from an approved segment review and rechecked by the EP01 formal gate."
+                  },
+                  {
+                      "shot_id":  "SSJ_EP01_FORMAL_SC02",
+                      "title":  "EP01 formal segment SC02",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC02_formal_cut_v001.mp4",
+                      "preferred_video_mode":  "approved_segment_formal_cut",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Built from an approved segment review and rechecked by the EP01 formal gate."
+                  },
+                  {
+                      "shot_id":  "SSJ_EP01_FORMAL_SC03",
+                      "title":  "EP01 formal segment SC03",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC03_formal_cut_v001.mp4",
+                      "preferred_video_mode":  "approved_segment_formal_cut",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Built from an approved segment review and rechecked by the EP01 formal gate."
+                  },
+                  {
+                      "shot_id":  "SSJ_EP01_FORMAL_SC04",
+                      "title":  "EP01 formal segment SC04",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC04_formal_cut_v001.mp4",
+                      "preferred_video_mode":  "approved_segment_formal_cut",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Built from an approved segment review and rechecked by the EP01 formal gate."
+                  }
+              ]
+}

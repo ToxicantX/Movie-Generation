@@ -1,0 +1,18 @@
+{
+  "updated": "2026-06-12T03:31:00",
+  "segment_id": "SSJ_EP02_SC19",
+  "resolved_regeneration_outputs": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC19_SH03",
+      "approved_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC19_SH03_v001_00002_.png",
+      "supersedes": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC19_SH03_v001_00001_.png",
+      "reason": "Restored awkward involuntary lift instead of poised martial levitation."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC19_SH04",
+      "approved_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC19_SH04_v001_00002_.png",
+      "supersedes": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC19_SH04_v001_00001_.png",
+      "reason": "Restored accidental counter feel instead of a clean deliberate flying kick."
+    }
+  ]
+}

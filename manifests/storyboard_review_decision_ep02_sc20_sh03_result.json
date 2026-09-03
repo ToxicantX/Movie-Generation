@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T05:22:45",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc20.json",
+    "shot_id":  "TEST_SSJ_EP02_SC20_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "needs_regeneration",
+    "reason":  "blocking prop and tone drift: the no-edge sword is rendered like a clean glowing blade and Tuobaye is posed too heroically",
+    "notes":  "Regenerate with strict sword logic: use broken or blunt no-edge sword look, alarming reveal rather than victory pose, and keep Tuobaye reckless rather than polished.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

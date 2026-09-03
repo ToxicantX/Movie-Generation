@@ -1,0 +1,9 @@
+{
+  "updated": "2026-06-13T01:17:00",
+  "segment_id": "SSJ_EP02_SC24",
+  "shot_id": "TEST_SSJ_EP02_SC24_SH03",
+  "failed_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH03_v001_00001_.png",
+  "approved_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH03_v001_00002_.png",
+  "issue": "Initial version drifted back toward a broad crowd-pressure tableau and did not isolate Tuobaye's immediate trapped-under-scrutiny danger strongly enough.",
+  "resolution": "Approved regenerated version tightens the pressure around Tuobaye, clearly placing him between Keshadu's suspicion and Shisilang's aggression with no obvious bottom card to rely on."
+}

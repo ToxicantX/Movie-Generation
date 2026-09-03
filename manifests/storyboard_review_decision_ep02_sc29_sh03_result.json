@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T04:54:34",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc29.json",
+    "shot_id":  "TEST_SSJ_EP02_SC29_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Tuobaye\u0027s last-reserve state is readable: he appears to be surviving on the thinnest remaining margin.",
+    "notes":  "Codex visual precheck: SH03 works as the last-reserve beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

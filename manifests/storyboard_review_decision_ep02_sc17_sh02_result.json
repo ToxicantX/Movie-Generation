@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T00:15:38",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc17.json",
+    "shot_id":  "TEST_SSJ_EP02_SC17_SH02",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: group suppression pressure reads correctly",
+    "notes":  "Production caveat: crowd density is near the upper readability limit, so downstream video should preserve silhouette clarity and not devolve into melee noise.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

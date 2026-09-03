@@ -1,0 +1,202 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "09 · 数据状态、临时交换与重跑",
+    "locale": "zh-CN",
+    "output": "diagrams/09-data-state-rerun.html",
+    "animation": "none",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "request",
+      "label": "提交阶段任务"
+    },
+    {
+      "id": "load",
+      "label": "读取项目状态"
+    },
+    {
+      "id": "materialize",
+      "label": "物化临时 JSON"
+    },
+    {
+      "id": "execute",
+      "label": "执行流水线与重跑"
+    },
+    {
+      "id": "persist",
+      "label": "写回 PostgreSQL"
+    },
+    {
+      "id": "display",
+      "label": "列表展示与缓存交换"
+    }
+  ],
+  "semanticChecks": {
+    "allowedRoots": [
+      "ui_request"
+    ],
+    "allowedTerminals": [
+      "stage_list",
+      "cache_exchange"
+    ],
+    "requiredPaths": [
+      {
+        "from": "ui_request",
+        "to": "stage_list"
+      },
+      {
+        "from": "persist_result",
+        "to": "cache_exchange"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "ui_request",
+      "lane": "request",
+      "col": 3,
+      "type": "frontend",
+      "label": "提交阶段任务",
+      "sublabel": "项目 · 动作 · shot_id",
+      "width": 132
+    },
+    {
+      "id": "load_db",
+      "lane": "load",
+      "col": 3,
+      "type": "database",
+      "label": "读取项目状态",
+      "sublabel": "manifest + artifacts",
+      "width": 132
+    },
+    {
+      "id": "materialize_json",
+      "lane": "materialize",
+      "col": 3,
+      "width": 132,
+      "type": "backend",
+      "label": "物化临时 JSON",
+      "sublabel": "仅供脚本运行"
+    },
+    {
+      "id": "run_cli",
+      "lane": "execute",
+      "col": 3,
+      "type": "backend",
+      "label": "执行流水线 CLI",
+      "sublabel": "生成 / 审核 / 重跑",
+      "width": 132
+    },
+    {
+      "id": "persist_result",
+      "lane": "persist",
+      "col": 3,
+      "width": 132,
+      "type": "database",
+      "label": "写回 PostgreSQL",
+      "sublabel": "项目 · 清单 · JSONB"
+    },
+    {
+      "id": "stage_list",
+      "lane": "display",
+      "col": 3,
+      "width": 132,
+      "type": "frontend",
+      "label": "数据库列表展示",
+      "sublabel": "状态 · 来源 · 模型 · 数量"
+    },
+    {
+      "id": "rerun_stage",
+      "lane": "execute",
+      "col": 5,
+      "width": 132,
+      "type": "messagebus",
+      "label": "记录失败并重跑",
+      "sublabel": "保留原因 · 阶段 · 版本"
+    },
+    {
+      "id": "cache_exchange",
+      "lane": "display",
+      "col": 5,
+      "width": 132,
+      "type": "external",
+      "label": "刷新缓存与即时交换",
+      "sublabel": "Redis · 临时 JSON · 文件路径"
+    }
+  ],
+  "edges": [
+    {
+      "from": "ui_request",
+      "to": "load_db",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "load_db",
+      "to": "materialize_json",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "materialize_json",
+      "to": "run_cli",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "run_cli",
+      "to": "persist_result",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "persist_result",
+      "to": "stage_list",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "persist_result",
+      "to": "cache_exchange",
+      "label": "失效缓存 / 按需导出",
+      "role": "branch",
+      "variant": "dashed"
+    },
+    {
+      "from": "run_cli",
+      "to": "rerun_stage",
+      "label": "失败",
+      "role": "error",
+      "variant": "security"
+    },
+    {
+      "from": "rerun_stage",
+      "to": "materialize_json",
+      "label": "恢复当前快照",
+      "role": "return",
+      "variant": "security"
+    }
+  ],
+  "mainPath": [
+    "ui_request",
+    "load_db",
+    "materialize_json",
+    "run_cli",
+    "persist_result",
+    "stage_list"
+  ]
+}

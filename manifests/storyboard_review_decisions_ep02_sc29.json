@@ -1,0 +1,72 @@
+{
+    "updated":  "2026-06-13T04:54:51",
+    "reviewer":  "Codex test-mode visual review",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC29",
+                             "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc29_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC29_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC29",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc29_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC29_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC29_SH01",
+                          "title":  "科沙度近乎既明",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC29_SH01_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc29_sh01_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc29_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Keshadu\u0027s understanding now reads as functionally complete even before open declaration, while Tuobaye remains strained and the white-clothed woman still holds the line.",
+                          "notes":  "Codex visual precheck: SH01 works as the truth-almost-known beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC29",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc29_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC29_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC29_SH02",
+                          "title":  "十四郎怒势失手边缘",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC29_SH02_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc29_sh02_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc29_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Shisilang\u0027s humiliation-fueled rage clearly reads as almost beyond judgment or restraint.",
+                          "notes":  "Codex visual precheck: SH02 works as the almost-out-of-control beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC29",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc29_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC29_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC29_SH03",
+                          "title":  "拓拔野已近撑断",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC29_SH03_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc29_sh03_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc29_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Tuobaye\u0027s last-reserve state is readable: he appears to be surviving on the thinnest remaining margin.",
+                          "notes":  "Codex visual precheck: SH03 works as the last-reserve beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC29",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc29_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC29_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC29_SH04",
+                          "title":  "白衣女子静雷已至",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC29_SH04_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc29_sh04_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc29_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "The white-clothed woman\u0027s restraint now reads as no longer something that can plausibly hold much longer.",
+                          "notes":  "Codex visual precheck: SH04 works as the restraint-no-longer-holds beat."
+                      }
+                  ]
+}

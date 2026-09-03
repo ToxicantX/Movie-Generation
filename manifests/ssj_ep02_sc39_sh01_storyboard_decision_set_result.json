@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T16:31:22",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc39.json",
+    "shot_id":  "TEST_SSJ_EP02_SC39_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Keshadu truth-break-out beat reads clearly: the white-clothed woman still holds the axis while both men carry the pressure toward exposed fact.",
+    "notes":  "Codex visual precheck: SH01 works as the truth-about-to-break-out beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

@@ -1,0 +1,110 @@
+{
+  "updated": "2026-06-13",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 试探再紧，暗雷欲动",
+  "segment_id": "SSJ_EP02_SC25",
+  "beat_id": "C02_B25",
+  "title": "试探再紧，暗雷欲动",
+  "purpose": "承接 SC24：试探与压迫已经逼近临界点。此段继续拆成可审核节点：先是科沙度把怀疑再往前推一步，再是十四郎的受辱情绪继续把场面搅紧，接着拓拔野在双向夹压下显得更加危险失衡，最后把白衣女子那种几乎就要动作的静压推到爆点边缘。全段继续保持无声视觉，不生成口播、字幕或任何可读文本。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC24",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc24_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC24_formal_cut_v001.mp4",
+    "previous_probe_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH01_v001_00001_.png",
+    "previous_trapped_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH03_v001_00002_.png",
+    "previous_near_exposure_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH04_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc25_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 试探再紧 / 十四郎情绪失衡 / 拓拔野更险 / 白衣女子几近出手。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 anchors to the approved SC24 probing frame. SH02 anchors to the approved SC24 humiliation-pressure frame. SH03 anchors to the approved trapped-under-scrutiny frame. SH04 anchors to the near-exposure pressure frame and pushes it closer to action.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, gate calligraphy, speech bubbles, English words, or clear Chinese inscriptions inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, interrogation, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "试探再往前逼。",
+      "十四郎越怒越乱。",
+      "拓拔野已无退路。",
+      "白衣女子静到将动。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_probe_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH01_v001_00001_.png",
+    "previous_humiliation_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH02_v001_00001_.png",
+    "previous_trapped_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH03_v001_00002_.png",
+    "previous_near_exposure_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH04_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC25_SH01",
+      "beat": "C02_B25",
+      "title": "科沙度试探更紧",
+      "duration_seconds": "8-10",
+      "characters": [
+        "科沙度",
+        "拓拔野",
+        "白衣女子"
+      ],
+      "location": "禁院门前 / 真相将近",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC25_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC25_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH01_v001_00001_.png",
+      "storyboard_prompt": "Use the approved SC24 probing-pressure storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 sharpened-testing composition. Keshadu is now one step closer to naming the hidden helper, his suspicion toward adult Tuobaye and the white-clothed woman almost turning into open accusation. Tuobaye remains battered and visibly uncertain, while the white-clothed woman holds absolute outward control. The frame should feel like the truth is nearly in Keshadu's grasp, but not yet spoken aloud. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent sharpened-testing beat. Keshadu presses suspicion to the brink while Tuobaye remains battered and the white-clothed woman gives nothing away; robes, gaze shifts, mist, and lantern light move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC25_SH02",
+      "beat": "C02_B25",
+      "title": "十四郎怒意失衡",
+      "duration_seconds": "8-10",
+      "characters": [
+        "十四郎",
+        "拓拔野"
+      ],
+      "location": "禁院门前 / 怒火再逼",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC25_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC25_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH02_v001_00001_.png",
+      "storyboard_prompt": "Use the approved SC24 humiliation-pressure storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 unstable-pride composition. Fourteen's wounded pride is now making him unstable rather than merely angry: he leans in too hard, desperate to recover authority over adult Tuobaye. Tuobaye remains hurt, muddy, and cornered, never secretly dominant. The image should feel like emotion is beginning to overtake control. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent unstable-pride beat. Fourteen's humiliated anger grows less controlled while Tuobaye stays battered and wary; robes, breath, hair, and lantern light move with mounting instability. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC25_SH03",
+      "beat": "C02_B25",
+      "title": "拓拔野再无退路",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "科沙度",
+        "十四郎"
+      ],
+      "location": "禁院门前 / 双压锁死",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC25_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC25_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH03_v001_00002_.png",
+      "storyboard_prompt": "Use the approved SC24 trapped-under-scrutiny storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 no-way-out composition. Adult Tuobaye is now pressed so tightly by Keshadu's suspicion and Fourteen's volatility that he appears to have no retreat, no clear explanation, and no visible bottom card. Make the pressure feel more locked and immediate than before. He should look cornered and forced to hold together under impossible scrutiny, not as if help is about to save him instantly. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent no-way-out beat. Tuobaye is pinned under converging pressure from suspicion and aggression with no obvious escape; robes, breath, mist, and lantern light move subtly under mounting strain. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC25_SH04",
+      "beat": "C02_B25",
+      "title": "白衣女子静到将动",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白衣女子",
+        "科沙度",
+        "拓拔野"
+      ],
+      "location": "禁院门前 / 暗雷欲落",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC25_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC25_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the approved SC24 near-exposure storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 imminent-action-through-restraint composition. The white-clothed woman remains outwardly motionless, but now the frame should feel like she is one breath away from acting. Keshadu must feel dangerously close to forcing the hidden line into the open, and Tuobaye remains caught within that tightening field. No overt magic effects, no glowing power spectacle, no readable text, no captions, no subtitles, no signs, no plaques, no English words, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent imminent-restraint beat. The white-clothed woman stays perfectly still while the feeling of nearly-breaking restraint intensifies around her; sleeves, hair, mist, and lantern light move with dangerous quiet. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

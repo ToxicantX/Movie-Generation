@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T07:47:28",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc21.json",
+    "shot_id":  "TEST_SSJ_EP02_SC21_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass with caveat: Duan Yukai frustration and inability to rise are still legible",
+    "notes":  "Production caveat: later regeneration should keep Duan Yukai visibly weakened so he does not look ready to re-enter the fight immediately.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

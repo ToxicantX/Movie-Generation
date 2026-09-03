@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "inputs": {
+        "prompt": "Secluded ancient Chinese mythic forest pool under moonlight, cold clear water, mossy stones, red-veined fu trees, silver mist, quiet creek from Dongshi Mountain, black dragon-beast silhouette beside the water in the distance, restrained water-priestess atmosphere, cinematic realistic fantasy drama location reference, vertical 9:16, no nudity, no people in foreground, no text, no watermark",
+        "model": "gpt-image-2",
+        "size": "1024x1536",
+        "negative_prompt": "nudity, seduction framing, explicit scene, horror swamp, modern swimming pool, tropical beach, western fantasy castle, neon, sci-fi, crowd, text, logo, watermark"
+      },
+      "class_type": "OpenAICompatibleImageGenerate"
+    },
+    "2": {
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/locations/LOC_dongshishan_pool_ref_v001"
+      },
+      "class_type": "SaveImage"
+    }
+  }
+}

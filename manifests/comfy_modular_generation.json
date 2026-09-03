@@ -1,0 +1,11 @@
+{
+  "updated": "2026-06-18T20:16:45",
+  "completed": true,
+  "blocked": false,
+  "waiting": true,
+  "stage": "generate_batch",
+  "episode_number": 3,
+  "waiting_reason": "approval_switch_closed",
+  "next_action": "review the draft, then open the approval switch",
+  "result_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\comfy_modular_generation.json"
+}

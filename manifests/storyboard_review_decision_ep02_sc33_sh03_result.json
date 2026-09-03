@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T10:08:11",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc33.json",
+    "shot_id":  "TEST_SSJ_EP02_SC33_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Tuobaye\u0027s almost-empty state is clear: he appears to be running on near-total depletion.",
+    "notes":  "Codex visual precheck: SH03 works as the almost-empty-to-the-bone beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

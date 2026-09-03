@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-12T14:18:00",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC22_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; the hidden backward pull and same-space rescue logic remain readable."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC22_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; approved regenerated storyboard keeps the counterattack as a rough lucky palm/body strike rather than a whip-drag visual."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC22_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; the public reversal and crowd shock remain clear."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC22_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Keshadu's deduction and the white-clothed woman's quiet implication remain readable."
+    }
+  ]
+}

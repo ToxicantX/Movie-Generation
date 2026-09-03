@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>电影流水线控制台</title>
+  <link rel="stylesheet" href="/static/styles.css?v=20260903-prompt-review">
+</head>
+<body class="layout-v7">
+  <div id="toastStack" class="toast-stack" aria-live="polite"></div>
+  <main class="shell">
+    <aside class="app-rail" aria-label="控制台导航">
+      <div class="rail-brand" title="Movie Generation">
+        <strong>GEN</strong>
+        <span>MOVIE</span>
+      </div>
+
+      <section class="rail-project" aria-hidden="true">
+        <p>当前项目</p>
+        <h2 id="projectName">读取中</h2>
+        <strong id="projectStage">-</strong>
+      </section>
+
+      <nav class="module-switch" aria-label="控制台模块">
+        <div class="module-group">
+          <p class="module-group-label">电影流程</p>
+          <button type="button" data-module="home" title="生产总览"><span class="nav-icon" aria-hidden="true">⊞</span><span class="nav-label">生产总览</span></button>
+          <button type="button" data-module="projects" title="项目管理"><span class="nav-icon" aria-hidden="true">▤</span><span class="nav-label">项目管理</span></button>
+          <button class="active" type="button" data-module="production" title="制作工作台"><span class="nav-icon" aria-hidden="true">▶</span><span class="nav-label">制作工作台</span></button>
+          <button type="button" data-module="scenes" title="场景工作台"><span class="nav-icon" aria-hidden="true">▧</span><span class="nav-label">场景工作台</span></button>
+          <button type="button" data-module="reviews" title="审核中心"><span class="nav-icon" aria-hidden="true">✓</span><span class="nav-label">审核中心</span></button>
+        </div>
+        <div class="module-group module-group-utility">
+          <p class="module-group-label">系统工具</p>
+          <button type="button" data-module="tasks" title="任务中心"><span class="nav-icon" aria-hidden="true">≡</span><span class="nav-label">任务中心</span></button>
+        </div>
+      </nav>
+
+      <button class="rail-config-trigger" type="button" data-config-drawer-open aria-label="打开运行配置" aria-controls="productionConfigDrawer" aria-expanded="false" title="运行配置">
+        <span aria-hidden="true">⚙</span><span class="rail-config-label">运行配置</span>
+      </button>
+
+      <section class="system-strip" aria-label="系统状态">
+        <div title="ComfyUI"><span>COMFY</span><strong id="comfyMetric">-</strong></div>
+        <div title="图片 API / 视频服务"><span>MEDIA</span><strong id="videoMetric">-</strong></div>
+        <span class="rail-hidden-metric"><strong id="sceneMetric">-</strong><strong id="nextMetric">-</strong></span>
+        <button id="refreshButton" type="button" title="刷新状态" aria-label="刷新状态">↻</button>
+      </section>
+    </aside>
+
+    <section class="workspace-frame">
+      <section class="module-view" data-module-view="home">
+        <div class="scroll-pane">
+          <section class="hero-panel">
+            <div>
+              <p>首页 / 生产总览</p>
+              <h2>电影流水线</h2>
+              <small id="updatedMetric">读取项目状态</small>
+            </div>
+            <div class="hero-actions">
+              <button class="primary" type="button" data-action="refresh_status">刷新报告</button>
+              <button type="button" data-open-module="scenes">进入工作台</button>
+            </div>
+          </section>
+
+          <section id="homeStats" class="stats-grid" aria-label="项目统计"></section>
+
+          <section class="home-grid">
+            <section class="panel">
+              <div class="section-head">
+                <div><p class="eyebrow">恢复点</p><h2>下一步</h2></div>
+                <span id="nextSceneBadge" class="status-badge">-</span>
+              </div>
+              <div id="nextActions" class="action-list"></div>
+            </section>
+
+            <section class="panel">
+              <div class="section-head">
+                <div><p class="eyebrow">运行状态</p><h2>服务检查</h2></div>
+                <span id="serviceBadge" class="status-badge">读取中</span>
+              </div>
+              <div id="serviceList" class="service-list"></div>
+            </section>
+          </section>
+
+          <section class="panel">
+            <div class="section-head">
+              <div><p class="eyebrow">最近场景</p><h2>继续处理</h2></div>
+              <button type="button" data-open-module="scenes">查看全部</button>
+            </div>
+            <div id="recentScenes" class="recent-list"></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="module-view" data-module-view="projects">
+        <div class="scroll-pane">
+          <section class="hero-panel">
+            <div>
+              <p>项目管理</p>
+              <h2>电影项目</h2>
+              <small>管理项目源、生命周期和当前制作阶段</small>
+            </div>
+            <div class="hero-actions">
+              <button type="button" data-projects-refresh>刷新项目</button>
+            </div>
+          </section>
+          <section class="project-layout">
+            <section class="panel">
+              <div class="section-head"><div><p class="eyebrow">项目注册表</p><h2>全部项目</h2></div><span id="projectListCount" class="status-badge">0</span></div>
+              <div id="projectList" class="project-list"></div>
+            </section>
+            <aside class="panel project-create-panel">
+              <div class="section-head"><div><p class="eyebrow">新建项目</p><h2>项目源</h2></div></div>
+              <form id="projectCreateForm" class="project-form">
+                <label>项目标识<input id="projectCreateSlug" name="slug" type="text" placeholder="sou-shen-ji" required autocomplete="off"></label>
+                <label>项目名称<input id="projectCreateTitle" name="title" type="text" placeholder="搜神记短剧" required autocomplete="off"></label>
+                <label>导入内容<input id="projectCreateNovelPath" name="novel_path" type="text" placeholder="小说或剧本文件路径" required autocomplete="off"></label>
+                <div class="project-form-grid">
+                  <label>来源类型<select id="projectCreateSourceType" name="source_type"><option value="novel">小说</option><option value="screenplay">剧本 / 脚本</option></select></label>
+                  <label>视频类型<select id="projectCreateContentType" name="content_type"><option value="single">单片</option><option value="series">短剧</option></select></label>
+                  <label>集数规划<select id="projectCreatePlanningMode" name="planning_mode"><option value="auto">AI 自动估算</option><option value="fixed">固定集数</option></select></label>
+                  <label data-project-target-count>目标集数<input id="projectCreateTargetEpisodeCount" name="target_episode_count" type="number" min="2" max="100" value="2"></label>
+                  <label>单片 / 单集时长（秒）<input id="projectCreateTargetDuration" name="target_unit_duration_seconds" type="number" min="10" max="7200" value="600"></label>
+                  <label>画幅<select id="projectCreateAspectRatio" name="aspect_ratio"><option value="16:9">16:9 横屏</option><option value="9:16">9:16 竖屏</option><option value="1:1">1:1 方形</option></select></label>
+                </div>
+                <label>每个生产单元镜头上限<input id="projectCreateMaxShots" name="max_shots" type="number" min="1" max="24" value="4"></label>
+                <button class="primary" type="submit">创建项目</button>
+              </form>
+              <p class="project-form-note">创建后先确定视觉风格，再由文本 API 提取故事圣经并规划生产单元。</p>
+            </aside>
+          </section>
+        </div>
+      </section>
+
+      <section class="module-view active" data-module-view="production">
+        <div class="production-workbench">
+          <header class="production-topbar">
+            <div class="production-context">
+              <span id="pipelineTitle">等待项目源</span>
+              <i></i>
+              <strong id="pipelineUnitContext">待规划</strong>
+              <i></i>
+              <strong>制作工作台</strong>
+              <span id="pipelineExistsBadge" class="status-badge warn">未载入</span>
+            </div>
+            <div class="production-top-actions">
+              <small id="pipelineSource">载入本地流水线状态</small>
+              <button class="primary" type="button" data-pipeline-action="generate_video"><span aria-hidden="true">▶</span>生成下一镜</button>
+            </div>
+          </header>
+
+          <section class="pipeline-band" aria-label="电影制作流程">
+            <div class="pipeline-band-label"><span>流程进度</span><strong id="pipelineStageCount">0 / 13</strong></div>
+            <nav id="pipelineStages" class="stage-list" aria-label="制作阶段"></nav>
+          </section>
+
+          <div class="production-layout">
+            <aside class="shot-queue">
+              <div class="queue-toolbar">
+                <div><p class="eyebrow">分镜表</p><h2>镜头队列</h2></div>
+              </div>
+              <div class="queue-filters">
+                <select id="pipelineUnitFilter" aria-label="生产单元"><option value="">全部生产单元</option></select>
+                <input id="pipelineShotSearch" type="search" placeholder="搜索镜头" autocomplete="off" aria-label="搜索镜头">
+                <select id="pipelineShotFilter" aria-label="筛选镜头状态"><option value="all">全部</option><option value="pending">待生成</option><option value="ready">已完成</option><option value="failed">失败</option></select>
+              </div>
+              <section id="pipelineShotsPanel" class="shot-queue-body" hidden>
+                <div id="pipelineShots" class="pipeline-shot-grid"></div>
+              </section>
+              <section id="pipelineEmpty" class="empty-state">还没有制作项目。请先展开上方项目源并初始化。</section>
+              <details class="project-source">
+                <summary>项目源与初始化</summary>
+                <form id="pipelineForm" class="pipeline-form">
+                  <label>导入内容<input id="pipelineNovelPath" name="novel_path" type="text" placeholder="小说或剧本文件路径" autocomplete="off"></label>
+                  <label>项目标识<input id="pipelineProjectSlug" name="project_slug" type="text" placeholder="sou-shen-ji" autocomplete="off"></label>
+                  <label>项目名称<input id="pipelineProjectTitle" name="project_title" type="text" placeholder="搜神记短剧" autocomplete="off"></label>
+                  <div class="project-form-grid">
+                    <label>来源类型<select id="pipelineSourceType" name="source_type"><option value="novel">小说</option><option value="screenplay">剧本 / 脚本</option></select></label>
+                    <label>视频类型<select id="pipelineContentType" name="content_type"><option value="single">单片</option><option value="series">短剧</option></select></label>
+                    <label>集数规划<select id="pipelinePlanningMode" name="planning_mode"><option value="auto">AI 自动估算</option><option value="fixed">固定集数</option></select></label>
+                    <label data-pipeline-target-count>目标集数<input id="pipelineTargetEpisodeCount" name="target_episode_count" type="number" min="2" max="100" value="2"></label>
+                    <label>单片 / 单集时长（秒）<input id="pipelineTargetDuration" name="target_unit_duration_seconds" type="number" min="10" max="7200" value="600"></label>
+                    <label>画幅<select id="pipelineAspectRatio" name="aspect_ratio"><option value="16:9">16:9 横屏</option><option value="9:16">9:16 竖屏</option><option value="1:1">1:1 方形</option></select></label>
+                  </div>
+                  <label>每个生产单元镜头上限<input id="pipelineMaxShots" name="max_shots" type="number" min="1" max="24" step="1" value="4"></label>
+                  <button class="primary" type="submit" data-pipeline-action="init">重新生成内容规划</button>
+                </form>
+              </details>
+            </aside>
+
+            <main class="production-main">
+              <section id="pipelineStyleSetup" class="style-setup" hidden>
+                <header class="plan-review-head">
+                  <div><p class="eyebrow">项目设定 01</p><h2>选择视频主体风格</h2></div>
+                  <span id="pipelineStyleBadge" class="status-badge warn">待设定</span>
+                </header>
+                <p class="style-setup-note">这里只确定成片采用真人或动画。色彩、镜头、角色造型等视觉规范会由文本分析提取并进入故事圣经。</p>
+                <form id="pipelineStyleForm" class="style-form">
+                  <label>主体风格<select id="pipelinePrimaryStyle" required><option value="">请选择</option><option value="真人影视">真人影视</option><option value="二维动漫">二维动漫</option><option value="三维动画">三维动画</option></select></label>
+                  <button class="primary" type="submit">确认主体风格并开始文本分析</button>
+                </form>
+              </section>
+              <section id="pipelineStoryBible" class="story-bible" hidden>
+                <header class="plan-review-head">
+                  <div><p class="eyebrow">项目设定 02</p><h2>故事圣经</h2></div>
+                  <span id="pipelineStoryBibleBadge" class="status-badge warn">待提取</span>
+                </header>
+                <p class="story-bible-note">文本 API 从全文提取可跨生产单元复用的设定，确认后才进入单片 / 单集制作。</p>
+                <div id="pipelineStoryBibleList" class="story-bible-list"></div>
+              </section>
+              <section id="pipelinePlanReview" class="plan-review" hidden></section>
+              <header class="shot-detail-head">
+                <div>
+                  <p id="selectedShotPath">镜头工作区</p>
+                  <h2 id="selectedShotTitle">选择左侧镜头开始制作</h2>
+                </div>
+                <span id="selectedShotBadge" class="status-badge warn">待选择</span>
+              </header>
+
+              <section id="pipelineMediaWorkspace" class="pipeline-media-workspace">
+                <div class="media-tabs" role="tablist" aria-label="镜头媒体">
+                  <button class="active" type="button" data-media-tab="image">首帧</button>
+                  <button type="button" data-media-tab="video">视频</button>
+                </div>
+                <div id="pipelineMediaPreview" class="pipeline-media-preview">
+                  <div class="media-empty"><strong>未选择镜头</strong><span>从左侧队列选择一个镜头</span></div>
+                </div>
+              </section>
+
+              <div id="pipelineIdentityTags" class="identity-tags" aria-label="人物稳定性约束">
+                <span>单一成年人物</span><span>脸部稳定</span><span>四肢完整</span><span>低动作</span>
+              </div>
+              <nav class="mobile-workspace-tabs" aria-label="镜头内容">
+                <button class="active" type="button" data-mobile-workspace-tab="image-prompt">图片提示词</button>
+                <button type="button" data-mobile-workspace-tab="video-prompt">视频提示词</button>
+                <button type="button" data-mobile-workspace-tab="assets">素材</button>
+                <button type="button" data-mobile-workspace-tab="artifacts">阶段产物</button>
+              </nav>
+              <section class="prompt-grid">
+                <section class="prompt-editor mobile-active" data-mobile-panel="image-prompt">
+                  <header><strong>图片提示词</strong><span id="selectedImagePromptReview" class="status-badge warn">待选择</span></header>
+                  <details><summary>查看基础提示词与 AI 草稿</summary><label>基础提示词<textarea id="selectedImageBasePrompt" readonly></textarea></label><label>AI 草稿<textarea id="selectedImageDraftPrompt" readonly></textarea></label></details>
+                  <label>人工终稿<textarea id="selectedImagePrompt" maxlength="16000" placeholder="确认或调整图片生成提示词"></textarea></label>
+                  <label>负向提示词<textarea id="selectedImageNegativePrompt" maxlength="4000" placeholder="图片中需要排除的内容"></textarea></label>
+                  <footer class="prompt-review-actions"><button type="button" data-save-prompt-review="shot_image" data-review-status="pending_review">保存修改</button><button type="button" data-save-prompt-review="shot_image" data-review-status="needs_revision">标记需修改</button><button class="primary" type="button" data-save-prompt-review="shot_image" data-review-status="approved">审核通过</button></footer>
+                </section>
+                <section class="prompt-editor" data-mobile-panel="video-prompt">
+                  <header><strong>视频提示词</strong><span id="selectedVideoPromptReview" class="status-badge warn">待选择</span></header>
+                  <details><summary>查看基础提示词与 AI 草稿</summary><label>基础提示词<textarea id="selectedVideoBasePrompt" readonly></textarea></label><label>AI 草稿<textarea id="selectedVideoDraftPrompt" readonly></textarea></label></details>
+                  <label>人工终稿<textarea id="selectedVideoPrompt" maxlength="16000" placeholder="确认或调整 10 秒视频提示词"></textarea></label>
+                  <label>负向提示词<textarea id="selectedVideoNegativePrompt" maxlength="4000" placeholder="视频中需要排除的内容"></textarea></label>
+                  <footer class="prompt-review-actions"><button type="button" data-save-prompt-review="shot_video" data-review-status="pending_review">保存修改</button><button type="button" data-save-prompt-review="shot_video" data-review-status="needs_revision">标记需修改</button><button class="primary" type="button" data-save-prompt-review="shot_video" data-review-status="approved">审核通过</button></footer>
+                </section>
+              </section>
+              <section id="pipelineAssets" class="production-assets" data-mobile-panel="assets" hidden>
+                <div class="production-subhead asset-head">
+                  <span class="eyebrow">项目素材</span>
+                  <div class="asset-scope-filter" role="group" aria-label="素材作用域筛选">
+                    <button class="active" type="button" data-asset-filter="all">全部</button>
+                    <button type="button" data-asset-filter="shared">通用素材</button>
+                    <button id="episodeAssetFilter" type="button" data-asset-filter="episode">当前集</button>
+                  </div>
+                  <span id="pipelineAssetBadge" class="status-badge">-</span>
+                </div>
+                <div id="pipelineAssetList" class="asset-list"></div>
+                <section id="pipelineAssetPromptEditor" class="asset-prompt-editor" hidden>
+                  <header><div><span class="eyebrow">单素材提示词</span><strong id="pipelineAssetPromptTitle">未选择素材</strong></div><span id="pipelineAssetPromptReview" class="status-badge warn">待选择</span></header>
+                  <details><summary>查看基础提示词与 AI 草稿</summary><label>基础提示词<textarea id="pipelineAssetBasePrompt" readonly></textarea></label><label>AI 草稿<textarea id="pipelineAssetDraftPrompt" readonly></textarea></label></details>
+                  <label>人工终稿<textarea id="pipelineAssetFinalPrompt" maxlength="16000"></textarea></label>
+                  <label>负向提示词<textarea id="pipelineAssetNegativePrompt" maxlength="4000"></textarea></label>
+                  <footer class="prompt-review-actions"><button type="button" data-save-prompt-review="asset" data-review-status="pending_review">保存修改</button><button type="button" data-save-prompt-review="asset" data-review-status="needs_revision">标记需修改</button><button class="primary" type="button" data-save-prompt-review="asset" data-review-status="approved">审核通过</button></footer>
+                </section>
+              </section>
+              <section class="config-section shot-audio-editor">
+                <div class="production-subhead"><span class="eyebrow">当前镜头台词</span><span class="status-badge">可选</span></div>
+                <label>对白 / 旁白<textarea id="selectedDialogue" rows="3" placeholder="填写本镜头对白或旁白"></textarea></label>
+                <button type="button" data-save-audio-design>保存镜头台词</button>
+              </section>
+
+              <section id="pipelineArtifacts" class="production-artifacts" data-mobile-panel="artifacts" hidden>
+                <div class="production-subhead artifact-head">
+                  <span class="eyebrow">阶段产物</span>
+                  <div class="artifact-actions">
+                    <button type="button" data-pipeline-import>导入 JSON</button>
+                    <button type="button" data-pipeline-export>导出项目</button>
+                    <span id="pipelineArtifactBadge" class="status-badge">-</span>
+                  </div>
+                  <input id="pipelineImportFile" type="file" accept="application/json,.json" hidden>
+                </div>
+                <div id="pipelineArtifactList" class="artifact-list"></div>
+              </section>
+              <section class="mobile-runtime-summary">
+                <span>GPT Image 2 API · MiniMax H3 · 736×416 · 10.000s</span>
+                <button type="button" data-config-drawer-open aria-label="打开运行配置" aria-controls="productionConfigDrawer" aria-expanded="false" title="运行配置">⚙</button>
+              </section>
+              <section id="pipelineStats" class="stats-grid stats-grid-3"></section>
+            </main>
+          </div>
+
+          <div class="config-drawer-backdrop" data-config-drawer-close aria-hidden="true"></div>
+          <aside id="productionConfigDrawer" class="production-inspector" role="dialog" aria-modal="true" aria-labelledby="productionConfigTitle" aria-hidden="true" tabindex="-1">
+              <div class="inspector-head">
+                <div><p class="eyebrow">运行配置</p><h2 id="productionConfigTitle">模型与生成</h2></div>
+                <div class="inspector-head-actions"><span id="pipelineModelBadge" class="status-badge">-</span><button class="config-drawer-close" type="button" data-config-drawer-close aria-label="关闭运行配置" title="关闭">×</button></div>
+              </div>
+              <div id="pipelineModels" class="model-list"></div>
+
+              <section class="config-section style-prompts-config">
+                <div class="production-subhead"><span class="eyebrow">基础风格提示词</span><span id="stylePromptsBadge" class="status-badge">默认</span></div>
+                <form id="stylePromptsForm" class="image-settings-form">
+                  <div class="style-prompt-tabs" role="tablist" aria-label="主体风格">
+                    <button class="active" type="button" role="tab" data-style-prompt-style="真人影视">真人影视</button>
+                    <button type="button" role="tab" data-style-prompt-style="二维动漫">二维动漫</button>
+                    <button type="button" role="tab" data-style-prompt-style="三维动画">三维动画</button>
+                  </div>
+                  <label>图片正向提示词<textarea id="styleImagePrompt" rows="4" maxlength="4000" required></textarea></label>
+                  <label>视频正向提示词<textarea id="styleVideoPrompt" rows="4" maxlength="4000" required></textarea></label>
+                  <label>负向提示词<textarea id="styleNegativePrompt" rows="4" maxlength="4000" required></textarea></label>
+                  <div class="style-prompt-actions">
+                    <button id="resetStylePrompts" type="button">恢复默认</button>
+                    <button class="primary" type="submit">保存预设</button>
+                  </div>
+                </form>
+                <p class="image-settings-note">作为项目提示词的基础层；文本 AI 会结合故事圣经、素材设定和当前分镜生成可审核的图片与视频草稿。</p>
+              </section>
+
+              <section class="config-section">
+                <div class="production-subhead"><span class="eyebrow">小说拆解与文本阶段</span><span id="textSettingsBadge" class="status-badge warn">未配置</span></div>
+                <form id="textSettingsForm" class="image-settings-form">
+                  <label>提供方<input id="textProvider" type="text" value="OpenAI 兼容文本 API" readonly></label>
+                  <label>接口地址<input id="textBaseUrl" type="url" placeholder="https://api.openai.com/v1" autocomplete="off" required></label>
+                  <label>模型<input id="textModel" type="text" placeholder="gpt-5.2" autocomplete="off" required></label>
+                  <label>请求超时（秒）<input id="textTimeout" type="number" min="1" max="600" step="1" value="120" required></label>
+                  <label>API Key<input id="textApiKey" type="password" placeholder="留空保留现有密钥" autocomplete="new-password"></label>
+                  <button class="primary" type="submit">保存文本 AI 配置</button>
+                </form>
+                <p class="image-settings-note">用于方案、剧本、分镜、场景、资产清单及提示词等文本阶段；未配置时使用规则草稿。</p>
+              </section>
+
+              <section class="config-section">
+                <div class="production-subhead"><span class="eyebrow">GPT Image API 图片生成</span><span id="imageSettingsBadge" class="status-badge warn">未配置</span></div>
+                <form id="imageSettingsForm" class="image-settings-form">
+                  <label>提供方<input id="imageProvider" name="provider" type="text" value="GPT Image API" readonly></label>
+                  <label>接口地址<input id="imageBaseUrl" name="base_url" type="url" placeholder="https://api.openai.com" autocomplete="off"></label>
+                  <label>模型<input id="imageModel" name="model" type="text" placeholder="gpt-image-2" autocomplete="off"></label>
+                  <div class="form-pair">
+                    <label>尺寸<select id="imageSize" name="size"><option value="1536x1024">1536x1024</option><option value="1024x1024">1024x1024</option><option value="1024x1536">1024x1536</option></select></label>
+                    <label>质量<select id="imageQuality" name="quality"><option value="auto">auto</option><option value="medium">medium</option><option value="high">high</option></select></label>
+                  </div>
+                  <label>API Key<input id="imageApiKey" name="api_key" type="password" placeholder="留空保留现有密钥" autocomplete="new-password"></label>
+                  <button class="primary" type="submit">保存图片配置</button>
+                </form>
+                <p class="image-settings-note">密钥只保存在本机，不会回填到页面。</p>
+              </section>
+
+              <section class="config-section video-config">
+                <div class="production-subhead"><span class="eyebrow">视频生成</span><span id="videoSettingsBadge" class="status-badge warn">本地</span></div>
+                <form id="videoSettingsForm" class="image-settings-form">
+                  <input id="videoMode" type="hidden" value="local">
+                  <div class="mode-segment" role="group" aria-label="视频生成方式">
+                    <button type="button" data-video-mode="local">本地</button>
+                    <button type="button" data-video-mode="api">API</button>
+                  </div>
+                  <div id="videoLocalSettings" class="video-mode-panel h3-config">
+                    <dl>
+                      <div><dt>模型</dt><dd>MiniMax H3 W4A8 + PDD</dd></div>
+                      <div><dt>输出规格</dt><dd>736 × 416 · 24 fps</dd></div>
+                      <div><dt>成片时长</dt><dd>10.000 s</dd></div>
+                    </dl>
+                  </div>
+                  <div id="videoApiSettings" class="video-mode-panel image-settings-form" hidden>
+                    <label>提供方<input id="videoProvider" type="text" value="MiniMax Video API" readonly></label>
+                    <label>接口地址<input id="videoBaseUrl" type="url" placeholder="https://api.minimax.io" autocomplete="off"></label>
+                    <label>模型<input id="videoModel" type="text" placeholder="MiniMax-Hailuo-02" autocomplete="off"></label>
+                    <div class="form-pair">
+                      <label>时长<select id="videoDuration"><option value="6">6 秒</option><option value="10">10 秒</option></select></label>
+                      <label>分辨率<select id="videoResolution"><option value="768P">768P</option><option value="1080P">1080P</option></select></label>
+                    </div>
+                    <label>API Key<input id="videoApiKey" type="password" placeholder="留空保留现有密钥" autocomplete="new-password"></label>
+                  </div>
+                  <button type="submit">保存视频配置</button>
+                </form>
+                <p class="image-settings-note">API 密钥只保存在本机，不会回填到页面。</p>
+              </section>
+
+              <section class="config-section">
+                <div class="production-subhead"><span class="eyebrow">Edge TTS 外部配音</span><span id="audioSettingsBadge" class="status-badge warn">未启用</span></div>
+                <form id="audioSettingsForm" class="image-settings-form">
+                  <label class="toggle-row"><input id="audioEnabled" type="checkbox">启用 Edge TTS</label>
+                  <label>默认音色<input id="audioVoice" type="text" value="zh-CN-YunxiNeural" placeholder="zh-CN-YunxiNeural"></label>
+                  <div class="form-pair"><label>语速<input id="audioRate" type="text" value="+0%" placeholder="+0%"></label><label>音调<input id="audioPitch" type="text" value="+0Hz" placeholder="+0Hz"></label></div>
+                  <button type="submit">保存音频配置</button>
+                </form>
+                <p class="image-settings-note">需要本机安装 edge-tts；台词在“台词与音频设计”阶段填写。</p>
+              </section>
+
+              <section class="production-actions">
+                <button type="button" data-pipeline-action="build_workflows">生成工作流</button>
+                <button type="button" data-pipeline-action="generate_image">生成首帧</button>
+                <button id="generateVideoAction" class="primary" type="button" data-pipeline-action="generate_video">生成 10 秒视频</button>
+                <button type="button" data-pipeline-action="generate_tts">生成配音</button>
+                <button type="button" data-pipeline-action="mix_audio">合成音画</button>
+              </section>
+              <p id="pipelineJobHint" class="inspector-note">任务会出现在任务中心，生成前请确认所选视频通道可用。</p>
+          </aside>
+
+          <footer class="production-taskbar">
+            <div><span class="task-state-dot"></span><strong>生成队列</strong><small id="pipelineTaskSummary">暂无运行中任务</small></div>
+            <button class="mobile-generate primary" type="button" data-pipeline-action="generate_video">生成此镜头</button>
+            <button class="task-center-button" type="button" data-open-module="tasks">打开任务中心</button>
+          </footer>
+        </div>
+      </section>
+
+      <section class="module-view" data-module-view="scenes">
+        <section class="scene-workbench">
+          <aside class="scene-sidebar panel">
+            <div class="section-head">
+              <div><p class="eyebrow">EP02</p><h2>场景列表</h2></div>
+              <span id="sceneListCount" class="status-badge">0</span>
+            </div>
+            <div class="scene-filters">
+              <input id="sceneSearch" type="search" placeholder="搜索场景或标题" autocomplete="off">
+              <select id="sceneFilter" aria-label="筛选场景状态">
+                <option value="all">全部状态</option>
+                <option value="ready">已完成</option>
+                <option value="fallback">技术预览</option>
+                <option value="pending">待处理</option>
+              </select>
+            </div>
+            <div id="sceneList" class="scene-list"></div>
+          </aside>
+
+          <section class="scene-detail">
+            <section class="hero-panel scene-hero">
+              <div>
+                <p id="sceneScope">场景工作台</p>
+                <h2 id="sceneTitle">选择场景</h2>
+                <small id="sceneSource">-</small>
+              </div>
+              <div id="sceneHeroActions" class="hero-actions"></div>
+            </section>
+            <div id="sceneContent" class="scene-scroll"></div>
+          </section>
+        </section>
+      </section>
+
+      <section class="module-view" data-module-view="reviews">
+        <div class="scroll-pane">
+          <section class="hero-panel">
+            <div>
+              <p>审核中心</p>
+              <h2>场景与成片审核</h2>
+              <small>生产审核与测试模式标记</small>
+            </div>
+            <div class="hero-actions">
+              <button type="button" data-action="refresh_ep01_review">刷新 EP01 看板</button>
+            </div>
+          </section>
+          <section id="reviewStats" class="stats-grid stats-grid-3"></section>
+          <section class="review-layout">
+            <section class="panel">
+              <div class="section-head">
+                <div><p class="eyebrow">审核队列</p><h2>全部项目</h2></div>
+                <select id="reviewFilter" aria-label="审核筛选">
+                  <option value="all">全部</option>
+                  <option value="pending">待处理</option>
+                  <option value="fallback">技术预览</option>
+                </select>
+              </div>
+              <div id="reviewList" class="review-list"></div>
+            </section>
+            <aside id="reviewDetail" class="panel review-detail"></aside>
+          </section>
+        </div>
+      </section>
+
+      <section class="module-view" data-module-view="tasks">
+        <div class="scroll-pane">
+          <section class="hero-panel">
+            <div>
+              <p>任务中心</p>
+              <h2>诊断与状态任务</h2>
+              <small>白名单脚本执行记录</small>
+            </div>
+            <div class="hero-actions">
+              <button id="refreshJobsButton" type="button">刷新任务</button>
+            </div>
+          </section>
+          <section class="task-actions">
+            <button class="primary" type="button" data-action="refresh_status"><strong>刷新流水线状态</strong><small>重建状态报告</small></button>
+            <button type="button" data-action="check_i2v_contract"><strong>检查 I2V 合约</strong><small>校验工作流字段与超时</small></button>
+            <button type="button" data-action="check_secret_hygiene"><strong>检查密钥安全</strong><small>扫描明文密钥与队列</small></button>
+            <button type="button" data-action="refresh_ep01_review"><strong>刷新 EP01 看板</strong><small>重建人工审核页面</small></button>
+          </section>
+          <section class="task-layout">
+            <section class="panel">
+              <div class="section-head"><div><p class="eyebrow">执行记录</p><h2>最近任务</h2></div></div>
+              <div id="jobList" class="job-list"></div>
+            </section>
+            <section class="panel log-panel">
+              <div class="section-head"><div><p class="eyebrow">任务输出</p><h2 id="jobLogTitle">选择任务</h2></div></div>
+              <pre id="jobLog">暂无任务输出。</pre>
+            </section>
+          </section>
+        </div>
+      </section>
+    </section>
+  </main>
+  <script src="/static/app.js?v=20260903-prompt-review"></script>
+</body>
+</html>

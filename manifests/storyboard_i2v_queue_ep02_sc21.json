@@ -1,0 +1,98 @@
+﻿{
+    "updated":  "2026-06-12T09:07:19",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc21.json",
+    "review_paths":  [
+                         ".\\manifests\\ssj_ep02_sc21_storyboard_review.json"
+                     ],
+    "include_pending":  false,
+    "include_blocked":  false,
+    "summary":  {
+                    "pending":  0,
+                    "pass":  4,
+                    "needs_regeneration":  0,
+                    "blocked":  0,
+                    "missing_workflow":  0,
+                    "missing_storyboard":  0
+                },
+    "queue_count":  4,
+    "queue":  [
+                  {
+                      "review_id":  "SSJ_EP02_SC21",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc21_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC21_SH01",
+                      "title":  "真鞭抽落肩头",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass: first real whip hit is readable and Tuobaye remains clearly outmatched",
+                      "notes":  "Production caveat: keep Fourteen as aggressor and avoid making Tuobaye look composed in motion.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC21_SH01_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc21_sh01_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc21_sh01_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc21_sh01_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC21",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc21_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC21_SH02",
+                      "title":  "鞭影连落仍嘴硬",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass: sustained whipping pressure reads clearly and Tuobaye remains on the defensive",
+                      "notes":  "Production caveat: keep the punishment severe but non-gory, with Tuobaye still forcing bravado through pain.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC21_SH02_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc21_sh02_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc21_sh02_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc21_sh02_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC21",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc21_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC21_SH03",
+                      "title":  "段狂欲救难起身",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass with caveat: Duan Yukai frustration and inability to rise are still legible",
+                      "notes":  "Production caveat: later regeneration should keep Duan Yukai visibly weakened so he does not look ready to re-enter the fight immediately.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC21_SH03_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc21_sh03_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc21_sh03_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc21_sh03_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC21",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc21_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC21_SH04",
+                      "title":  "白龙鹿怒扑护主",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass after regeneration: white dragon-deer now enters the same gate-space confrontation as a protective ally rather than a separate battle lead",
+                      "notes":  "Approved regenerated version should be the only downstream source. Keep Tuobaye wounded and low, Fourteen active, and the deer as protective interruption.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH04_v001_00003_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc21_sh04_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc21_sh04_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc21_sh04_i2v_v001.json",
+                      "can_auto_run":  true
+                  }
+              ],
+    "next_actions":  [
+                         "For pass decisions, run_i2v uses the approved storyboard as the single visual source through the prepared Comfy workflow.",
+                         "For needs_regeneration decisions, regenerate the storyboard before rebuilding this queue.",
+                         "Run run_storyboard_i2v_queue.ps1 with -DryRun first."
+                     ],
+    "ok":  true
+}

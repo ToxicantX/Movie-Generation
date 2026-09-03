@@ -1,0 +1,72 @@
+﻿{
+    "updated":  "2026-06-11T22:00:03",
+    "reviewer":  "Codex",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC15",
+                             "review_path":  ".\\manifests\\ssj_ep02_sc15_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC15_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC15",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc15_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC15_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC15_SH01",
+                          "title":  "竹下各怀心事",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC15_SH01_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc15_sh01_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc15_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: hidden-thought beat is clear and identity is stable",
+                          "notes":  "Keep this split-bamboo composition as a continuity anchor for later hidden-observer beats."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC15",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc15_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC15_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC15_SH02",
+                          "title":  "半山刀兵惊禁地",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC15_SH02_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc15_sh02_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc15_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: distant alarm pressure reads correctly and no readable text appears",
+                          "notes":  "Production caveat: keep mountain-slope conflict distant in video and avoid turning this into a full battle shot."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC15",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc15_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC15_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC15_SH03",
+                          "title":  "段聿铠血身登楼",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC15_SH03_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc15_sh03_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc15_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: Duan Yukai reveal is strong and readable for this beat",
+                          "notes":  "Production caveat: keep blood battle-worn only and do not escalate crowd detail further in regeneration unless needed."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC15",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc15_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC15_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC15_SH04",
+                          "title":  "十四郎请战",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC15_SH04_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc15_sh04_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc15_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass after regeneration: Shisilang now remains outside the forbidden gate and the inner/outer courtyard logic is readable",
+                          "notes":  "Approved regenerated version uses outer-gate framing correctly. In video, keep Shisilang outside the threshold and preserve no-readable-plaque constraint."
+                      }
+                  ]
+}

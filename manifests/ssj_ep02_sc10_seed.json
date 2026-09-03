@@ -1,0 +1,98 @@
+{
+  "updated": "2026-06-09T18:11:21",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 借剑一观，剑断情伤",
+  "purpose": "Seed for EP02 SC10 after EP02 SC09 formal test-mode segment. Continue the ComfyUI short-drama pipeline from the white-clothed woman asking to inspect Wufeng, the broken sword floating into her hand, rust falling away under moonlight, and her emotional reaction to the old Shennong/Kongsang connection.",
+  "segment_id": "SSJ_EP02_SC10",
+  "beat_id": "C02_B10",
+  "title": "借剑一观，剑断情伤",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC09",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc09_storyboard_review.json",
+    "previous_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC09\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC09_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc09_formal_cut_result.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc09_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC09 is approved only for pipeline validation. All four SC09 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "白衣女子道：“不知公子可否将此剑借我一观么？”",
+    "adapted_summary": "白衣女子请拓拔野借断剑一观。拓拔野恭敬地倒转剑锋递上，断剑却在她伸手间如受无形牵引般缓缓飞到她掌中。女子轻抖手腕，剑上铁锈簌簌落下，断剑在月光下泛出青白光芒，并显露出旧日铭痕。她凝视剑身许久，忽然落下一滴泪，低声道出“人有情，剑无锋”的伤感。拓拔野见她睹剑伤情，惊讶而不敢打扰。",
+    "next_source_hint": "随后白衣女子解释无锋剑原是木族神器，剑虽断但缘分未断，并将断剑送回拓拔野腰间，嘱咐他收好。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "previous_wufeng_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH02_v001_00001_.png",
+    "previous_bailonglu_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH03_v001_00001_.png",
+    "previous_resolve_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH04_v001_00001_.png",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC09_formal_cut_v001.mp4"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute, and broken Wufeng at the right waist.",
+    "Wufeng is a broken plain blue-grey iron sword; if the story needs old name marks, render them only as indistinct glowing engraved strokes, never readable Chinese characters.",
+    "White-clothed woman remains adult, elegant, distant, water/rain-associated, fully clothed, respectful, and emotionally restrained until the tear beat.",
+    "Avoid sexualized framing, hand/body fetish framing, or teen-romance coding. The beat is mythic recognition and old grief.",
+    "Setting remains moonlit Tianhu bamboo pavilion, lake reflection, bamboo shadows, mist, and faint incense smoke.",
+    "No readable text, captions, subtitles, speech bubbles, English words, signs, plaques, UI, or clear inscriptions."
+  ],
+  "localization_rules": [
+    "All planning text and eventual editing dialogue should be Chinese unless a technical field requires English.",
+    "Storyboard prompts may include intended Chinese dialogue as off-screen planning context, but must request no rendered subtitles or readable text.",
+    "I2V prompts must use silent visual generation: no synthesized speech, no lip-sync dialogue, no flute/xiao audio, no captions, no subtitles, no readable signs, no English words.",
+    "Chinese dialogue, narration, sound design, and subtitles should be added later in editing."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Use stable handover, sword-floating, rust-falling, tear, and reaction beats. Avoid lip-sync, fast gestures, or readable inscription closeups."
+  },
+  "suggested_shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC10_SH01",
+      "title": "恭敬递剑",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye respectfully reverses the broken Wufeng and offers it toward the white-clothed woman, keeping the edge away from her.",
+      "reference_anchor": "previous_wufeng_storyboard or tuobaye_turnaround"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC10_SH02",
+      "title": "断剑凌空入掌",
+      "duration_seconds": "8-10",
+      "visual_focus": "The broken sword floats through moonlit mist toward the woman hand, moved by invisible force; keep framing respectful and avoid hand fetish emphasis.",
+      "reference_anchor": "yushiqie_reference and previous_wufeng_storyboard"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC10_SH03",
+      "title": "锈落白芒",
+      "duration_seconds": "8-10",
+      "visual_focus": "The woman holds the broken Wufeng; rust flakes fall away and the blade glows pale blue-white under moonlight, with only indistinct non-readable engraved strokes.",
+      "reference_anchor": "previous_wufeng_storyboard"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC10_SH04",
+      "title": "剑断情伤",
+      "duration_seconds": "8-10",
+      "visual_focus": "The white-clothed woman silently sheds one tear over the glowing broken sword while Tuobaye watches anxiously from a respectful distance.",
+      "reference_anchor": "yushiqie_reference or previous_resolve_storyboard"
+    }
+  ],
+  "next_work": [
+    "Create SSJ_EP02_SC10 storyboard plan with 4 shots, each 8-10 seconds max.",
+    "Prevent readable Chinese characters on Wufeng; use abstract engraved light marks and reaction shots instead.",
+    "Use silent/no-caption/no-readable-text I2V prompts. Do not generate subtitles inside video.",
+    "If Gemini file_ids I2V remains unsupported and no Runway key exists, use technical still fallback only for continuity and mark outputs non-production."
+  ]
+}

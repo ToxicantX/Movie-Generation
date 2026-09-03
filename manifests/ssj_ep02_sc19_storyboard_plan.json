@@ -1,0 +1,108 @@
+{
+  "updated": "2026-06-12",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 暗助试招，险中成势",
+  "segment_id": "SSJ_EP02_SC19",
+  "beat_id": "C02_B19",
+  "title": "暗助试招，险中成势",
+  "purpose": "承接 SC18 的试探开端：唐七先用虚招探拓拔野；白衣女子暗中传音提醒；唐七骤然出真招；拓拔野被无形之力托起，在狼狈中连环踢出，误打误撞将唐七踢飞。全段继续保持无声视觉，不生成口播、字幕、招式名文字或任何可读文本。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC18",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc18_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC18_formal_cut_v001.mp4",
+    "previous_bluff_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC18_SH03_v001_00001_.png",
+    "previous_challenge_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC18_SH04_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc19_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 唐七虚招 / 白衣女子传音 / 腾空乱抓 / 踢飞唐七。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 and SH02 anchor to the SC18 challenge storyboard. SH03 and SH04 anchor to the same challenge storyboard so Tuobaye, Tang Qi, and the white-clothed woman stay in one consistent gate-space relationship.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, gate calligraphy, speech bubbles, English words, or clear Chinese inscriptions inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, lip-sync, taunts, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "得罪了。",
+      "不要动，他这七拳全是虚招，要探你虚实。",
+      "公子别怕，我不会让你摔下来的。",
+      "想不到我刚伸伸懒腰，他却先比我睡着了。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_bluff_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC18_SH03_v001_00001_.png",
+    "previous_challenge_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC18_SH04_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC19_SH01",
+      "beat": "C02_B19",
+      "title": "唐七虚招探路",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "唐七",
+        "白衣女子"
+      ],
+      "location": "禁院门前 / 试招起手",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC19_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC19_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC18_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the SC18 challenge storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 tense testing composition. Tang Qi circles in with quick probing fists or feinting strikes around Tuobaye without full commitment; adult Tuobaye stays rigid and nervous, trying to look unfazed; the white-clothed woman remains behind, calm and quietly attentive. Keep the scene readable as a test rather than a real hit. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent probing-feint beat. Tang Qi flashes quick test strikes while Tuobaye stiffens and holds his ground, and the white-clothed woman watches quietly; robes, hair, mist, and lantern light move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC19_SH02",
+      "beat": "C02_B19",
+      "title": "真招突至",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "唐七",
+        "段聿铠"
+      ],
+      "location": "禁院门前 / 真攻一瞬",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC19_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC19_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC18_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the SC18 challenge storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 sudden-impact composition. Tang Qi has suddenly abandoned the feints and commits to a real, forceful strike at close range. Adult Tuobaye is clearly caught off guard, eyes widening, balance lost, and unable to respond. Duan Yukai may be visible at distance reacting in alarm. Keep the scene readable, with no readable text, captions, subtitles, plaques, gate calligraphy, English words, or UI.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent real-strike beat. Tang Qi commits to the first true attack and Tuobaye is visibly caught off guard while distant onlookers tense; cloth, hair, and mist move with sudden energy. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC19_SH03",
+      "beat": "C02_B19",
+      "title": "无形托起半空",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子",
+        "唐七"
+      ],
+      "location": "禁院门前 / 半空失措",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC19_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC19_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC18_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the SC18 challenge storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 awkward-aerial composition. Enforce strict helpless-lift logic: adult Tuobaye is unexpectedly yanked backward and upward by unseen force, with startled expression, bent waist or twisted torso, badly controlled limbs, and a clearly involuntary posture. He must not look serene, balanced, elegant, heroic, or in command of the jump. The white-clothed woman remains grounded and composed behind him, with her aid only implied, not shown as visible beam magic. Tang Qi looks surprised below. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent involuntary-lift beat. Tuobaye is jerked into the air in awkward panic while the woman remains calm and Tang Qi looks up in surprise; sleeves, hair, bamboo, and lantern light move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC19_SH04",
+      "beat": "C02_B19",
+      "title": "误踢飞唐七",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "唐七",
+        "白衣女子",
+        "段聿铠"
+      ],
+      "location": "禁院门前 / 众人惊呆",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC19_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC19_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC18_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the SC18 challenge storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 accidental-victory composition. Enforce strict accidental-counter logic: Tang Qi is hit by an uncontrolled swinging leg, flailing kick, or awkward falling-foot impact from Tuobaye, not by a clean martial-arts side kick, front kick, flying kick, or poised finishing blow. Tuobaye must look surprised by his own motion and success, not trained or composed. The white-clothed woman remains still and unreadable, and any surrounding observers or the wounded Duan Yukai react with surprise. Keep the result readable but not slapstick. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent accidental-counter beat. Tuobaye's uncontrolled movement kicks Tang Qi away while both sides are shocked; robes, hair, lantern light, and drifting mist move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

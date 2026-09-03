@@ -1,0 +1,100 @@
+{
+  "updated": "2026-06-09",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 天湖空庭箫声",
+  "segment_id": "SSJ_EP02_SC05",
+  "beat_id": "C02_B05",
+  "title": "空庭无人，箫声引路",
+  "purpose": "承接天湖初现，表现拓拔野与白龙鹿进入疑似青帝居所却遍寻无人，最后被东南方若有若无的箫声引向更深处。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC04",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc04_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC04_formal_cut_v001.mp4",
+    "previous_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC04_SH04_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc05_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt after 湖水清澈，松竹四合。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 uses the previous Tianhu reveal storyboard for continuity. SH02 and SH03 use the Yuping/Tianhu location reference for empty residence identity. SH04 uses the white dragon-deer reference or location mood, depending on generation stability.",
+  "video_policy": "Gemini experimental I2V should use only each generated and approved storyboard image as source of truth. No extra character or location references in video generation.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, or English words inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue. Chinese dialogue, flute sound design, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "这里……像是有人住过。",
+      "鹿兄，别出声。",
+      "这箫声……难道是青帝？"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "previous_tianhu_reveal_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC04_SH04_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC05_SH01",
+      "beat": "C02_B05",
+      "title": "绕湖靠近松竹亭阁",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "天湖岸边 / 松竹亭阁外",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC05_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC05_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC04_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the input Tianhu reveal storyboard as direct continuity. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 wide moonlit composition. Adult Tuobaye age 28 to 32 in rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute at waist, and a plain bamboo sheath holding the blunt Wufeng iron object at the right waist, walks quietly along the clear Tianhu shore beside the friendly white dragon-deer. Across the moonlit water are simple pine-log and bamboo pavilions, handmade and austere, not an imperial palace. Mood: cautious wonder, sacred quiet, empty residence ahead. No Qingdi visible, no white-clothed woman visible, no other people, no readable text, no captions, no subtitles, no English words, no signs, no plaques, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent cautious approach. Tuobaye and the white dragon-deer move slowly along the moonlit lake shore toward simple pine-and-bamboo pavilions; water shimmers and bamboo sways gently. Keep one stable camera angle and very gentle motion. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC05_SH02",
+      "beat": "C02_B05",
+      "title": "穿廊登台四处无人",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "松竹长廊 / 松木高台",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC05_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC05_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input Yuping Mountain/Tianhu reference as location identity, but show the inner residence: simple bamboo corridors, pine-log beams, plain wooden platform, moonlight and jade mist. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium-wide composition. Adult Tuobaye in consistent grey-brown rough cloth, rope belt, travel pouch, green bamboo flute at waist, bamboo-sheathed blunt Wufeng iron object, stands on a pine-wood platform and looks around searching for Qingdi. The white dragon-deer waits nearby, alert but calm. The corridors and bamboo building are empty, handmade, unpainted, no ornate roof, no palace gold. No Qingdi visible, no white-clothed woman, no other people, no readable text, no captions, no subtitles, no English words, no signs, no plaques, no modern objects.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent search beat. Tuobaye steps onto a plain pine-wood platform and slowly looks across empty bamboo corridors while the white dragon-deer waits alertly. Moonlight, mist, and bamboo shadows move gently. Stable camera, no complex walking cycle. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC05_SH03",
+      "beat": "C02_B05",
+      "title": "空庭月影忽闻箫声",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "后院空庭 / 月照西墙",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC05_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC05_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input Yuping/Tianhu reference as the quiet sacred residence mood. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 atmospheric courtyard composition. In an empty three-courtyard bamboo-and-pine residence under moonlight, adult Tuobaye in consistent grey-brown rough cloth pauses with one hand slightly raised, listening toward the southeast. The white dragon-deer also turns its head toward the unseen sound. Wind moves bamboo shadows across a pale western wall; the courtyard is empty, still, and melancholy. Represent the distant flute only through posture, wind, and mood; do not show a musician. No Qingdi visible, no white-clothed woman visible, no other people, no musical notes, no readable text, no captions, no subtitles, no English words, no signs, no plaques.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent listening beat. Tuobaye and the white dragon-deer pause in the empty moonlit courtyard and turn subtly toward an unseen distant flute source; bamboo shadows move over the wall. Stable camera, minimal motion. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC05_SH04",
+      "beat": "C02_B05",
+      "title": "循声穿过矮竹墙",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "竹林 / 矮竹墙 / 东南小径",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC05_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC05_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input white dragon-deer reference as creature identity anchor while preserving the moonlit bamboo sanctuary. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium-wide composition. Adult Tuobaye in rugged grey-brown travel clothes, green bamboo flute at waist, bamboo-sheathed blunt Wufeng iron object, moves carefully beside a low bamboo wall through dense moonlit bamboo, following an unseen flute sound toward the southeast. The friendly white dragon-deer follows close behind, white body, pale jade antlers, pearl neck and shoulder scales, calm intelligent eyes. Mood: cautious fascination and mystery. Do not reveal the source of the sound yet. No Qingdi visible, no white-clothed woman visible, no other people, no readable text, no captions, no subtitles, no English words, no signs, no plaques, no modern elements, no running action.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent following-the-sound beat. Tuobaye and the white dragon-deer move carefully beside a low bamboo wall through moonlit bamboo; leaves sway and mist drifts. Keep movement slow and single-angle. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

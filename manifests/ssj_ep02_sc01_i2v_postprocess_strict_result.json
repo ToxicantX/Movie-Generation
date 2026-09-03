@@ -1,0 +1,38 @@
+{
+    "updated":  "2026-06-08T23:30:16",
+    "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_storyboard_review.json",
+    "workflow_create_result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_workflow_create_result.json",
+    "state":  "postprocess_failed",
+    "error":  "Step failed: refresh_i2v_outputs",
+    "steps":  [
+                  {
+                      "name":  "refresh_i2v_outputs",
+                      "script":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\refresh_consistency_review_from_outputs.ps1",
+                      "arguments":  [
+                                        "-ReviewPath",
+                                        "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_storyboard_review.json",
+                                        "-ResultPath",
+                                        "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_i2v_refresh_result_strict.json",
+                                        "-WorkflowCreateResultPath",
+                                        "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_workflow_create_result.json"
+                                    ],
+                      "exit_code":  1,
+                      "output_tail":  [
+                                          "{",
+                                          "    \"updated\":  \"2026-06-08T23:30:15\",",
+                                          "    \"review_path\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\manifests\\\\ssj_ep02_sc01_storyboard_review.json\",",
+                                          "    \"workflow_create_result_path\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\manifests\\\\ssj_ep02_sc01_workflow_create_result.json\",",
+                                          "    \"found\":  [",
+                                          "",
+                                          "              ],",
+                                          "    \"invalid\":  [",
+                                          "",
+                                          "                ],",
+                                          "    \"ready_to_review\":  false",
+                                          "}"
+                                      ],
+                      "ok":  false
+                  }
+              ],
+    "ok":  false
+}

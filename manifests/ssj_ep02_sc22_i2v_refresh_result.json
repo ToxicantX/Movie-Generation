@@ -1,0 +1,59 @@
+{
+    "updated":  "2026-06-12T14:19:34",
+    "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_storyboard_review.json",
+    "workflow_create_result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_workflow_create_result.json",
+    "found":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC22_SH01",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC22_SH01_technical_still_fallback_v001.mp4",
+                      "pattern":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC22_SH01_technical_still_fallback_v001.mp4",
+                      "searched_patterns":  [
+                                                "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC22_SH01_technical_still_fallback_v001.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC22_SH01_i2v_v001*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC22_SH01_*i2v*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC22_SH01_technical_still_fallback_v001*.mp4"
+                                            ],
+                      "last_write_time":  "2026-06-12T14:16:13"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC22_SH02",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC22_SH02_technical_still_fallback_v001.mp4",
+                      "pattern":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC22_SH02_technical_still_fallback_v001.mp4",
+                      "searched_patterns":  [
+                                                "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC22_SH02_technical_still_fallback_v001.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC22_SH02_i2v_v001*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC22_SH02_*i2v*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC22_SH02_technical_still_fallback_v001*.mp4"
+                                            ],
+                      "last_write_time":  "2026-06-12T14:16:21"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC22_SH03",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC22_SH03_technical_still_fallback_v001.mp4",
+                      "pattern":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC22_SH03_technical_still_fallback_v001.mp4",
+                      "searched_patterns":  [
+                                                "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC22_SH03_technical_still_fallback_v001.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC22_SH03_i2v_v001*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC22_SH03_*i2v*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC22_SH03_technical_still_fallback_v001*.mp4"
+                                            ],
+                      "last_write_time":  "2026-06-12T14:16:30"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC22_SH04",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC22_SH04_technical_still_fallback_v001.mp4",
+                      "pattern":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC22_SH04_technical_still_fallback_v001.mp4",
+                      "searched_patterns":  [
+                                                "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC22_SH04_technical_still_fallback_v001.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC22_SH04_i2v_v001*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC22_SH04_*i2v*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP02_SC22_SH04_technical_still_fallback_v001*.mp4"
+                                            ],
+                      "last_write_time":  "2026-06-12T14:16:40"
+                  }
+              ],
+    "invalid":  [
+
+                ],
+    "ready_to_review":  true
+}

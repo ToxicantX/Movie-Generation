@@ -1,0 +1,31 @@
+﻿{
+    "updated":  "2026-06-12T05:40:02",
+    "plan_path":  ".\\manifests\\ssj_ep02_sc20_storyboard_plan.json",
+    "workflow_dir":  ".\\workflows",
+    "created":  [
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC20_SH01",
+                        "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc20_sh01_storyboard_v001.json",
+                        "video_workflow":  ".\\workflows\\ssj_ep02_sc20_sh01_i2v_v001.json",
+                        "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC20_SH01_v001_00001_.png"
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC20_SH02",
+                        "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc20_sh02_storyboard_v001.json",
+                        "video_workflow":  ".\\workflows\\ssj_ep02_sc20_sh02_i2v_v001.json",
+                        "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC20_SH02_v001_00001_.png"
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC20_SH03",
+                        "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc20_sh03_storyboard_v001.json",
+                        "video_workflow":  ".\\workflows\\ssj_ep02_sc20_sh03_i2v_v001.json",
+                        "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC20_SH03_v001_00001_.png"
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC20_SH04",
+                        "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc20_sh04_storyboard_v001.json",
+                        "video_workflow":  ".\\workflows\\ssj_ep02_sc20_sh04_i2v_v001.json",
+                        "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC20_SH04_v001_00001_.png"
+                    }
+                ]
+}

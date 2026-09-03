@@ -1,0 +1,28 @@
+﻿{
+    "updated":  "2026-06-09T19:05:33",
+    "review_path":  ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+    "decision_path":  ".\\manifests\\ssj_ep02_sc10_video_review_decision_test_auto_pass.json",
+    "global_decision":  "approved_for_episode_cut",
+    "shots":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC10_SH01",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC10_SH02",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC10_SH03",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC10_SH04",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  }
+              ]
+}

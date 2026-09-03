@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-longform-comic",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Create a clean production character reference board for an ancient Chinese mythic fantasy long-form comic. Character: adult Duan Yukai, also called Duan Kuang, the green-clad wounded hero from Mirage City. Design lock: adult age 35 to 45, very tall heroic build, rugged broad face, wild black hair, laughing defiant eyes, rough ancient green robe torn by long travel, dark green sash, bamboo-joint blade martial energy shown only as gesture and posture, blood-stained from battle but not graphic or gory, no armor, no crown, no western styling. Layout: four consistent full-body views of the same adult character on one neutral dark studio background: front view, left side view, back view, front-right three-quarter view. Full body visible including feet, stable face identity, stable green costume layers. Premium ink-and-watercolor graphic novel design over cinematic realistic forms, no labels, no text.",
+        "model": "gpt-image-2",
+        "size": "1024x1024",
+        "negative_prompt": "text, labels, Chinese characters, watermark, logo, anime, cartoon, child, teenager, minor, modern fashion, sci-fi armor, western medieval armor, crown, overdesigned armor, gore, open wounds, nudity, inconsistent faces, duplicated heads, cropped feet"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/charactersheets/CHAR_duanyukai_turnaround_basic_v001"
+      }
+    }
+  }
+}

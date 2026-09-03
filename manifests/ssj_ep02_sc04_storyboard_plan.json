@@ -1,0 +1,101 @@
+{
+  "updated": "2026-06-09",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 玉屏峰天湖前奏",
+  "segment_id": "SSJ_EP02_SC04",
+  "beat_id": "C02_B04",
+  "title": "月下寻泉入天湖",
+  "purpose": "在飞渡后的动作高潮后降速，表现拓拔野与白龙鹿进入玉屏峰内部，沿月下松径、清泉和竹溪逐步接近青帝居所。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC03",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc03_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC03_formal_cut_v001.mp4",
+    "previous_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC03_SH04_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc04_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt after 拓拔野纵身从白龙鹿背上跳了下来。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 uses prior leap storyboard for landing continuity. SH02 and SH04 use Yuping/Tianhu location reference. SH03 uses white dragon-deer or Tuobaye reference.",
+  "video_policy": "Gemini experimental I2V should use only each generated and approved storyboard image as source of truth. No extra character or location references in video generation.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, or English words inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "鹿兄，咱们走。",
+      "沿着泉声下去，必能找到青帝。",
+      "那里……就是天湖。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "wufeng_corrected_prop": "G:\\ComfyUI\\output\\AIShortDrama\\props\\PROP_wufeng_blunt_iron_ref_v002_00001_.png",
+    "previous_leap_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC03_SH04_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC04_SH01",
+      "beat": "C02_B04",
+      "title": "峰顶落地相视大笑",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "玉屏峰峰顶",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC04_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC04_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC03_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the input EP02 SC03 leap storyboard as continuity for the landing after crossing the moonlit chasm. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium-wide composition. On a quiet Yuping peak ridge under moonlight, adult Tuobaye age 28 to 32 has just jumped down from the friendly white dragon-deer and sits on mossy stone laughing in relief, while the white dragon-deer stands close and looks proud. Preserve Tuobaye's rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, and plain dark blunt rectangular edgeless Wufeng iron object tied low. Around them: old pines, jagged stones, pale jade mist, distant cloud sea. No Qingdi visible, no black guards nearby, no readable text, no captions, no subtitles, no English words, no speech bubbles, no injury.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent relief beat. Tuobaye sits and laughs silently after landing; the white dragon-deer shifts proudly beside him; moonlit mist and pine branches move gently. Keep one stable camera angle. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC04_SH02",
+      "beat": "C02_B04",
+      "title": "月下松径听见泉声",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "玉屏峰山顶石径 / 松林",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC04_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC04_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input Yuping Mountain/Tianhu reference as the location mood anchor, but show a moonlit stone path above the lake before it is found. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 wide quiet tracking composition. Adult Tuobaye and the white dragon-deer walk down a winding mossy stone path through tall pine trees under slanting moonlight. Tuobaye pauses and turns his head as if hearing faint spring water; the dragon-deer listens too. Jade-green mist, pine shadows, sacred empty mountain atmosphere. No houses visible yet, no Qingdi, no readable signs, no captions, no subtitles, no English words, no combat, no injury, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent walking-and-listening beat. Tuobaye and the white dragon-deer take a few slow steps down the moonlit stone path, then pause as if hearing water. Mist drifts and pine branches sway. One stable camera angle, gentle motion. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC04_SH03",
+      "beat": "C02_B04",
+      "title": "清泉饮水精神一振",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "山泉边 / 巨石青草",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC04_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC04_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input white dragon-deer reference as the creature identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 intimate moonlit composition. A clear mountain spring flows between mossy stones and fresh grass. Adult Tuobaye kneels beside the spring and cups water in both hands, refreshed and calm; the friendly white dragon-deer lowers its head to drink nearby, white body, jade antlers, pearl scales and long mane visible. Keep Wufeng as a plain dark blunt rectangular edgeless iron object tied low, not a sword. Gentle moonlight, jade mist, bamboo hints in the background. No readable text, no captions, no subtitles, no English words, no gore, no injury, no modern objects.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent spring-water beat. Tuobaye cups water and drinks; the white dragon-deer lowers its head to drink; the spring ripples and moonlight flickers. Keep motion gentle and close to the storyboard. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC04_SH04",
+      "beat": "C02_B04",
+      "title": "竹溪尽头天湖初现",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "竹溪尽头 / 中峰天湖",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC04_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC04_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input Yuping Mountain/Tianhu reference as the location and lake identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 wide reveal. Tuobaye and the white dragon-deer emerge from green bamboo and jagged mossy stones at the end of a clear stream. Before them opens a vast clear heavenly lake under the moon, pine and bamboo enclosing the shore; across the water, quiet simple pavilions and bamboo corridors are barely visible in shadow. The mood is awe and sacred emptiness, not crowded. No Qingdi visible, no people across the lake, no readable signs or text, no captions, no subtitles, no English words, no modern architecture.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent lake reveal. Tuobaye and the white dragon-deer step from bamboo into a wide view of the moonlit heavenly lake and distant empty pavilions. Water shimmers, bamboo moves gently, camera slowly settles. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

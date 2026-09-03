@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Shennong reference as identity anchor. Cinematic memory-fragment storyboard frame, realistic ancient Chinese mythic fantasy, 16:9 wide-medium. Adult-adapted Tuobaye age 28 to 32 in rugged grey-brown travel clothes stands respectfully on a high Nanjishan cliff near waterfall spray and windblown grass. The aged mythic Shennong lies or reclines weakly but dignified in ancient purple robes, poisoned yet spiritually immense, with a healer-ruler aura. Sea light, sunset storm clouds, waterfall mist, and Dragon Tooth Rock atmosphere surround them. This is a memory image, not a literal text panel. No readable blood writing, no readable scroll, no labels, no Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_shennong_ref_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC12_SH02_v001"
+                                        }
+                         }
+               }
+}

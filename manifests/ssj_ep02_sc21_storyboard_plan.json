@@ -1,0 +1,107 @@
+{
+  "updated": "2026-06-12",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 鞭落身伤，白鹿惊奔",
+  "segment_id": "SSJ_EP02_SC21",
+  "beat_id": "C02_B21",
+  "title": "鞭落身伤，白鹿惊奔",
+  "purpose": "承接 SC20：白衣女子因拓拔野鲁莽而暗怒；十四郎试探后突然鞭落成真；拓拔野被连续抽打却仍硬撑嘴硬；段聿铠欲救却伤重难起；白龙鹿终于扑上来护主。全段继续保持无声视觉，不生成口播、字幕、招式名文字或任何可读文本。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC20",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc20_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC20_formal_cut_v001.mp4",
+    "previous_sword_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH03_v001_00002_.png",
+    "previous_duel_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH04_v001_00002_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc21_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 十四郎真鞭 / 拓拔野挨打 / 段聿铠欲救 / 白龙鹿怒扑。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 and SH02 anchor to the SC20 faceoff storyboard. SH03 anchors to the same duel space for Duan Yukai's attempted intervention. SH04 anchors to the same gate space plus creature reference so the white dragon-deer enters consistently.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, gate calligraphy, speech bubbles, English words, or clear Chinese inscriptions inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, taunts, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "我可帮不了你啦。",
+      "好舒服，好舒服，乖孙儿按摩得爷爷我好生舒服。",
+      "小水妖，你欺负一个小孩作甚？",
+      "鹿兄，你别上来。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_sword_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH03_v001_00002_.png",
+    "previous_duel_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH04_v001_00002_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC21_SH01",
+      "beat": "C02_B21",
+      "title": "真鞭抽落肩头",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "十四郎",
+        "白衣女子"
+      ],
+      "location": "禁院门前 / 试探变真击",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC21_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC21_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH04_v001_00002_.png",
+      "storyboard_prompt": "Use the SC20 faceoff storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 first-damage composition. Fourteen's whip lands for real on adult Tuobaye, who is clearly not ready and takes the blow with shock and pain. The white-clothed woman remains behind with visible restrained displeasure, not intervening overtly. Keep the gate geometry intact and do not make Tuobaye look like he anticipated the strike. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent first-hit beat. Fourteen's whip lands and Tuobaye recoils in shock while the white-clothed woman remains tense but still; cloth, hair, mist, and lantern light move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC21_SH02",
+      "beat": "C02_B21",
+      "title": "鞭影连落仍嘴硬",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "十四郎"
+      ],
+      "location": "禁院门前 / 近身压制",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC21_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC21_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH04_v001_00002_.png",
+      "storyboard_prompt": "Use the SC20 faceoff storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 punishment-pressure composition. Fourteen drives Tuobaye backward with repeated whip strikes or oppressive follow-through pressure. Tuobaye is hurt, disheveled, and clearly outmatched, but still forcing a defiant expression or bitter grin through pain. Keep it non-gory, but visibly punishing. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent sustained-pressure beat. Fourteen presses the attack and Tuobaye keeps moving under pain, refusing to fold; cloth, whip motion, hair, and mist move with sharp energy. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC21_SH03",
+      "beat": "C02_B21",
+      "title": "段狂欲救难起身",
+      "duration_seconds": "8-10",
+      "characters": [
+        "段聿铠",
+        "拓拔野",
+        "十四郎"
+      ],
+      "location": "禁院门前 / 旁观者急",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC21_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC21_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH03_v001_00002_.png",
+      "storyboard_prompt": "Use the SC20 sword-reveal storyboard as the gate-space anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 frustrated-intervention composition. Wounded Duan Yukai tries to rise or lunge to help Tuobaye but is dragged back by pain and internal injury; in the background or edge of frame, Fourteen still bears down on Tuobaye. Duan Yukai must look furious and helpless, not recovered. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent frustrated-rescue beat. Duan Yukai strains to intervene but stumbles or collapses back under pain while the threat to Tuobaye continues nearby; cloth, breath, hair, and lantern light move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC21_SH04",
+      "beat": "C02_B21",
+      "title": "白龙鹿怒扑护主",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白龙鹿",
+        "拓拔野",
+        "十四郎"
+      ],
+      "location": "禁院门前 / 白鹿入场",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC21_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC21_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH04_v001_00002_.png",
+      "storyboard_prompt": "Use the corrected SC20 duel storyboard as the primary spatial anchor so the exact same gate-and-courtyard environment is preserved. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 protective-charge composition. Enforce strict continuity: stay in the same moonlit gate space with bamboo, wet stone, and courtyard threshold. Adult Tuobaye must remain battered and present in the shot, low or unsteady near the point of danger. Fourteen remains the active human aggressor. The white dragon-deer enters urgently from the side to protect Tuobaye, but must not replace the scene with an isolated fantasy-creature tableau, open field, stone ruin, or a new location. Do not introduce a different man on the ground; keep the characters as Tuobaye, Fourteen, and the protective white dragon-deer in one coherent gate-space confrontation. Keep the deer noble and believable, not monstrous. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent protective-charge beat. The white dragon-deer lunges in to guard Tuobaye while Fourteen's pressure is still active; hair, mane, robes, mist, and lantern light move with urgent energy. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

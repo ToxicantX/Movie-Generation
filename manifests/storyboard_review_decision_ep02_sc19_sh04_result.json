@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T03:01:09",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc19.json",
+    "shot_id":  "TEST_SSJ_EP02_SC19_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "needs_regeneration",
+    "reason":  "blocking beat drift: accidental counter has become a clean, deliberate flying kick, making Tuobaye look too battle-competent",
+    "notes":  "Regenerate with strict accidental-counter logic: Tang Qi should be struck by an uncontrolled flailing kick or awkward falling leg, not a polished combat kick; Tuobaye must still look surprised by his own success.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

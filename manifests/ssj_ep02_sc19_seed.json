@@ -1,0 +1,53 @@
+{
+  "updated": "2026-06-12T02:00:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 暗助试招，险中成势",
+  "purpose": "Seed for EP02 SC19 after EP02 SC18 formal test-mode segment. Continue the ComfyUI short-drama pipeline from Tang Qi stepping out to test Tuobaye: the first probing punches are all feints; the white-clothed woman secretly guides Tuobaye by transmission and invisible force; Tang Qi suddenly strikes for real; Tuobaye is hauled into the air by hidden force and flails awkwardly before accidentally kicking Tang Qi away, shocking everyone.",
+  "segment_id": "SSJ_EP02_SC19",
+  "beat_id": "C02_B19",
+  "title": "暗助试招，险中成势",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC18",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc18_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC18_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC18\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC18_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc18_formal_cut_result.json",
+    "previous_formal_segment_probe": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc18_formal_cut_probe.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC18 is approved only for pipeline validation. All four SC18 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "唐七上前请赐教，拓拔野强装镇定迎战。",
+    "adapted_summary": "唐七先以虚招探拓拔野虚实，白衣女子暗中传音提醒。拓拔野勉强稳住阵脚。随后唐七忽然出真招，拓拔野眼看招架不住，被白衣女子以无形力量托起后抛向半空，在狼狈中又被无形之力引导，乱踢之下反而将唐七踢飞。众人惊疑，段聿铠也对这少年刮目相看，为后续更深试探与误判埋下基础。",
+    "next_source_hint": "接下来科沙度会更进一步怀疑与试探，十四郎也将亲自出手，拓拔野在白衣女子暗助下越陷越深。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_challenge_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC18_SH04_v001_00001_.png",
+    "previous_bluff_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC18_SH03_v001_00001_.png"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, right-waist green bamboo sheath, hidden broken Wufeng.",
+    "White-clothed woman remains elegant, mostly still, and should assist invisibly rather than with flashy visible spell effects.",
+    "Tang Qi is a strong black-clothed enforcer, not a protagonist glamor shot. His challenge should feel testing and predatory.",
+    "Tuobaye should not suddenly look like a polished martial master; his apparent success should still feel slightly accidental or externally assisted.",
+    "No readable text, captions, subtitles, plaques, gate calligraphy, speech bubbles, English words, or UI."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Keep the beat readable: feints, sudden real attack, involuntary aerial lift, and accidental counter should be clearly separated."
+  }
+}

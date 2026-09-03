@@ -1,0 +1,14 @@
+﻿{
+    "updated":  "2026-06-09T11:15:59",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc02.json",
+    "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC02_STORYBOARD_DASHBOARD.html",
+    "api_base_url":  "",
+    "decision_count":  4,
+    "summary":  {
+                    "pending":  0,
+                    "pass":  4,
+                    "needs_regeneration":  0,
+                    "blocked":  0
+                },
+    "ok":  true
+}

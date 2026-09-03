@@ -1,0 +1,38 @@
+{
+  "updated": "2026-06-09T16:35:00",
+  "reviewer": "Codex test-mode auto confirmation; user authorized auto-pass when absent on 2026-06-09",
+  "global_decision": "approved_for_episode_cut",
+  "language_policy": {
+    "mode": "silent_visual_generation",
+    "rule": "Do not synthesize speech, flute/xiao audio, or generate captions/subtitles/readable text. No English words. Chinese narration, flute/xiao sound design, and subtitles are added later during editing."
+  },
+  "known_quality_notes": [
+    "Test-mode pass only; production review should still inspect the white-clothed woman reveal and white dragon-deer consistency.",
+    "SH01 and SH03 storyboard generation used no-reference fallback after primary reference-image workflows hit upstream 502; production should regenerate with reference if consistency matters.",
+    "SH03 Gemini I2V v001 and v002 both failed with provider 500 silent abort; technical still fallback is accepted only to keep the pipeline moving.",
+    "SH04 Gemini I2V v001 failed with provider 500 silent abort; v002 simplified low-motion workflow succeeded.",
+    "All I2V outputs remain silent visual generation; Chinese dialogue and sound design are deferred to editing."
+  ],
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Answering xiao/flute beat is usable for pipeline validation; keep silent visual generation only."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Tuobaye turning back in mistaken joy is usable for pipeline validation."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass with caveat: this is a technical still fallback after Gemini provider 500 failures, not a production-quality dynamic reveal."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. v002 simplified low-motion encounter tableau is usable; production review should check white dragon-deer and character scale consistency."
+    }
+  ]
+}

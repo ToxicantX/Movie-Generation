@@ -1,0 +1,30 @@
+{
+    "updated":  "2026-06-08T11:52:18",
+    "strategy_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\video_reference_strategy.json",
+    "updates":  [
+                    {
+                        "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                        "workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh01_i2v_retry.json",
+                        "strategy":  "single_storyboard_plus_optional_location_language",
+                        "allow_temporal_refs":  false,
+                        "allow_extra_reference_images":  false,
+                        "reference_image_paths":  ""
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                        "workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh02_i2v_retry.json",
+                        "strategy":  "single_storyboard_only",
+                        "allow_temporal_refs":  false,
+                        "allow_extra_reference_images":  false,
+                        "reference_image_paths":  ""
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                        "workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh03_i2v_retry.json",
+                        "strategy":  "single_storyboard_with_optional_previous_tail_after_review",
+                        "allow_temporal_refs":  true,
+                        "allow_extra_reference_images":  false,
+                        "reference_image_paths":  ""
+                    }
+                ]
+}

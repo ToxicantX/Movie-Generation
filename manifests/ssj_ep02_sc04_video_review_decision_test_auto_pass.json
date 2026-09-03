@@ -1,0 +1,37 @@
+{
+  "updated": "2026-06-09T13:45:00",
+  "reviewer": "Codex test-mode auto confirmation; user authorized auto-pass when absent on 2026-06-09",
+  "global_decision": "approved_for_episode_cut",
+  "language_policy": {
+    "mode": "silent_visual_generation",
+    "rule": "Do not synthesize speech or generate captions/subtitles/readable text. No English words. Chinese dialogue/subtitles are added later during editing."
+  },
+  "known_quality_notes": [
+    "Test-mode pass only; production review should still inspect character costume and location continuity.",
+    "Storyboard precheck noted Tuobaye costume drift: SH02 and SH04 darker/bluer than target grey-brown, SH03 too white.",
+    "SH02 v001 hit Google silent-abort/provider 500 after Comfy history timeout; v002_simplified succeeded after reducing motion complexity.",
+    "Keep future I2V prompts silent/no-caption/no-readable-text to avoid unwanted English dialogue."
+  ],
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC04_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Landing relief beat is usable; silent visual generation only."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC04_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. v002_simplified accepted after v001 provider 500; costume color drift should be reviewed for production."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC04_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Spring drinking beat is clear; costume reads too white versus target grey-brown."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC04_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Tianhu reveal is usable; costume color drift should be reviewed for production."
+    }
+  ]
+}

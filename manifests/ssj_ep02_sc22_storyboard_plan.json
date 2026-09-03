@@ -1,0 +1,110 @@
+{
+  "updated": "2026-06-12",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 暗劲回拉，逆掌翻局",
+  "segment_id": "SSJ_EP02_SC22",
+  "beat_id": "C02_B22",
+  "title": "暗劲回拉，逆掌翻局",
+  "purpose": "承接 SC21：拓拔野已被十四郎压制，白龙鹿刚扑上来护主。此段要把暗助反转拆清楚：先是暗劲回拉救险，再是拓拔野借势反击，接着众人震惊，最后落到科沙度的冷静起疑。全段继续保持无声视觉，不生成口播、字幕、招式名文字或任何可读文本。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC21",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc21_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC21_formal_cut_v001.mp4",
+    "previous_whip_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH01_v001_00001_.png",
+    "previous_deer_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH04_v001_00003_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 暗劲回拉 / 孙子不肖 / 众人目瞪口呆 / 科沙度察觉背后相助。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 and SH02 anchor to the approved SC21 gate-space confrontation. SH03 inherits the same spatial continuity for the public reversal. SH04 shifts emphasis to Keshadu's deduction while staying in the same moonlit gate court.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, gate calligraphy, speech bubbles, English words, or clear Chinese inscriptions inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, taunts, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "忽然一股强大的力气将自己朝后一拉。",
+      "孙子不肖，吃爷爷一掌！",
+      "众人目瞪口呆。",
+      "定有人在背后以魔法或高强内力遥控拓拔野。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_whip_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH01_v001_00001_.png",
+    "previous_deer_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH04_v001_00003_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC22_SH01",
+      "beat": "C02_B22",
+      "title": "暗劲回拉脱险",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "十四郎",
+        "白衣女子",
+        "白龙鹿"
+      ],
+      "location": "禁院门前 / 生死一瞬",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC22_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC22_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH04_v001_00003_.png",
+      "storyboard_prompt": "Use the approved SC21 white-dragon-deer interruption storyboard as the primary continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 hidden-rescue composition. Adult Tuobaye is on the verge of taking another punishing hit when an unseen force sharply yanks him backward out of the strike line. Fourteen should look momentarily thrown off by the sudden miss. The white-clothed woman remains outwardly still and controlled, with only subtle implication that she is the hidden source of aid. The white dragon-deer stays in the same gate-space as protective presence, not a separate fantasy spectacle. Keep the moonlit gate, wet stone, bamboo, and courtyard threshold continuous. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent hidden-rescue beat. Tuobaye is suddenly pulled backward out of danger, Fourteen's attack misses its expected path, and the white-clothed woman remains still while the white dragon-deer holds tension nearby; robes, hair, mist, and lantern light move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC22_SH02",
+      "beat": "C02_B22",
+      "title": "借势反掌击退",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "十四郎"
+      ],
+      "location": "禁院门前 / 反打落下",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC22_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC22_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH01_v001_00001_.png",
+      "storyboard_prompt": "Use the SC21 whip-hit storyboard as the spatial and emotional anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 involuntary-counter composition. Adult Tuobaye is still battered and off-balance, but in the same breath of the hidden pull he lashes out with a rough sudden counterattack that slams into Fourteen and knocks him backward or downward. The strike should read as surprising and slightly involuntary, not as a polished martial-arts hero pose. Fourteen must look stunned that Tuobaye could connect at all. Keep Tuobaye wounded, disheveled, and barely in command of the moment. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent sudden-counter beat. Tuobaye jerks into a rough counterattack and Fourteen recoils or falls back in disbelief; cloth, hair, impact motion, and mist move with abrupt energy. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC22_SH03",
+      "beat": "C02_B22",
+      "title": "众人目瞪口呆",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "十四郎",
+        "朝阳谷众人",
+        "段聿铠"
+      ],
+      "location": "禁院门前 / 反转后的静止",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC22_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC22_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH04_v001_00003_.png",
+      "storyboard_prompt": "Use the approved SC21 gate-space confrontation as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 stunned-crowd composition. After the impossible reversal, Fourteen is knocked back or low in frame, adult Tuobaye remains battered and shocked by his own survival, and the gathered black-clothed onlookers stare in collective disbelief. Wounded Duan Yukai may register fierce satisfaction or astonishment, but should still look injured. Keep the frame centered on the public impossibility of what just happened. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent crowd-shock beat. Fourteen remains down or reeling while Tuobaye and the crowd freeze in disbelief; robes, breath, hair, and lantern light move subtly as the moment hangs. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC22_SH04",
+      "beat": "C02_B22",
+      "title": "科沙度冷眼起疑",
+      "duration_seconds": "8-10",
+      "characters": [
+        "科沙度",
+        "拓拔野",
+        "白衣女子",
+        "十四郎"
+      ],
+      "location": "禁院门前 / 疑云压下",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC22_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC22_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH04_v001_00003_.png",
+      "storyboard_prompt": "Use the approved SC21 gate-space confrontation as the spatial anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 deduction composition. Keshadu studies the aftermath with cold calculating suspicion, clearly realizing that Tuobaye alone should not have produced this reversal. Adult Tuobaye remains wounded and confused rather than victorious; Fourteen is embarrassed or stunned nearby. The white-clothed woman should be present in a way that quietly supports the suspicion without exposing overt magic. Keshadu must read sharper and more dangerous than the rest of the crowd. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent deduction beat. Keshadu narrows his gaze and studies Tuobaye and the white-clothed woman while Fourteen reels from humiliation; cloth, hair, mist, and lantern light move subtly under mounting pressure. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

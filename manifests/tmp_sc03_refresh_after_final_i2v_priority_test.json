@@ -1,0 +1,29 @@
+﻿{
+    "updated":  "2026-06-08T18:17:40",
+    "review_path":  ".\\manifests\\ssj_ep01_sc03_consistency_review.json",
+    "workflow_create_result_path":  "",
+    "found":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC03_SH01",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH01_i2v_v001.mp4",
+                      "pattern":  "AIShortDrama\\videos\\SSJ_EP01_SC03_SH01_i2v_v001*.mp4",
+                      "last_write_time":  "2026-06-08T14:41:14"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC03_SH02",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH02_technical_still_fallback_v001.mp4",
+                      "pattern":  "AIShortDrama\\videos\\SSJ_EP01_SC03_SH02_technical_still_fallback_v001*.mp4",
+                      "last_write_time":  "2026-06-08T16:37:28"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC03_SH03",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH03_i2v_v001.mp4",
+                      "pattern":  "AIShortDrama\\videos\\SSJ_EP01_SC03_SH03_i2v_v001*.mp4",
+                      "last_write_time":  "2026-06-08T14:46:57"
+                  }
+              ],
+    "invalid":  [
+
+                ],
+    "ready_to_review":  true
+}

@@ -1,0 +1,54 @@
+{
+    "updated":  "2026-06-08T23:58:03",
+    "queue_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\tmp_storyboard_i2v_queue_ep02_sc01_pipeline_driver_allpass.json",
+    "dry_run":  true,
+    "max_items":  0,
+    "runs":  [
+                 {
+                     "review_id":  "SSJ_EP02_SC01",
+                     "shot_id":  "TEST_SSJ_EP02_SC01_SH01",
+                     "decision":  "pass",
+                     "action":  "run_i2v",
+                     "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh01_i2v_v001.json",
+                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_queue_ssj_ep02_sc01_test_ssj_ep02_sc01_sh01_result.json",
+                     "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\run_single_i2v_workflow_and_wait.ps1\u0027 -WorkflowPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh01_i2v_v001.json\u0027 -ShotId \u0027TEST_SSJ_EP02_SC01_SH01\u0027 -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_queue_ssj_ep02_sc01_test_ssj_ep02_sc01_sh01_result.json\u0027",
+                     "status":  "dry_run",
+                     "exit_code":  null,
+                     "output":  [
+
+                                ]
+                 },
+                 {
+                     "review_id":  "SSJ_EP02_SC01",
+                     "shot_id":  "TEST_SSJ_EP02_SC01_SH02",
+                     "decision":  "pass",
+                     "action":  "run_i2v",
+                     "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh02_i2v_v001.json",
+                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_queue_ssj_ep02_sc01_test_ssj_ep02_sc01_sh02_result.json",
+                     "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\run_single_i2v_workflow_and_wait.ps1\u0027 -WorkflowPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh02_i2v_v001.json\u0027 -ShotId \u0027TEST_SSJ_EP02_SC01_SH02\u0027 -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_queue_ssj_ep02_sc01_test_ssj_ep02_sc01_sh02_result.json\u0027",
+                     "status":  "dry_run",
+                     "exit_code":  null,
+                     "output":  [
+
+                                ]
+                 },
+                 {
+                     "review_id":  "SSJ_EP02_SC01",
+                     "shot_id":  "TEST_SSJ_EP02_SC01_SH03",
+                     "decision":  "pass",
+                     "action":  "run_i2v",
+                     "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh03_i2v_v001.json",
+                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_queue_ssj_ep02_sc01_test_ssj_ep02_sc01_sh03_result.json",
+                     "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\run_single_i2v_workflow_and_wait.ps1\u0027 -WorkflowPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh03_i2v_v001.json\u0027 -ShotId \u0027TEST_SSJ_EP02_SC01_SH03\u0027 -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_queue_ssj_ep02_sc01_test_ssj_ep02_sc01_sh03_result.json\u0027",
+                     "status":  "dry_run",
+                     "exit_code":  null,
+                     "output":  [
+
+                                ]
+                 }
+             ],
+    "skipped":  [
+
+                ],
+    "ok":  true
+}

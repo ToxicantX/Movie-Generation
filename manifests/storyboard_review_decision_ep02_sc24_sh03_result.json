@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T01:09:45",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc24.json",
+    "shot_id":  "TEST_SSJ_EP02_SC24_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "needs_regeneration",
+    "reason":  "The frame falls back toward a general crowd-pressure image and does not push Tuobaye\u0027s specific trapped-under-scrutiny danger far enough beyond SC23.",
+    "notes":  "Regenerate with tighter emphasis on Tuobaye cornered between Keshadu and Shisilang pressure, less broad crowd tableau, and stronger sense that he has no clear bottom card to rely on.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

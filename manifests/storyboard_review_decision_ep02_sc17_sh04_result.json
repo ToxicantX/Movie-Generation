@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T00:15:45",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc17.json",
+    "shot_id":  "TEST_SSJ_EP02_SC17_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: Tuobaye interruption clearly comes from inside concealment and the outer fighters freeze outside the gate",
+    "notes":  "Approved as source of truth for the stop-command beat; maintain the same gate geometry in video.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

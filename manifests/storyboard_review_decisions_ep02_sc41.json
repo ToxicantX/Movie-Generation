@@ -1,0 +1,72 @@
+{
+    "updated":  "2026-06-13T17:56:43",
+    "reviewer":  "Codex test-mode visual review",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC41",
+                             "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc41_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC41_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC41",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc41_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC41_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC41_SH01",
+                          "title":  "科沙度真相将显形",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC41_SH01_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc41_sh01_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc41_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Keshadu truth-about-to-take-visible-shape beat reads clearly: the white-clothed woman still holds the axis while both men carry the pressure toward undeniable fact.",
+                          "notes":  "Codex visual precheck: SH01 works as the truth-about-to-take-visible-shape beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC41",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc41_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC41_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC41_SH02",
+                          "title":  "十四郎怒线将断",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC41_SH02_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc41_sh02_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc41_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Shisilang rage-line-at-the-lip-of-break pressure remains legible and tense, with enough continuity for test-mode approval.",
+                          "notes":  "Codex visual precheck: SH02 works as the rage-line-at-the-lip-of-break beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC41",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc41_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC41_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC41_SH03",
+                          "title":  "拓拔野几近空尽",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC41_SH03_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc41_sh03_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc41_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Tuobaye almost-complete-exhaustion state is clear: the kneeling center figure anchors depletion while the two standing men define pressure from both sides.",
+                          "notes":  "Codex visual precheck: SH03 works as the almost-complete-exhaustion beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC41",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc41_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC41_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC41_SH04",
+                          "title":  "白衣女子静压将崩裂",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC41_SH04_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc41_sh04_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc41_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "The white-clothed woman carries the still-pressure-about-to-fracture beat clearly, and the framing keeps the emotional axis readable.",
+                          "notes":  "Codex visual precheck: SH04 works as the still pressure about to fracture beat."
+                      }
+                  ]
+}

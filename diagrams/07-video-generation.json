@@ -1,0 +1,233 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "07 · 视频片段生成",
+    "locale": "zh-CN",
+    "output": "diagrams/07-video-generation.html",
+    "animation": "none",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "image_input",
+      "label": "读取生成输入"
+    },
+    {
+      "id": "prompting",
+      "label": "生成视频提示词"
+    },
+    {
+      "id": "continuity",
+      "label": "判断片段连续性"
+    },
+    {
+      "id": "routing",
+      "label": "匹配模型与通道"
+    },
+    {
+      "id": "generation",
+      "label": "生成视频片段"
+    },
+    {
+      "id": "normalization",
+      "label": "统一片段规格"
+    },
+    {
+      "id": "quality",
+      "label": "视频片段验收"
+    },
+    {
+      "id": "recovery",
+      "label": "异常与重跑",
+      "variant": "exception"
+    }
+  ],
+  "semanticChecks": {
+    "allowedRoots": [
+      "approved_image"
+    ],
+    "allowedTerminals": [
+      "clip_review",
+      "rerun_clip"
+    ],
+    "requiredPaths": [
+      {
+        "from": "approved_image",
+        "to": "clip_review"
+      },
+      {
+        "from": "model_match",
+        "to": "local_h3"
+      },
+      {
+        "from": "model_match",
+        "to": "video_api"
+      }
+    ]
+  },
+  "mainPath": [
+    "approved_image",
+    "video_prompt",
+    "continuity_rule",
+    "model_match",
+    "local_h3",
+    "strict_clip",
+    "clip_review"
+  ],
+  "nodes": [
+    {
+      "id": "approved_image",
+      "lane": "image_input",
+      "col": 3,
+      "type": "database",
+      "label": "读取批准图片",
+      "sublabel": "当前镜头首帧",
+      "width": 132
+    },
+    {
+      "id": "video_prompt",
+      "lane": "prompting",
+      "col": 3,
+      "type": "backend",
+      "label": "生成视频提示词",
+      "sublabel": "动作 · 运镜 · 正常实时",
+      "width": 132
+    },
+    {
+      "id": "continuity_rule",
+      "lane": "continuity",
+      "col": 3,
+      "type": "security",
+      "label": "判断片段连续性",
+      "sublabel": "首次当前图 · 后续尾帧",
+      "width": 132
+    },
+    {
+      "id": "model_match",
+      "lane": "routing",
+      "col": 3,
+      "type": "backend",
+      "label": "匹配模型与通道",
+      "sublabel": "local / api",
+      "width": 132
+    },
+    {
+      "id": "local_h3",
+      "lane": "generation",
+      "col": 3,
+      "type": "cloud",
+      "label": "提交本地 H3",
+      "sublabel": "W4A8 · 8 steps · 243 帧",
+      "width": 132
+    },
+    {
+      "id": "video_api",
+      "lane": "generation",
+      "col": 5,
+      "type": "cloud",
+      "label": "提交视频 API",
+      "sublabel": "首帧 I2V · 轮询",
+      "width": 132
+    },
+    {
+      "id": "strict_clip",
+      "lane": "normalization",
+      "col": 3,
+      "type": "backend",
+      "label": "规范为 10 秒",
+      "sublabel": "24fps · 严格裁切",
+      "width": 132
+    },
+    {
+      "id": "clip_review",
+      "lane": "quality",
+      "col": 3,
+      "type": "security",
+      "label": "视频片段验收",
+      "sublabel": "人物 · 速度 · 画质",
+      "tag": "人工",
+      "width": 132
+    },
+    {
+      "id": "rerun_clip",
+      "lane": "recovery",
+      "col": 3,
+      "type": "messagebus",
+      "label": "记录失败原因",
+      "sublabel": "提示词 / 模型 / 队列",
+      "width": 132
+    }
+  ],
+  "edges": [
+    {
+      "from": "approved_image",
+      "to": "video_prompt",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "video_prompt",
+      "to": "continuity_rule",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "continuity_rule",
+      "to": "model_match",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "model_match",
+      "to": "local_h3",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "local_h3",
+      "to": "strict_clip",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "strict_clip",
+      "to": "clip_review",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "model_match",
+      "to": "video_api",
+      "label": "API",
+      "role": "branch"
+    },
+    {
+      "from": "video_api",
+      "to": "strict_clip",
+      "label": "下载成片",
+      "role": "branch"
+    },
+    {
+      "from": "clip_review",
+      "to": "rerun_clip",
+      "label": "不通过",
+      "role": "error",
+      "variant": "security"
+    }
+  ]
+}

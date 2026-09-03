@@ -1,0 +1,200 @@
+{
+    "updated":  "2026-06-09T12:34:25",
+    "workflow_create_result_path":  ".\\manifests\\ssj_ep02_sc03_workflow_create_result.json",
+    "skip_existing":  false,
+    "force_no_reference":  false,
+    "run_count":  4,
+    "completed_count":  4,
+    "fallback_count":  0,
+    "runs":  [
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC03_SH01",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC03_SH01_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh01_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc03_sh01_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc03_sh01_storyboard_v001.json -\\u003e prompt_id=078d76dd-51a2-4a8e-a8f5-28c212ef8d59\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"078d76dd-51a2-4a8e-a8f5-28c212ef8d59\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T12:27:21",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC03_SH01",
+                                                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh01_storyboard_v001.json",
+                                                        "prompt_id":  "078d76dd-51a2-4a8e-a8f5-28c212ef8d59",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh01_storyboard_v001.json -\u003e prompt_id=078d76dd-51a2-4a8e-a8f5-28c212ef8d59"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "078d76dd-51a2-4a8e-a8f5-28c212ef8d59",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh01_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC03_SH02",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC03_SH02_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh02_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc03_sh02_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc03_sh02_storyboard_v001.json -\\u003e prompt_id=5a352ce7-8b5c-4d69-90e3-bc6447c4dce5\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"5a352ce7-8b5c-4d69-90e3-bc6447c4dce5\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T12:30:52",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC03_SH02",
+                                                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh02_storyboard_v001.json",
+                                                        "prompt_id":  "5a352ce7-8b5c-4d69-90e3-bc6447c4dce5",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh02_storyboard_v001.json -\u003e prompt_id=5a352ce7-8b5c-4d69-90e3-bc6447c4dce5"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "5a352ce7-8b5c-4d69-90e3-bc6447c4dce5",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh02_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC03_SH03",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC03_SH03_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh03_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc03_sh03_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc03_sh03_storyboard_v001.json -\\u003e prompt_id=1e0cd0d7-fadc-4fae-b709-df441fc4a6b6\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"1e0cd0d7-fadc-4fae-b709-df441fc4a6b6\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T12:31:58",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC03_SH03",
+                                                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh03_storyboard_v001.json",
+                                                        "prompt_id":  "1e0cd0d7-fadc-4fae-b709-df441fc4a6b6",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh03_storyboard_v001.json -\u003e prompt_id=1e0cd0d7-fadc-4fae-b709-df441fc4a6b6"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "1e0cd0d7-fadc-4fae-b709-df441fc4a6b6",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh03_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC03_SH04",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC03_SH04_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh04_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc03_sh04_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc03_sh04_storyboard_v001.json -\\u003e prompt_id=1b874c1b-b087-45e2-aa64-9b1fb5fbc077\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"1b874c1b-b087-45e2-aa64-9b1fb5fbc077\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T12:33:14",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC03_SH04",
+                                                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh04_storyboard_v001.json",
+                                                        "prompt_id":  "1b874c1b-b087-45e2-aa64-9b1fb5fbc077",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh04_storyboard_v001.json -\u003e prompt_id=1b874c1b-b087-45e2-aa64-9b1fb5fbc077"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "1b874c1b-b087-45e2-aa64-9b1fb5fbc077",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh04_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 }
+             ],
+    "ok":  true
+}

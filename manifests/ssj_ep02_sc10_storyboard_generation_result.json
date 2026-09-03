@@ -1,0 +1,506 @@
+{
+    "updated":  "2026-06-09T18:33:20",
+    "workflow_create_result_path":  ".\\manifests\\ssj_ep02_sc10_workflow_create_result.json",
+    "skip_existing":  true,
+    "force_no_reference":  false,
+    "run_count":  4,
+    "completed_count":  1,
+    "fallback_count":  2,
+    "runs":  [
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC10_SH01",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH01_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc10_sh01_storyboard_run_result.json",
+                                     "exit_code":  1,
+                                     "output_tail":  [
+                                                         "    \"completed\":  false,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc10_sh01_storyboard_v001.json -\\u003e prompt_id=713f4e67-722b-49f2-8c8c-5244bd66ee4f\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"713f4e67-722b-49f2-8c8c-5244bd66ee4f\",",
+                                                         "                        \"status\":  \"error\",",
+                                                         "                        \"completed\":  false,",
+                                                         "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"code\\\":\\\"server_error\\\",\\\"message\\\":\\\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f160a186-7fe8-4409-bd31-4ca36be3a85f in your message.\\\",\\\"type\\\":\\\"server_error\\\"}}\\n\"",
+                                                         "                    },",
+                                                         "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"code\\\":\\\"server_error\\\",\\\"message\\\":\\\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f160a186-7fe8-4409-bd31-4ca36be3a85f in your message.\\\",\\\"type\\\":\\\"server_error\\\"}}\\n\"",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T18:17:24",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC10_SH01",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001.json",
+                                                        "prompt_id":  "713f4e67-722b-49f2-8c8c-5244bd66ee4f",
+                                                        "status":  "error",
+                                                        "completed":  false,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001.json -\u003e prompt_id=713f4e67-722b-49f2-8c8c-5244bd66ee4f"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "713f4e67-722b-49f2-8c8c-5244bd66ee4f",
+                                                                            "status":  "error",
+                                                                            "completed":  false,
+                                                                            "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f160a186-7fe8-4409-bd31-4ca36be3a85f in your message.\",\"type\":\"server_error\"}}\n"
+                                                                        },
+                                                        "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f160a186-7fe8-4409-bd31-4ca36be3a85f in your message.\",\"type\":\"server_error\"}}\n"
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  1,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  false,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc10_sh01_storyboard_v001.json -\\u003e prompt_id=713f4e67-722b-49f2-8c8c-5244bd66ee4f\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"713f4e67-722b-49f2-8c8c-5244bd66ee4f\",",
+                                                                              "                        \"status\":  \"error\",",
+                                                                              "                        \"completed\":  false,",
+                                                                              "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"code\\\":\\\"server_error\\\",\\\"message\\\":\\\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f160a186-7fe8-4409-bd31-4ca36be3a85f in your message.\\\",\\\"type\\\":\\\"server_error\\\"}}\\n\"",
+                                                                              "                    },",
+                                                                              "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"code\\\":\\\"server_error\\\",\\\"message\\\":\\\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f160a186-7fe8-4409-bd31-4ca36be3a85f in your message.\\\",\\\"type\\\":\\\"server_error\\\"}}\\n\"",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f160a186-7fe8-4409-bd31-4ca36be3a85f in your message.\",\"type\":\"server_error\"}}\n",
+                                                          "ok":  false
+                                                      }
+                                                  ],
+                                     "ok":  false
+                                 },
+                     "fallback":  {
+                                      "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001_noref_retry.json",
+                                      "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc10_sh01_storyboard_noref_retry_run_result.json",
+                                      "exit_code":  1,
+                                      "output_tail":  [
+                                                          "    \"completed\":  false,",
+                                                          "    \"submit_output\":  [",
+                                                          "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh01_storyboard_v001_noref_retry.json -\\u003e prompt_id=d4200d21-f89f-4021-8284-efd702158b3f\"",
+                                                          "                      ],",
+                                                          "    \"wait_result\":  {",
+                                                          "                        \"prompt_id\":  \"d4200d21-f89f-4021-8284-efd702158b3f\",",
+                                                          "                        \"status\":  \"error\",",
+                                                          "                        \"completed\":  false,",
+                                                          "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream authentication failed, please contact administrator\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                          "                    },",
+                                                          "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream authentication failed, please contact administrator\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                          "}"
+                                                      ],
+                                      "run_result":  {
+                                                         "updated":  "2026-06-09T18:22:00",
+                                                         "shot_id":  "TEST_SSJ_EP02_SC10_SH01",
+                                                         "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001_noref_retry.json",
+                                                         "prompt_id":  "d4200d21-f89f-4021-8284-efd702158b3f",
+                                                         "status":  "error",
+                                                         "completed":  false,
+                                                         "submit_output":  [
+                                                                               "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001_noref_retry.json -\u003e prompt_id=d4200d21-f89f-4021-8284-efd702158b3f"
+                                                                           ],
+                                                         "wait_result":  {
+                                                                             "prompt_id":  "d4200d21-f89f-4021-8284-efd702158b3f",
+                                                                             "status":  "error",
+                                                                             "completed":  false,
+                                                                             "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream authentication failed, please contact administrator\",\"type\":\"upstream_error\"}}\n"
+                                                                         },
+                                                         "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream authentication failed, please contact administrator\",\"type\":\"upstream_error\"}}\n"
+                                                     },
+                                      "attempts":  [
+                                                       {
+                                                           "attempt":  1,
+                                                           "exit_code":  1,
+                                                           "output_tail":  [
+                                                                               "    \"completed\":  false,",
+                                                                               "    \"submit_output\":  [",
+                                                                               "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh01_storyboard_v001_noref_retry.json -\\u003e prompt_id=d4200d21-f89f-4021-8284-efd702158b3f\"",
+                                                                               "                      ],",
+                                                                               "    \"wait_result\":  {",
+                                                                               "                        \"prompt_id\":  \"d4200d21-f89f-4021-8284-efd702158b3f\",",
+                                                                               "                        \"status\":  \"error\",",
+                                                                               "                        \"completed\":  false,",
+                                                                               "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream authentication failed, please contact administrator\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                                               "                    },",
+                                                                               "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream authentication failed, please contact administrator\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                                               "}"
+                                                                           ],
+                                                           "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream authentication failed, please contact administrator\",\"type\":\"upstream_error\"}}\n",
+                                                           "ok":  false
+                                                       }
+                                                   ],
+                                      "ok":  false
+                                  },
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001_noref_retry.json",
+                     "completed":  false,
+                     "fallback_used":  true
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC10_SH02",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH02_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc10_sh02_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc10_sh02_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc10_sh02_storyboard_v001.json -\\u003e prompt_id=b78265d6-2dcc-4d31-a4e8-35f83c9eb753\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"b78265d6-2dcc-4d31-a4e8-35f83c9eb753\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T18:25:23",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC10_SH02",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc10_sh02_storyboard_v001.json",
+                                                        "prompt_id":  "b78265d6-2dcc-4d31-a4e8-35f83c9eb753",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc10_sh02_storyboard_v001.json -\u003e prompt_id=b78265d6-2dcc-4d31-a4e8-35f83c9eb753"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "b78265d6-2dcc-4d31-a4e8-35f83c9eb753",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  1,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  false,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc10_sh02_storyboard_v001.json -\\u003e prompt_id=14cca089-2f59-4db6-bfb7-5172408d2e7d\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"14cca089-2f59-4db6-bfb7-5172408d2e7d\",",
+                                                                              "                        \"status\":  \"error\",",
+                                                                              "                        \"completed\":  false,",
+                                                                              "                        \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                                              "                    },",
+                                                                              "    \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  "Image API error 429: {\"error\":{\"message\":\"group requests-per-minute limit exceeded\",\"type\":\"rate_limit_exceeded\"}}\n",
+                                                          "ok":  false
+                                                      },
+                                                      {
+                                                          "attempt":  2,
+                                                          "exit_code":  1,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  false,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc10_sh02_storyboard_v001.json -\\u003e prompt_id=7795c357-062c-409f-bbc2-3166146d5621\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"7795c357-062c-409f-bbc2-3166146d5621\",",
+                                                                              "                        \"status\":  \"error\",",
+                                                                              "                        \"completed\":  false,",
+                                                                              "                        \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                                              "                    },",
+                                                                              "    \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  "Image API error 429: {\"error\":{\"message\":\"group requests-per-minute limit exceeded\",\"type\":\"rate_limit_exceeded\"}}\n",
+                                                          "ok":  false
+                                                      },
+                                                      {
+                                                          "attempt":  3,
+                                                          "exit_code":  0,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  true,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc10_sh02_storyboard_v001.json -\\u003e prompt_id=b78265d6-2dcc-4d31-a4e8-35f83c9eb753\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"b78265d6-2dcc-4d31-a4e8-35f83c9eb753\",",
+                                                                              "                        \"status\":  \"success\",",
+                                                                              "                        \"completed\":  true,",
+                                                                              "                        \"error\":  null",
+                                                                              "                    },",
+                                                                              "    \"error\":  null",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  null,
+                                                          "ok":  true
+                                                      }
+                                                  ],
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc10_sh02_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC10_SH03",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH03_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc10_sh03_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc10_sh03_storyboard_run_result.json",
+                                     "exit_code":  1,
+                                     "output_tail":  [
+                                                         "    \"completed\":  false,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc10_sh03_storyboard_v001.json -\\u003e prompt_id=eef97e79-9e9e-4d13-8be9-a010a9068068\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"eef97e79-9e9e-4d13-8be9-a010a9068068\",",
+                                                         "                        \"status\":  \"error\",",
+                                                         "                        \"completed\":  false,",
+                                                         "                        \"error\":  \"(\\u0027Connection aborted.\\u0027, RemoteDisconnected(\\u0027Remote end closed connection without response\\u0027))\\n\"",
+                                                         "                    },",
+                                                         "    \"error\":  \"(\\u0027Connection aborted.\\u0027, RemoteDisconnected(\\u0027Remote end closed connection without response\\u0027))\\n\"",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T18:27:09",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC10_SH03",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc10_sh03_storyboard_v001.json",
+                                                        "prompt_id":  "eef97e79-9e9e-4d13-8be9-a010a9068068",
+                                                        "status":  "error",
+                                                        "completed":  false,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc10_sh03_storyboard_v001.json -\u003e prompt_id=eef97e79-9e9e-4d13-8be9-a010a9068068"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "eef97e79-9e9e-4d13-8be9-a010a9068068",
+                                                                            "status":  "error",
+                                                                            "completed":  false,
+                                                                            "error":  "(\u0027Connection aborted.\u0027, RemoteDisconnected(\u0027Remote end closed connection without response\u0027))\n"
+                                                                        },
+                                                        "error":  "(\u0027Connection aborted.\u0027, RemoteDisconnected(\u0027Remote end closed connection without response\u0027))\n"
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  1,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  false,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc10_sh03_storyboard_v001.json -\\u003e prompt_id=eef97e79-9e9e-4d13-8be9-a010a9068068\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"eef97e79-9e9e-4d13-8be9-a010a9068068\",",
+                                                                              "                        \"status\":  \"error\",",
+                                                                              "                        \"completed\":  false,",
+                                                                              "                        \"error\":  \"(\\u0027Connection aborted.\\u0027, RemoteDisconnected(\\u0027Remote end closed connection without response\\u0027))\\n\"",
+                                                                              "                    },",
+                                                                              "    \"error\":  \"(\\u0027Connection aborted.\\u0027, RemoteDisconnected(\\u0027Remote end closed connection without response\\u0027))\\n\"",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  "(\u0027Connection aborted.\u0027, RemoteDisconnected(\u0027Remote end closed connection without response\u0027))\n",
+                                                          "ok":  false
+                                                      }
+                                                  ],
+                                     "ok":  false
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc10_sh03_storyboard_v001.json",
+                     "completed":  false,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC10_SH04",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH04_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc10_sh04_storyboard_run_result.json",
+                                     "exit_code":  1,
+                                     "output_tail":  [
+                                                         "    \"completed\":  false,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc10_sh04_storyboard_v001.json -\\u003e prompt_id=6c38d720-ccd7-4f7c-bcf0-a17c717ee2ac\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"6c38d720-ccd7-4f7c-bcf0-a17c717ee2ac\",",
+                                                         "                        \"status\":  \"error\",",
+                                                         "                        \"completed\":  false,",
+                                                         "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream authentication failed, please contact administrator\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                         "                    },",
+                                                         "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream authentication failed, please contact administrator\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T18:29:31",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC10_SH04",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001.json",
+                                                        "prompt_id":  "6c38d720-ccd7-4f7c-bcf0-a17c717ee2ac",
+                                                        "status":  "error",
+                                                        "completed":  false,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001.json -\u003e prompt_id=6c38d720-ccd7-4f7c-bcf0-a17c717ee2ac"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "6c38d720-ccd7-4f7c-bcf0-a17c717ee2ac",
+                                                                            "status":  "error",
+                                                                            "completed":  false,
+                                                                            "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream authentication failed, please contact administrator\",\"type\":\"upstream_error\"}}\n"
+                                                                        },
+                                                        "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream authentication failed, please contact administrator\",\"type\":\"upstream_error\"}}\n"
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  1,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  false,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc10_sh04_storyboard_v001.json -\\u003e prompt_id=2cc1308c-d9f1-4820-a8cd-d825753495bb\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"2cc1308c-d9f1-4820-a8cd-d825753495bb\",",
+                                                                              "                        \"status\":  \"error\",",
+                                                                              "                        \"completed\":  false,",
+                                                                              "                        \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                                              "                    },",
+                                                                              "    \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  "Image API error 429: {\"error\":{\"message\":\"group requests-per-minute limit exceeded\",\"type\":\"rate_limit_exceeded\"}}\n",
+                                                          "ok":  false
+                                                      },
+                                                      {
+                                                          "attempt":  2,
+                                                          "exit_code":  1,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  false,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc10_sh04_storyboard_v001.json -\\u003e prompt_id=6c38d720-ccd7-4f7c-bcf0-a17c717ee2ac\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"6c38d720-ccd7-4f7c-bcf0-a17c717ee2ac\",",
+                                                                              "                        \"status\":  \"error\",",
+                                                                              "                        \"completed\":  false,",
+                                                                              "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream authentication failed, please contact administrator\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                                              "                    },",
+                                                                              "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream authentication failed, please contact administrator\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream authentication failed, please contact administrator\",\"type\":\"upstream_error\"}}\n",
+                                                          "ok":  false
+                                                      }
+                                                  ],
+                                     "ok":  false
+                                 },
+                     "fallback":  {
+                                      "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json",
+                                      "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc10_sh04_storyboard_noref_retry_run_result.json",
+                                      "exit_code":  1,
+                                      "output_tail":  [
+                                                          "    \"completed\":  false,",
+                                                          "    \"submit_output\":  [",
+                                                          "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json -\\u003e prompt_id=0ba5fb13-ba23-4b39-b731-3a7433c1721a\"",
+                                                          "                      ],",
+                                                          "    \"wait_result\":  {",
+                                                          "                        \"prompt_id\":  \"0ba5fb13-ba23-4b39-b731-3a7433c1721a\",",
+                                                          "                        \"status\":  \"error\",",
+                                                          "                        \"completed\":  false,",
+                                                          "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream authentication failed, please contact administrator\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                          "                    },",
+                                                          "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream authentication failed, please contact administrator\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                          "}"
+                                                      ],
+                                      "run_result":  {
+                                                         "updated":  "2026-06-09T18:33:09",
+                                                         "shot_id":  "TEST_SSJ_EP02_SC10_SH04",
+                                                         "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json",
+                                                         "prompt_id":  "0ba5fb13-ba23-4b39-b731-3a7433c1721a",
+                                                         "status":  "error",
+                                                         "completed":  false,
+                                                         "submit_output":  [
+                                                                               "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json -\u003e prompt_id=0ba5fb13-ba23-4b39-b731-3a7433c1721a"
+                                                                           ],
+                                                         "wait_result":  {
+                                                                             "prompt_id":  "0ba5fb13-ba23-4b39-b731-3a7433c1721a",
+                                                                             "status":  "error",
+                                                                             "completed":  false,
+                                                                             "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream authentication failed, please contact administrator\",\"type\":\"upstream_error\"}}\n"
+                                                                         },
+                                                         "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream authentication failed, please contact administrator\",\"type\":\"upstream_error\"}}\n"
+                                                     },
+                                      "attempts":  [
+                                                       {
+                                                           "attempt":  1,
+                                                           "exit_code":  1,
+                                                           "output_tail":  [
+                                                                               "    \"completed\":  false,",
+                                                                               "    \"submit_output\":  [",
+                                                                               "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json -\\u003e prompt_id=40974bf7-f346-44e6-be92-b805dedf6ad2\"",
+                                                                               "                      ],",
+                                                                               "    \"wait_result\":  {",
+                                                                               "                        \"prompt_id\":  \"40974bf7-f346-44e6-be92-b805dedf6ad2\",",
+                                                                               "                        \"status\":  \"error\",",
+                                                                               "                        \"completed\":  false,",
+                                                                               "                        \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                                               "                    },",
+                                                                               "    \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                                               "}"
+                                                                           ],
+                                                           "error":  "Image API error 429: {\"error\":{\"message\":\"group requests-per-minute limit exceeded\",\"type\":\"rate_limit_exceeded\"}}\n",
+                                                           "ok":  false
+                                                       },
+                                                       {
+                                                           "attempt":  2,
+                                                           "exit_code":  1,
+                                                           "output_tail":  [
+                                                                               "    \"completed\":  false,",
+                                                                               "    \"submit_output\":  [",
+                                                                               "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json -\\u003e prompt_id=a6638597-5982-444d-a385-53ecf384a877\"",
+                                                                               "                      ],",
+                                                                               "    \"wait_result\":  {",
+                                                                               "                        \"prompt_id\":  \"a6638597-5982-444d-a385-53ecf384a877\",",
+                                                                               "                        \"status\":  \"error\",",
+                                                                               "                        \"completed\":  false,",
+                                                                               "                        \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"Upstream rate limit exceeded, please retry later\\\",\\\"type\\\":\\\"rate_limit_error\\\"}}\\n\"",
+                                                                               "                    },",
+                                                                               "    \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"Upstream rate limit exceeded, please retry later\\\",\\\"type\\\":\\\"rate_limit_error\\\"}}\\n\"",
+                                                                               "}"
+                                                                           ],
+                                                           "error":  "Image API error 429: {\"error\":{\"message\":\"Upstream rate limit exceeded, please retry later\",\"type\":\"rate_limit_error\"}}\n",
+                                                           "ok":  false
+                                                       },
+                                                       {
+                                                           "attempt":  3,
+                                                           "exit_code":  1,
+                                                           "output_tail":  [
+                                                                               "    \"completed\":  false,",
+                                                                               "    \"submit_output\":  [",
+                                                                               "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json -\\u003e prompt_id=0ba5fb13-ba23-4b39-b731-3a7433c1721a\"",
+                                                                               "                      ],",
+                                                                               "    \"wait_result\":  {",
+                                                                               "                        \"prompt_id\":  \"0ba5fb13-ba23-4b39-b731-3a7433c1721a\",",
+                                                                               "                        \"status\":  \"error\",",
+                                                                               "                        \"completed\":  false,",
+                                                                               "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream authentication failed, please contact administrator\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                                               "                    },",
+                                                                               "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream authentication failed, please contact administrator\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                                               "}"
+                                                                           ],
+                                                           "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream authentication failed, please contact administrator\",\"type\":\"upstream_error\"}}\n",
+                                                           "ok":  false
+                                                       }
+                                                   ],
+                                      "ok":  false
+                                  },
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json",
+                     "completed":  false,
+                     "fallback_used":  true
+                 }
+             ],
+    "ok":  false
+}

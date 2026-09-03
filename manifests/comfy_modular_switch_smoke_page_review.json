@@ -1,0 +1,11 @@
+{
+  "updated": "2026-06-10T23:21:29",
+  "completed": true,
+  "blocked": false,
+  "waiting": true,
+  "stage": "page_review_qa",
+  "episode_number": 3,
+  "waiting_reason": "review_switch_closed",
+  "next_action": "open the page review switch after generation finishes",
+  "result_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\comfy_modular_switch_smoke_page_review.json"
+}

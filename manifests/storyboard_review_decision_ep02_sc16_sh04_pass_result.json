@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T23:10:47",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc16.json",
+    "shot_id":  "TEST_SSJ_EP02_SC16_SH04",
+    "old_decision":  "needs_regeneration",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass after regeneration: hidden-courtyard layout is restored and the outside battle remains outside the gate",
+    "notes":  "Approved regenerated version restores observer geography. Keep Tuobaye and white dragon-deer behind west bamboo and avoid bringing battle or serpent inside the courtyard in video generation.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

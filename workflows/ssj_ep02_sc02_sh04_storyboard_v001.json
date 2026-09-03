@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input dragon-horse warband reference as the group and mount design anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 wide page-turn hook. Shisilang, the green-eyed elder, and two black-clad gift bearers begin walking up mossy stone steps beyond the pine-wood gate toward the unseen Qingdi sanctuary. The remaining black-clad riders form a guarded ring around the dragon-horses outside the gate. Dragon-horses have horse bodies with subtle dragon features, dark tack, restrained fearful posture. Keep Shisilang in black noble riding robe, elder gaunt with qin on back, gifts covered and ceremonial, no palace crowd, no readable gate text, no subtitles, no English words. Tuobaye may be a tiny hidden silhouette behind a distant boulder, but the focus is the trespass into silence. Jade mist, pine shadows, ominous forbidden quiet, no combat, no gore, no injury.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_dragonhorse_warband_ref_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC02_SH04_v001"
+                                        }
+                         }
+               }
+}

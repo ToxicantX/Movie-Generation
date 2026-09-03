@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-longform-comic",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Create a clean production character reference board for an ancient Chinese mythic fantasy long-form comic. Character: adult Chaoyang Valley Shisilang, also called the black-clad young noble. Design lock: adult age 24 to 28, narrow slanted eyes, sharp brows, handsome but cruel face, arrogant violent expression, black ancient riding robe, fitted black martial coat, dark leather belt, riding boots, horse whip as key prop, refined noble posture but predatory temper. Layout: four consistent full-body views of the same adult character on one neutral dark studio background: front view, left side view, back view, front-right three-quarter view. Full body visible including feet, stable face identity, stable hair silhouette, stable black costume layers and whip. Cinematic realistic faces translated into premium ink-and-watercolor graphic novel design, natural fabric texture, restrained lighting, no labels, no text.",
+        "model": "gpt-image-2",
+        "size": "1024x1024",
+        "negative_prompt": "text, labels, Chinese characters, watermark, logo, anime, cartoon, child, teenager, minor, modern fashion, sci-fi armor, western medieval armor, glowing armor, inconsistent faces, duplicated heads, cropped feet, missing full body, gore, nudity"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/charactersheets/CHAR_shisilang_turnaround_basic_v001"
+      }
+    }
+  }
+}

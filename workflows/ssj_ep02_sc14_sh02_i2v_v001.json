@@ -1,0 +1,21 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "GeminiAPIVideoGenerate",
+                             "inputs":  {
+                                            "model":  "gemini-3.1-pro",
+                                            "prompt":  "Animate this storyboard frame as an 8-10 second silent arrival beat. Distant black-clothed visitors approach across the lake while Tuobaye and the woman turn toward them; mist, bamboo, pine shadows, robes, and water reflections move gently. No dialogue, no lip-sync, no crowd shouting audio, no sound effects, no captions, no subtitles, no readable signs, no English words.",
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC14_SH02_v001_00001_.png",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC14_SH02_i2v_v001",
+                                            "base_url":  "http://127.0.0.1:7860",
+                                            "reference_field":  "file_ids",
+                                            "video_reference_mode":  "experimental_file_ids",
+                                            "reference_image_paths":  "",
+                                            "aspect_ratio":  "16:9",
+                                            "request_timeout_seconds":  2400,
+                                            "api_key_env_path":  "E:\\workspace\\DockerProjects\\Gemini-API\\.env"
+                                        }
+                         }
+               }
+}

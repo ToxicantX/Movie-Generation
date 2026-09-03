@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T01:11:00",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc24.json",
+    "shot_id":  "TEST_SSJ_EP02_SC24_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "The white-clothed woman\u0027s near-exposure pressure is readable, with Keshadu close enough to the truth and Tuobaye still caught inside the danger field.",
+    "notes":  "Codex visual precheck: SH04 works as the near-exposure silent danger beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

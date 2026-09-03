@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-08T13:02:26",
+    "shot_id":  "CHAR_shennong_turnaround_basic",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_shennong_turnaround_basic_v001.json",
+    "prompt_id":  "565439ae-96ad-49ff-9405-0eb7d83687a3",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_shennong_turnaround_basic_v001.json -\u003e prompt_id=565439ae-96ad-49ff-9405-0eb7d83687a3"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "565439ae-96ad-49ff-9405-0eb7d83687a3",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

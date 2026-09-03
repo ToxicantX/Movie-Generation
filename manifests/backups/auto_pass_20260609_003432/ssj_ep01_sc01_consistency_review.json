@@ -1,0 +1,64 @@
+{
+    "project":  "AI短剧生成工厂",
+    "source":  "搜神记 第一卷 第一章 神农使者",
+    "updated":  "2026-06-08",
+    "review_schema":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\consistency_review_schema.json",
+    "global_decision":  "pending_human_consistency_review",
+    "global_reason":  "Reference-driven videos were found for all three test shots. Human consistency review is required before episode cut.",
+    "shots":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH01_v001_00001_.png",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                      "status":  "generated_pending_human_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Storyboard usable, but establishing shot still has high-edge visual feel. Video prompt must keep safe meadow language."
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH02_v001_00001_.png",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                      "status":  "generated_pending_human_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Video proves ComfyUI -\u003e Gemini-API -\u003e mp4 save path only. It did not consume storyboard or character images, so it is not consistency-approved."
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH03_v002_deeppurple_00001_.png",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                      "status":  "generated_pending_human_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Use v002 deep-purple storyboard as approved still reference; v001 should not be used for video."
+                  }
+              ]
+}

@@ -1,0 +1,16 @@
+{
+    "updated":  "2026-06-08T12:17:07",
+    "plan_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\character_turnaround_sheet_plan.json",
+    "created":  [
+                    {
+                        "character_id":  "CHAR_tuobaye",
+                        "workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_tuobaye_turnaround_sheet_v001.json",
+                        "expected_output":  "G:\\ComfyUI\\output\\AIShortDrama/charactersheets/CHAR_tuobaye_turnaround_v001_00001_.png"
+                    },
+                    {
+                        "character_id":  "CHAR_shennong",
+                        "workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_shennong_turnaround_sheet_v001.json",
+                        "expected_output":  "G:\\ComfyUI\\output\\AIShortDrama/charactersheets/CHAR_shennong_turnaround_v001_00001_.png"
+                    }
+                ]
+}

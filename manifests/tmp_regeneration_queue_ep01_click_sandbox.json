@@ -1,0 +1,31 @@
+{
+    "updated":  "2026-06-09T00:25:24",
+    "decision_path":  ".\\manifests\\tmp_human_review_decisions_ep01_click_sandbox.json",
+    "review_paths":  [
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json"
+                     ],
+    "include_pending":  false,
+    "include_technical_fallback":  true,
+    "summary":  {
+                    "pass":  0,
+                    "pending":  16,
+                    "needs_regeneration":  0,
+                    "blocked":  0,
+                    "technical_fallback":  0,
+                    "missing_workflow":  0
+                },
+    "queue_count":  0,
+    "queue":  [
+
+              ],
+    "next_actions":  [
+                         "Fill human_review_decisions_ep01.json after reviewing the packages.",
+                         "Run this script again to refresh regeneration_queue_ep01.json.",
+                         "Auto-rerun only queue items where can_auto_rerun is true and regeneration_scope is storyboard or video."
+                     ],
+    "ok":  true
+}

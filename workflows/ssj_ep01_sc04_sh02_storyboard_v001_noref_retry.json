@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Use the input white dragon-deer reference as the creature anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, widescreen composition. Adult Tuobaye age 28 to 32 carefully climbs onto the friendly white dragon-deer beside the Dragon Pool valley exit, with one hand on its long white mane and one foot on a safe low mossy rock. This is calm cooperation, not combat. Tuobaye wears rugged grey-brown rough cloth, rope belt, travel pouch, green bamboo flute visible, relic bundle fastened, plain dark blunt rectangular edgeless Wufeng iron object secured low at his side. White dragon-deer remains noble and consistent: white fur, pearl neck scales, pale jade antlers, calm eyes, graceful strong legs. Moonlit mist, cold jade water behind them, mountain valley path ahead, no saddle, no fall, no injury, no text. Render the white dragon-deer directly from this written description; do not rely on external reference images for this retry. Keep anatomy stable, full body readable, calm mount behavior.",
+        "model": "gpt-image-2",
+        "size": "1536x1024",
+        "negative_prompt": "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/storyboards/SSJ_EP01_SC04_SH02_v001"
+      }
+    }
+  }
+}

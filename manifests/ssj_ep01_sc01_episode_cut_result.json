@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+  "output_path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC01_test_cv2_v001.mp4",
+  "sources": [
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    },
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    },
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    }
+  ],
+  "frame_count": 720,
+  "fps": 24.0,
+  "size": [
+    1280,
+    720
+  ],
+  "bytes": 26810874
+}

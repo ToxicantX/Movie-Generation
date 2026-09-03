@@ -1,0 +1,183 @@
+{
+  "updated": "2026-06-08T17:43:46",
+  "reviewer": "",
+  "instructions": "Set decision to pass, needs_regeneration, or blocked. regeneration_scope supports storyboard, video, segment, or episode. Leave pending if not reviewed.",
+  "decisions": [
+    {
+      "review_id": "SSJ_EP01_SC01_CONSISTENCY_REVIEW",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+      "shot_id": "TEST_SSJ_EP01_SC01_SH01",
+      "title": "",
+      "current_status": "generated_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_SC01_CONSISTENCY_REVIEW",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+      "shot_id": "TEST_SSJ_EP01_SC01_SH02",
+      "title": "",
+      "current_status": "generated_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_SC01_CONSISTENCY_REVIEW",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+      "shot_id": "TEST_SSJ_EP01_SC01_SH03",
+      "title": "",
+      "current_status": "generated_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_SC02",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+      "shot_id": "TEST_SSJ_EP01_SC02_SH01",
+      "title": "Relics secured after the mandate",
+      "current_status": "generated_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_SC02",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+      "shot_id": "TEST_SSJ_EP01_SC02_SH02",
+      "title": "Last look back from the meadow path",
+      "current_status": "generated_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_SC02",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+      "shot_id": "TEST_SSJ_EP01_SC02_SH03",
+      "title": "Departure into the mountain night",
+      "current_status": "generated_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_SC03",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+      "shot_id": "TEST_SSJ_EP01_SC03_SH01",
+      "title": "Arrival at the dragon pool",
+      "current_status": "generated_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_SC03",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+      "shot_id": "TEST_SSJ_EP01_SC03_SH02",
+      "title": "Shennong Dan awakening and Wufeng sword",
+      "current_status": "technical_fallback_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_SC03",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+      "shot_id": "TEST_SSJ_EP01_SC03_SH03",
+      "title": "White dragon-deer reveal",
+      "current_status": "generated_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_SC04",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+      "shot_id": "TEST_SSJ_EP01_SC04_SH01",
+      "title": "Trust after the dragon-deer reveal",
+      "current_status": "technical_fallback_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_SC04",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+      "shot_id": "TEST_SSJ_EP01_SC04_SH02",
+      "title": "Mounting the white dragon-deer",
+      "current_status": "technical_fallback_pending_human_review",
+      "decision": "needs_regeneration",
+      "regeneration_scope": "storyboard",
+      "reason": "Test only: creature identity mismatch",
+      "notes": "Temporary dry-run decision; do not use for production."
+    },
+    {
+      "review_id": "SSJ_EP01_SC04",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+      "shot_id": "TEST_SSJ_EP01_SC04_SH03",
+      "title": "Departure toward Yuping Mountain",
+      "current_status": "technical_fallback_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_TECHNICAL_ROUGH_CUT",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json",
+      "shot_id": "SSJ_EP01_ROUGH_SC01",
+      "title": "SC01 Mission transfer opening",
+      "current_status": "generated_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_TECHNICAL_ROUGH_CUT",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json",
+      "shot_id": "SSJ_EP01_ROUGH_SC02",
+      "title": "SC02 Farewell and descent",
+      "current_status": "generated_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_TECHNICAL_ROUGH_CUT",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json",
+      "shot_id": "SSJ_EP01_ROUGH_SC03",
+      "title": "SC03 Dragon pool ordeal and awakening",
+      "current_status": "technical_fallback_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    },
+    {
+      "review_id": "SSJ_EP01_TECHNICAL_ROUGH_CUT",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json",
+      "shot_id": "SSJ_EP01_ROUGH_SC04",
+      "title": "SC04 White dragon-deer mount and departure",
+      "current_status": "technical_fallback_pending_human_review",
+      "decision": "pending",
+      "regeneration_scope": "video",
+      "reason": "",
+      "notes": ""
+    }
+  ]
+}

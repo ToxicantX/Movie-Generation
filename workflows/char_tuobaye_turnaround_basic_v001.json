@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Create a clean production character reference board for an ancient Chinese mythic fantasy short drama. Character: adult Tuobaye, age 28 to 32, rugged weathered face, high messy topknot, lean wilderness survivor body, ragged practical grey-brown rough cloth layers, rope belt, worn travel pouch, green bamboo flute clearly visible, no armor, no noble costume. Layout: four consistent full-body views of the same adult character on one neutral dark studio background: front view, left side view, back view, front-right three-quarter view. Full body visible including feet, stable face identity, stable hair silhouette, stable clothing layers and bamboo flute. Cinematic realistic style, natural fabric texture, restrained lighting, no labels, no text.",
+        "model": "gpt-image-2",
+        "size": "1024x1024",
+        "negative_prompt": "text, labels, Chinese characters, watermark, logo, anime, cartoon, child, teenager, minor, modern fashion, sci-fi, western knight armor, glowing armor, inconsistent faces, duplicated heads, cropped feet, missing full body"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/charactersheets/CHAR_tuobaye_turnaround_basic_v001"
+      }
+    }
+  }
+}

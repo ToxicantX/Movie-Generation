@@ -1,0 +1,72 @@
+{
+    "updated":  "2026-06-13T02:01:53",
+    "reviewer":  "Codex test-mode visual review",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC25",
+                             "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc25_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC25_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC25",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc25_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC25_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC25_SH01",
+                          "title":  "科沙度试探更紧",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC25_SH01_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc25_sh01_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc25_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Keshadu\u0027s sharpened testing pressure is clear, with Tuobaye battered and the white-clothed woman held inside the same near-accusation field.",
+                          "notes":  "Codex visual precheck: SH01 cleanly advances the almost-open accusation beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC25",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc25_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC25_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC25_SH02",
+                          "title":  "十四郎怒意失衡",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC25_SH02_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc25_sh02_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc25_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Shisilang\u0027s pride tipping toward instability is readable without collapsing into a fresh strike moment.",
+                          "notes":  "Codex visual precheck: SH02 works as the unstable-pride escalation beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC25",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc25_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC25_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC25_SH03",
+                          "title":  "拓拔野再无退路",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC25_SH03_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc25_sh03_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc25_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Tuobaye\u0027s no-way-out danger is clear: he is visibly pinned between suspicion and aggression with no obvious bottom card.",
+                          "notes":  "Codex visual precheck: SH03 works as the locked-pressure beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC25",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc25_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC25_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC25_SH04",
+                          "title":  "白衣女子静到将动",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC25_SH04_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc25_sh04_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc25_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "The white-clothed woman\u0027s restraint now feels one breath away from action, while Keshadu remains near the truth and Tuobaye trapped inside the field.",
+                          "notes":  "Codex visual precheck: SH04 works as the imminent-restraint beat."
+                      }
+                  ]
+}

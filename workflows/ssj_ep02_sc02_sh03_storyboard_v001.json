@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input green-eyed elder turnaround sheet as the identity and prop anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 tense two-shot. A gaunt elderly adviser in black robe with deeply sunken green eyes and a plain tong-wood qin carried diagonally across his back leans slightly toward Shisilang, giving quiet counsel after the mountain remains silent. Shisilang listens with restrained anger. Two black-clad porters hold simple covered gift boxes on shoulder poles behind them. Pine-wood gate, blank or unreadable plaque, bamboo shadows, jade dusk mist, no visible Qingdi, no speech bubbles, no readable text, no English words. Mood: cold calculation, silent authority, political pressure. No combat, no gore, no injury.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_green_eyed_elder_turnaround_basic_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC02_SH03_v001"
+                                        }
+                         }
+               }
+}

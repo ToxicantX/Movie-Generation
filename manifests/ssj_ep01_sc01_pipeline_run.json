@@ -1,0 +1,216 @@
+{
+    "updated":  "2026-06-08T11:41:34",
+    "generate":  false,
+    "rerun_failed":  false,
+    "build_review_package":  true,
+    "technical_cut":  true,
+    "steps":  [
+                  {
+                      "name":  "refresh_consistency_review",
+                      "exit_code":  0,
+                      "output":  {
+                                     "updated":  "2026-06-08T11:41:35",
+                                     "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                                     "found":  [
+                                                   {
+                                                       "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                                                       "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                                                       "last_write_time":  "2026-06-08T11:18:46"
+                                                   },
+                                                   {
+                                                       "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                                                       "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                                                       "last_write_time":  "2026-06-08T11:20:33"
+                                                   },
+                                                   {
+                                                       "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                                                       "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                                                       "last_write_time":  "2026-06-08T11:22:06"
+                                                   }
+                                               ],
+                                     "invalid":  [
+
+                                                 ],
+                                     "ready_to_review":  true
+                                 }
+                  },
+                  {
+                      "name":  "build_review_package",
+                      "exit_code":  0,
+                      "output":  {
+                                     "ok":  true,
+                                     "updated":  "2026-06-08T11:41:36",
+                                     "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                                     "output_dir":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01",
+                                     "markdown_path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\human_review.md",
+                                     "shots":  [
+                                                   {
+                                                       "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                                                       "ok":  true,
+                                                       "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                                                       "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH01_v001_00001_.png",
+                                                       "frames":  {
+                                                                      "first":  {
+                                                                                    "path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH01\\TEST_SSJ_EP01_SC01_SH01_first.jpg",
+                                                                                    "frame":  0
+                                                                                },
+                                                                      "middle":  {
+                                                                                     "path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH01\\TEST_SSJ_EP01_SC01_SH01_middle.jpg",
+                                                                                     "frame":  120
+                                                                                 },
+                                                                      "last":  {
+                                                                                   "path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH01\\TEST_SSJ_EP01_SC01_SH01_last.jpg",
+                                                                                   "frame":  239
+                                                                               }
+                                                                  },
+                                                       "contact_sheet":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH01\\TEST_SSJ_EP01_SC01_SH01_contact_sheet.jpg",
+                                                       "storyboard_compare":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH01\\TEST_SSJ_EP01_SC01_SH01_storyboard_compare.jpg",
+                                                       "technical":  {
+                                                                         "fps":  24.0,
+                                                                         "width":  1280,
+                                                                         "height":  720,
+                                                                         "frame_count":  240,
+                                                                         "duration_seconds":  10.0,
+                                                                         "bytes":  5246292
+                                                                     },
+                                                       "error":  null
+                                                   },
+                                                   {
+                                                       "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                                                       "ok":  true,
+                                                       "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                                                       "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH02_v001_00001_.png",
+                                                       "frames":  {
+                                                                      "first":  {
+                                                                                    "path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH02\\TEST_SSJ_EP01_SC01_SH02_first.jpg",
+                                                                                    "frame":  0
+                                                                                },
+                                                                      "middle":  {
+                                                                                     "path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH02\\TEST_SSJ_EP01_SC01_SH02_middle.jpg",
+                                                                                     "frame":  120
+                                                                                 },
+                                                                      "last":  {
+                                                                                   "path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH02\\TEST_SSJ_EP01_SC01_SH02_last.jpg",
+                                                                                   "frame":  239
+                                                                               }
+                                                                  },
+                                                       "contact_sheet":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH02\\TEST_SSJ_EP01_SC01_SH02_contact_sheet.jpg",
+                                                       "storyboard_compare":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH02\\TEST_SSJ_EP01_SC01_SH02_storyboard_compare.jpg",
+                                                       "technical":  {
+                                                                         "fps":  24.0,
+                                                                         "width":  1280,
+                                                                         "height":  720,
+                                                                         "frame_count":  240,
+                                                                         "duration_seconds":  10.0,
+                                                                         "bytes":  4892402
+                                                                     },
+                                                       "error":  null
+                                                   },
+                                                   {
+                                                       "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                                                       "ok":  true,
+                                                       "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                                                       "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH03_v002_deeppurple_00001_.png",
+                                                       "frames":  {
+                                                                      "first":  {
+                                                                                    "path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH03\\TEST_SSJ_EP01_SC01_SH03_first.jpg",
+                                                                                    "frame":  0
+                                                                                },
+                                                                      "middle":  {
+                                                                                     "path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH03\\TEST_SSJ_EP01_SC01_SH03_middle.jpg",
+                                                                                     "frame":  120
+                                                                                 },
+                                                                      "last":  {
+                                                                                   "path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH03\\TEST_SSJ_EP01_SC01_SH03_last.jpg",
+                                                                                   "frame":  239
+                                                                               }
+                                                                  },
+                                                       "contact_sheet":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH03\\TEST_SSJ_EP01_SC01_SH03_contact_sheet.jpg",
+                                                       "storyboard_compare":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC01\\TEST_SSJ_EP01_SC01_SH03\\TEST_SSJ_EP01_SC01_SH03_storyboard_compare.jpg",
+                                                       "technical":  {
+                                                                         "fps":  24.0,
+                                                                         "width":  1280,
+                                                                         "height":  720,
+                                                                         "frame_count":  240,
+                                                                         "duration_seconds":  10.0,
+                                                                         "bytes":  4340304
+                                                                     },
+                                                       "error":  null
+                                                   }
+                                               ]
+                                 }
+                  },
+                  {
+                      "name":  "technical_cut",
+                      "exit_code":  0,
+                      "output":  {
+                                     "updated":  "2026-06-08T11:41:36",
+                                     "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                                     "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC01_test_cv2_v001.mp4",
+                                     "refresh":  {
+                                                     "updated":  "2026-06-08T11:41:36",
+                                                     "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                                                     "found":  [
+                                                                   {
+                                                                       "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                                                                       "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                                                                       "last_write_time":  "2026-06-08T11:18:46"
+                                                                   },
+                                                                   {
+                                                                       "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                                                                       "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                                                                       "last_write_time":  "2026-06-08T11:20:33"
+                                                                   },
+                                                                   {
+                                                                       "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                                                                       "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                                                                       "last_write_time":  "2026-06-08T11:22:06"
+                                                                   }
+                                                               ],
+                                                     "invalid":  [
+
+                                                                 ],
+                                                     "ready_to_review":  true
+                                                 },
+                                     "cut":  {
+                                                 "ok":  true,
+                                                 "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                                                 "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC01_test_cv2_v001.mp4",
+                                                 "sources":  [
+                                                                 {
+                                                                     "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                                                                     "fps":  24.0,
+                                                                     "width":  1280,
+                                                                     "height":  720,
+                                                                     "frame_count":  240
+                                                                 },
+                                                                 {
+                                                                     "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                                                                     "fps":  24.0,
+                                                                     "width":  1280,
+                                                                     "height":  720,
+                                                                     "frame_count":  240
+                                                                 },
+                                                                 {
+                                                                     "path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                                                                     "fps":  24.0,
+                                                                     "width":  1280,
+                                                                     "height":  720,
+                                                                     "frame_count":  240
+                                                                 }
+                                                             ],
+                                                 "frame_count":  720,
+                                                 "fps":  24.0,
+                                                 "size":  [
+                                                              1280,
+                                                              720
+                                                          ],
+                                                 "bytes":  26810874
+                                             },
+                                     "ok":  true,
+                                     "error":  null
+                                 }
+                  }
+              ],
+    "ok":  true
+}

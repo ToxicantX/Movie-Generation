@@ -1,0 +1,19 @@
+{
+    "updated":  "2026-06-09T15:20:03",
+    "shot_id":  "TEST_SSJ_EP02_SC07_SH03",
+    "mode":  "image_to_video_with_storyboard_image_path",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh03_i2v_v001.json",
+    "prompt_id":  "3960695a-a318-4788-9a86-98f66b159a2d",
+    "status":  "timeout",
+    "completed":  false,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh03_i2v_v001.json -\u003e prompt_id=3960695a-a318-4788-9a86-98f66b159a2d"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "3960695a-a318-4788-9a86-98f66b159a2d",
+                        "status":  "timeout",
+                        "completed":  false,
+                        "error":  "Timed out waiting for ComfyUI history."
+                    },
+    "error":  "Timed out waiting for ComfyUI history."
+}

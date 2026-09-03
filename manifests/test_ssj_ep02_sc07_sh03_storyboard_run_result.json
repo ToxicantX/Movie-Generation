@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-09T14:55:11",
+    "shot_id":  "TEST_SSJ_EP02_SC07_SH03",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh03_storyboard_v001.json",
+    "prompt_id":  "cc4ca744-b3a9-46ac-8a90-f1f60c537035",
+    "status":  "error",
+    "completed":  false,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh03_storyboard_v001.json -\u003e prompt_id=cc4ca744-b3a9-46ac-8a90-f1f60c537035"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "cc4ca744-b3a9-46ac-8a90-f1f60c537035",
+                        "status":  "error",
+                        "completed":  false,
+                        "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID a59b42db-4631-43b0-875d-410b5a1ad02e in your message.\",\"type\":\"server_error\"}}\n"
+                    },
+    "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID a59b42db-4631-43b0-875d-410b5a1ad02e in your message.\",\"type\":\"server_error\"}}\n"
+}

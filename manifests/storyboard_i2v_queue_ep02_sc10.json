@@ -1,0 +1,98 @@
+﻿{
+    "updated":  "2026-06-09T18:58:39",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc10.json",
+    "review_paths":  [
+                         ".\\manifests\\ssj_ep02_sc10_storyboard_review.json"
+                     ],
+    "include_pending":  false,
+    "include_blocked":  false,
+    "summary":  {
+                    "pending":  0,
+                    "pass":  4,
+                    "needs_regeneration":  0,
+                    "blocked":  0,
+                    "missing_workflow":  0,
+                    "missing_storyboard":  0
+                },
+    "queue_count":  4,
+    "queue":  [
+                  {
+                      "review_id":  "SSJ_EP02_SC10",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC10_SH01",
+                      "title":  "恭敬递剑",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Adult Tuobaye respectfully offers the broken sword to the adult white-clothed woman; moonlit pavilion setting and no readable text are clear.",
+                      "notes":  "Test-mode pass. Good handover composition; sword has no readable inscription.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH01_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc10_sh01_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc10_sh01_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC10",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC10_SH02",
+                      "title":  "断剑凌空入掌",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Floating broken sword and receiving gesture are clear; adult white-clothed woman, xiao, lake mist, and distant Tuobaye are usable with no readable text.",
+                      "notes":  "Test-mode pass with caveat: costume drifts blue-grey and sword ornamentation is more elaborate than target plain Wufeng.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH02_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc10_sh02_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc10_sh02_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc10_sh02_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC10",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC10_SH03",
+                      "title":  "锈落白芒",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Rust falling and pale glow beat are readable; blade decoration appears abstract and not clear Chinese/English text.",
+                      "notes":  "Test-mode pass with caveat: sword reads too long/two-section for production and should be redrawn later if strict prop continuity is required.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH03_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc10_sh03_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc10_sh03_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc10_sh03_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC10",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC10_SH04",
+                      "title":  "剑断情伤",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Restrained tear, glowing broken sword, and Tuobaye observing from distance clearly express the grief beat; no readable inscriptions or captions seen.",
+                      "notes":  "Test-mode pass. Strong emotional resolve frame; use only as pipeline validation until true I2V returns.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH04_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc10_sh04_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc10_sh04_i2v_v001.json",
+                      "can_auto_run":  true
+                  }
+              ],
+    "next_actions":  [
+                         "For pass decisions, run_i2v uses the approved storyboard as the single visual source through the prepared Comfy workflow.",
+                         "For needs_regeneration decisions, regenerate the storyboard before rebuilding this queue.",
+                         "Run run_storyboard_i2v_queue.ps1 with -DryRun first."
+                     ],
+    "ok":  true
+}

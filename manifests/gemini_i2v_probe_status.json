@@ -1,0 +1,21 @@
+{
+    "updated":  "2026-06-08T11:00:01",
+    "base_url":  "http://127.0.0.1:7860",
+    "status":  "probe_completed_failure",
+    "message":  "Protected probe ran the API I2V probe but it failed.",
+    "cooldown":  {
+                     "kind":  "video",
+                     "label":  "è§é¢",
+                     "total":  4,
+                     "blocked":  0,
+                     "available":  4,
+                     "next":  null,
+                     "accounts":  [
+
+                                  ]
+                 },
+    "probe_script":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\probe_gemini_i2v_api.ps1",
+    "reference_field":  "file_ids",
+    "gemini_app_path":  "E:\\workspace\\DockerProjects\\Gemini-API\\src\\gemini_webapi\\server\\app.py",
+    "exit_code":  1
+}

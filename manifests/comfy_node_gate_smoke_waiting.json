@@ -1,0 +1,10 @@
+{
+  "updated": "2026-06-10T22:48:50",
+  "qa_json": "E:\\workspace\\ComfyUIProjects\\manifests\\ssj_comic_episode03_draft_qa.json",
+  "episode_id": "SSJ_COMIC_EP03",
+  "approved": false,
+  "approval_status": "waiting_for_human_review",
+  "reviewer": "human_reviewer",
+  "note": "",
+  "next_action": "review draft markdown and set approve=true"
+}

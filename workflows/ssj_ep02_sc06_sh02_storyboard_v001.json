@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Yuping/Tianhu reference as the quiet moonlit pavilion mood. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 intimate insert composition. On a rough stone table inside a bamboo lakeside pavilion sits a small white agate incense burner, translucent and simple, with faint purple smoke curling upward like a vanished melody. Adult Tuobaye\u0027s rough sleeve and hand are partly visible at the edge of frame, hesitant and reverent; the lake moonlight glows behind. No readable text, no captions, no subtitles, no English words, no labels, no carved words, no calligraphy, no modern object, no person revealed as the incense owner.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC06_SH02_v001"
+                                        }
+                         }
+               }
+}

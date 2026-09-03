@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the approved SC21 gate-space confrontation as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 stunned-crowd composition. After the impossible reversal, Fourteen is knocked back or low in frame, adult Tuobaye remains battered and shocked by his own survival, and the gathered black-clothed onlookers stare in collective disbelief. Wounded Duan Yukai may register fierce satisfaction or astonishment, but should still look injured. Keep the frame centered on the public impossibility of what just happened. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH04_v001_00003_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC22_SH03_v001"
+                                        }
+                         }
+               }
+}

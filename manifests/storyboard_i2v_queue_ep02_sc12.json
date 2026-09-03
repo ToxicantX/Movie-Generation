@@ -1,0 +1,98 @@
+﻿{
+    "updated":  "2026-06-09T20:36:30",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc12.json",
+    "review_paths":  [
+                         ".\\manifests\\ssj_ep02_sc12_storyboard_review.json"
+                     ],
+    "include_pending":  false,
+    "include_blocked":  false,
+    "summary":  {
+                    "pending":  0,
+                    "pass":  4,
+                    "needs_regeneration":  0,
+                    "blocked":  0,
+                    "missing_workflow":  0,
+                    "missing_storyboard":  0
+                },
+    "queue_count":  4,
+    "queue":  [
+                  {
+                      "review_id":  "SSJ_EP02_SC12",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc12_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC12_SH01",
+                      "title":  "一五一十诉旧事",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Test-mode pass to keep the SC12 pipeline moving.",
+                      "notes":  "No readable text, subtitles, lyrics, musical notes, or blood-letter contents visible. Recollection/listening beat is usable for pipeline continuity; production should tighten Tuobaye face and costume continuity.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC12_SH01_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc12_sh01_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc12_sh01_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc12_sh01_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC12",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc12_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC12_SH02",
+                      "title":  "南际山遇神农",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Test-mode pass to keep the SC12 pipeline moving.",
+                      "notes":  "No readable text or subtitles visible. Nanjishan/Shennong meeting beat is clear and Shennong reads as dignified elder; production should still verify Tuobaye styling against character card.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC12_SH02_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc12_sh02_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc12_sh02_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc12_sh02_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC12",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc12_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC12_SH03",
+                      "title":  "临终重托坠龙潭",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Test-mode pass to keep the SC12 pipeline moving.",
+                      "notes":  "No readable letter contents visible and Dragon Pool memory is non-graphic. Production caveat: Tuobaye styling drifts too refined/noble and should be regenerated with stricter rugged costume reference.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC12_SH03_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc12_sh03_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc12_sh03_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc12_sh03_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC12",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc12_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC12_SH04",
+                      "title":  "闻毒与芳华动容",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Test-mode pass to keep the SC12 pipeline moving.",
+                      "notes":  "No readable text, subtitles, lyrics, or musical notes visible. Emotional reaction beat is usable, but this frame used no-reference fallback after upstream errors and has weaker character continuity.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC12_SH04_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc12_sh04_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc12_sh04_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc12_sh04_i2v_v001.json",
+                      "can_auto_run":  true
+                  }
+              ],
+    "next_actions":  [
+                         "For pass decisions, run_i2v uses the approved storyboard as the single visual source through the prepared Comfy workflow.",
+                         "For needs_regeneration decisions, regenerate the storyboard before rebuilding this queue.",
+                         "Run run_storyboard_i2v_queue.ps1 with -DryRun first."
+                     ],
+    "ok":  true
+}

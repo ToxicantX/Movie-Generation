@@ -1,0 +1,57 @@
+{
+  "updated": "2026-06-11T22:22:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 玄蛇化出，段狂受制",
+  "purpose": "Seed for EP02 SC16 after EP02 SC15 formal test-mode segment. Continue the ComfyUI short-drama pipeline from Shisilang's request to fight into the first direct clash: Shisilang attacks Duan Yukai; the black serpent whip transforms into the giant幻电玄蛇; Duan Yukai is forced off the bamboo tower and into defensive retreat; hidden in the courtyard, Tuobaye and the white dragon-deer are shocked and lose composure.",
+  "segment_id": "SSJ_EP02_SC16",
+  "beat_id": "C02_B16",
+  "title": "玄蛇化出，段狂受制",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC15",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc15_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC15_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC15\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC15_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc15_formal_cut_result.json",
+    "previous_formal_segment_probe": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc15_formal_cut_probe.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc15_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC15 is approved only for pipeline validation. All four SC15 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing. SH04 required storyboard regeneration before pass because the gate-inside/outside logic was initially wrong."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "十四郎转身朝段聿铠走去，段聿铠继续呼喝青帝名讳。",
+    "adapted_summary": "十四郎主动出手，长鞭在空中化作巨大的黑色玄蛇。段聿铠初时轻敌，被逼从竹楼落地，只能疾走护身。十四郎立在松枝上，以指控蛇，众朝阳谷来客在湖边助威。段聿铠虽仍狂笑强撑，却逐渐陷入下风。玄蛇重击将他轰向松树，躲在禁院竹后的拓拔野失声惊呼，白龙鹿也受惊鸣叫，庭院内外都察觉到院中另有人藏身。",
+    "next_source_hint": "接下来会进入段聿铠被逼至树梢、众人寻声回望、白衣女子与拓拔野的隐匿压力进一步上升。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "previous_duanyukai_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC15_SH03_v001_00001_.png",
+    "previous_gate_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC15_SH04_v001_00003_.png"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, right-waist green bamboo sheath, hidden broken Wufeng.",
+    "White-clothed woman remains elegant, restrained, fully clothed, and mostly hidden or controlled in reaction shots; do not shift focus away from the conflict beat.",
+    "Duan Yukai remains a bloodied but formidable Mirage City intruder in blue robes, never comic and never cleanly dressed.",
+    "Shisilang remains outside the forbidden courtyard and distinct from Tuobaye; his black serpent attack should feel supernatural but readable.",
+    "If the玄蛇 appears, it must remain non-gory and avoid grotesque detail while still reading as a giant black magical serpent.",
+    "No readable text, captions, subtitles, plaques, gate calligraphy, speech bubbles, English words, or UI."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Stage the conflict as readable escalation rather than dense melee. Keep serpent motion clear, reactions strong, and hidden-courtyard continuity intact."
+  }
+}

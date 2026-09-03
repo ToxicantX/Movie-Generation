@@ -1,0 +1,65 @@
+{
+    "updated":  "2026-06-08T07:05:45",
+    "mode":  "dryrun",
+    "comfy_url":  "http://127.0.0.1:8188",
+    "workflows":  [
+                      {
+                          "workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh01_runway_i2v_dryrun.json",
+                          "prompt_id":  "9bdb336a-1328-4ece-b342-50e85c206f22",
+                          "submit":  {
+                                         "prompt_id":  "9bdb336a-1328-4ece-b342-50e85c206f22",
+                                         "number":  4,
+                                         "node_errors":  {
+
+                                                         }
+                                     },
+                          "wait":  {
+                                       "prompt_id":  "9bdb336a-1328-4ece-b342-50e85c206f22",
+                                       "status":  "success",
+                                       "completed":  true,
+                                       "error":  null
+                                   },
+                          "ok":  true,
+                          "error":  null
+                      },
+                      {
+                          "workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh02_runway_i2v_dryrun.json",
+                          "prompt_id":  "e36f09b4-658a-4cc7-9324-befb2b93c65b",
+                          "submit":  {
+                                         "prompt_id":  "e36f09b4-658a-4cc7-9324-befb2b93c65b",
+                                         "number":  5,
+                                         "node_errors":  {
+
+                                                         }
+                                     },
+                          "wait":  {
+                                       "prompt_id":  "e36f09b4-658a-4cc7-9324-befb2b93c65b",
+                                       "status":  "success",
+                                       "completed":  true,
+                                       "error":  null
+                                   },
+                          "ok":  true,
+                          "error":  null
+                      },
+                      {
+                          "workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh03_runway_i2v_dryrun.json",
+                          "prompt_id":  "1438215a-2f3e-4ed1-8d20-4053589a8d18",
+                          "submit":  {
+                                         "prompt_id":  "1438215a-2f3e-4ed1-8d20-4053589a8d18",
+                                         "number":  6,
+                                         "node_errors":  {
+
+                                                         }
+                                     },
+                          "wait":  {
+                                       "prompt_id":  "1438215a-2f3e-4ed1-8d20-4053589a8d18",
+                                       "status":  "success",
+                                       "completed":  true,
+                                       "error":  null
+                                   },
+                          "ok":  true,
+                          "error":  null
+                      }
+                  ],
+    "ok":  true
+}

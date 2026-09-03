@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input SC07 reaction storyboard as continuity for the encounter layout. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 balanced composition. The adult white-clothed woman stands in moonlit bamboo, fully clothed and respectful, holding the white agate xiao lowered at her side; she lightly frowns in puzzled concern as if softly calling Tuobaye. Adult Tuobaye in rugged grey-brown travel clothes begins to recover from his trance, still awkward and overwhelmed. The friendly white dragon-deer remains frozen but dignified near him, mythic and luminous, not ordinary deer-like if possible. Moonlit lake, bamboo shadows, purple incense smoke. No readable text, no captions, no subtitles, no English words, no speech bubbles, no musical notes, no signs, no plaques, no lip-sync, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC07_SH04_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC08_SH03_v001"
+                                        }
+                         }
+               }
+}

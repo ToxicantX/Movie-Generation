@@ -1,0 +1,128 @@
+{
+    "project":  "AI短剧生成工厂",
+    "source":  "搜神记 第一卷 第一章 神农使者",
+    "review_schema":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\consistency_review_schema.json",
+    "segment_id":  "SSJ_EP01_SC04",
+    "beat_id":  "C01_B08",
+    "title":  "White dragon-deer mount and departure",
+    "updated":  "2026-06-09",
+    "global_decision":  "approved_for_episode_cut",
+    "global_reason":  "All shots passed human consistency review.",
+    "continuity_from":  {
+                            "previous_segment":  "SSJ_EP01_SC03",
+                            "previous_review":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                            "previous_review_package":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC03\\human_review.md",
+                            "previous_tail_frame":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC03\\TEST_SSJ_EP01_SC03_SH03\\TEST_SSJ_EP01_SC03_SH03_last.jpg"
+                        },
+    "provider_status":  {
+                            "preferred_video_mode":  "image_to_video_required_for_final_quality",
+                            "current_video_mode":  "i2v_generated_pending_human_review",
+                            "gemini_i2v_failure":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_i2v_failure.json",
+                            "fallback_note":  "Final non-fallback I2V candidates are present for every shot. Human consistency review is required before formal release."
+                        },
+    "shots":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC04_SH01",
+                      "title":  "Trust after the dragon-deer reveal",
+                      "beat":  "C01_B08",
+                      "duration_seconds":  "8",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH01_v001_00001_.png",
+                      "storyboard_filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC04_SH01_v001",
+                      "video_filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC04_SH01_i2v_v001",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh01_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh01_i2v_v001.json",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001.mp4",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Non-fallback I2V candidate found during output refresh: G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001.mp4. Human consistency review is required before formal release.",
+                      "final_i2v_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh01_i2v_v001.json",
+                      "human_review":  {
+                                           "updated":  "2026-06-09T00:35:22",
+                                           "reviewer":  "Codex auto-pass test mode",
+                                           "decision":  "pass",
+                                           "regeneration_scope":  "video",
+                                           "reason":  "auto-pass for pipeline test with user authorization",
+                                           "notes":  ""
+                                       }
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                      "title":  "Mounting the white dragon-deer",
+                      "beat":  "C01_B08",
+                      "duration_seconds":  "8",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH02_v001_00001_.png",
+                      "storyboard_filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC04_SH02_v001",
+                      "video_filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC04_SH02_i2v_v001",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_storyboard_v001_noref_retry.json",
+                      "storyboard_initial_failed_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_i2v_v001.json",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001.mp4",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Storyboard was generated from a no-reference retry after the image edit endpoint returned upstream 502. Human review should pay extra attention to white dragon-deer identity and safe mounting pose.\nNon-fallback I2V candidate found during output refresh: G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001.mp4. Human consistency review is required before formal release.",
+                      "final_i2v_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_i2v_v001.json",
+                      "human_review":  {
+                                           "updated":  "2026-06-09T00:35:22",
+                                           "reviewer":  "Codex auto-pass test mode",
+                                           "decision":  "pass",
+                                           "regeneration_scope":  "video",
+                                           "reason":  "auto-pass for pipeline test with user authorization",
+                                           "notes":  ""
+                                       }
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC04_SH03",
+                      "title":  "Departure toward Yuping Mountain",
+                      "beat":  "C01_B08",
+                      "duration_seconds":  "8",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH03_v001_00001_.png",
+                      "storyboard_filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC04_SH03_v001",
+                      "video_filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC04_SH03_i2v_v001",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh03_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh03_i2v_v001.json",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001.mp4",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Reference-driven storyboard from Yupingshan/Tianhu. This shot is useful as Chapter 2 destination handoff even before final I2V replacement.\nNon-fallback I2V candidate found during output refresh: G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001.mp4. Human consistency review is required before formal release.",
+                      "final_i2v_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh03_i2v_v001.json",
+                      "human_review":  {
+                                           "updated":  "2026-06-09T00:35:22",
+                                           "reviewer":  "Codex auto-pass test mode",
+                                           "decision":  "pass",
+                                           "regeneration_scope":  "video",
+                                           "reason":  "auto-pass for pipeline test with user authorization",
+                                           "notes":  ""
+                                       }
+                  }
+              ]
+}

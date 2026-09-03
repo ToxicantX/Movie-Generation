@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-12T14:44:52",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc23.json",
+    "shot_id":  "TEST_SSJ_EP02_SC23_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "The crowd-pressure beat is clear: the mood has shifted from shock into collective questioning while Tuobaye remains battered and centered.",
+    "notes":  "Codex visual precheck: SH01 cleanly establishes the aftermath crowd pressure.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

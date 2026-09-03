@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input dragon pool location reference as the scene anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9. Adult Tuobaye age 28 to 32 stands safely on the circular mossy stone bank of the Dragon Pool after descending from Nanji Mountain. He wears rugged grey-brown rough cloth layers, rope belt, worn travel pouch, green bamboo flute visible, and carries a cloth bundle of relics. Cold jade water, waterfall mist, ancient pine roots, glowing herbs, and faint dragon-shaped ripples match the reference location. He looks alert and exhausted but not injured. Safe readable stone platform, no cliff-edge danger, no drowning, no gore, no text.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  ""
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC03_SH01_v001"
+                                        }
+                         }
+               }
+}

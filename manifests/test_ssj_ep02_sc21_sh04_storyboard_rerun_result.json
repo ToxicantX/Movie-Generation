@@ -1,0 +1,18 @@
+﻿{
+    "updated":  "2026-06-12T08:08:08",
+    "shot_id":  "TEST_SSJ_EP02_SC21_SH04",
+    "workflow_path":  ".\\workflows\\ssj_ep02_sc21_sh04_storyboard_v001.json",
+    "prompt_id":  "134513e3-9570-48f5-8a0a-884c0b203452",
+    "status":  "error",
+    "completed":  false,
+    "submit_output":  [
+                          ".\\workflows\\ssj_ep02_sc21_sh04_storyboard_v001.json -\u003e prompt_id=134513e3-9570-48f5-8a0a-884c0b203452"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "134513e3-9570-48f5-8a0a-884c0b203452",
+                        "status":  "error",
+                        "completed":  false,
+                        "error":  "Image API error 502: 502 Bad Gateway\n"
+                    },
+    "error":  "Image API error 502: 502 Bad Gateway\n"
+}

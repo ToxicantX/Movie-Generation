@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_formal_cut_review.json",
+  "output_path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_formal_cut_v001.mp4",
+  "sources": [
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC01_formal_cut_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 720
+    },
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC02_formal_cut_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 720
+    },
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC03_formal_cut_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 720
+    },
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC04_formal_cut_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 720
+    }
+  ],
+  "frame_count": 2880,
+  "fps": 24.0,
+  "size": [
+    1280,
+    720
+  ],
+  "bytes": 95970450
+}

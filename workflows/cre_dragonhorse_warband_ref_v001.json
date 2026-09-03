@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-longform-comic",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Create a production creature-and-group reference image for an ancient Chinese mythic fantasy long-form comic. Subject: Chaoyang Valley black-clad warband riding dragon-horses. Design lock: a few representative adult black-clad riders in matching ancient black riding uniforms with long knives, stern wooden expressions, dark belts and boots; several dragon-horses are horse-bodied mythic mounts with subtle dragon features, long necks, scaled cheek and chest accents, dark mane, strong legs, ancient tack, no western saddles, no medieval plate armor. Composition: reference-board style scene, one large dragon-horse in three-quarter full body foreground, two smaller side-view dragon-horses, riders grouped behind in dust, readable silhouettes, recurring group identity for comic panels. Premium ink-and-watercolor graphic novel style over cinematic realistic forms, restrained palette, no labels, no text.",
+        "model": "gpt-image-2",
+        "size": "1024x1024",
+        "negative_prompt": "text, labels, Chinese characters, watermark, logo, modern city, sci-fi, western medieval armor, anime, cartoon, child, teenager, minor, cropped creature, distorted anatomy, gore, nudity"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/creatures/CRE_dragonhorse_warband_ref_v001"
+      }
+    }
+  }
+}

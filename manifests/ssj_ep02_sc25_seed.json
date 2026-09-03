@@ -1,0 +1,54 @@
+{
+  "updated": "2026-06-13T01:30:30",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 试探再紧，暗雷欲动",
+  "purpose": "Seed for EP02 SC25 after EP02 SC24 formal test-mode segment. Continue the ComfyUI short-drama pipeline from the tightening scrutiny into the next near-breakpoint: Keshadu's testing pressure sharpens further, Shisilang's pride keeps the scene unstable, Tuobaye is still trapped without understanding his own survival path, and the white-clothed woman's restraint feels one step away from turning into action.",
+  "segment_id": "SSJ_EP02_SC25",
+  "beat_id": "C02_B25",
+  "title": "试探再紧，暗雷欲动",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC24",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc24_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC24_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC24\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC24_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc24_formal_cut_result.json",
+    "previous_formal_segment_probe": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc24_formal_cut_probe.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC24 is approved only for pipeline validation. All four SC24 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing. SH03 required storyboard regeneration before pass."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "科沙度更近一步试探，十四郎继续羞怒逼压，白衣女子的暗线几乎将明。",
+    "adapted_summary": "接下来这条线会继续收紧。科沙度的怀疑会更接近摊牌，十四郎也不会甘心退场，拓拔野仍被两面夹压而不知真正底牌所在。白衣女子的克制会越来越像暴风雨前最后的平静，为后续真正爆开的节点继续蓄力。",
+    "next_source_hint": "下一段需要把试探和压迫继续转成更直接的临界点，让隐藏援手几乎无法再完全藏住。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_probe_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH01_v001_00001_.png",
+    "previous_near_exposure_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC24_SH04_v001_00001_.png"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, right-waist green bamboo sheath, hidden broken Wufeng.",
+    "White-clothed woman remains elegant, restrained, and dangerous; no overt spell spectacle.",
+    "Keshadu stays cold, analytical, and increasingly near the truth.",
+    "Shisilang remains unstable from wounded pride, not calm or reset.",
+    "No readable text, captions, subtitles, plaques, gate calligraphy, speech bubbles, English words, or UI."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Keep the beat readable: sharper testing, wounded pride, trapped uncertainty, and near-exposed restraint should appear as separate visual steps."
+  }
+}

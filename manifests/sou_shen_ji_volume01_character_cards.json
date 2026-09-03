@@ -1,0 +1,75 @@
+{
+  "updated": "2026-06-08",
+  "source": "搜神记 第一卷",
+  "production_note": "Draft cards are for visual locking; upgrade to v1 after chapter-level close reading.",
+  "cards": [
+    {
+      "status": "close_reading_v1",
+      "name": "拓拔野",
+      "priority": "P0_volume01",
+      "id": "CHAR_tuobaye",
+      "path": "E:\\WuShengXi-Obsidian\\Projects\\AI短剧生成工厂\\characters\\CHAR_tuobaye.md",
+      "reference_image_status": "usable_v001",
+      "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_tuobaye_ref_v001_00001_.png",
+      "turnaround_sheet_status": "usable_basic_v001_full_sheet_pending",
+      "turnaround_sheet": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+      "turnaround_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_tuobaye_turnaround_basic_v001.json",
+      "turnaround_review": "Basic four-view sheet is usable for storyboard-stage costume and prop locking. Adult identity, rough cloth layers, rope belt, travel pouch, full-body feet, and green bamboo flute remain consistent. Full eight-view/detail sheet still pending because the complex sheet request hit repeated image API 502 errors.",
+      "reference_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_char_tuobaye_ref_image_v001.json",
+      "reference_prompt_id": "5d59bd08-cf99-4737-98ef-bb714ff43b62",
+      "reference_review": "Strong adult adaptation, rugged wilderness clothing, clear bamboo flute, and usable protagonist face. Use safer meadow/forest wording in video prompts."
+    },
+    {
+      "status": "close_reading_v1",
+      "name": "神农",
+      "priority": "P0_volume01",
+      "id": "CHAR_shennong",
+      "path": "E:\\WuShengXi-Obsidian\\Projects\\AI短剧生成工厂\\characters\\CHAR_shennong.md",
+      "reference_image_status": "usable_v001",
+      "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_shennong_ref_v001_00001_.png",
+      "turnaround_sheet_status": "usable_basic_v001_full_sheet_pending",
+      "turnaround_sheet": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_shennong_turnaround_basic_v001_00001_.png",
+      "turnaround_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_shennong_turnaround_basic_v001.json",
+      "turnaround_review": "Basic four-view sheet is usable for storyboard-stage robe, hair, beard, pouch, and herb-detail locking. The character remains a living calm elder in deep purple robe. Full eight-view/detail sheet still pending.",
+      "reference_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_char_shennong_ref_image_v001.json",
+      "reference_prompt_id": "daa122f2-684c-4197-9586-d8627c01b9d9",
+      "reference_review": "White-haired divine elder, purple robe, herbal details, and calm farewell mood are clear. Safety framing is suitable for reference-driven video."
+    },
+    {
+      "status": "close_reading_v1",
+      "name": "青帝",
+      "priority": "P1_volume01",
+      "id": "CHAR_qingdi",
+      "path": "E:\\WuShengXi-Obsidian\\Projects\\AI短剧生成工厂\\characters\\CHAR_qingdi.md",
+      "reference_image_status": "usable_v001",
+      "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_qingdi_ref_v001_00001_.png",
+      "reference_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_char_qingdi_ref_image_v001.json",
+      "reference_prompt_id": "32ae5a5b-bf99-4c92-abbe-f60523e454bb",
+      "reference_review": "Strong age, face, wood-element embroidery, and green palette. Crown is slightly imperial but not dragon-robe coded."
+    },
+    {
+      "status": "close_reading_v1",
+      "name": "雨师妾",
+      "priority": "P1_volume01",
+      "id": "CHAR_yushiqie",
+      "path": "E:\\WuShengXi-Obsidian\\Projects\\AI短剧生成工厂\\characters\\CHAR_yushiqie.md",
+      "reference_image_status": "usable_v001",
+      "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+      "reference_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_char_yushiqie_ref_image_v001.json",
+      "reference_prompt_id": "3dfb8bfc-74fa-4530-b930-f1345e8e4b6d",
+      "reference_review": "Adult, cool, water/rain palette and silver ornaments are clear. Slightly polished xianxia; consider a rougher v002 for stronger ancient-wilderness texture."
+    },
+    {
+      "status": "close_reading_v1_with_adult_adaptation_required",
+      "name": "纤纤",
+      "priority": "P1_volume01",
+      "id": "CHAR_xianxian",
+      "path": "E:\\WuShengXi-Obsidian\\Projects\\AI短剧生成工厂\\characters\\CHAR_xianxian.md",
+      "reference_image_status": "usable_v001",
+      "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_xianxian_ref_v001_00001_.png",
+      "reference_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_char_xianxian_ref_image_v001.json",
+      "reference_prompt_id": "ebca6359-8e0e-4ab4-8595-9076b65f2bf6",
+      "reference_review": "Adult future-stage adaptation only. Bright and gentle, visually distinct from Yushiqie. Source-stage Xianxian reads young, so do not use this reference for romanticized or sexualized first-volume scenes."
+    }
+  ]
+}

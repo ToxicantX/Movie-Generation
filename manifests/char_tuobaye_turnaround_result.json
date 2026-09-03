@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-08T12:52:56",
+    "shot_id":  "CHAR_tuobaye_turnaround",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_tuobaye_turnaround_sheet_v001.json",
+    "prompt_id":  "3a0bc397-f3b2-4c72-a8b0-8680023dc73e",
+    "status":  "error",
+    "completed":  false,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_tuobaye_turnaround_sheet_v001.json -\u003e prompt_id=3a0bc397-f3b2-4c72-a8b0-8680023dc73e"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "3a0bc397-f3b2-4c72-a8b0-8680023dc73e",
+                        "status":  "error",
+                        "completed":  false,
+                        "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID 685e0887-d4df-4370-9894-9dcb90192ece in your message.\",\"type\":\"server_error\"}}\n"
+                    },
+    "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID 685e0887-d4df-4370-9894-9dcb90192ece in your message.\",\"type\":\"server_error\"}}\n"
+}

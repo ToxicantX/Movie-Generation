@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T22:54:44",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc16.json",
+    "shot_id":  "TEST_SSJ_EP02_SC16_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "needs_regeneration",
+    "reason":  "blocking continuity failure: hidden-courtyard layout is wrong, white-clothed woman is too exposed, and the snake/outer-fight geography collapses into one space",
+    "notes":  "Regenerate with strict hidden-observer logic: Tuobaye and white dragon-deer remain behind west bamboo, white-clothed woman stays restrained and partly screened, battle remains outside the gate, no bright white snake in the courtyard, no extra in-courtyard combatant.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

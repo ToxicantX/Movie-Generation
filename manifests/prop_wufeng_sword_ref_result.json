@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-08T14:31:05",
+    "shot_id":  "PROP_wufeng_sword_ref",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_prop_wufeng_sword_ref_v001.json",
+    "prompt_id":  "d737df61-255b-40c6-9237-b8522bd3a7a2",
+    "status":  "error",
+    "completed":  false,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_prop_wufeng_sword_ref_v001.json -\u003e prompt_id=d737df61-255b-40c6-9237-b8522bd3a7a2"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "d737df61-255b-40c6-9237-b8522bd3a7a2",
+                        "status":  "error",
+                        "completed":  false,
+                        "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID a7da5203-eab8-46c2-ba0b-ddfc46cffdda in your message.\",\"type\":\"server_error\"}}\n"
+                    },
+    "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID a7da5203-eab8-46c2-ba0b-ddfc46cffdda in your message.\",\"type\":\"server_error\"}}\n"
+}

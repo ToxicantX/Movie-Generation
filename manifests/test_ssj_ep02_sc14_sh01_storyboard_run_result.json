@@ -1,0 +1,18 @@
+﻿{
+    "updated":  "2026-06-10T01:14:15",
+    "shot_id":  "TEST_SSJ_EP02_SC14_SH01",
+    "workflow_path":  ".\\workflows\\ssj_ep02_sc14_sh01_storyboard_v001.json",
+    "prompt_id":  "dcfc2fc1-74a6-4ac3-a3b4-d9e36f9e8355",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          ".\\workflows\\ssj_ep02_sc14_sh01_storyboard_v001.json -\u003e prompt_id=dcfc2fc1-74a6-4ac3-a3b4-d9e36f9e8355"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "dcfc2fc1-74a6-4ac3-a3b4-d9e36f9e8355",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

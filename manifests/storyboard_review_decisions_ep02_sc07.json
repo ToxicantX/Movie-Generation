@@ -1,0 +1,72 @@
+{
+  "updated": "2026-06-09T15:15:00",
+  "reviewer": "Codex auto-pass test mode; user authorized auto-pass when absent on 2026-06-09",
+  "instructions": "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+  "review_index": [
+    {
+      "review_id": "SSJ_EP02_SC07",
+      "review_path": ".\\manifests\\ssj_ep02_sc07_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC07_STORYBOARD\\human_review.md",
+      "global_decision": "pending_storyboard_human_review",
+      "shot_count": 4
+    }
+  ],
+  "decisions": [
+    {
+      "review_id": "SSJ_EP02_SC07",
+      "review_path": ".\\manifests\\ssj_ep02_sc07_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC07_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC07_SH01",
+      "title": "箫声忽然相和",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC07_SH01_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh01_storyboard_v001_noref_retry.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh01_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: reaction beat is clear, no text. Primary reference workflow hit image API 502; no-reference fallback succeeded. White dragon-deer reads somewhat ordinary-deer-like."
+    },
+    {
+      "review_id": "SSJ_EP02_SC07",
+      "review_path": ".\\manifests\\ssj_ep02_sc07_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC07_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC07_SH02",
+      "title": "回头误认神农",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC07_SH02_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh02_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh02_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: Tuobaye mistaken-recognition expression is usable; no readable text or woman reveal."
+    },
+    {
+      "review_id": "SSJ_EP02_SC07",
+      "review_path": ".\\manifests\\ssj_ep02_sc07_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC07_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC07_SH03",
+      "title": "白衣女子月下持箫",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC07_SH03_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh03_storyboard_v001_noref_retry.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh03_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: adult white-clothed woman is respectful and non-sexualized. Primary Yushiqie reference workflow hit image API 502; no-reference fallback succeeded, so production should regenerate with reference if consistency matters."
+    },
+    {
+      "review_id": "SSJ_EP02_SC07",
+      "review_path": ".\\manifests\\ssj_ep02_sc07_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC07_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC07_SH04",
+      "title": "拓拔野与白龙鹿怔住",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC07_SH04_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh04_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh04_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: stunned encounter composition is usable; woman remains adult/respectful, no readable text."
+    }
+  ]
+}

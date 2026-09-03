@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-12T14:46:47",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc23.json",
+    "shot_id":  "TEST_SSJ_EP02_SC23_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "The white-clothed woman\u0027s calm pressure is readable, with Keshadu\u0027s suspicion and Tuobaye\u0027s confusion still present in the same gate-space.",
+    "notes":  "Codex visual precheck: SH04 is suitable as the silent-pressure beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

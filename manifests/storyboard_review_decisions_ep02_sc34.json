@@ -1,0 +1,72 @@
+{
+    "updated":  "2026-06-13T12:04:42",
+    "reviewer":  "Codex test-mode visual review",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC34",
+                             "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc34_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC34_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC34",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc34_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC34_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC34_SH01",
+                          "title":  "科沙度结论欲定",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC34_SH01_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc34_sh01_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc34_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Keshadu\u0027s conclusion now clearly reads as almost locked into open fact, with Tuobaye spent and the white-clothed woman still holding the center line.",
+                          "notes":  "Codex visual precheck: SH01 works as the truth-nearly-fixed beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC34",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc34_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC34_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC34_SH02",
+                          "title":  "十四郎怒线欲裂",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC34_SH02_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc34_sh02_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc34_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Shisilang\u0027s rage now clearly reads as one thread from visible rupture.",
+                          "notes":  "Codex visual precheck: SH02 works as the rupture-imminent beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC34",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc34_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC34_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC34_SH03",
+                          "title":  "拓拔野将要枯竭",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC34_SH03_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc34_sh03_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc34_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Tuobaye\u0027s near-empty core is clear: he looks almost fully drained under converging pressure.",
+                          "notes":  "Codex visual precheck: SH03 works as the near-empty-core beat."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC34",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc34_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC34_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC34_SH04",
+                          "title":  "白衣女子静压欲裂",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC34_SH04_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc34_sh04_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc34_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "The white-clothed woman\u0027s stillness now clearly feels about to break apart.",
+                          "notes":  "Codex visual precheck: SH04 works as the almost-broken-stillness beat."
+                      }
+                  ]
+}

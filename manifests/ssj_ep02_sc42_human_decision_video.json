@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-13T19:02:00",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC42_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Keshadu's truth-about-to-solidify-visible beat now reads as nearly undeniable public fact."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC42_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Shisilang's rage-line-on-the-verge-of-splitting pressure now reads as nearly rupturing."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC42_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Tuobaye's exhaustion-nearing-total-empty state is clearly readable."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC42_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; the white-clothed woman's still pressure now reads as about to shatter."
+    }
+  ]
+}

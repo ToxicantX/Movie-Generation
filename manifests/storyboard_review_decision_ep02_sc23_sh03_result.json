@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-12T14:46:07",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc23.json",
+    "shot_id":  "TEST_SSJ_EP02_SC23_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Keshadu\u0027s sharpened suspicion reads clearly, and the white-clothed woman remains quietly implicated without overt magic.",
+    "notes":  "Codex visual precheck: SH03 works as the suspicion-locking beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

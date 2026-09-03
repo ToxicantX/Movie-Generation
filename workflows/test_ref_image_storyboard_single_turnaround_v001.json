@@ -1,0 +1,25 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Use the input character reference sheet to create one cinematic realistic storyboard frame. Adult Tuobaye stands in a safe ancient mountain meadow at golden dusk, wearing the same rough grey-brown layered cloth, rope belt, travel pouch, messy topknot, and green bamboo flute from the reference sheet. Medium-wide shot, natural fabric texture, ancient Chinese mythic fantasy realism, no text, no watermark.",
+        "model": "gpt-image-2",
+        "size": "1024x1024",
+        "reference_image_paths": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+        "negative_prompt": "text, captions, watermark, logo, child, teenager, minor, injury, cliff edge danger, modern city, sci-fi, western armor, anime, cartoon, inconsistent face, missing bamboo flute"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/tests/ref_storyboard_single_turnaround_v001"
+      }
+    }
+  }
+}

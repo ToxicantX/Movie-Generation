@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-08T12:59:34",
+    "shot_id":  "CHAR_tuobaye_turnaround_basic",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_tuobaye_turnaround_basic_v001.json",
+    "prompt_id":  "349c738d-044c-4c9a-b4ba-5f77afe8886d",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_tuobaye_turnaround_basic_v001.json -\u003e prompt_id=349c738d-044c-4c9a-b4ba-5f77afe8886d"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "349c738d-044c-4c9a-b4ba-5f77afe8886d",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

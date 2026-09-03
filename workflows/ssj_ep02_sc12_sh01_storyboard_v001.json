@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input SC11 flute-hook storyboard as continuity for adult Tuobaye, the adult white-clothed woman, green bamboo flute, moonlit Tianhu, bamboo shadows, mist, and wet stone ground. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium two-character composition. Adult Tuobaye age 28 to 32 in rugged grey-brown travel clothes sits or kneels slightly forward, one hand near the green bamboo flute and the right-waist green bamboo sheath, silently beginning to recount the old story. The adult white-clothed woman listens intently, calm but suddenly alert, fully clothed in pale white robes. Show memory-like faint light in the mist, but no panels and no text. No readable Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no musical notes, no signs, no plaques, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC11_SH04_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC12_SH01_v001"
+                                        }
+                         }
+               }
+}

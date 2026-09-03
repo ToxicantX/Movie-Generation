@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-12T00:23:30",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC17_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; spring-vine reversal reads clearly without slipping into body horror."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC17_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; group suppression pressure is readable, with production caveat to keep crowd silhouettes clear."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC17_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; imminent execution beat stays non-gory and readable."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC17_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Tuobaye's stop-command clearly comes from inside concealment and the outer fighters freeze outside the gate."
+    }
+  ]
+}

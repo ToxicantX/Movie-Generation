@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T22:54:41",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc16.json",
+    "shot_id":  "TEST_SSJ_EP02_SC16_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass with caveat: opening attack posture reads, and gate inside-outside logic stays intact",
+    "notes":  "Production caveat: keep Duan Yukai readable in adjacent cut so this shot remains a clear attack launch rather than a standalone pose.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

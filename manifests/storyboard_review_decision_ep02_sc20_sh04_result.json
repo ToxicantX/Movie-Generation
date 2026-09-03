@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T05:22:51",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc20.json",
+    "shot_id":  "TEST_SSJ_EP02_SC20_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "needs_regeneration",
+    "reason":  "blocking characterization drift: Tuobaye looks too battle-ready in the faceoff and the white-clothed womans restrained anger is too weak",
+    "notes":  "Regenerate with stricter emotional logic: Fourteen advances personally, Tuobaye is tense and overmatched rather than fight-ready, and the white-clothed woman reads as quietly angry and concerned behind him.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

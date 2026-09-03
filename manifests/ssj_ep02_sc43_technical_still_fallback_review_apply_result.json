@@ -1,0 +1,35 @@
+{
+  "updated": "2026-06-13T20:01:15",
+  "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc43_storyboard_review.json",
+  "fallback_create_result_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc43_technical_still_fallback_workflow_create_result.json",
+  "applied_count": 4,
+  "missing_count": 0,
+  "applied": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC43_SH01",
+      "workflow_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc43_sh01_technical_still_fallback_v001.json",
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC43_SH01_technical_still_fallback_v001.mp4",
+      "video_exists": true
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC43_SH02",
+      "workflow_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc43_sh02_technical_still_fallback_v001.json",
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC43_SH02_technical_still_fallback_v001.mp4",
+      "video_exists": true
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC43_SH03",
+      "workflow_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc43_sh03_technical_still_fallback_v001.json",
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC43_SH03_technical_still_fallback_v001.mp4",
+      "video_exists": true
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC43_SH04",
+      "workflow_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc43_sh04_technical_still_fallback_v001.json",
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC43_SH04_technical_still_fallback_v001.mp4",
+      "video_exists": true
+    }
+  ],
+  "missing": [],
+  "ok": true
+}

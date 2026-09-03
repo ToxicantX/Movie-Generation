@@ -1,0 +1,91 @@
+{
+    "project":  "AI短剧生成工厂",
+    "source":  "搜神记 第一卷 第二章 玉屏山 / 天湖开场",
+    "review_schema":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\consistency_review_schema.json",
+    "segment_id":  "SSJ_EP02_SC01",
+    "beat_id":  "C02_B01",
+    "title":  "Arrival at Yuping Mountain and the silent Qingdi sanctuary",
+    "updated":  "2026-06-09",
+    "global_decision":  "pending_human_consistency_review",
+    "global_reason":  "Reference-driven videos were found for all three test shots. Human consistency review is required before episode cut.",
+    "shots":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC01_SH01",
+                      "title":  "Moonlit arrival over Tianhu",
+                      "beat":  "C02_B01",
+                      "duration_seconds":  "8-10",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC01_SH01_v001_00001_.png",
+                      "storyboard_filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC01_SH01_v001",
+                      "video_filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC01_SH01_i2v_v001",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh01_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh01_i2v_v001.json",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH01_i2v_v001.mp4",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "status":  "generated_pending_human_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth.\nNon-fallback I2V candidate found during output refresh: G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH01_i2v_v001.mp4. Human consistency review is required before formal release.",
+                      "final_i2v_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh01_i2v_v001.json"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC01_SH02",
+                      "title":  "Dismount at the pine-bamboo gate",
+                      "beat":  "C02_B01",
+                      "duration_seconds":  "8-10",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC01_SH02_v001_00001_.png",
+                      "storyboard_filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC01_SH02_v001",
+                      "video_filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC01_SH02_i2v_v001",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh02_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh02_i2v_v001.json",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH02_i2v_v001.mp4",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "status":  "generated_pending_human_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth.\nNon-fallback I2V candidate found during output refresh: G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH02_i2v_v001.mp4. Human consistency review is required before formal release.",
+                      "final_i2v_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh02_i2v_v001.json"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC01_SH03",
+                      "title":  "Empty courtyard of unseen authority",
+                      "beat":  "C02_B01",
+                      "duration_seconds":  "8-10",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC01_SH03_v001_00001_.png",
+                      "storyboard_filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC01_SH03_v001",
+                      "video_filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC01_SH03_i2v_v001",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh03_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh03_i2v_v001.json",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH03_i2v_v001.mp4",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "status":  "generated_pending_human_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth.\nNon-fallback I2V candidate found during output refresh: G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH03_i2v_v001.mp4. Human consistency review is required before formal release.",
+                      "final_i2v_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh03_i2v_v001.json"
+                  }
+              ]
+}

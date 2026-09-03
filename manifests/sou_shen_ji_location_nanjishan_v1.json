@@ -1,0 +1,47 @@
+{
+  "updated": "2026-06-08",
+  "location_id": "LOC_nanjishan_clifftop",
+  "name": "南际山顶",
+  "status": "location_v1",
+  "source": "搜神记 第一卷 第一章 神农使者",
+  "primary_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\SSJ_TEST_anchor_nanjishan_v002_00001_.png",
+  "visual_identity": {
+    "terrain": "safe open high mountain meadow with grass, poplar forest, peach trees, creek, distant waterfall mist, and ocean glow in the far background",
+    "time_palette": "golden sunset, later moonlit blue night, misty waterfall whites, deep mountain greens",
+    "recurring_details": ["jade-green begonia", "white catkins", "distant waterfall mist", "warm sea glow", "grass moving in wind"],
+    "avoid": ["dangerous cliff-edge framing", "falling", "injury", "modern tourist mountain", "western fantasy castle", "tropical beach resort"]
+  },
+  "angle_set": [
+    {
+      "angle_id": "LOC_NJS_A01_ESTABLISHING",
+      "use": "Opening exterior wide shot.",
+      "prompt_core": "safe open mythic Chinese high mountain meadow at golden sunset, distant vast sea glow, far waterfall dissolving into mist, poplar forest and drifting white catkins"
+    },
+    {
+      "angle_id": "LOC_NJS_A02_DIALOGUE_MEADOW",
+      "use": "Two-character dialogue and mission transfer.",
+      "prompt_core": "safe grassy mountain meadow, soft sunset rim light, waterfall mist far behind, simple readable background for two-person cinematic dialogue"
+    },
+    {
+      "angle_id": "LOC_NJS_A03_PROP_DETAIL",
+      "use": "Relic and flower insert shots.",
+      "prompt_core": "close detail in windswept mountain grass, jade-green begonia, ancient wooden token or leather books, warm sunset and cool mist bokeh"
+    },
+    {
+      "angle_id": "LOC_NJS_A04_NIGHT_FAREWELL",
+      "use": "Farewell and departure.",
+      "prompt_core": "moonlit safe mountain meadow, blue night air, distant waterfall mist, stars above, solemn quiet farewell mood"
+    },
+    {
+      "angle_id": "LOC_NJS_A05_DRAGON_POOL_EXPANSION",
+      "use": "Future action expansion below the mountain.",
+      "prompt_core": "secluded ancient mountain pool below waterfall mist, moonlight on cold water, mossy rocks, mythic wilderness, no explicit injury"
+    }
+  ],
+  "continuity_rules": [
+    "For first-scene production, use A01 to establish, A02 for Shennong/Tuobaye, A03 for relics, A04 only after mission transfer.",
+    "Keep waterfall and ocean as distant atmospheric markers, not dangerous foreground hazards.",
+    "Use the same warm sunset and cool mist contrast across SH01-SH03 unless the shot explicitly moves into night.",
+    "When using character reference images, preserve Tuobaye earth-brown/green-bamboo palette and Shennong deep-purple robe against the green-gold meadow."
+  ]
+}

@@ -1,0 +1,36 @@
+﻿{
+    "updated":  "2026-07-11T18:26:09",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc01.json",
+    "index_path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC01_STORYBOARD_INDEX.md",
+    "review_count":  1,
+    "decision_count":  3,
+    "preserved_non_pending_decision_count":  3,
+    "stale_status_repair_count":  3,
+    "stale_status_repairs":  [
+                                 {
+                                     "review_id":  "SSJ_EP02_SC01",
+                                     "shot_id":  "TEST_SSJ_EP02_SC01_SH01",
+                                     "old_status":  "storyboard_generated_pending_review",
+                                     "current_status":  "pass"
+                                 },
+                                 {
+                                     "review_id":  "SSJ_EP02_SC01",
+                                     "shot_id":  "TEST_SSJ_EP02_SC01_SH02",
+                                     "old_status":  "storyboard_generated_pending_review",
+                                     "current_status":  "pass"
+                                 },
+                                 {
+                                     "review_id":  "SSJ_EP02_SC01",
+                                     "shot_id":  "TEST_SSJ_EP02_SC01_SH03",
+                                     "old_status":  "storyboard_generated_pending_review",
+                                     "current_status":  "pass"
+                                 }
+                             ],
+    "summary":  {
+                    "pending":  0,
+                    "pass":  3,
+                    "needs_regeneration":  0,
+                    "blocked":  0
+                },
+    "ok":  true
+}

@@ -1,0 +1,70 @@
+name: movie-generation
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: movie-generation-postgres
+    restart: unless-stopped
+    network_mode: bridge
+    environment:
+      POSTGRES_DB: movie_generation
+      POSTGRES_USER: movie_generation
+      POSTGRES_PASSWORD: ${MOVIE_POSTGRES_PASSWORD:-movie_generation_local}
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  redis:
+    image: redis:8-alpine
+    container_name: movie-generation-redis
+    restart: unless-stopped
+    network_mode: bridge
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - ./data/redis:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  console:
+    build:
+      context: .
+    image: movie-generation-console:local
+    container_name: movie-generation-console
+    restart: unless-stopped
+    network_mode: bridge
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    links:
+      - postgres:movie-generation-postgres
+      - redis:movie-generation-redis
+    ports:
+      - "127.0.0.1:8206:8200"
+    environment:
+      MOVIE_COMFY_BASE_URL: http://host.docker.internal:8188
+      MOVIE_SERVICE_HOST: host.docker.internal
+      MOVIE_DATABASE_URL: postgresql://movie_generation:${MOVIE_POSTGRES_PASSWORD:-movie_generation_local}@movie-generation-postgres:5432/movie_generation
+      MOVIE_REDIS_URL: redis://movie-generation-redis:6379/0
+      MOVIE_COMFY_OUTPUT_ROOT: /comfy-output
+      MOVIE_HOST_OUTPUT_ROOT: G:/ComfyUI/output
+      MOVIE_HOST_PROJECT_ROOT: E:/workspace/ComfyUIProjects/Movie-Generation
+      MOVIE_HOST_WORKSPACE_ROOT: E:/workspace/ComfyUIProjects
+      MOVIE_WORKSPACE_ROOT: /workspace
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+      - ./manifests:/app/manifests
+      - ./workflows:/app/workflows
+      - E:/workspace/ComfyUIProjects:/workspace:ro
+      - G:/ComfyUI/output:/comfy-output

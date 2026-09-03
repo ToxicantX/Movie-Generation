@@ -1,0 +1,106 @@
+{
+  "updated": "2026-06-09",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 神农旧事，芳华动容",
+  "segment_id": "SSJ_EP02_SC12",
+  "beat_id": "C02_B12",
+  "title": "神农旧事，芳华动容",
+  "purpose": "承接白衣女子询问刹那芳华曲来历：拓拔野讲述南际山顶邂逅神农、接受临终重托、坠入龙潭；白衣女子听到神农百草毒发与刹那芳华曲后动容。画面只做无声视觉，不生成口播、字幕、歌词、血书内容或可读文字。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC11",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc11_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC11_formal_cut_v001.mp4",
+    "previous_flute_hook_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC11_SH04_v001_00001_.png",
+    "previous_warning_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC11_SH03_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc12_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 刹那芳华 / 神农百草毒发 / 龙牙岩 / 龙潭。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 anchors to previous SC11 flute-hook frame. SH02 anchors to Shennong reference. SH03 anchors to Dragon Pool reference for environment and abstract fall. SH04 anchors to Yushiqie reference for restrained emotional reaction.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, speech bubbles, musical notes, English words, or clear Chinese inscriptions inside image/video.",
+    "letter_rule": "Do not render readable blood letter contents, song lyrics, 神农, 空桑, 木族, 刹那芳华, or any Chinese/English text. Sealed documents may appear only folded or turned away.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, lip-sync, flute/xiao audio, heartbeat audio, music, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "那曲子，是神农前辈临终时所唱。",
+      "我在南际山顶遇见他，受他所托。",
+      "后来我跌入龙潭，才有了之后这些事。",
+      "神农……百草毒发？他竟是在龙牙岩物化？"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "shennong_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_shennong_ref_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "longtan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_longtan_dragon_pool_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "previous_flute_hook_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC11_SH04_v001_00001_.png",
+    "previous_warning_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC11_SH03_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC12_SH01",
+      "beat": "C02_B12",
+      "title": "一五一十诉旧事",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子"
+      ],
+      "location": "月下天湖 / 竹影石阶",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC12_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC12_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC11_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the input SC11 flute-hook storyboard as continuity for adult Tuobaye, the adult white-clothed woman, green bamboo flute, moonlit Tianhu, bamboo shadows, mist, and wet stone ground. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium two-character composition. Adult Tuobaye age 28 to 32 in rugged grey-brown travel clothes sits or kneels slightly forward, one hand near the green bamboo flute and the right-waist green bamboo sheath, silently beginning to recount the old story. The adult white-clothed woman listens intently, calm but suddenly alert, fully clothed in pale white robes. Show memory-like faint light in the mist, but no panels and no text. No readable Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no musical notes, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent recollection beat. Tuobaye starts telling the story with restrained hand movement near the flute; the white-clothed woman listens, her attention sharpening; mist, sleeves, lake reflections, and bamboo shadows move gently. No dialogue, no lip-sync, no flute or xiao audio, no heartbeat, no music, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC12_SH02",
+      "beat": "C02_B12",
+      "title": "南际山遇神农",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "神农"
+      ],
+      "location": "南际山顶 / 龙牙岩瀑布远景",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC12_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC12_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_shennong_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input Shennong reference as identity anchor. Cinematic memory-fragment storyboard frame, realistic ancient Chinese mythic fantasy, 16:9 wide-medium. Adult-adapted Tuobaye age 28 to 32 in rugged grey-brown travel clothes stands respectfully on a high Nanjishan cliff near waterfall spray and windblown grass. The aged mythic Shennong lies or reclines weakly but dignified in ancient purple robes, poisoned yet spiritually immense, with a healer-ruler aura. Sea light, sunset storm clouds, waterfall mist, and Dragon Tooth Rock atmosphere surround them. This is a memory image, not a literal text panel. No readable blood writing, no readable scroll, no labels, no Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent memory beat. Waterfall spray and grass move in the wind; Shennong remains weak but dignified; Tuobaye leans in respectfully. No dialogue, no lip-sync, no music, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC12_SH03",
+      "beat": "C02_B12",
+      "title": "临终重托坠龙潭",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "神农"
+      ],
+      "location": "龙牙岩 / 龙潭水雾",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC12_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC12_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_longtan_dragon_pool_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input Dragon Pool reference as environment anchor. Cinematic realistic ancient Chinese mythic fantasy memory-composite storyboard frame, 16:9 dynamic but safe. In the foreground, aged Shennong's hand entrusts a folded sealed blood letter or relic bundle to adult Tuobaye; the document is folded and angled away, with no visible writing. In the background or mist reflection, adult Tuobaye falls through waterfall spray toward the deep Dragon Pool as an abstract memory silhouette, not graphic danger or injury. Keep the mood mythic, fated, and solemn. No readable letter contents, no blood gore, no Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent entrusted-fate memory beat. The folded letter or relic bundle passes into Tuobaye's hands; waterfall mist drifts; the distant falling silhouette moves softly through spray toward Dragon Pool without injury detail. No dialogue, no lip-sync, no music, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC12_SH04",
+      "beat": "C02_B12",
+      "title": "闻毒与芳华动容",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白衣女子",
+        "拓拔野"
+      ],
+      "location": "月下天湖 / 竹亭水雾",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC12_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC12_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input adult Yushiqie reference as identity anchor for the white-clothed woman. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 emotional medium close two-character composition. Back at moonlit Tianhu, the adult white-clothed woman in pale white robes hears of Shennong's Baicao poison death and the Chana Fanghua tune; her face remains restrained but her eyes glisten with sudden old grief. Adult Tuobaye stands nearby in rugged grey-brown clothes, worried and unsure what memory he has touched; the green bamboo flute and hidden right-waist bamboo sheath remain secondary props. Use moonlight, mist, bamboo, and lake reflections. No visible song title, no musical notes, no readable Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no signs, no plaques, no UI.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent emotional reaction beat. The woman's eyes glisten and she lowers her gaze; Tuobaye watches anxiously; mist, hair strands, sleeves, and moonlit water move subtly. No dialogue, no lip-sync, no flute or xiao audio, no music notes, no heartbeat, no sound effects, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

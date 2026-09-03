@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "updated": "2026-06-09T15:12:36",
+  "review_path": "manifests\\ssj_ep02_sc07_storyboard_review.json",
+  "output_dir": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC07_STORYBOARD",
+  "markdown_path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC07_STORYBOARD\\human_review.md",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH01",
+      "ok": true,
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC07_SH01_v001_00001_.png",
+      "packaged_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC07_STORYBOARD\\TEST_SSJ_EP02_SC07_SH01\\TEST_SSJ_EP02_SC07_SH01_storyboard.png",
+      "technical": {
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2332734
+      },
+      "error": null
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH02",
+      "ok": true,
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC07_SH02_v001_00001_.png",
+      "packaged_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC07_STORYBOARD\\TEST_SSJ_EP02_SC07_SH02\\TEST_SSJ_EP02_SC07_SH02_storyboard.png",
+      "technical": {
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2084155
+      },
+      "error": null
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH03",
+      "ok": true,
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC07_SH03_v001_00001_.png",
+      "packaged_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC07_STORYBOARD\\TEST_SSJ_EP02_SC07_SH03\\TEST_SSJ_EP02_SC07_SH03_storyboard.png",
+      "technical": {
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2207268
+      },
+      "error": null
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH04",
+      "ok": true,
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC07_SH04_v001_00001_.png",
+      "packaged_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC07_STORYBOARD\\TEST_SSJ_EP02_SC07_SH04\\TEST_SSJ_EP02_SC07_SH04_storyboard.png",
+      "technical": {
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2480203
+      },
+      "error": null
+    }
+  ]
+}

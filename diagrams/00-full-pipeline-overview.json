@@ -1,0 +1,234 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "Movie-Generation 完整流程总览",
+    "locale": "zh-CN",
+    "output": "diagrams/00-full-pipeline-overview.html",
+    "animation": "none",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "source",
+      "label": "导入来源"
+    },
+    {
+      "id": "project",
+      "label": "创建项目"
+    },
+    {
+      "id": "planning",
+      "label": "AI 全文规划"
+    },
+    {
+      "id": "approval",
+      "label": "确认规划与提取设定"
+    },
+    {
+      "id": "episode",
+      "label": "逐集生产"
+    },
+    {
+      "id": "image",
+      "label": "生成图片资产"
+    },
+    {
+      "id": "video",
+      "label": "生成视频片段"
+    },
+    {
+      "id": "final",
+      "label": "片段验收"
+    }
+  ],
+  "semanticChecks": {
+    "allowedRoots": [
+      "source_import"
+    ],
+    "allowedTerminals": [
+      "clip_approval"
+    ],
+    "requiredPaths": [
+      {
+        "from": "source_import",
+        "to": "clip_approval"
+      },
+      {
+        "from": "content_plan",
+        "to": "world_assets"
+      },
+      {
+        "from": "episode_production",
+        "to": "video_generation"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "source_import",
+      "lane": "source",
+      "col": 3,
+      "width": 132,
+      "type": "external",
+      "label": "导入小说 / 剧本",
+      "sublabel": "校验格式与来源"
+    },
+    {
+      "id": "project_profile",
+      "lane": "project",
+      "col": 3,
+      "type": "frontend",
+      "label": "创建项目",
+      "sublabel": "视频类型 · 主体风格",
+      "width": 132
+    },
+    {
+      "id": "content_plan",
+      "lane": "planning",
+      "col": 3,
+      "type": "backend",
+      "label": "AI 全文规划",
+      "sublabel": "单片 / 短剧 · 集数",
+      "width": 132
+    },
+    {
+      "id": "plan_approval",
+      "lane": "approval",
+      "col": 3,
+      "type": "security",
+      "label": "确认规划",
+      "sublabel": "锁定方案后继续",
+      "tag": "人工",
+      "width": 132
+    },
+    {
+      "id": "world_assets",
+      "lane": "approval",
+      "col": 5,
+      "width": 150,
+      "type": "database",
+      "label": "世界观与通用素材",
+      "sublabel": "角色 · 场景 · 道具 · 风格"
+    },
+    {
+      "id": "episode_production",
+      "lane": "episode",
+      "col": 3,
+      "type": "backend",
+      "label": "逐集生产",
+      "sublabel": "剧本 · 场景 · 分镜",
+      "width": 132
+    },
+    {
+      "id": "image_generation",
+      "lane": "image",
+      "col": 3,
+      "width": 132,
+      "type": "cloud",
+      "label": "图片资产生成",
+      "sublabel": "gpt-image-2 API"
+    },
+    {
+      "id": "video_generation",
+      "lane": "video",
+      "col": 3,
+      "type": "cloud",
+      "label": "视频片段生成",
+      "sublabel": "H3 本地 / API",
+      "width": 132
+    },
+    {
+      "id": "clip_approval",
+      "lane": "final",
+      "col": 3,
+      "width": 132,
+      "type": "security",
+      "label": "片段验收",
+      "sublabel": "人物 · 速度 · 10 秒",
+      "tag": "人工"
+    }
+  ],
+  "edges": [
+    {
+      "from": "source_import",
+      "to": "project_profile",
+      "role": "main",
+      "route": "straight",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "from": "project_profile",
+      "to": "content_plan",
+      "role": "main",
+      "route": "straight",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "from": "content_plan",
+      "to": "plan_approval",
+      "role": "main",
+      "variant": "emphasis",
+      "route": "straight",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "from": "plan_approval",
+      "to": "episode_production",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "content_plan",
+      "to": "world_assets",
+      "label": "提取关键设定",
+      "role": "branch"
+    },
+    {
+      "from": "world_assets",
+      "to": "episode_production",
+      "label": "连续性约束",
+      "role": "branch"
+    },
+    {
+      "from": "episode_production",
+      "to": "image_generation",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "image_generation",
+      "to": "video_generation",
+      "role": "main",
+      "route": "straight",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "from": "video_generation",
+      "to": "clip_approval",
+      "role": "main",
+      "route": "straight",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ],
+  "mainPath": [
+    "source_import",
+    "project_profile",
+    "content_plan",
+    "plan_approval",
+    "episode_production",
+    "image_generation",
+    "video_generation",
+    "clip_approval"
+  ]
+}

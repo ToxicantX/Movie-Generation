@@ -1,0 +1,14 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "GeminiAPIVideoGenerate",
+      "inputs": {
+        "base_url": "http://127.0.0.1:7860",
+        "prompt": "8 second cinematic ancient Chinese fantasy establishing shot. An ancient white-haired sage in a deep purple robe rests calmly in a peaceful high mountain meadow at golden sunset. Distant golden sea, soft waterfall mist, poplar trees, drifting white catkins, jade-green begonia in foreground. Gentle wind moves robe fabric and grass. Slow camera push across the safe open meadow, calm and majestic, no danger, no violence, no injury, no minors, no cliff edge, no falling, no text.",
+        "filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC01_SH01_t2v_v002",
+        "model": "gemini-3.1-pro"
+      }
+    }
+  }
+}

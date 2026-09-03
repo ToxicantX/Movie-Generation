@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T04:54:51",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc29.json",
+    "shot_id":  "TEST_SSJ_EP02_SC29_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "The white-clothed woman\u0027s restraint now reads as no longer something that can plausibly hold much longer.",
+    "notes":  "Codex visual precheck: SH04 works as the restraint-no-longer-holds beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

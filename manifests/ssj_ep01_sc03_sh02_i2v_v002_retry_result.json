@@ -1,0 +1,19 @@
+{
+    "updated":  "2026-06-08T15:51:53",
+    "shot_id":  "TEST_SSJ_EP01_SC03_SH02",
+    "mode":  "image_to_video_with_storyboard_image_path",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh02_i2v_v002_wufeng.json",
+    "prompt_id":  "7e5b123f-e759-40c9-ba98-5386e8294ad3",
+    "status":  "error",
+    "completed":  false,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh02_i2v_v002_wufeng.json -\u003e prompt_id=7e5b123f-e759-40c9-ba98-5386e8294ad3"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "7e5b123f-e759-40c9-ba98-5386e8294ad3",
+                        "status":  "error",
+                        "completed":  false,
+                        "error":  "HTTPConnectionPool(host=\u0027127.0.0.1\u0027, port=7860): Read timed out. (read timeout=600)\n"
+                    },
+    "error":  "HTTPConnectionPool(host=\u0027127.0.0.1\u0027, port=7860): Read timed out. (read timeout=600)\n"
+}

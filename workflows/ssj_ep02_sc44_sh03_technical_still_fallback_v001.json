@@ -1,0 +1,20 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "StillFrameVideoFallback",
+      "inputs": {
+        "image_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC44_SH03_v001_00001_.png",
+        "filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC44_SH03_technical_still_fallback_v001",
+        "duration_seconds": 10.0,
+        "fps": 24,
+        "width": 1280,
+        "height": 720,
+        "motion": "slow_push_in",
+        "start_zoom": 1.03,
+        "end_zoom": 1.1,
+        "codec": "libx264"
+      }
+    }
+  }
+}

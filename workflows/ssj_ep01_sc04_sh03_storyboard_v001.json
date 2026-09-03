@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Yuping Mountain and Tianhu location reference as the destination anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, widescreen composition. Wide transition shot: adult Tuobaye rides the friendly white dragon-deer along a safe moonlit mountain path toward distant Yuping Mountain and the clear heavenly lake. Keep Tuobaye small but readable: rugged grey-brown cloth, green bamboo flute, relic bundle, plain dark blunt Wufeng iron object secured low. White dragon-deer remains identifiable by white fur, jade antlers, pearl neck scales, long mane. Destination environment matches the reference: moonlit pine and bamboo, calm lake reflection, austere wooden pavilions, jade-green mist, forbidden quiet. The mood is hopeful departure and next-episode hook, no crowded palace, no city, no combat, no fall, no text.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC04_SH03_v001"
+                                        }
+                         }
+               }
+}

@@ -1,0 +1,210 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "04 · 分集、场景与分镜",
+    "locale": "zh-CN",
+    "output": "diagrams/04-episode-scene-shot.html",
+    "animation": "none",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "package",
+      "label": "读取导演包"
+    },
+    {
+      "id": "episode",
+      "label": "生成分集大纲"
+    },
+    {
+      "id": "scene",
+      "label": "生成场景表"
+    },
+    {
+      "id": "shot",
+      "label": "生成分镜与音频设计"
+    },
+    {
+      "id": "review",
+      "label": "分镜审核与调整"
+    },
+    {
+      "id": "lock",
+      "label": "锁定单集包"
+    }
+  ],
+  "semanticChecks": {
+    "allowedRoots": [
+      "director_package"
+    ],
+    "allowedTerminals": [
+      "episode_package"
+    ],
+    "requiredPaths": [
+      {
+        "from": "director_package",
+        "to": "episode_package"
+      },
+      {
+        "from": "shot_table",
+        "to": "audio_design"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "director_package",
+      "lane": "package",
+      "col": 3,
+      "type": "database",
+      "label": "读取导演包",
+      "sublabel": "剧本 · 调度 · 节奏",
+      "width": 132
+    },
+    {
+      "id": "episode_outline",
+      "lane": "episode",
+      "col": 3,
+      "type": "backend",
+      "label": "生成分集大纲",
+      "sublabel": "每集目标与转折",
+      "width": 132
+    },
+    {
+      "id": "scene_table",
+      "lane": "scene",
+      "col": 3,
+      "type": "backend",
+      "label": "生成场景表",
+      "sublabel": "地点 · 时间 · 事件",
+      "width": 132
+    },
+    {
+      "id": "shot_table",
+      "lane": "shot",
+      "col": 3,
+      "type": "backend",
+      "label": "生成分镜表",
+      "sublabel": "景别 · 动作 · 10 秒",
+      "width": 132
+    },
+    {
+      "id": "shot_review",
+      "lane": "review",
+      "col": 3,
+      "type": "security",
+      "label": "分镜审核",
+      "sublabel": "连续性与可生成性",
+      "tag": "人工",
+      "width": 132
+    },
+    {
+      "id": "episode_package",
+      "lane": "lock",
+      "col": 3,
+      "type": "database",
+      "label": "锁定单集包",
+      "sublabel": "进入资产阶段",
+      "width": 132
+    },
+    {
+      "id": "audio_design",
+      "lane": "shot",
+      "col": 5,
+      "type": "backend",
+      "label": "音频设计",
+      "sublabel": "台词 · 旁白 · 音色",
+      "width": 132
+    },
+    {
+      "id": "revise_breakdown",
+      "lane": "review",
+      "col": 1,
+      "type": "frontend",
+      "label": "调整拆解",
+      "sublabel": "定位到集 / 场 / 镜",
+      "width": 132
+    }
+  ],
+  "edges": [
+    {
+      "from": "director_package",
+      "to": "episode_outline",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "episode_outline",
+      "to": "scene_table",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "scene_table",
+      "to": "shot_table",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "shot_table",
+      "to": "shot_review",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "shot_review",
+      "to": "episode_package",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "shot_table",
+      "to": "audio_design",
+      "label": "台词与旁白",
+      "role": "branch",
+      "variant": "dashed"
+    },
+    {
+      "from": "audio_design",
+      "to": "episode_package",
+      "label": "可选音频方案",
+      "role": "branch",
+      "variant": "dashed"
+    },
+    {
+      "from": "shot_review",
+      "to": "revise_breakdown",
+      "label": "退回",
+      "role": "error",
+      "variant": "security"
+    },
+    {
+      "from": "revise_breakdown",
+      "to": "scene_table",
+      "label": "按层级重做",
+      "role": "return",
+      "variant": "security"
+    }
+  ],
+  "mainPath": [
+    "director_package",
+    "episode_outline",
+    "scene_table",
+    "shot_table",
+    "shot_review",
+    "episode_package"
+  ]
+}

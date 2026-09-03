@@ -1,0 +1,41 @@
+﻿{
+    "updated":  "2026-06-09T18:59:02",
+    "review_path":  ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+    "workflow_dir":  ".\\workflows",
+    "duration_seconds":  10,
+    "fps":  24,
+    "width":  1280,
+    "height":  720,
+    "motion":  "slow_push_in",
+    "created":  [
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC10_SH01",
+                        "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH01_v001_00001_.png",
+                        "workflow_path":  ".\\workflows\\ssj_ep02_sc10_sh01_technical_still_fallback_v001.json",
+                        "filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC10_SH01_technical_still_fallback_v001",
+                        "expected_video_path":  "G:\\ComfyUI\\output\\AIShortDrama/videos/SSJ_EP02_SC10_SH01_technical_still_fallback_v001.mp4"
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC10_SH02",
+                        "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH02_v001_00001_.png",
+                        "workflow_path":  ".\\workflows\\ssj_ep02_sc10_sh02_technical_still_fallback_v001.json",
+                        "filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC10_SH02_technical_still_fallback_v001",
+                        "expected_video_path":  "G:\\ComfyUI\\output\\AIShortDrama/videos/SSJ_EP02_SC10_SH02_technical_still_fallback_v001.mp4"
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC10_SH03",
+                        "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH03_v001_00001_.png",
+                        "workflow_path":  ".\\workflows\\ssj_ep02_sc10_sh03_technical_still_fallback_v001.json",
+                        "filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC10_SH03_technical_still_fallback_v001",
+                        "expected_video_path":  "G:\\ComfyUI\\output\\AIShortDrama/videos/SSJ_EP02_SC10_SH03_technical_still_fallback_v001.mp4"
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC10_SH04",
+                        "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH04_v001_00001_.png",
+                        "workflow_path":  ".\\workflows\\ssj_ep02_sc10_sh04_technical_still_fallback_v001.json",
+                        "filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC10_SH04_technical_still_fallback_v001",
+                        "expected_video_path":  "G:\\ComfyUI\\output\\AIShortDrama/videos/SSJ_EP02_SC10_SH04_technical_still_fallback_v001.mp4"
+                    }
+                ],
+    "ok":  true
+}

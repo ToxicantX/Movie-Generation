@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T13:31:09",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc35.json",
+    "shot_id":  "TEST_SSJ_EP02_SC35_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "The white-clothed woman\u0027s stillness now clearly reads as one breath from turning over into visible action.",
+    "notes":  "Codex visual precheck: SH04 works as the stillness-about-to-turn-over beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

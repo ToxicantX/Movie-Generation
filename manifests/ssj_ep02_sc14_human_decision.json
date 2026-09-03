@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-11T20:54:00",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; refusal beat is clear and the white-clothed woman styling is usable as the next anchor."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; distant-pressure composition is clear and Qingdi remains absent."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; production regeneration should keep the glide restrained and avoid action-fantasy intensity."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; production should watch downstream video for hallucinated plaques or readable calligraphy around the gate framing."
+    }
+  ]
+}

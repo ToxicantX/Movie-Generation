@@ -1,0 +1,98 @@
+{
+    "updated":  "2026-06-08T18:50:37",
+    "episode_review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json",
+    "segment_reviews":  [
+                            {
+                                "segment_id":  "SSJ_EP01_SC01",
+                                "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                                "global_decision":  "pending_human_consistency_review",
+                                "has_technical_fallback":  false,
+                                "shot_count":  3
+                            },
+                            {
+                                "segment_id":  "SSJ_EP01_SC02",
+                                "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                                "global_decision":  "pending_human_consistency_review",
+                                "has_technical_fallback":  false,
+                                "shot_count":  3
+                            },
+                            {
+                                "segment_id":  "SSJ_EP01_SC03",
+                                "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                                "global_decision":  "pending_human_consistency_review",
+                                "has_technical_fallback":  false,
+                                "shot_count":  3
+                            },
+                            {
+                                "segment_id":  "SSJ_EP01_SC04",
+                                "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+                                "global_decision":  "pending_human_consistency_review",
+                                "has_technical_fallback":  false,
+                                "shot_count":  3
+                            }
+                        ],
+    "updates":  [
+                    {
+                        "segment_id":  "SSJ_EP01_SC01",
+                        "rough_shot_id":  "SSJ_EP01_ROUGH_SC01",
+                        "has_technical_fallback":  false,
+                        "before":  {
+                                       "status":  "generated_pending_human_review",
+                                       "preferred_video_mode":  "segment_cut_for_episode_rough_cut",
+                                       "motion_continuity":  "pending_human_review"
+                                   },
+                        "after":  {
+                                      "status":  "generated_pending_human_review",
+                                      "preferred_video_mode":  "segment_cut_for_episode_rough_cut",
+                                      "motion_continuity":  "pending_human_review"
+                                  }
+                    },
+                    {
+                        "segment_id":  "SSJ_EP01_SC02",
+                        "rough_shot_id":  "SSJ_EP01_ROUGH_SC02",
+                        "has_technical_fallback":  false,
+                        "before":  {
+                                       "status":  "generated_pending_human_review",
+                                       "preferred_video_mode":  "segment_cut_for_episode_rough_cut",
+                                       "motion_continuity":  "pending_human_review"
+                                   },
+                        "after":  {
+                                      "status":  "generated_pending_human_review",
+                                      "preferred_video_mode":  "segment_cut_for_episode_rough_cut",
+                                      "motion_continuity":  "pending_human_review"
+                                  }
+                    },
+                    {
+                        "segment_id":  "SSJ_EP01_SC03",
+                        "rough_shot_id":  "SSJ_EP01_ROUGH_SC03",
+                        "has_technical_fallback":  false,
+                        "before":  {
+                                       "status":  "generated_pending_human_review",
+                                       "preferred_video_mode":  "segment_cut_for_episode_rough_cut",
+                                       "motion_continuity":  "pending_human_review"
+                                   },
+                        "after":  {
+                                      "status":  "generated_pending_human_review",
+                                      "preferred_video_mode":  "segment_cut_for_episode_rough_cut",
+                                      "motion_continuity":  "pending_human_review"
+                                  }
+                    },
+                    {
+                        "segment_id":  "SSJ_EP01_SC04",
+                        "rough_shot_id":  "SSJ_EP01_ROUGH_SC04",
+                        "has_technical_fallback":  false,
+                        "before":  {
+                                       "status":  "generated_pending_human_review",
+                                       "preferred_video_mode":  "segment_cut_for_episode_rough_cut",
+                                       "motion_continuity":  "pending_human_review"
+                                   },
+                        "after":  {
+                                      "status":  "generated_pending_human_review",
+                                      "preferred_video_mode":  "segment_cut_for_episode_rough_cut",
+                                      "motion_continuity":  "pending_human_review"
+                                  }
+                    }
+                ],
+    "remaining_technical_fallback_segments":  0,
+    "ok":  true
+}

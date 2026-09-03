@@ -1,0 +1,23 @@
+{
+    "updated":  "2026-06-08T12:47:14",
+    "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_ai_precheck_decision.json",
+    "global_decision":  "needs_regeneration",
+    "shots":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC02_SH01",
+                      "decision":  "needs_regeneration",
+                      "status":  "needs_regeneration"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC02_SH02",
+                      "decision":  "pending",
+                      "status":  "storyboard_generated_pending_review"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC02_SH03",
+                      "decision":  "pending",
+                      "status":  "storyboard_generated_pending_review"
+                  }
+              ]
+}

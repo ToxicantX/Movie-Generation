@@ -1,0 +1,21 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "GeminiAPIVideoGenerate",
+                             "inputs":  {
+                                            "model":  "gemini-3.1-pro",
+                                            "prompt":  "Animate this storyboard frame as an 8-10 second suspense observation shot. Tuobaye and the white dragon-deer stay hidden behind the mossy boulder while distant black-clad riders dismount at the silent pine gate. Mist and bamboo leaves move gently; slow camera push from Tuobaye\u0027s hidden viewpoint. Preserve all identities and the silent Qingdi-sanctuary mood. No spoken dialogue, no captions, no subtitles, no readable text, no English words.",
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC02_SH01_v001_00001_.png",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC02_SH01_i2v_v001",
+                                            "base_url":  "http://127.0.0.1:7860",
+                                            "reference_field":  "file_ids",
+                                            "video_reference_mode":  "experimental_file_ids",
+                                            "reference_image_paths":  "",
+                                            "aspect_ratio":  "16:9",
+                                            "request_timeout_seconds":  2400,
+                                            "api_key_env_path":  "E:\\workspace\\DockerProjects\\Gemini-API\\.env"
+                                        }
+                         }
+               }
+}

@@ -1,0 +1,23 @@
+{
+  "updated": "2026-06-18T20:16:45",
+  "completed": true,
+  "blocked": false,
+  "waiting": true,
+  "stage": "next_episode",
+  "episode_number": 4,
+  "waiting_reason": "next_episode_switch_closed",
+  "next_action": "open the next episode switch after page QA passes",
+  "result_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\comfy_modular_next_episode.json",
+  "next_episode_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_comic_episode04_pages.json",
+  "next_episode_plan_exists": false,
+  "review_gate": {
+    "passed": false,
+    "waiting_reason": "page_review_not_passed",
+    "next_action": "review and fix page QA issues, then rerun page review before entering next episode",
+    "review_result_json": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\comfy_modular_page_review.json",
+    "completed": true,
+    "blocked": false,
+    "waiting": true,
+    "summary": {}
+  }
+}

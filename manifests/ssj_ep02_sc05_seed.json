@@ -1,0 +1,95 @@
+{
+  "updated": "2026-06-09T13:45:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 天湖空庭箫声",
+  "purpose": "Seed for EP02 SC05 after EP02 SC04 formal test-mode segment. Use this to plan the next 8-10 second short-drama shots through ComfyUI.",
+  "segment_id": "SSJ_EP02_SC05",
+  "beat_id": "C02_B05",
+  "title": "空庭无人，箫声引路",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC04",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc04_storyboard_review.json",
+    "previous_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC04\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC04_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc04_formal_cut_result.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc04_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC04 is approved only for pipeline validation. Storyboard costume color drift was noted in SH02/SH03/SH04; production should tighten Tuobaye reference locking."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "湖水清澈，松竹四合，对面竹林憧影中依稀可以看见有亭阁楼台。",
+    "adapted_summary": "拓拔野与白龙鹿从天湖岸边绕湖前往疑似青帝居所。亭阁以松木与竹子搭成，素朴无华；一人一兽穿过长廊、竹楼、高台和后院，却四处空无人影。风吹竹影、月照西墙之际，东南方忽然传来若有若无的箫声，拓拔野误以为可能是青帝或神农线索，于是循声穿过竹林与矮竹墙。",
+    "next_source_hint": "箫声将拓拔野引向湖边小亭、焚香、石壁文字，并最终引出白衣女子。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_tianhu_card": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_location_yupingshan_tianhu_v1.json",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "previous_tianhu_reveal_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC04_SH04_v001_00001_.png",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC04_formal_cut_v001.mp4"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute at waist, Wufeng in a bamboo sheath at the right waist.",
+    "White dragon-deer remains a friendly mythic mount with white deer body, pearl neck and shoulder scales, pale jade antlers, long white mane, calm intelligent eyes.",
+    "Wufeng remains a plain dark blunt rectangular edgeless black iron object inside or tied to a bamboo sheath; it must not look like a sharp heroic sword.",
+    "The青帝居所 should be austere and handcrafted: pine logs, bamboo corridors, plain platforms, no gold palace, no ornate imperial architecture, no modern garden.",
+    "No visible Qingdi or white-clothed woman in this segment. The reveal should be deferred to the next segment.",
+    "The emotional arc shifts from awe to uncertainty, then to fascination as the distant flute sound appears."
+  ],
+  "localization_rules": [
+    "All planning text and eventual editing dialogue should be Chinese unless a technical field requires English.",
+    "Storyboard prompts may describe Chinese short-drama style, but must request no readable screen text.",
+    "I2V prompts must use silent visual generation: no synthesized speech, no captions, no subtitles, no readable signs, no English words.",
+    "Chinese dialogue, narration, flute sound design, and subtitles should be added later in editing."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "experimental_file_ids only while current local backend supports it; otherwise use official T2V smoke tests or switch provider for formal I2V",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Prefer stable camera, slow walking, light bamboo/water movement, and reaction shots; avoid complex running until a simplified fallback is planned."
+  },
+  "suggested_shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC05_SH01",
+      "title": "绕湖靠近松竹亭阁",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye and the white dragon-deer move quietly along the moonlit Tianhu shore toward simple pine-and-bamboo pavilions across the water.",
+      "reference_anchor": "previous_tianhu_reveal_storyboard or yupingshan_tianhu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC05_SH02",
+      "title": "穿廊登台四处无人",
+      "duration_seconds": "8-10",
+      "visual_focus": "They pass through plain bamboo corridors and a pine-wood platform, searching for Qingdi, but the residence is empty.",
+      "reference_anchor": "yupingshan_tianhu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC05_SH03",
+      "title": "空庭月影忽闻箫声",
+      "duration_seconds": "8-10",
+      "visual_focus": "In the empty courtyard, Tuobaye pauses among wind-blown bamboo shadows as a faint flute sound seems to arrive from the southeast.",
+      "reference_anchor": "tuobaye_turnaround or yupingshan_tianhu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC05_SH04",
+      "title": "循声穿过矮竹墙",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye and the dragon-deer move carefully through bamboo and along a low bamboo wall, drawn toward the unseen source of the flute.",
+      "reference_anchor": "bailonglu_reference or yupingshan_tianhu_reference"
+    }
+  ],
+  "next_work": [
+    "Create SSJ_EP02_SC05 storyboard plan with 3 to 4 shots, each 8-10 seconds max.",
+    "Keep the white-clothed woman reveal out of SC05; reserve it for the next beat after lake pavilion, incense, and stone-wall text.",
+    "Keep all video prompts silent/no-caption/no-readable-text to prevent English dialogue drift.",
+    "For SH04, use slow careful movement rather than fast running unless a v002_simplified fallback is prepared."
+  ]
+}

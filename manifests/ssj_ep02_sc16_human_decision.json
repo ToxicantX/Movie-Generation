@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-11T23:27:30",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC16_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; opening attack beat is readable, with caveat to preserve Duan Yukai visibility across adjacent cuts."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC16_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; supernatural serpent reveal is clear and usable."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC16_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; approved regenerated version keeps Duan Yukai unarmed and under serpent pressure."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC16_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; approved regenerated version preserves hidden-courtyard observer geography and keeps the battle outside the gate."
+    }
+  ]
+}

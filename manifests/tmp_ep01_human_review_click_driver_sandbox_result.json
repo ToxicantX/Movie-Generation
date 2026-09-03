@@ -1,0 +1,99 @@
+{
+  "updated": "2026-06-09T00:25:27",
+  "decision_path": ".\\manifests\\tmp_human_review_decisions_ep01_click_sandbox.json",
+  "precheck_result_path": ".\\manifests\\tmp_human_review_decisions_ep01_click_sandbox_precheck.json",
+  "queue_path": ".\\manifests\\tmp_regeneration_queue_ep01_click_sandbox.json",
+  "queue_run_result_path": ".\\manifests\\tmp_regeneration_queue_ep01_click_sandbox_dry_run_result.json",
+  "formal_gate_result_path": ".\\manifests\\tmp_ep01_formal_cut_gate_click_sandbox_check.json",
+  "steps": [
+    {
+      "name": "precheck_decisions",
+      "result": {
+        "ok": true,
+        "exit_code": 0,
+        "stderr": "",
+        "updated": "2026-06-09T00:25:24",
+        "invalid_count": 0,
+        "missing_count": 0,
+        "stale_count": 0,
+        "unsafe_pass_count": 0,
+        "counts": {
+          "pending": 16,
+          "pass": 0,
+          "needs_regeneration": 0,
+          "blocked": 0
+        }
+      }
+    },
+    {
+      "name": "build_regeneration_queue",
+      "result": {
+        "ok": true,
+        "exit_code": 0,
+        "stderr": "",
+        "updated": "2026-06-09T00:25:24",
+        "queue_count": 0,
+        "summary": {
+          "pass": 0,
+          "pending": 16,
+          "needs_regeneration": 0,
+          "blocked": 0,
+          "technical_fallback": 0,
+          "missing_workflow": 0
+        }
+      }
+    },
+    {
+      "name": "formal_cut_gate_dry_check",
+      "result": {
+        "ok": false,
+        "exit_code": 1,
+        "stderr": "cripts\\probe_video_cv2.py\", line 5, in <module>\n    import cv2\nModuleNotFoundError: No module named 'cv2'\nTraceback (most recent call last):\n  File \"E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\probe_video_cv2.py\", line 5, in <module>\n    import cv2\nModuleNotFoundError: No module named 'cv2'\nTraceback (most recent call last):\n  File \"E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\probe_video_cv2.py\", line 5, in <module>\n    import cv2\nModuleNotFoundError: No module named 'cv2'\nTraceback (most recent call last):\n  File \"E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\probe_video_cv2.py\", line 5, in <module>\n    import cv2\nModuleNotFoundError: No module named 'cv2'\nTraceback (most recent call last):\n  File \"E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\probe_video_cv2.py\", line 5, in <module>\n    import cv2\nModuleNotFoundError: No module named 'cv2'\nTraceback (most recent call last):\n  File \"E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\probe_video_cv2.py\", line 5, in <module>\n    import cv2\nModuleNotFoundError: No module named 'cv2'",
+        "updated": "2026-06-09T00:25:27",
+        "failure_count": 112
+      }
+    }
+  ],
+  "precheck": {
+    "ok": true,
+    "counts": {
+      "pending": 16,
+      "pass": 0,
+      "needs_regeneration": 0,
+      "blocked": 0
+    },
+    "invalid_count": 0,
+    "missing_count": 0,
+    "stale_count": 0,
+    "unsafe_pass_count": 0,
+    "warning_count": 0,
+    "ready_for_apply": false,
+    "formal_segments_all_marked_pass": false
+  },
+  "regeneration_queue": {
+    "ok": true,
+    "queue_count": 0,
+    "summary": {
+      "pass": 0,
+      "pending": 16,
+      "needs_regeneration": 0,
+      "blocked": 0,
+      "technical_fallback": 0,
+      "missing_workflow": 0
+    },
+    "runs_ready": 0
+  },
+  "queue_run": {
+    "ok": true,
+    "dry_run": true,
+    "runs": 1,
+    "skipped": 0
+  },
+  "formal_gate": {
+    "ok": false,
+    "failure_count": 112,
+    "skipped_segment_cut_checks": true
+  },
+  "ok": true,
+  "state": "awaiting_human_review"
+}

@@ -1,0 +1,32 @@
+{
+  "updated": "2026-06-08",
+  "status": "experimental_gemini_i2v_strategy_v1",
+  "global_notes": [
+    "Gemini-API official docs currently do not support mode=video with file_ids.",
+    "The current Docker runtime is a locally patched experimental backend that accepts file_ids, but multi-image role binding is unreliable.",
+    "Do not assume multiple uploaded images are understood as separate storyboard, character, location, and temporal references.",
+    "For Gemini experimental I2V, prefer a single strong storyboard image as the visual source of truth. Use character and location references upstream when generating storyboard frames.",
+    "Use rejected_video_outputs.json to prevent failed variants from becoming the selected latest clip."
+  ],
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP01_SC01_SH01",
+      "strategy": "single_storyboard_plus_optional_location_language",
+      "allow_temporal_refs": false,
+      "allow_extra_reference_images": false
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC01_SH02",
+      "strategy": "single_storyboard_only",
+      "allow_temporal_refs": false,
+      "allow_extra_reference_images": false,
+      "reason": "A multi-reference Gemini experimental run drifted into market/bowl/poverty imagery and no longer matched the Nanji Mountain mission-transfer storyboard."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC01_SH03",
+      "strategy": "single_storyboard_with_optional_previous_tail_after_review",
+      "allow_temporal_refs": true,
+      "allow_extra_reference_images": false
+    }
+  ]
+}

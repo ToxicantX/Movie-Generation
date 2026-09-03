@@ -1,0 +1,13 @@
+﻿{
+    "updated":  "2026-06-09T00:22:18",
+    "decision_path":  ".\\manifests\\human_review_decisions_ep01.json",
+    "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pending",
+    "old_regeneration_scope":  "video",
+    "new_regeneration_scope":  "video",
+    "reason":  "",
+    "notes":  "",
+    "reviewer":  "",
+    "ok":  true
+}

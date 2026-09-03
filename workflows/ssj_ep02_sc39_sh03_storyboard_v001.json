@@ -1,0 +1,25 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Use the approved SC38 nearly-emptied-out endurance storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 emptying-to-the-limit composition. Adult Tuobaye should now read as almost fully drained: battered, hollow, and surviving on the smallest possible remainder. Keshadu's certainty and Fourteen's instability leave him almost no margin at all. The frame should feel like body and will are both nearing full exhaustion. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+        "model": "gpt-image-2",
+        "size": "1536x1024",
+        "negative_prompt": "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+        "reference_image_paths": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC38_SH03_v001_00001_.png"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC39_SH03_v001"
+      }
+    }
+  }
+}

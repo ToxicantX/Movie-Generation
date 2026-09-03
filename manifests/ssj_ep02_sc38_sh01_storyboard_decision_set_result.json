@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T16:01:48",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc38.json",
+    "shot_id":  "TEST_SSJ_EP02_SC38_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Keshadu truth-break-surface beat reads clearly: the white-clothed woman still holds the axis while both men carry the pressure toward open fact.",
+    "notes":  "Codex visual precheck: SH01 works as the truth-about-to-break-surface beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

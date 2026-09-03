@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T22:54:42",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc16.json",
+    "shot_id":  "TEST_SSJ_EP02_SC16_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "needs_regeneration",
+    "reason":  "blocking composition mismatch: Duan Yukai is given an invented staff-like weapon and the serpent presentation drifts from the intended pressured-defense beat",
+    "notes":  "Regenerate with strict constraints: Duan Yukai must be unarmed or using only body-defense motion, black serpent pressure must come from pursuit rather than a posed duel tableau, Shisilang remains distant/elevated, no invented spear/staff prop.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

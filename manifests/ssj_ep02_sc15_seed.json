@@ -1,0 +1,100 @@
+{
+  "updated": "2026-06-11T20:56:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 山腰刀兵，段聿铠闯峰",
+  "purpose": "Seed for EP02 SC15 after EP02 SC14 formal test-mode segment. Continue the ComfyUI short-drama pipeline from the rear-courtyard hiding beat into the next conflict escalation: the white-clothed woman worries about Tuobaye's dangerous future; mountain-slope fighting erupts; Chaoyang Valley visitors panic; a bloodied blue-robed strongman leaps onto the bamboo tower and calls out Qingdi by name; Shisilang requests permission to fight while the white-clothed woman suppresses anger and Tuobaye is secretly impressed.",
+  "segment_id": "SSJ_EP02_SC15",
+  "beat_id": "C02_B15",
+  "title": "山腰刀兵，段聿铠闯峰",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC14",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc14_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC14_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc14_formal_cut_result.json",
+    "previous_formal_segment_probe": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc14_formal_cut_probe.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc14_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC14 is approved only for pipeline validation. All four SC14 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing. SH03 motion is slightly too spectacular, and SH04 gate framing must be monitored for hallucinated text in future regeneration."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "拓拔野与白衣女子分藏竹下，门外朝阳谷十四郎恭立不动。",
+    "adapted_summary": "白衣女子暗自担心拓拔野怀璧行险、蜃楼城之行凶多吉少。忽然半山腰传来刀兵与呼喝，院外众人变色。一个粗豪声音在青帝御苑外放肆喝骂，随后十四郎冲向山腰。一个浑身鲜血的青衣大汉跃上天湖边竹楼，公开挑衅青帝，正是蜃楼城狂人段聿铠。白衣女子心生薄嗔却按捺不发，拓拔野暗中佩服此人胆气。十四郎转而向院中恭请准许出手，局势从静候转为对峙前夜。",
+    "next_source_hint": "随后十四郎与段聿铠正面交手，黑衣老者插话，段聿铠继续激怒青帝；白衣女子与拓拔野都在暗中观察。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_hidden_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH04_v001_00001_.png",
+    "previous_arrival_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH02_v001_00001_.png"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute, right-waist green bamboo sheath, hidden broken Wufeng.",
+    "White-clothed woman remains adult, elegant, distant, water/rain-associated, fully clothed, emotionally restrained, and should keep the simplified non-ornate styling from SC14 SH01.",
+    "Chaoyang Valley visitors remain black-clothed external-pressure characters, with Shisilang the foreground noble among them only when needed.",
+    "Duan Yukai should appear as a bloodied but forceful adult intruder from Mirage City, broad-shouldered and dangerous, not comic and not a generic soldier.",
+    "Qingdi still does not appear; the tension comes from his absence, his forbidden courtyard, and people invoking his name.",
+    "No readable text, captions, subtitles, banners, plaques, gate calligraphy, speech bubbles, English words, UI, or clear inscriptions."
+  ],
+  "localization_rules": [
+    "All planning text and eventual editing dialogue should be Chinese unless a technical field requires English.",
+    "Storyboard prompts may include intended Chinese dialogue as off-screen planning context, but must request no rendered subtitles or readable text.",
+    "I2V prompts must use silent visual generation: no synthesized speech, no lip-sync dialogue, no battle cries, no music, no captions, no subtitles, no readable signs, no English words.",
+    "Chinese dialogue, narration, sound design, music, and subtitles should be added later in editing."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Use restrained hidden observation, distant combat disturbance, a single bold intruder reveal, and charged stillness before open combat. Avoid lip-sync, readable signs, and large crowd melee staging."
+  },
+  "suggested_shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC15_SH01",
+      "title": "竹下各怀心事",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye and the white-clothed woman remain hidden among opposite bamboo while both silently brood; the emotional focus is their separated stillness, not dialogue.",
+      "reference_anchor": "previous_hidden_storyboard or yushiqie_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC15_SH02",
+      "title": "半山刀兵惊禁地",
+      "duration_seconds": "8-10",
+      "visual_focus": "The mountain slope below flashes with distant conflict and alarm while the courtyard visitors react; keep the fighting mostly off-screen or obscured by mist.",
+      "reference_anchor": "previous_arrival_storyboard or yupingshan_tianhu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC15_SH03",
+      "title": "段聿铠血身登楼",
+      "duration_seconds": "8-10",
+      "visual_focus": "A bloodied blue-robed strongman leaps onto the lakeside bamboo tower and challenges Qingdi; he should feel like a singular disruptive force.",
+      "reference_anchor": "duanyukai_reference or yupingshan_tianhu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC15_SH04",
+      "title": "十四郎请战",
+      "duration_seconds": "8-10",
+      "visual_focus": "Shisilang respectfully turns back toward the forbidden courtyard to request leave to fight while the white-clothed woman suppresses anger and Tuobaye watches in secret.",
+      "reference_anchor": "previous_hidden_storyboard or previous_arrival_storyboard"
+    }
+  ],
+  "next_work": [
+    "Create SSJ_EP02_SC15 storyboard plan with 4 shots, each 8-10 seconds max.",
+    "Keep most combat implication distant or partial; the segment should escalate tension more than deliver full fight choreography.",
+    "Do not render readable gate plaques, shouted insults as subtitles, or any readable Chinese/English text.",
+    "Use silent/no-caption/no-readable-text I2V prompts. Do not generate speech, lip-sync, battle cries, or readable signs.",
+    "If Gemini file_ids I2V remains rejected and no Runway key exists, use technical still fallback only for continuity and mark every output as non-production."
+  ]
+}

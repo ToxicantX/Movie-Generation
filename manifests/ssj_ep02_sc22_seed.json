@@ -1,0 +1,55 @@
+{
+  "updated": "2026-06-12T13:20:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 暗劲回拉，逆掌翻局",
+  "purpose": "Seed for EP02 SC22 after EP02 SC21 formal test-mode segment. Continue the ComfyUI short-drama pipeline from Tuobaye being beaten and the white dragon-deer rushing in, into the next reversal: a hidden force yanks Tuobaye backward out of danger, the white-clothed woman secretly assists again, Tuobaye suddenly counterattacks and knocks Shisilang down, the crowd is stunned, and Keshadu begins to realize someone powerful is helping from behind.",
+  "segment_id": "SSJ_EP02_SC22",
+  "beat_id": "C02_B22",
+  "title": "暗劲回拉，逆掌翻局",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC21",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc21_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC21_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC21\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC21_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc21_formal_cut_result.json",
+    "previous_formal_segment_probe": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc21_formal_cut_probe.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC21 is approved only for pipeline validation. All four SC21 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing. SH04 required storyboard regeneration before pass."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "十四郎毒鞭连落，拓拔野伤痕累累，白龙鹿怒扑护主。",
+    "adapted_summary": "危急之际，一股暗劲忽然将拓拔野朝后拉开，十四郎一瞬失衡。白衣女子继续暗中以内力相助，却依旧不公开出手。拓拔野在狼狈之中借势反击，一掌或一脚将十四郎打得跌退甚至摔倒，众人瞬间目瞪口呆。科沙度迅速意识到，这不是拓拔野一人能做到的反转，背后必有人以高强内力或术法遥控相助。",
+    "next_source_hint": "随后众人会从震惊转向追查幕后相助者，科沙度与白衣女子之间的暗线压迫感将进一步升高。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_whip_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH01_v001_00001_.png",
+    "previous_deer_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH04_v001_00003_.png"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, right-waist green bamboo sheath, hidden broken Wufeng.",
+    "White-clothed woman remains elegant and controlled; her aid must stay covert, shown through gaze, posture, or invisible force effects rather than overt spellcasting spectacle.",
+    "Shisilang is still the on-screen aggressor at the start of the segment, but the reversal must make him look stunned and publicly embarrassed rather than mortally harmed.",
+    "Keshadu must read as colder and more perceptive than the crowd; his reaction should suggest immediate deduction, not generic surprise alone.",
+    "The white dragon-deer should remain in the same gate-space continuity and can appear protective or startled, but must not hijack the reversal into a creature showcase.",
+    "No readable text, captions, subtitles, plaques, gate calligraphy, speech bubbles, English words, or UI."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Keep the beat readable: hidden pull, Tuobaye's involuntary reset, counterattack landing, crowd shock, and Keshadu's deduction should each read as distinct visual steps."
+  }
+}

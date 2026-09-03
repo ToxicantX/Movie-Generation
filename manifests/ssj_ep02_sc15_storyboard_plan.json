@@ -1,0 +1,110 @@
+{
+  "updated": "2026-06-11",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 山腰刀兵，段聿铠闯峰",
+  "segment_id": "SSJ_EP02_SC15",
+  "beat_id": "C02_B15",
+  "title": "山腰刀兵，段聿铠闯峰",
+  "purpose": "承接 SC14 后院藏身：白衣女子与拓拔野各怀心事；半山腰忽起刀兵，朝阳谷众人色变；浑身鲜血的段聿铠跃上竹楼公开挑衅青帝；十四郎转身向禁院请战。全段继续保持无声视觉，不生成字幕、门额文字、咒骂台词文字或任何可读文本。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC14",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc14_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC14_formal_cut_v001.mp4",
+    "previous_hidden_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH04_v001_00001_.png",
+    "previous_arrival_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH02_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc15_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 白衣女子想道 / 半山腰刀兵 / 段聿铠 / 十四郎请战。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 anchors to the previous hidden courtyard storyboard for the split bamboo layout and mood. SH02 anchors to the previous arrival storyboard for courtyard plus distant external pressure. SH03 anchors to Duan Yukai turnaround/basic identity reference. SH04 anchors to the previous hidden courtyard storyboard to preserve gate, bamboo, and hidden observer positions.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, gate calligraphy, speech bubbles, English words, or clear Chinese inscriptions inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, lip-sync, battle cries, insults, music, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "他这般难过，是因为想起神帝了吗？",
+      "究竟是谁如此大胆，敢在玉屏山上擅动干戈？",
+      "灵感仰老匹夫，我来了！",
+      "十四郎恳请青帝准许十四郎将这狂徒拿下。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_hidden_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH04_v001_00001_.png",
+    "previous_arrival_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH02_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC15_SH01",
+      "beat": "C02_B15",
+      "title": "竹下各怀心事",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子",
+        "白龙鹿"
+      ],
+      "location": "青帝后院 / 东西竹丛",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC15_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC15_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the input SC14 hidden courtyard storyboard as the spatial and mood anchor for west-side bamboo, east-side bamboo, moonlit wet stone, and the separated positions of adult Tuobaye and the adult white-clothed woman. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 quiet split composition. Adult Tuobaye hides behind bamboo with the white dragon-deer, looking troubled and secretly drawn toward the woman; the adult white-clothed woman stands apart beneath bamboo, calm but inwardly burdened, eyes lowered in thought. Keep her styling simple and non-ornate. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no gate calligraphy, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent hidden-thought beat. Tuobaye and the white dragon-deer remain still behind bamboo while the woman stands apart thinking; bamboo leaves, hair strands, robes, mist, and moonlight reflections move subtly. No dialogue, no lip-sync, no battle cries, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC15_SH02",
+      "beat": "C02_B15",
+      "title": "半山刀兵惊禁地",
+      "duration_seconds": "8-10",
+      "characters": [
+        "朝阳谷来客",
+        "拓拔野",
+        "白衣女子"
+      ],
+      "location": "玉屏山庭院外 / 半山腰远景",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC15_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC15_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH02_v001_00001_.png",
+      "storyboard_prompt": "Use the input SC14 arrival storyboard as the setting anchor for moonlit Tianhu architecture, distant courtyard approach, and black-clothed Chaoyang Valley visitors. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 tension-escalation wide composition. The hidden courtyard foreground remains still while distant figures outside react sharply toward the mountain slope as flashes of motion or steel glints appear through mist far below. Keep the actual fight distant or obscured. Qingdi remains absent. No readable plaques, banners, gate text, carved characters, captions, subtitles, speech bubbles, English words, or UI.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent alarm beat. Distant movement and metallic flashes stir on the mountain slope while the courtyard visitors tense and turn; mist, robes, lantern glow, and tree shadows move gently. No dialogue, no lip-sync, no battle cries, no sound effects, no captions, no subtitles, no readable signs, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC15_SH03",
+      "beat": "C02_B15",
+      "title": "段聿铠血身登楼",
+      "duration_seconds": "8-10",
+      "characters": [
+        "段聿铠",
+        "十四郎",
+        "朝阳谷来客"
+      ],
+      "location": "天湖边竹楼",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC15_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC15_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+      "storyboard_prompt": "Use the input Duan Yukai turnaround as the identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 bold reveal composition. A bloodied blue-robed strongman from Mirage City lands atop the lakeside bamboo tower or high pavilion edge, broad-shouldered and dangerous, challenging the absent Qingdi with reckless confidence. Below or at distance, black-clothed Chaoyang Valley visitors recoil or look up. Keep blood limited to battle-worn staining, no gore. No readable Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no signs, no plaques, no gate calligraphy, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent intruder-reveal beat. Duan Yukai lands or steadies himself on the bamboo tower with forceful presence while distant black-clothed visitors react below; robes, mist, hair, bamboo, and water reflections move subtly. No dialogue, no lip-sync, no battle cries, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC15_SH04",
+      "beat": "C02_B15",
+      "title": "十四郎请战",
+      "duration_seconds": "8-10",
+      "characters": [
+        "十四郎",
+        "白衣女子",
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "禁院门外与后院竹影同框",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC15_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC15_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH02_v001_00001_.png",
+      "storyboard_prompt": "Use the input SC14 arrival storyboard as the anchor for gate architecture, outer approach spacing, moonlit wet stone, and the idea of visitors remaining outside the Qingdi residence. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 layered tension composition. Enforce strict gate logic: Shisilang must stay outside the forbidden courtyard threshold and outside the inner stone court, visibly separated by the gate line or doorway framing, turned toward the silent gate to request leave to fight. Inside the courtyard, only the adult white-clothed woman on the east side and adult Tuobaye hidden in the west bamboo with the white dragon-deer may be visible. No extra adult male inside the courtyard, no man standing in the center court, no one facing the woman from inside the threshold. Keep Qingdi absent and unseen. Do not render readable gate plaques, calligraphy, captions, subtitles, speech bubbles, English words, or UI.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent request-to-fight beat. Shisilang turns respectfully toward the gate while the woman stays still and displeased and Tuobaye watches from hiding; bamboo leaves, robes, mist, and lantern light move gently. No dialogue, no lip-sync, no battle cries, no sound effects, no captions, no subtitles, no readable signs, no English words."
+    }
+  ]
+}

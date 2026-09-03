@@ -1,0 +1,44 @@
+{
+    "updated":  "2026-06-09T10:28:34",
+    "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_storyboard_review.json",
+    "workflow_create_result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_workflow_create_result.json",
+    "state":  "technical_preview_cut_built_pending_human_video_review",
+    "build_review_package":  true,
+    "build_technical_preview_cut":  true,
+    "allow_missing_videos":  false,
+    "steps":  [
+                  {
+                      "name":  "refresh_i2v_outputs",
+                      "ok":  true,
+                      "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_i2v_refresh_result.json"
+                  },
+                  {
+                      "name":  "build_video_review_package",
+                      "ok":  true,
+                      "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_i2v_review_package.json"
+                  },
+                  {
+                      "name":  "build_technical_preview_cut",
+                      "ok":  true,
+                      "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_technical_preview_cut_result.json"
+                  }
+              ],
+    "refresh":  {
+                    "ready_to_review":  true,
+                    "found_count":  3,
+                    "invalid_count":  0
+                },
+    "review_package":  {
+                           "ok":  true,
+                           "markdown_path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC01\\human_review.md",
+                           "shot_count":  3
+                       },
+    "cut":  {
+                "ok":  true,
+                "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC01_technical_preview_cut.mp4",
+                "frame_count":  720,
+                "fps":  24,
+                "bytes":  21841427
+            },
+    "ok":  true
+}

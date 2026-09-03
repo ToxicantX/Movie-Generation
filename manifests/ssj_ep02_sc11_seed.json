@@ -1,0 +1,99 @@
+{
+  "updated": "2026-06-09T19:08:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 无锋归鞘，木族叮嘱",
+  "purpose": "Seed for EP02 SC11 after EP02 SC10 formal test-mode segment. Continue the ComfyUI short-drama pipeline from the white-clothed woman explaining Wufeng as a Wood Tribe divine artifact, returning the broken sword to Tuobaye, warning him not to reveal it lightly, and shifting attention to the Chana Fanghua tune.",
+  "segment_id": "SSJ_EP02_SC11",
+  "beat_id": "C02_B11",
+  "title": "无锋归鞘，木族叮嘱",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC10",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC10_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC10\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC10_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc10_formal_cut_result.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc10_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC10 is approved only for pipeline validation. All four SC10 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing. SH02 costume color and SH03 sword length need production regeneration."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "白衣女子低声道：“人有情，剑无锋。这柄剑原是我族七大神器之一，想不到这两百多年的流离辗转，竟然是沉没在龙潭之底。”",
+    "adapted_summary": "拓拔野听不明白无锋的旧事，却看出此剑与白衣女子渊源极深，愿意把剑物归原主，并为自己弄断剑而惶恐。白衣女子叹息剑断情伤，认为这是天意，断剑在潭底两百年后被拓拔野得到，说明他与此剑有缘。她左手轻展，断剑无声飞回，恰好插入拓拔野腰间绿竹剑鞘。白衣女子凝视拓拔野，询问他是哪族人；拓拔野茫然不知。她便嘱咐他将无锋收好，不要轻易出示，若被人看见就说自己是木族人，以免招惹麻烦。随后她看向地上的竹笛，询问拓拔野从何处听得刹那芳华曲。",
+    "next_source_hint": "随后拓拔野讲述南际山顶邂逅神农、接受临终重托、跌入龙潭等经历；白衣女子听到神农百草毒发和刹那芳华曲时神色震动。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "previous_handover_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH01_v001_00001_.png",
+    "previous_floating_sword_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH02_v001_00001_.png",
+    "previous_glow_sword_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH03_v001_00001_.png",
+    "previous_grief_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH04_v001_00001_.png",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC10_formal_cut_v001.mp4"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute, and broken Wufeng at the right waist.",
+    "Wufeng should return to the right-waist green bamboo sheath as a broken plain blue-grey sword. Do not render readable 神农, 空桑, 木族, or any other Chinese characters; use abstract glow lines only if needed.",
+    "White-clothed woman remains adult, elegant, distant, water/rain-associated, fully clothed, and emotionally restrained after the tear beat.",
+    "The emotional beats are remorse, gentle absolution, destined ownership, solemn warning, Tuobaye's grateful awkwardness, and the hook toward the flute tune.",
+    "Setting remains moonlit Tianhu bamboo pavilion/lakeside, bamboo shadows, mist, and faint incense smoke.",
+    "No readable text, captions, subtitles, speech bubbles, English words, signs, plaques, UI, or clear inscriptions."
+  ],
+  "localization_rules": [
+    "All planning text and eventual editing dialogue should be Chinese unless a technical field requires English.",
+    "Storyboard prompts may include intended Chinese dialogue as off-screen planning context, but must request no rendered subtitles or readable text.",
+    "I2V prompts must use silent visual generation: no synthesized speech, no lip-sync dialogue, no flute/xiao audio, no captions, no subtitles, no readable signs, no English words.",
+    "Chinese dialogue, narration, sound design, and subtitles should be added later in editing."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Use stable sword-return, sheath, restrained face, flute glance, and reaction beats. Avoid lip-sync, readable inscription closeups, and fast body turns."
+  },
+  "suggested_shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC11_SH01",
+      "title": "愿归原主",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye anxiously offers to return Wufeng to the white-clothed woman, ashamed that the sword is broken; the woman remains gentle but sorrowful.",
+      "reference_anchor": "previous_grief_storyboard or previous_handover_storyboard"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC11_SH02",
+      "title": "断剑归鞘",
+      "duration_seconds": "8-10",
+      "visual_focus": "The broken Wufeng floats back by invisible force and slides precisely into Tuobaye's right-waist green bamboo sheath; keep the sword plain and non-readable.",
+      "reference_anchor": "previous_floating_sword_storyboard and tuobaye_turnaround"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC11_SH03",
+      "title": "木族叮嘱",
+      "duration_seconds": "8-10",
+      "visual_focus": "The white-clothed woman solemnly warns Tuobaye to keep Wufeng hidden and, if questioned, claim Wood Tribe identity; Tuobaye listens wide-eyed and grateful.",
+      "reference_anchor": "yushiqie_reference and tuobaye_turnaround"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC11_SH04",
+      "title": "曲名刹那芳华",
+      "duration_seconds": "8-10",
+      "visual_focus": "The woman notices the green bamboo flute on the ground or at Tuobaye's side, her gaze changing as she asks about the Chana Fanghua tune; Tuobaye is startled, preparing to recount Shennong's final trust.",
+      "reference_anchor": "tuobaye_turnaround or previous_grief_storyboard"
+    }
+  ],
+  "next_work": [
+    "Create SSJ_EP02_SC11 storyboard plan with 4 shots, each 8-10 seconds max.",
+    "Keep Wufeng hidden/returning to sheath and avoid readable inscriptions or visible Chinese words.",
+    "Use silent/no-caption/no-readable-text I2V prompts. Do not generate English or Chinese subtitles inside video.",
+    "If Gemini file_ids I2V remains rejected and no Runway key exists, use technical still fallback only for continuity and mark every output as non-production."
+  ]
+}

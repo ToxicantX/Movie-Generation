@@ -1,0 +1,42 @@
+{
+    "updated":  "2026-06-13T17:14:46",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc40.json",
+    "review_paths":  [
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc40_storyboard_review.json"
+                     ],
+    "counts":  {
+                   "pending":  0,
+                   "pass":  4,
+                   "needs_regeneration":  0,
+                   "blocked":  0
+               },
+    "review_count":  1,
+    "decision_count":  4,
+    "invalid_count":  0,
+    "missing_count":  0,
+    "stale_count":  0,
+    "warning_count":  0,
+    "ready_for_i2v_queue":  true,
+    "all_storyboards_reviewed":  true,
+    "reviews":  [
+                    {
+                        "review_id":  "SSJ_EP02_SC40",
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc40_storyboard_review.json",
+                        "global_decision":  "pending_storyboard_human_review",
+                        "shot_count":  4
+                    }
+                ],
+    "invalid":  [
+
+                ],
+    "missing":  [
+
+                ],
+    "stale":  [
+
+              ],
+    "warnings":  [
+
+                 ],
+    "ok":  true
+}

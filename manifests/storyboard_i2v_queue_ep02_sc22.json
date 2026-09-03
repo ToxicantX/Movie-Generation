@@ -1,0 +1,98 @@
+{
+    "updated":  "2026-06-12T14:06:08",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc22.json",
+    "review_paths":  [
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_storyboard_review.json"
+                     ],
+    "include_pending":  false,
+    "include_blocked":  false,
+    "summary":  {
+                    "pending":  0,
+                    "pass":  3,
+                    "needs_regeneration":  1,
+                    "blocked":  0,
+                    "missing_workflow":  0,
+                    "missing_storyboard":  0
+                },
+    "queue_count":  4,
+    "queue":  [
+                  {
+                      "review_id":  "SSJ_EP02_SC22",
+                      "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC22_SH01",
+                      "title":  "暗劲回拉脱险",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Hidden pull reads clearly; gate-space continuity, white-clothed woman restraint, and white dragon-deer presence all hold.",
+                      "notes":  "Codex visual precheck: SH01 is readable and can proceed to video generation.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC22_SH01_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh01_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh01_i2v_v001.json",
+                      "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh01_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC22",
+                      "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC22_SH02",
+                      "title":  "借势反掌击退",
+                      "decision":  "needs_regeneration",
+                      "action":  "regenerate_storyboard",
+                      "regeneration_scope":  "storyboard",
+                      "reason":  "The image reads too much like Tuobaye pulling or striking through the whip itself; it does not cleanly communicate the hidden-aid-assisted rough counterattack after being yanked clear.",
+                      "notes":  "Regenerate with Tuobaye still visibly battered and off-balance, counterattack landing as a sudden rough palm/body strike rather than a whip/rope drag visual.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC22_SH02_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh02_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh02_i2v_v001.json",
+                      "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh02_storyboard_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC22",
+                      "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC22_SH03",
+                      "title":  "众人目瞪口呆",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "The public reversal and crowd shock are clear; Fourteen, Tuobaye, the white dragon-deer, and the gate-space all remain legible in one frame.",
+                      "notes":  "Codex visual precheck: SH03 cleanly sells the stunned aftermath beat.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC22_SH03_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh03_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh03_i2v_v001.json",
+                      "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh03_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC22",
+                      "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC22_SH04",
+                      "title":  "科沙度冷眼起疑",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Keshadu\u0027s suspicion reads clearly, and the composition keeps Tuobaye wounded, Fourteen embarrassed, and the white-clothed woman quietly implicated without overt magic.",
+                      "notes":  "Codex visual precheck: SH04 is suitable as the deduction beat source frame.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC22_SH04_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh04_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh04_i2v_v001.json",
+                      "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh04_i2v_v001.json",
+                      "can_auto_run":  true
+                  }
+              ],
+    "next_actions":  [
+                         "For pass decisions, run_i2v uses the approved storyboard as the single visual source through the prepared Comfy workflow.",
+                         "For needs_regeneration decisions, regenerate the storyboard before rebuilding this queue.",
+                         "Run run_storyboard_i2v_queue.ps1 with -DryRun first."
+                     ],
+    "ok":  true
+}

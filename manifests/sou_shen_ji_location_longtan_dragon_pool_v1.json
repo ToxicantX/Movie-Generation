@@ -1,0 +1,32 @@
+{
+  "updated": "2026-06-08",
+  "location_id": "LOC_longtan_dragon_pool",
+  "name": "龙潭",
+  "status": "location_v1",
+  "source": "搜神记 第一卷 第一章 神农使者 / C01_B07",
+  "visual_identity": {
+    "terrain": "secluded dragon pool below Nanji Mountain, cold jade water, circular mossy stone platform, waterfall mist, ancient pine roots, moonlit mountain silhouettes",
+    "time_palette": "blue moonlight, cold jade water, moss green, silver mist, small warm medicinal glow near the stones",
+    "recurring_details": [
+      "circular stone bank",
+      "cold jade pool",
+      "small waterfall",
+      "dragon-shaped ripples",
+      "mossy stones",
+      "glowing herbs"
+    ],
+    "avoid": [
+      "drowning emphasis",
+      "corpse",
+      "gore",
+      "horror swamp",
+      "modern pool",
+      "dangerous cliff-edge framing"
+    ]
+  },
+  "reference_image_status": "usable_v001",
+  "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_longtan_dragon_pool_ref_v001_00001_.png",
+  "reference_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_loc_longtan_ref_v001.json",
+  "reference_prompt_id": "e0977c1d-76dc-4bb2-89d9-1d2aaa7d37f2",
+  "reference_review": "Usable dragon pool reference with safe stone platform, cold water, waterfall mist, and mythic atmosphere. Good for action staging without cliff-danger or horror imagery."
+}

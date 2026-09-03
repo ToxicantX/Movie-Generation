@@ -1,0 +1,65 @@
+{
+  "updated": "2026-06-09T10:40:32",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 玉屏山 / 天湖后续",
+  "purpose": "Seed for EP02 SC02 after EP02 SC01 formal test-mode segment. Use this to plan the next 8-10 second short-drama shots through ComfyUI.",
+  "segment_id": "SSJ_EP02_SC02",
+  "continuity_from": {
+    "episode_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_formal_cut_v001.mp4",
+    "previous_segment_id": "SSJ_EP02_SC01",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_storyboard_review.json",
+    "previous_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC01\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC01_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_formal_cut_result.json",
+    "previous_technical_preview_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC01_technical_preview_cut.mp4",
+    "previous_storyboards": [
+      "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC01_SH01_v001_00001_.png",
+      "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC01_SH02_v001_00001_.png",
+      "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC01_SH03_v001_00001_.png"
+    ],
+    "previous_videos": [
+      "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH01_i2v_v001.mp4",
+      "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH02_i2v_v001.mp4",
+      "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH03_i2v_v001.mp4"
+    ],
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC01 is approved only for pipeline validation. Dialogue/localization drifted English in generated tests; production prompts must enforce Chinese dialogue/subtitles."
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_tuobaye_ref_v001_00001_.png",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_tianhu_card": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_location_yupingshan_tianhu_v1.json",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "wufeng_corrected_prop": "G:\\ComfyUI\\output\\AIShortDrama\\props\\PROP_wufeng_blunt_iron_ref_v002_00001_.png"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, relic bundle.",
+    "White dragon-deer must remain a friendly mythic mount: white deer body, pearl neck and shoulder scales, pale jade antlers, long white mane, calm intelligent eyes.",
+    "Wufeng must remain a plain dark blunt rectangular edgeless black iron object, not a sharp sword.",
+    "Yuping Mountain / Tianhu must remain a moonlit pine and bamboo sanctuary with clear heavenly lake, austere wooden and bamboo pavilions, jade-green mist, and forbidden quiet.",
+    "Continue from the empty Qingdi courtyard hook: unseen authority, restrained tension, no direct Qingdi reveal unless the SC02 beat explicitly calls for it.",
+    "Use the final frame/visual logic of EP02 SC01 as temporal continuity; do not reset costume, mount identity, lake geometry, or courtyard mood."
+  ],
+  "localization_rules": [
+    "All story/dialogue planning must be in Chinese unless a technical field requires English.",
+    "Storyboard and video prompts must explicitly say: Chinese short-drama style, Chinese dialogue only, Chinese subtitles only, no English spoken dialogue, no English captions, no English UI text.",
+    "If the provider tends to output English, render scenes with no readable text and add Chinese dialogue/subtitles later in editing, rather than letting the video model invent English text."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "experimental_file_ids only while current local backend supports it; otherwise use official T2V smoke tests or switch provider for formal I2V",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history."
+  },
+  "next_work": [
+    "Extract the next short-drama beat from chapter 2 after arrival at the silent Qingdi sanctuary.",
+    "Create SSJ_EP02_SC02 storyboard plan with 3 to 5 shots, each 8-10 seconds max.",
+    "Generate storyboard frames through ComfyUI, using locked references and Chinese localization rules.",
+    "Run storyboard review, I2V, video review, and formal segment cut using the existing EP02 SC01 pattern."
+  ]
+}

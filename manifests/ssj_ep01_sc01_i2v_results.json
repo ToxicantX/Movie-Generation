@@ -1,0 +1,31 @@
+[
+  {
+    "shot_id": "TEST_SSJ_EP01_SC01_SH02",
+    "mode": "text_to_video_from_storyboard_prompt",
+    "prompt_id": "43bd7054-4083-4e79-8d56-701c70380af9",
+    "status": "success_smoke_test_only_consistency_not_approved",
+    "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_t2v_v001.mp4",
+    "consistency_note": "T2V did not consume storyboard/character/scene reference images, so character and setting consistency are not production-grade."
+  },
+  {
+    "shot_id": "TEST_SSJ_EP01_SC01_SH01",
+    "mode": "text_to_video_from_storyboard_prompt",
+    "prompt_id": "deec9fca-3828-4632-953c-7ed22dcf6fa8",
+    "status": "blocked_429",
+    "video_path": null
+  },
+  {
+    "shot_id": "TEST_SSJ_EP01_SC01_SH03",
+    "mode": "text_to_video_from_storyboard_prompt",
+    "prompt_id": "6e774ae1-1543-4b72-83ec-0f7fd9ac6054",
+    "status": "blocked_429",
+    "video_path": null
+  },
+  {
+    "shot_id": "TEST_SSJ_EP01_SC01_SH02_SH01_SH03",
+    "mode": "image_to_video_with_storyboard_image_path",
+    "prompt_id": "6068cc23-1615-4d95-b64d-66fa07771418 / ca14e95f-bebf-43a5-9373-add6cd1e2913 / c7ddc979-a5ff-4666-b3d1-7bddb03ffb26",
+    "status": "failed_409_unconfirmed_video_task",
+    "video_path": null
+  }
+]

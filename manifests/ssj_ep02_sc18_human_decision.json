@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-12T01:56:00",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC18_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; false-authority stop command remains readable with the correct gate geometry."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC18_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; carrying Duan Yukai to the threshold stays spatially coherent and preserves his wounded pride."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC18_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; bluff-and-suspicion beat is usable, with production caveat to keep Keshadu and Shisilang visually distinct from Duan Yukai."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC18_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Tang Qi challenge setup is clear and the white-clothed woman stays secondary."
+    }
+  ]
+}

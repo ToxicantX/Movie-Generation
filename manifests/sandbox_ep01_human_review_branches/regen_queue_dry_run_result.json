@@ -1,0 +1,26 @@
+{
+    "updated":  "2026-06-08T19:11:03",
+    "queue_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\regen_queue_ep01.json",
+    "dry_run":  true,
+    "max_items":  1,
+    "runs":  [
+                 {
+                     "review_id":  "SSJ_EP01_SC04",
+                     "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                     "decision":  "needs_regeneration",
+                     "regeneration_scope":  "video",
+                     "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_i2v_v001.json",
+                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\regen_ssj_ep01_sc04_test_ssj_ep01_sc04_sh02_result.json",
+                     "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\run_single_i2v_workflow_and_wait.ps1\u0027 -WorkflowPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_i2v_v001.json\u0027 -ShotId \u0027TEST_SSJ_EP01_SC04_SH02\u0027 -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\regen_ssj_ep01_sc04_test_ssj_ep01_sc04_sh02_result.json\u0027",
+                     "status":  "dry_run",
+                     "exit_code":  null,
+                     "output":  [
+
+                                ]
+                 }
+             ],
+    "skipped":  [
+
+                ],
+    "ok":  true
+}

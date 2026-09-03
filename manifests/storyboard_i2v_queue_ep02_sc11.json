@@ -1,0 +1,98 @@
+﻿{
+    "updated":  "2026-06-09T19:38:00",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc11.json",
+    "review_paths":  [
+                         ".\\manifests\\ssj_ep02_sc11_storyboard_review.json"
+                     ],
+    "include_pending":  false,
+    "include_blocked":  false,
+    "summary":  {
+                    "pending":  0,
+                    "pass":  4,
+                    "needs_regeneration":  0,
+                    "blocked":  0,
+                    "missing_workflow":  0,
+                    "missing_storyboard":  0
+                },
+    "queue_count":  4,
+    "queue":  [
+                  {
+                      "review_id":  "SSJ_EP02_SC11",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc11_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC11_SH01",
+                      "title":  "愿归原主",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Test-mode pass to keep the SC11 pipeline moving.",
+                      "notes":  "No readable text/subtitles/audio cues visible. Handover beat is readable; production pass should still tighten adult Tuobaye face and costume continuity.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC11_SH01_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc11_sh01_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc11_sh01_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc11_sh01_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC11",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc11_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC11_SH02",
+                      "title":  "断剑归鞘",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Test-mode pass to keep the SC11 pipeline moving.",
+                      "notes":  "No readable text/subtitles/audio cues visible. Critical caveat: Wufeng reads more like a complete long sword than a broken blade returning to the right-waist green bamboo sheath; regenerate for production.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC11_SH02_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc11_sh02_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc11_sh02_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc11_sh02_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC11",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc11_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC11_SH03",
+                      "title":  "木族叮嘱",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Test-mode pass to keep the SC11 pipeline moving.",
+                      "notes":  "No readable text/subtitles/audio cues visible. Warning beat is clear, but costumes, fur trim, and character styling drift from prior shots; production should regenerate with stricter references.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC11_SH03_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc11_sh03_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc11_sh03_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc11_sh03_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC11",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc11_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC11_SH04",
+                      "title":  "曲名刹那芳华",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "Test-mode pass to keep the SC11 pipeline moving.",
+                      "notes":  "No readable text/subtitles/audio cues visible and no musical notes. Flute/green bamboo prop is present, but placement and character age/costume continuity drift; production should regenerate.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC11_SH04_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc11_sh04_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc11_sh04_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc11_sh04_i2v_v001.json",
+                      "can_auto_run":  true
+                  }
+              ],
+    "next_actions":  [
+                         "For pass decisions, run_i2v uses the approved storyboard as the single visual source through the prepared Comfy workflow.",
+                         "For needs_regeneration decisions, regenerate the storyboard before rebuilding this queue.",
+                         "Run run_storyboard_i2v_queue.ps1 with -DryRun first."
+                     ],
+    "ok":  true
+}

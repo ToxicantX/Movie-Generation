@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the approved SC21 gate-space confrontation as the spatial anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 deduction composition. Keshadu studies the aftermath with cold calculating suspicion, clearly realizing that Tuobaye alone should not have produced this reversal. Adult Tuobaye remains wounded and confused rather than victorious; Fourteen is embarrassed or stunned nearby. The white-clothed woman should be present in a way that quietly supports the suspicion without exposing overt magic. Keshadu must read sharper and more dangerous than the rest of the crowd. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH04_v001_00003_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC22_SH04_v001"
+                                        }
+                         }
+               }
+}

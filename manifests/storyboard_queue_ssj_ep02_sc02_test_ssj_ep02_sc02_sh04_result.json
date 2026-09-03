@@ -1,0 +1,19 @@
+{
+    "updated":  "2026-06-09T11:49:28",
+    "shot_id":  "TEST_SSJ_EP02_SC02_SH04",
+    "mode":  "image_to_video_with_storyboard_image_path",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh04_i2v_v001.json",
+    "prompt_id":  "5d0fd54a-8bfb-4fc1-93e3-6bdc30bdf4cd",
+    "status":  "error",
+    "completed":  false,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh04_i2v_v001.json -\u003e prompt_id=5d0fd54a-8bfb-4fc1-93e3-6bdc30bdf4cd"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "5d0fd54a-8bfb-4fc1-93e3-6bdc30bdf4cd",
+                        "status":  "error",
+                        "completed":  false,
+                        "error":  "Gemini video API error 500: {\"error\":{\"message\":\"Failed to generate contents (stream). Unknown API error code: 1155. This might be a temporary Google service issue.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":500,\"request_id\":\"req-e3cc755e84874ca48975fa99457a8c19\"},\"request_id\":\"req-e3cc755e84874ca48975fa99457a8c19\"}\n"
+                    },
+    "error":  "Gemini video API error 500: {\"error\":{\"message\":\"Failed to generate contents (stream). Unknown API error code: 1155. This might be a temporary Google service issue.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":500,\"request_id\":\"req-e3cc755e84874ca48975fa99457a8c19\"},\"request_id\":\"req-e3cc755e84874ca48975fa99457a8c19\"}\n"
+}

@@ -1,0 +1,47 @@
+{
+  "updated": "2026-06-08",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 玉屏山 / 天湖开场",
+  "purpose": "Fresh next-segment seed after EP01 SC04. Supersedes the older SC01-only next-segment seed for forward production planning.",
+  "segment_id": "SSJ_EP02_SC01",
+  "continuity_from": {
+    "segment_id": "SSJ_EP01_SC04",
+    "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+    "review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC04\\human_review.md",
+    "technical_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC04_technical_smoke_cut.mp4",
+    "tail_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH03_v001_00001_.png",
+    "tail_video": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001.mp4",
+    "tail_frame_reference": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC04\\TEST_SSJ_EP01_SC04_SH03\\TEST_SSJ_EP01_SC04_SH03_last.jpg",
+    "caveat": "SC04 is still pending real human review. Use this seed to prepare next-stage storyboards and workflows, not to bypass formal approval."
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_tuobaye_ref_v001_00001_.png",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_tianhu_card": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_location_yupingshan_tianhu_v1.json",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "wufeng_corrected_prop": "G:\\ComfyUI\\output\\AIShortDrama\\props\\PROP_wufeng_blunt_iron_ref_v002_00001_.png"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, relic bundle.",
+    "White dragon-deer must remain a friendly mythic mount: white deer body, pearl neck and shoulder scales, pale jade antlers, long white mane, calm intelligent eyes.",
+    "Wufeng must remain a plain dark blunt rectangular edgeless black iron object, not a sharp sword.",
+    "Yuping Mountain / Tianhu must read as moonlit pine and bamboo sanctuary, clear heavenly lake, austere wooden and bamboo pavilions, jade-green mist, forbidden quiet.",
+    "Do not show Qingdi directly in this segment. Let the empty courtyard and unseen authority create the hook.",
+    "Do not generate formal episode video from this seed until storyboard review passes and EP01 human review remains respected."
+  ],
+  "generation_policy": {
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "experimental_file_ids only while current local backend supports it; otherwise use official T2V smoke tests or switch provider for formal I2V",
+    "review_gate": "storyboards must pass human or explicit operator review before I2V; I2V candidates must pass human review before formal cut"
+  },
+  "next_work": [
+    "Create SSJ_EP02_SC01 storyboard workflows.",
+    "Generate storyboard frames through ComfyUI OpenAICompatibleImageGenerate nodes.",
+    "Build a storyboard review manifest/package.",
+    "Only after approval, generate I2V through ComfyUI GeminiAPIVideoGenerate nodes."
+  ]
+}

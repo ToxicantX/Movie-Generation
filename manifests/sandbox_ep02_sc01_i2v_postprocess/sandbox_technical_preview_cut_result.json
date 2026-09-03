@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep02_sc01_i2v_postprocess\\sandbox_ssj_ep02_sc01_i2v_review.json",
+  "output_path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_SSJ_EP02_SC01_technical_preview_cut.mp4",
+  "sources": [
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    },
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    },
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    }
+  ],
+  "frame_count": 720,
+  "fps": 24.0,
+  "size": [
+    1280,
+    720
+  ],
+  "bytes": 22959740
+}

@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input SC14 arrival storyboard as the setting anchor for moonlit Tianhu architecture, distant courtyard approach, and black-clothed Chaoyang Valley visitors. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 tension-escalation wide composition. The hidden courtyard foreground remains still while distant figures outside react sharply toward the mountain slope as flashes of motion or steel glints appear through mist far below. Keep the actual fight distant or obscured. Qingdi remains absent. No readable plaques, banners, gate text, carved characters, captions, subtitles, speech bubbles, English words, or UI.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH02_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC15_SH02_v001"
+                                        }
+                         }
+               }
+}

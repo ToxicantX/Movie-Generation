@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T16:32:33",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc39.json",
+    "shot_id":  "TEST_SSJ_EP02_SC39_SH02",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Shisilang one-breath-before-break pressure remains legible and tense, with enough continuity for test-mode approval.",
+    "notes":  "Codex visual precheck: SH02 works as the one-breath-before-break beat.",
+    "reviewer":  "",
+    "ok":  true
+}

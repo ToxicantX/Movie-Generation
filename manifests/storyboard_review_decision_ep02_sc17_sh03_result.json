@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T00:15:39",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc17.json",
+    "shot_id":  "TEST_SSJ_EP02_SC17_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: imminent execution beat is strong without crossing into graphic gore",
+    "notes":  "Keep blade contact implied rather than shown in motion generation.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

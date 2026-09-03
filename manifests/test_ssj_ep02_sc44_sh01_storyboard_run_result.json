@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-13T20:30:31",
+    "shot_id":  "TEST_SSJ_EP02_SC44_SH01",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc44_sh01_storyboard_v001.json",
+    "prompt_id":  "e411e1e2-545e-41b5-ba21-ea6df8770a65",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc44_sh01_storyboard_v001.json -\u003e prompt_id=e411e1e2-545e-41b5-ba21-ea6df8770a65"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "e411e1e2-545e-41b5-ba21-ea6df8770a65",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

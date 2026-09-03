@@ -1,0 +1,37 @@
+{
+    "updated":  "2026-06-13T08:50:10",
+    "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc32_storyboard_review.json",
+    "fallback_create_result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc32_technical_still_fallback_workflow_create_result.json",
+    "applied_count":  4,
+    "missing_count":  0,
+    "applied":  [
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC32_SH01",
+                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc32_sh01_technical_still_fallback_v001.json",
+                        "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC32_SH01_technical_still_fallback_v001.mp4",
+                        "video_exists":  true
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC32_SH02",
+                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc32_sh02_technical_still_fallback_v001.json",
+                        "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC32_SH02_technical_still_fallback_v001.mp4",
+                        "video_exists":  true
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC32_SH03",
+                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc32_sh03_technical_still_fallback_v001.json",
+                        "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC32_SH03_technical_still_fallback_v001.mp4",
+                        "video_exists":  true
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC32_SH04",
+                        "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc32_sh04_technical_still_fallback_v001.json",
+                        "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC32_SH04_technical_still_fallback_v001.mp4",
+                        "video_exists":  true
+                    }
+                ],
+    "missing":  [
+
+                ],
+    "ok":  true
+}

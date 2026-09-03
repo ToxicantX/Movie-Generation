@@ -1,0 +1,19 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "GeminiAPIVideoGenerate",
+                             "inputs":  {
+                                            "model":  "gemini-3.1-pro",
+                                            "prompt":  "Animate this storyboard frame as a serene 8-10 second cinematic short-drama shot with locked composition. Keep Tuobaye and Shennong in the same medium-wide meadow frame for the full shot; do not cut to a solo face close-up and do not move to a distant seated composition. Tuobaye continuously ties and secures the cloth relic bundle with both hands while the green bamboo flute remains visible at the bundle, and Shennong watches calmly in deep purple robe. Preserve safe Nanji Mountain meadow, golden dusk, distant sea glow, waterfall mist, rugged cloth, and solemn farewell mood. Gentle wind only, no danger, no violence, no injury, no minors, no text.",
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC02_SH01_v001_00001_.png",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC02_SH01_i2v_v001",
+                                            "base_url":  "http://127.0.0.1:7860",
+                                            "reference_field":  "file_ids",
+                                            "video_reference_mode":  "experimental_file_ids",
+                                            "reference_image_paths":  "",
+                                            "aspect_ratio":  "16:9"
+                                        }
+                         }
+               }
+}

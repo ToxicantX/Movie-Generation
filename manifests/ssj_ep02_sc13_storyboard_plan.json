@@ -1,0 +1,106 @@
+{
+  "updated": "2026-06-09",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 青帝无踪，血书难托",
+  "segment_id": "SSJ_EP02_SC13",
+  "beat_id": "C02_B13",
+  "title": "青帝无踪，血书难托",
+  "purpose": "承接刹那芳华旧事后：白衣女子从曲声联想到神农与旧缘；她确认拓拔野是为寻访青帝而来，却说明青帝行踪不定；随后借看神帝血书，沉吟后归还并暗示血书也未必能请动青帝。画面只做无声视觉，不生成口播、字幕、歌词、血书内容或可读文字。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC12",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc12_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC12_formal_cut_v001.mp4",
+    "previous_recollection_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC12_SH01_v001_00001_.png",
+    "previous_shennong_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC12_SH02_v001_00001_.png",
+    "previous_emotion_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC12_SH04_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc13_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 刹那芳华旧缘 / 青帝无踪 / 神帝血书 / 蜃楼城。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 anchors to SC12 emotional reaction frame. SH02 anchors to Yuping Mountain/Tianhu location reference. SH03 anchors to SC12 recollection/two-character frame to keep Tuobaye and the white-clothed woman in the same present-tense scene. SH04 anchors to Yushiqie reference for the solemn warning beat.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, speech bubbles, musical notes, English words, or clear Chinese inscriptions inside image/video.",
+    "letter_rule": "Do not render readable blood letter contents, song lyrics, 神农, 空桑, 青帝, 木族, 刹那芳华, 蜃楼城, or any Chinese/English text. Sealed documents may appear only folded, closed, or angled away.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, lip-sync, flute/xiao audio, heartbeat audio, music, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "如此说来，公子到玉屏山乃是为了寻访青帝了？",
+      "自然认识。只是近年来，青帝神龙首尾，我也寻他不着。",
+      "不知公子是否介意将神帝血书借我一看？",
+      "纵使这血书交与青帝，恐怕他也不会随你去蜃楼城。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "qingdi_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_qingdi_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "previous_recollection_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC12_SH01_v001_00001_.png",
+    "previous_emotion_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC12_SH04_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC13_SH01",
+      "beat": "C02_B13",
+      "title": "芳华旧影不可言",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白衣女子",
+        "拓拔野"
+      ],
+      "location": "月下天湖 / 竹亭水雾",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC13_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC13_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC12_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the input SC12 emotional reaction storyboard as continuity for the adult white-clothed woman, adult Tuobaye, green bamboo flute, moonlit Tianhu, bamboo shadows, mist, and restrained grief. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 emotional medium composition. The adult white-clothed woman in pale white robes silently connects the tune to old Shennong and Kongsang memory; her expression remains controlled, with faint abstract silhouettes or soft reflected shapes in the mist behind her, not literal panels. Adult Tuobaye watches carefully nearby, anxious and respectful. No lyrics, no carved words, no visible song title, no readable Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent old-memory reaction beat. The woman's eyes lower with restrained grief; Tuobaye waits silently; mist, sleeves, hair strands, bamboo shadows, and lake reflection move subtly. No dialogue, no lip-sync, no flute or xiao audio, no music, no musical notes, no heartbeat, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC13_SH02",
+      "beat": "C02_B13",
+      "title": "寻访青帝落空",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子"
+      ],
+      "location": "玉屏山天湖 / 空寂庭院",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC13_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC13_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input Yuping Mountain Tianhu location reference as setting anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 medium-wide. Adult Tuobaye in rugged grey-brown travel clothes brightens with sudden hope as Qingdi is mentioned, leaning forward as if asking for help; the adult white-clothed woman stands calm and distant, gently indicating the empty moonlit courtyard and quiet pavilion beyond, implying Qingdi is absent and untraceable. Do not show Qingdi as present. Use wet stone, bamboo, mist, moonlight, empty architecture, and distance. No readable signs, no plaques, no Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent hope-then-disappointment beat. Tuobaye brightens, then pauses; the woman makes a restrained gesture toward the empty courtyard; mist, robes, bamboo, and moonlit water move gently. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC13_SH03",
+      "beat": "C02_B13",
+      "title": "血书隔空借观",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子"
+      ],
+      "location": "月下天湖 / 竹影石地",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC13_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC13_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC12_SH01_v001_00001_.png",
+      "storyboard_prompt": "Use the input SC12 two-character storyboard as continuity for adult Tuobaye, adult white-clothed woman, moonlit Tianhu, bamboo, mist, and wet stone. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 respectful medium two-character composition. Adult Tuobaye hesitates, then carefully draws a folded sealed blood letter or relic bundle from his chest pouch; the adult white-clothed woman receives it by invisible force, hands poised but not touching him. The letter must stay folded or angled away, with no visible writing, stamps, labels, blood text, or readable marks. Tuobaye is wary but moved by trust; the woman remains steady and transparent-eyed. No readable Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent trust-and-hesitation beat. Tuobaye carefully offers the folded letter bundle; it floats gently toward the woman; sleeves, mist, and lake reflections move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable blood letter contents, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC13_SH04",
+      "beat": "C02_B13",
+      "title": "血书难动青帝",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白衣女子",
+        "拓拔野"
+      ],
+      "location": "月下天湖 / 竹亭边",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC13_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC13_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input adult Yushiqie reference as identity anchor for the white-clothed woman. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 solemn medium two-character composition. The adult white-clothed woman in pale white robes returns the folded sealed blood letter or relic bundle through the air, face thoughtful and grave, implying even Qingdi may not go to Mirage City. Adult Tuobaye in rugged grey-brown clothes receives it with worried urgency and confusion. Keep the document closed, folded, and unreadable; do not show any letter contents. Moonlit bamboo, mist, wet stone, and quiet pavilion background. No readable Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent warning beat. The folded letter floats back into Tuobaye's hands; the woman remains solemn; Tuobaye looks worried and urgent; mist, sleeves, and moonlit water move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable blood letter contents, no readable text, no English words."
+    }
+  ]
+}

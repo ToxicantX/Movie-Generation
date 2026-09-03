@@ -1,0 +1,72 @@
+﻿{
+    "updated":  "2026-06-12T01:35:04",
+    "reviewer":  "Codex",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC18",
+                             "review_path":  ".\\manifests\\ssj_ep02_sc18_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC18_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC18",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc18_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC18_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC18_SH01",
+                          "title":  "借青帝之名发令",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC18_SH01_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc18_sh01_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc18_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: false-authority stop command reads clearly and gate geography is intact",
+                          "notes":  "Production caveat: keep Tuobaye as bluffing under pressure, not as a composed martial authority."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC18",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc18_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC18_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC18_SH02",
+                          "title":  "抬段狂到门边",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC18_SH02_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc18_sh02_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc18_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: carrying Duan Yukai to the threshold is readable and spatially coherent",
+                          "notes":  "Production caveat: preserve Duan Yukai as wounded but dangerous, not limp or submissive."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC18",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc18_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC18_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC18_SH03",
+                          "title":  "野野周旋拖延",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC18_SH03_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc18_sh03_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc18_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass with caveat: bluff-and-suspicion beat works and Duan Yukai remains at the threshold",
+                          "notes":  "Production caveat: three-man arrangement at the gate is acceptable, but later regeneration should keep Keshadu and Shisilang visually distinct from Duan Yukai."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC18",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc18_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC18_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC18_SH04",
+                          "title":  "唐七试招在即",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC18_SH04_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc18_sh04_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc18_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: Tang Qi challenge setup is clear and the white-clothed woman stays secondary",
+                          "notes":  "Approved as source of truth for the probing challenge beat; keep overt magic hidden and avoid making Tuobaye look too battle-ready in motion."
+                      }
+                  ]
+}

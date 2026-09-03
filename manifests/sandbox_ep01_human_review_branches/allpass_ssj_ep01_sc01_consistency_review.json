@@ -1,0 +1,88 @@
+{
+    "project":  "AI短剧生成工厂",
+    "source":  "搜神记 第一卷 第一章 神农使者",
+    "updated":  "2026-06-08",
+    "review_schema":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\consistency_review_schema.json",
+    "global_decision":  "approved_for_episode_cut",
+    "global_reason":  "All shots passed human consistency review.",
+    "shots":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH01_v001_00001_.png",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH01_i2v_v001_00001.mp4",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Storyboard usable, but establishing shot still has high-edge visual feel. Video prompt must keep safe meadow language.\nHuman review: Sandbox branch test generated decision.",
+                      "human_review":  {
+                                           "updated":  "2026-06-08T19:10:13",
+                                           "reviewer":  "sandbox_branch_test",
+                                           "decision":  "pass",
+                                           "regeneration_scope":  "video",
+                                           "reason":  "Sandbox all-pass branch validation.",
+                                           "notes":  "Sandbox branch test generated decision."
+                                       }
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH02_v001_00001_.png",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH02_i2v_v001_00001.mp4",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Video proves ComfyUI -\u003e Gemini-API -\u003e mp4 save path only. It did not consume storyboard or character images, so it is not consistency-approved.\nHuman review: Sandbox branch test generated decision.",
+                      "human_review":  {
+                                           "updated":  "2026-06-08T19:10:13",
+                                           "reviewer":  "sandbox_branch_test",
+                                           "decision":  "pass",
+                                           "regeneration_scope":  "video",
+                                           "reason":  "Sandbox all-pass branch validation.",
+                                           "notes":  "Sandbox branch test generated decision."
+                                       }
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH03_v002_deeppurple_00001_.png",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC01_SH03_i2v_v001_00001.mp4",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Use v002 deep-purple storyboard as approved still reference; v001 should not be used for video.\nHuman review: Sandbox branch test generated decision.",
+                      "human_review":  {
+                                           "updated":  "2026-06-08T19:10:13",
+                                           "reviewer":  "sandbox_branch_test",
+                                           "decision":  "pass",
+                                           "regeneration_scope":  "video",
+                                           "reason":  "Sandbox all-pass branch validation.",
+                                           "notes":  "Sandbox branch test generated decision."
+                                       }
+                  }
+              ]
+}

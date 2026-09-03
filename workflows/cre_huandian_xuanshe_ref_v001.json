@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-longform-comic",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Create a production creature reference image for an ancient Chinese mythic fantasy long-form comic. Subject: Huandian Xuanshe, the black thunder-serpent spirit beast transformed from Shisilang's whip. Design lock: huge black serpent, long powerful body, broad half-chi thickness, cold blue-green glowing eyes, red tongue, white fangs, subtle ice-water aura, whip-like agility, no wings, no western dragon, no human rider. Composition: one large three-quarter full-body coil in foreground, one smaller side-view coil and one striking head detail, readable silhouette, aggressive but not gory. Premium ink-and-watercolor graphic novel creature design over cinematic realistic anatomy, restrained palette, no labels, no text.",
+        "model": "gpt-image-2",
+        "size": "1024x1024",
+        "negative_prompt": "text, labels, Chinese characters, watermark, logo, anime, cartoon, cute mascot, child, teenager, minor, dragon wings, western dragon, gore, blood, dismemberment, extra heads, distorted anatomy, cropped creature"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/creatures/CRE_huandian_xuanshe_ref_v001"
+      }
+    }
+  }
+}

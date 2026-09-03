@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T15:17:18",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc36.json",
+    "shot_id":  "TEST_SSJ_EP02_SC36_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Tuobaye near-bottom state is legible: the kneeling center figure anchors collapse while the two standing men define the accusation pressure.",
+    "notes":  "Codex visual precheck: SH03 works as the collapse-under-pressure beat.",
+    "reviewer":  "",
+    "ok":  true
+}

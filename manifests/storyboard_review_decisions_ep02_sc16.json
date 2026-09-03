@@ -1,0 +1,72 @@
+﻿{
+    "updated":  "2026-06-11T23:10:47",
+    "reviewer":  "Codex",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC16",
+                             "review_path":  ".\\manifests\\ssj_ep02_sc16_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC16_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC16",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc16_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC16_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC16_SH01",
+                          "title":  "请战既出手",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC16_SH01_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc16_sh01_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc16_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass with caveat: opening attack posture reads, and gate inside-outside logic stays intact",
+                          "notes":  "Production caveat: keep Duan Yukai readable in adjacent cut so this shot remains a clear attack launch rather than a standalone pose."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC16",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc16_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC16_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC16_SH02",
+                          "title":  "玄蛇破鞭而出",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC16_SH02_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc16_sh02_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc16_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: supernatural serpent reveal is strong and readable",
+                          "notes":  "Production caveat: keep the serpent dark and non-gory, and avoid over-detailing the crowd in later regeneration."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC16",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc16_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC16_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC16_SH03",
+                          "title":  "段狂落地守势",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC16_SH03_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc16_sh03_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc16_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass after regeneration: Duan Yukai is now unarmed and the pressured-defense beat reads correctly",
+                          "notes":  "Approved regenerated version keeps the serpent as pursuit pressure rather than a posed duel. Use this approved image as the only source for downstream video."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC16",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc16_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC16_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC16_SH04",
+                          "title":  "拓拔野失声惊呼",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC16_SH04_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc16_sh04_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc16_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass after regeneration: hidden-courtyard layout is restored and the outside battle remains outside the gate",
+                          "notes":  "Approved regenerated version restores observer geography. Keep Tuobaye and white dragon-deer behind west bamboo and avoid bringing battle or serpent inside the courtyard in video generation."
+                      }
+                  ]
+}

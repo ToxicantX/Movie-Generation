@@ -1,0 +1,11 @@
+{
+  "updated": "2026-06-18T20:16:44",
+  "stage_name": "确认生成漫画",
+  "enabled": false,
+  "status": "waiting",
+  "note": "Web 控制台：确认消耗图像生成额度。",
+  "next_action": "open this switch after review",
+  "auto_run_on_open": true,
+  "confirm_before_auto_run": true,
+  "auto_run_delay_ms": 500
+}

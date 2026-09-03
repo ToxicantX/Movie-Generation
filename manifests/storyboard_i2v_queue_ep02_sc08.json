@@ -1,0 +1,98 @@
+{
+    "updated":  "2026-06-09T17:10:32",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc08.json",
+    "review_paths":  [
+                         ".\\manifests\\ssj_ep02_sc08_storyboard_review.json"
+                     ],
+    "include_pending":  false,
+    "include_blocked":  false,
+    "summary":  {
+                    "pending":  0,
+                    "pass":  4,
+                    "needs_regeneration":  0,
+                    "blocked":  0,
+                    "missing_workflow":  0,
+                    "missing_storyboard":  0
+                },
+    "queue_count":  4,
+    "queue":  [
+                  {
+                      "review_id":  "SSJ_EP02_SC08",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc08_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC08_SH01",
+                      "title":  "女子垂箫初问",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "auto-pass storyboard gate for pipeline test with user authorization",
+                      "notes":  "Visual precheck: adult white-clothed woman is respectful, non-sexualized, and clean of readable text. Primary reference workflow hit Image API 502; no-reference fallback succeeded, so production may regenerate with reference for tighter identity.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC08_SH01_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh01_storyboard_v001_noref_retry.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc08_sh01_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc08_sh01_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC08",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc08_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC08_SH02",
+                      "title":  "竹笛坠地心跳如鼓",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "auto-pass storyboard gate for pipeline test with user authorization",
+                      "notes":  "Visual precheck: adult Tuobaye, rough costume, green bamboo flute, and stunned reaction are usable; no readable text.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC08_SH02_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc08_sh02_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc08_sh02_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc08_sh02_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC08",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc08_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC08_SH03",
+                      "title":  "公子一唤回神",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "auto-pass storyboard gate for pipeline test with user authorization",
+                      "notes":  "Visual precheck: encounter layout is clear, white dragon-deer reads mythic, woman and Tuobaye remain adult and respectful; no readable text.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC08_SH03_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc08_sh03_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc08_sh03_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc08_sh03_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC08",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc08_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC08_SH04",
+                      "title":  "强作镇定赞仙乐",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "auto-pass storyboard gate for pipeline test with user authorization",
+                      "notes":  "Visual precheck: awkward-composure beat is usable, props remain visible. Tuobaye reads a little cleaner/younger than prior segments but still adult; no readable text. Primary reference workflow hit Image API 502; no-reference fallback succeeded.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC08_SH04_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh04_storyboard_v001_noref_retry.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc08_sh04_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc08_sh04_i2v_v001.json",
+                      "can_auto_run":  true
+                  }
+              ],
+    "next_actions":  [
+                         "For pass decisions, run_i2v uses the approved storyboard as the single visual source through the prepared Comfy workflow.",
+                         "For needs_regeneration decisions, regenerate the storyboard before rebuilding this queue.",
+                         "Run run_storyboard_i2v_queue.ps1 with -DryRun first."
+                     ],
+    "ok":  true
+}

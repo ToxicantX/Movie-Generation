@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input white dragon-deer creature reference as the creature anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame. A noble friendly white dragon-deer steps from gentle mist at the Dragon Pool shore, full body visible: white fur, pearl scales, pale jade dragon-horn antlers, long white mane, calm intelligent eyes. Adult Tuobaye stands several steps away on a safe mossy stone bank, rugged grey-brown cloth, green bamboo flute, relic bundle, plain dark Wufeng sword lowered calmly. Wonder and trust, not attack. No saddle, no rider, no violence, no injury, no text.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1024x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC03_SH03_v001"
+                                        }
+                         }
+               }
+}

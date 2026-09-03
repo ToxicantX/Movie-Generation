@@ -1,0 +1,24 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Create a production-grade character turnaround reference sheet for an ancient Chinese mythic fantasy short drama.\n\nCharacter: 神农 / CHAR_shennong.\nDesign lock: ancient white-haired divine elder, long white beard, calm wise eyes, deep purple robe with herbal embroidery and natural leaf/vine motifs, layered ancient fabric, seated and standing costume logic, medicine pouch and herb details, peaceful farewell presence, not dead or injured.\n\nLayout requirements: one large realistic face portrait on the left; eight full-body views across the main board: front, front-left 45 degrees, left side, back-left 45 degrees, back, back-right 45 degrees, right side, front-right 45 degrees. Add lower detail panels for costume fabric, belt, pouch, hair silhouette, sleeves, footwear, and key props. Use a clean dark cinematic reference-board background with subtle bronze dividers. Make the same adult character consistent across every view. Full body visible including feet. No readable text labels; use visual panels only.\n\nStyle: cinematic realistic face, natural fabric texture, ancient Great Wilderness Chinese mythic drama, restrained lighting, high detail.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "Chinese text, gibberish labels, modern UI, modern fashion, anime, cartoon, child, teenager, minor, plastic skin, sci-fi, western knight armor, excessive glowing fantasy armor, inconsistent faces, duplicated heads, missing full body, cropped feet, watermark, logo"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/charactersheets/CHAR_shennong_turnaround_v001"
+                                        }
+                         }
+               }
+}

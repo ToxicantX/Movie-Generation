@@ -1,0 +1,72 @@
+{
+  "updated": "2026-06-09T17:59:51",
+  "reviewer": "Codex storyboard visual precheck; user authorized test-mode auto-pass when absent on 2026-06-09",
+  "instructions": "Test-mode decisions for SC09 storyboard gate. Production review should still inspect character and prop consistency.",
+  "review_index": [
+    {
+      "review_id": "SSJ_EP02_SC09",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc09_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC09_STORYBOARD\\human_review.md",
+      "global_decision": "pending_storyboard_human_review",
+      "shot_count": 4
+    }
+  ],
+  "decisions": [
+    {
+      "review_id": "SSJ_EP02_SC09",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc09_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC09_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC09_SH01",
+      "title": "女子瞥见无锋",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH01_v001_00001_.png",
+      "storyboard_workflow": ".\\workflows\\ssj_ep02_sc09_sh01_storyboard_v001.json",
+      "video_workflow": ".\\workflows\\ssj_ep02_sc09_sh01_i2v_v001.json",
+      "decision": "pass",
+      "reason": "Adult characters, moonlit bamboo setting, xiao/flute and waist sword props are clear; no readable text seen.",
+      "notes": "Test-mode pass."
+    },
+    {
+      "review_id": "SSJ_EP02_SC09",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc09_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC09_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC09_SH02",
+      "title": "深潭拾剑开锁",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH02_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json",
+      "video_workflow": ".\\workflows\\ssj_ep02_sc09_sh02_i2v_v001.json",
+      "decision": "pass",
+      "reason": "Tuobaye and broken Wufeng prop read clearly, no readable inscriptions or captions seen.",
+      "notes": "Test-mode pass with caveat: woman side/back costume drifts darker than target white, acceptable for pipeline validation only."
+    },
+    {
+      "review_id": "SSJ_EP02_SC09",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc09_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC09_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC09_SH03",
+      "title": "鹿兄昂然上前",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH03_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001_noref_retry.json",
+      "video_workflow": ".\\workflows\\ssj_ep02_sc09_sh03_i2v_v001.json",
+      "decision": "pass",
+      "reason": "White dragon-deer is clearly mythic and dignified, with clean three-character staging and no readable text.",
+      "notes": "Test-mode pass; this is one of the stronger creature consistency frames so far."
+    },
+    {
+      "review_id": "SSJ_EP02_SC09",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc09_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC09_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC09_SH04",
+      "title": "内力不足暗自立誓",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC09_SH04_v001_00001_.png",
+      "storyboard_workflow": ".\\workflows\\ssj_ep02_sc09_sh04_storyboard_v001.json",
+      "video_workflow": ".\\workflows\\ssj_ep02_sc09_sh04_i2v_v001.json",
+      "decision": "pass",
+      "reason": "Tuobaye resolve beat is clear, adult character continuity is usable, no text seen.",
+      "notes": "Test-mode pass with caveat: Wufeng is less prominent, but the shot focus is emotional resolve."
+    }
+  ]
+}

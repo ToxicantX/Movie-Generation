@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T20:49:43",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc44.json",
+    "shot_id":  "TEST_SSJ_EP02_SC44_SH02",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Shisilang rage-line-at-the-edge-of-tearing pressure remains legible and tense, with enough continuity for test-mode approval.",
+    "notes":  "Codex visual precheck: SH02 works as the rage-line-at-the-edge-of-tearing beat.",
+    "reviewer":  "",
+    "ok":  true
+}

@@ -1,0 +1,58 @@
+{
+  "updated": "2026-06-08T23:11:07",
+  "reviewer": "",
+  "instructions": "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+  "review_index": [
+    {
+      "review_id": "SSJ_EP02_SC01",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC01_STORYBOARD\\human_review.md",
+      "global_decision": "pending_storyboard_human_review",
+      "shot_count": 3
+    }
+  ],
+  "decisions": [
+    {
+      "review_id": "SSJ_EP02_SC01",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC01_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC01_SH01",
+      "title": "Moonlit arrival over Tianhu",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC01_SH01_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh01_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh01_i2v_v001.json",
+      "decision": "pass",
+      "reason": "",
+      "notes": "Sandbox all-pass branch verification only; not real human approval."
+    },
+    {
+      "review_id": "SSJ_EP02_SC01",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC01_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC01_SH02",
+      "title": "Dismount at the pine-bamboo gate",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC01_SH02_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh02_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh02_i2v_v001.json",
+      "decision": "pass",
+      "reason": "",
+      "notes": "Sandbox all-pass branch verification only; not real human approval."
+    },
+    {
+      "review_id": "SSJ_EP02_SC01",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC01_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC01_SH03",
+      "title": "Empty courtyard of unseen authority",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC01_SH03_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh03_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh03_i2v_v001.json",
+      "decision": "pass",
+      "reason": "",
+      "notes": "Sandbox all-pass branch verification only; not real human approval."
+    }
+  ]
+}

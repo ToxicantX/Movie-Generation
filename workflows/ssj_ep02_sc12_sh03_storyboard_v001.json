@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Dragon Pool reference as environment anchor. Cinematic realistic ancient Chinese mythic fantasy memory-composite storyboard frame, 16:9 dynamic but safe. In the foreground, aged Shennong\u0027s hand entrusts a folded sealed blood letter or relic bundle to adult Tuobaye; the document is folded and angled away, with no visible writing. In the background or mist reflection, adult Tuobaye falls through waterfall spray toward the deep Dragon Pool as an abstract memory silhouette, not graphic danger or injury. Keep the mood mythic, fated, and solemn. No readable letter contents, no blood gore, no Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_longtan_dragon_pool_ref_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC12_SH03_v001"
+                                        }
+                         }
+               }
+}

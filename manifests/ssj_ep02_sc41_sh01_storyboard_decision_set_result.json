@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T17:51:24",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc41.json",
+    "shot_id":  "TEST_SSJ_EP02_SC41_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Keshadu truth-about-to-take-visible-shape beat reads clearly: the white-clothed woman still holds the axis while both men carry the pressure toward undeniable fact.",
+    "notes":  "Codex visual precheck: SH01 works as the truth-about-to-take-visible-shape beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

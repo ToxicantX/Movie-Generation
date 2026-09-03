@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T01:34:58",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc18.json",
+    "shot_id":  "TEST_SSJ_EP02_SC18_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass with caveat: bluff-and-suspicion beat works and Duan Yukai remains at the threshold",
+    "notes":  "Production caveat: three-man arrangement at the gate is acceptable, but later regeneration should keep Keshadu and Shisilang visually distinct from Duan Yukai.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

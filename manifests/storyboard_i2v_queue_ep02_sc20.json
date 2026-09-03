@@ -1,0 +1,98 @@
+﻿{
+    "updated":  "2026-06-12T05:56:53",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc20.json",
+    "review_paths":  [
+                         ".\\manifests\\ssj_ep02_sc20_storyboard_review.json"
+                     ],
+    "include_pending":  false,
+    "include_blocked":  false,
+    "summary":  {
+                    "pending":  0,
+                    "pass":  4,
+                    "needs_regeneration":  0,
+                    "blocked":  0,
+                    "missing_workflow":  0,
+                    "missing_storyboard":  0
+                },
+    "queue_count":  4,
+    "queue":  [
+                  {
+                      "review_id":  "SSJ_EP02_SC20",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc20_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC20_SH01",
+                      "title":  "众人瞠目结舌",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass: shocked aftermath beat is readable and Duan Yukai remains distinct",
+                      "notes":  "Production caveat: keep Tuobaye surprised rather than triumphant in video.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC20_SH01_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc20_sh01_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc20_sh01_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc20_sh01_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC20",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc20_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC20_SH02",
+                      "title":  "科沙度疑心更重",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass: Keshadu suspicion beat reads correctly",
+                      "notes":  "Production caveat: preserve Keshadu and Duan Yukai as clearly different figures in later regeneration.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC20_SH02_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc20_sh02_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc20_sh02_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc20_sh02_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC20",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc20_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC20_SH03",
+                      "title":  "神剑暴露众心惊",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass after regeneration: no-edge sword now reads as a dangerous broken reveal instead of a victory trophy",
+                      "notes":  "Approved regenerated version should be the only downstream source. Keep the sword incomplete, alarming, and politically risky.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH03_v001_00002_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc20_sh03_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc20_sh03_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc20_sh03_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC20",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc20_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC20_SH04",
+                      "title":  "十四郎亲自下场",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass after regeneration: Fourteen now clearly takes the initiative while Tuobaye feels pressured and the white-clothed woman reads as restrained but displeased",
+                      "notes":  "Approved regenerated version should be the only downstream source. Preserve Tuobaye as bluffing and overmatched in video.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH04_v001_00002_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc20_sh04_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc20_sh04_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc20_sh04_i2v_v001.json",
+                      "can_auto_run":  true
+                  }
+              ],
+    "next_actions":  [
+                         "For pass decisions, run_i2v uses the approved storyboard as the single visual source through the prepared Comfy workflow.",
+                         "For needs_regeneration decisions, regenerate the storyboard before rebuilding this queue.",
+                         "Run run_storyboard_i2v_queue.ps1 with -DryRun first."
+                     ],
+    "ok":  true
+}

@@ -1,0 +1,80 @@
+{
+  "client_id": "local-movie-pipeline-rife-test",
+  "metadata": {
+    "source_fps": 24,
+    "target_fps": 48,
+    "target_frames": 480,
+    "target_duration_seconds": 10.0,
+    "interpolation_model": "rife_v4.26.safetensors"
+  },
+  "prompt": {
+    "1": {
+      "class_type": "LoadVideo",
+      "inputs": {
+        "file": "local_projects/sou-shen-ji-gpt-image-h3-10s_ep01_sc01_sh01_00001_.mp4"
+      }
+    },
+    "2": {
+      "class_type": "GetVideoComponents",
+      "inputs": {
+        "video": ["1", 0]
+      }
+    },
+    "3": {
+      "class_type": "ImageFromBatch",
+      "inputs": {
+        "image": ["2", 0],
+        "batch_index": 239,
+        "length": 1
+      }
+    },
+    "4": {
+      "class_type": "ImageBatch",
+      "inputs": {
+        "image1": ["2", 0],
+        "image2": ["3", 0]
+      }
+    },
+    "5": {
+      "class_type": "FrameInterpolationModelLoader",
+      "inputs": {
+        "model_name": "rife_v4.26.safetensors"
+      }
+    },
+    "6": {
+      "class_type": "FrameInterpolate",
+      "inputs": {
+        "interp_model": ["5", 0],
+        "images": ["4", 0],
+        "multiplier": 2
+      }
+    },
+    "7": {
+      "class_type": "CreateVideo",
+      "inputs": {
+        "images": ["6", 0],
+        "fps": 48.0,
+        "audio": ["2", 1],
+        "bit_depth": 8,
+        "color_space": "sRGB"
+      }
+    },
+    "8": {
+      "class_type": "Video Slice",
+      "inputs": {
+        "video": ["7", 0],
+        "start_time": 0.0,
+        "duration": 10.0,
+        "strict_duration": true
+      }
+    },
+    "9": {
+      "class_type": "SaveVideo",
+      "inputs": {
+        "video": ["8", 0],
+        "filename_prefix": "local_projects/sou-shen-ji-gpt-image-h3-10s_ep01_sc01_sh01_rife_48fps",
+        "format": "mp4"
+      }
+    }
+  }
+}

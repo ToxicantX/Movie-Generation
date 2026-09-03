@@ -1,0 +1,21 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "GeminiAPIVideoGenerate",
+                             "inputs":  {
+                                            "model":  "gemini-3.1-pro",
+                                            "prompt":  "Animate this storyboard frame as an 8-10 second silent sword-return beat. The broken Wufeng glides slowly into Tuobaye right-waist green bamboo sheath; Tuobaye breathes in surprise; the woman lowers her hand calmly; mist and robes move gently. No dialogue, no lip-sync, no sound effects, no flute or xiao audio, no captions, no subtitles, no readable text, no English words.",
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC11_SH02_v001_00001_.png",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC11_SH02_i2v_v001",
+                                            "base_url":  "http://127.0.0.1:7860",
+                                            "reference_field":  "file_ids",
+                                            "video_reference_mode":  "experimental_file_ids",
+                                            "reference_image_paths":  "",
+                                            "aspect_ratio":  "16:9",
+                                            "request_timeout_seconds":  2400,
+                                            "api_key_env_path":  "E:\\workspace\\DockerProjects\\Gemini-API\\.env"
+                                        }
+                         }
+               }
+}

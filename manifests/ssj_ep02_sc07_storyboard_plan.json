@@ -1,0 +1,100 @@
+{
+  "updated": "2026-06-09",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 箫笛相和白衣初现",
+  "segment_id": "SSJ_EP02_SC07",
+  "beat_id": "C02_B07",
+  "title": "箫笛相和，白衣初现",
+  "purpose": "承接拓拔野吹笛，表现身后箫声应和、拓拔野误认神农、白衣女子在月下竹间现身，以及拓拔野与白龙鹿被震住的初见段落。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC06",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc06_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC06_formal_cut_v001.mp4",
+    "previous_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC06_SH04_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc07_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt after 突然身后有箫声扬起。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 uses previous flute storyboard for continuity. SH02 uses Tuobaye turnaround. SH03 uses adult Yushiqie reference for the white-clothed woman reveal. SH04 may use Tuobaye turnaround to anchor reaction, but must keep the woman adult and off to the side or background.",
+  "video_policy": "Gemini experimental I2V should use only each generated and approved storyboard image as source of truth. No extra character or location references in video generation.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, speech bubbles, musical notes, or English words inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, lip-sync, flute audio, or xiao audio. Chinese dialogue, narration, flute/xiao sound design, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "前辈！",
+      "不是神农……",
+      "方才的笛声，是公子吹的吗？"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "previous_flute_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC06_SH04_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH01",
+      "beat": "C02_B07",
+      "title": "箫声忽然相和",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "湖边竹亭 / 月下湖面",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC07_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC07_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC06_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the input SC06 flute storyboard as direct continuity. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 quiet emotional composition. Adult Tuobaye age 28 to 32 in rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, and bamboo-sheathed blunt Wufeng at the right waist, freezes mid-flute in the moonlit lakeside bamboo pavilion as if hearing an answering xiao from behind him. The friendly white dragon-deer also turns alertly. Show the unseen sound only through posture, reaction, moonlight, bamboo shadows, incense smoke, and lake reflection; do not show the white-clothed woman yet. No readable text, no captions, no subtitles, no English words, no musical notes, no speech bubbles, no signs, no plaques, no lip-sync, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent reaction beat. Tuobaye freezes mid-flute and slightly turns as if hearing an unseen answering xiao; the white dragon-deer turns alertly; incense smoke and lake reflections move gently. Do not synthesize speech, flute audio, or xiao audio. No captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH02",
+      "beat": "C02_B07",
+      "title": "回头误认神农",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野"
+      ],
+      "location": "竹亭外 / 月下竹影",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC07_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC07_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+      "storyboard_prompt": "Use the input Tuobaye turnaround as face, costume, and bamboo flute identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium reaction shot. Adult Tuobaye in rugged grey-brown rough cloth whips his head partly back with sudden joy and hope, clutching the simple green bamboo flute, as if he believes 神农 has returned. Moonlit bamboo, lake mist, pavilion posts and incense glow behind him. His expression is shocked joy, not romantic longing. Do not show the white-clothed woman yet in this shot. No readable text, no captions, no subtitles, no English words, no speech bubble, no lip-sync, no signs, no plaques, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent mistaken-recognition beat. Tuobaye turns back with sudden hope while holding the bamboo flute; moonlit mist and bamboo shadows move gently. Keep one stable camera angle and avoid lip-sync. No synthesized speech, no flute audio, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH03",
+      "beat": "C02_B07",
+      "title": "白衣女子月下持箫",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白衣女子"
+      ],
+      "location": "月下竹林 / 湖边亭外",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC07_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC07_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input adult Yushiqie reference as a respectful visual anchor for the first reveal of the adult white-clothed woman: elegant, distant, rain-and-water associated, serene and cold, not sexualized. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium-wide reveal. In moonlit bamboo beside Tianhu, an adult white-clothed woman stands calmly with a white agate xiao near her lips, long dark hair, pale flowing robe, subtle water/rain ornaments, cool distant expression. Keep full or three-quarter body framing, no body-emphasis, no revealing clothing, no childlike features. Purple incense smoke and lake moonlight behind her, bamboo shadows across the scene. No Tuobaye in foreground, no readable text, no captions, no subtitles, no English words, no musical notes, no speech bubbles, no signs, no plaques, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent reveal. The adult white-clothed woman stands calmly among moonlit bamboo with the white agate xiao near her lips, then lowers it slightly; robe and bamboo move subtly. Do not synthesize xiao audio, speech, or lip-sync. No captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH04",
+      "beat": "C02_B07",
+      "title": "拓拔野与白龙鹿怔住",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿",
+        "白衣女子"
+      ],
+      "location": "湖边竹亭 / 月下竹影",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC07_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC07_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+      "storyboard_prompt": "Use the input Tuobaye turnaround as protagonist identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 balanced two-side composition. Adult Tuobaye in rugged grey-brown rough cloth and the friendly white dragon-deer stand stunned in the moonlit pavilion foreground, staring toward an adult white-clothed woman in the bamboo background who has lowered her white agate xiao. The woman remains elegant, distant, fully clothed, respectful, not sexualized, with cool water/rain aura. Tuobaye's green bamboo flute hangs in his hand; his expression is shock and awe, not lust. Purple incense smoke, lake reflection, bamboo shadows. No readable text, no captions, no subtitles, no English words, no musical notes, no speech bubbles, no signs, no plaques, no lip-sync, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent stunned-encounter beat. Tuobaye and the white dragon-deer hold still in shock while the adult white-clothed woman calmly lowers the xiao in the background; incense smoke and bamboo shadows move gently. Do not synthesize speech, xiao audio, or lip-sync. No captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "updated": "2026-06-08",
+  "prop_id": "PROP_wufeng_sword",
+  "name": "无锋剑",
+  "status": "prop_v1",
+  "source": "搜神记 第一卷 第一章 神农使者 / C01_B07",
+  "visual_identity": {
+    "shape": "heavy blunt black iron ruler-shaped weapon, rectangular bar body, flat square end, wrapped handle",
+    "material": "dark worn iron with wet-stone patina",
+    "meaning": "edgeless blunt ancient weapon; it should feel heavy and mysterious, not sharp or ornate",
+    "avoid": [
+      "sharp blade",
+      "pointed tip",
+      "katana",
+      "saber",
+      "glowing fantasy sword",
+      "ornate weapon",
+      "blood"
+    ]
+  },
+  "reference_image_status": "usable_v002",
+  "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\props\\PROP_wufeng_blunt_iron_ref_v002_00001_.png",
+  "reference_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_prop_wufeng_blunt_iron_ref_v002.json",
+  "reference_prompt_id": "28283588-6cc4-47ad-ac4a-4df3f24b05ee",
+  "reference_review": "Usable blunt Wufeng prop reference. It reads as a black iron ruler/training-sword-like weapon with flat end and no visible edge."
+}

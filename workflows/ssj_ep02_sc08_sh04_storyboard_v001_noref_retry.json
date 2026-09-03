@@ -1,0 +1,24 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Tuobaye turnaround as protagonist identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium-wide awkward character beat. Adult Tuobaye in rugged grey-brown rough cloth tries to compose himself after being stunned: he straightens his chest and rough robe, attempts a confident heroic stance, green bamboo flute now retrieved or visible near his hand, Wufeng bamboo sheath at right waist. The adult white-clothed woman stands calmly in the moonlit bamboo background with white agate xiao lowered, elegant and distant. The mood is lightly awkward and sincere admiration, not sexualized, not comic exaggeration. Moonlit Tianhu pavilion, bamboo shadows, mist, incense smoke. No readable text, no captions, no subtitles, no English words, no speech bubbles, no musical notes, no signs, no plaques, no lip-sync, no modern elements. No input reference image is attached in this retry because the reference-image edit endpoint failed; rely on the written character, creature, costume, prop, and location continuity locks. Keep the frame coherent and production-reviewable.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC08_SH04_v001"
+                                        }
+                         }
+               }
+}

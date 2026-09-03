@@ -1,0 +1,98 @@
+﻿{
+    "updated":  "2026-06-12T03:38:46",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc19.json",
+    "review_paths":  [
+                         ".\\manifests\\ssj_ep02_sc19_storyboard_review.json"
+                     ],
+    "include_pending":  false,
+    "include_blocked":  false,
+    "summary":  {
+                    "pending":  0,
+                    "pass":  4,
+                    "needs_regeneration":  0,
+                    "blocked":  0,
+                    "missing_workflow":  0,
+                    "missing_storyboard":  0
+                },
+    "queue_count":  4,
+    "queue":  [
+                  {
+                      "review_id":  "SSJ_EP02_SC19",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc19_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC19_SH01",
+                      "title":  "唐七虚招探路",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass: probing-feint beat is readable and Tuobaye still looks tense rather than skilled",
+                      "notes":  "Keep the test-strike tone and do not let Tang Qi look like he is already committing to a finishing blow in video.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC19_SH01_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc19_sh01_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc19_sh01_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc19_sh01_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC19",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc19_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC19_SH02",
+                      "title":  "真招突至",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass: real-strike moment is sudden and readable",
+                      "notes":  "Production caveat: keep impact credible but avoid turning this into a clean martial exchange dominated by Tang Qi.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC19_SH02_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc19_sh02_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc19_sh02_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc19_sh02_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC19",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc19_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC19_SH03",
+                      "title":  "无形托起半空",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass after regeneration: involuntary awkward lift now reads correctly",
+                      "notes":  "Approved regenerated version restores panic and loss of control. Use this approved image as the only downstream video source.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC19_SH03_v001_00002_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc19_sh03_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc19_sh03_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc19_sh03_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC19",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc19_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC19_SH04",
+                      "title":  "误踢飞唐七",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass after regeneration: accidental counter no longer reads as a polished martial kick",
+                      "notes":  "Approved regenerated version preserves the surprised, uncontrolled feel of the hit. Use this approved image as the only downstream video source.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC19_SH04_v001_00002_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc19_sh04_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc19_sh04_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc19_sh04_i2v_v001.json",
+                      "can_auto_run":  true
+                  }
+              ],
+    "next_actions":  [
+                         "For pass decisions, run_i2v uses the approved storyboard as the single visual source through the prepared Comfy workflow.",
+                         "For needs_regeneration decisions, regenerate the storyboard before rebuilding this queue.",
+                         "Run run_storyboard_i2v_queue.ps1 with -DryRun first."
+                     ],
+    "ok":  true
+}

@@ -1,0 +1,95 @@
+{
+    "updated":  "2026-06-08T17:50:14",
+    "queue_run_result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\regeneration_queue_ep01_dry_run_result.json",
+    "queue_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\regeneration_queue_ep01.json",
+    "dry_run":  true,
+    "include_pending_queue_items":  false,
+    "affected_segments":  [
+                              "SSJ_EP01_SC03",
+                              "SSJ_EP01_SC04"
+                          ],
+    "step_count":  8,
+    "steps":  [
+                  {
+                      "name":  "SSJ_EP01_SC03 refresh review",
+                      "kind":  "segment_refresh",
+                      "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\refresh_consistency_review_from_outputs.ps1\u0027 -ReviewPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json\u0027 -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_refresh_after_regeneration.json\u0027",
+                      "status":  "dry_run",
+                      "exit_code":  null,
+                      "output":  [
+
+                                 ]
+                  },
+                  {
+                      "name":  "SSJ_EP01_SC03 build review package",
+                      "kind":  "segment_review_package",
+                      "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\build_review_package.ps1\u0027 -ReviewPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json\u0027 -OutputDir \u0027G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC03\u0027 -ManifestPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_review_package.json\u0027 -PythonPath \u0027python\u0027",
+                      "status":  "dry_run",
+                      "exit_code":  null,
+                      "output":  [
+
+                                 ]
+                  },
+                  {
+                      "name":  "SSJ_EP01_SC03 rebuild smoke cut",
+                      "kind":  "segment_cut",
+                      "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\postprocess_episode_after_i2v.ps1\u0027 -ReviewPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json\u0027 -OutputPath \u0027G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC03_technical_smoke_cut.mp4\u0027 -ManifestPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_technical_smoke_cut_result.json\u0027 -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_postprocess_smoke_result.json\u0027 -CutWithoutHumanApproval",
+                      "status":  "dry_run",
+                      "exit_code":  null,
+                      "output":  [
+
+                                 ]
+                  },
+                  {
+                      "name":  "SSJ_EP01_SC04 refresh review",
+                      "kind":  "segment_refresh",
+                      "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\refresh_consistency_review_from_outputs.ps1\u0027 -ReviewPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json\u0027 -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_refresh_after_regeneration.json\u0027",
+                      "status":  "dry_run",
+                      "exit_code":  null,
+                      "output":  [
+
+                                 ]
+                  },
+                  {
+                      "name":  "SSJ_EP01_SC04 build review package",
+                      "kind":  "segment_review_package",
+                      "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\build_review_package.ps1\u0027 -ReviewPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json\u0027 -OutputDir \u0027G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC04\u0027 -ManifestPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_review_package.json\u0027 -PythonPath \u0027python\u0027",
+                      "status":  "dry_run",
+                      "exit_code":  null,
+                      "output":  [
+
+                                 ]
+                  },
+                  {
+                      "name":  "SSJ_EP01_SC04 rebuild smoke cut",
+                      "kind":  "segment_cut",
+                      "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\postprocess_episode_after_i2v.ps1\u0027 -ReviewPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json\u0027 -OutputPath \u0027G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC04_technical_smoke_cut.mp4\u0027 -ManifestPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_technical_smoke_cut_result.json\u0027 -ResultPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_postprocess_smoke_result.json\u0027 -CutWithoutHumanApproval",
+                      "status":  "dry_run",
+                      "exit_code":  null,
+                      "output":  [
+
+                                 ]
+                  },
+                  {
+                      "name":  "EP01 rebuild technical rough cut",
+                      "kind":  "episode_cut",
+                      "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\concat_episode_from_review_cv2.ps1\u0027 -ReviewPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json\u0027 -OutputPath \u0027G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_technical_rough_cut_v001.mp4\u0027 -ManifestPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_result.json\u0027 -PythonPath \u0027python\u0027",
+                      "status":  "dry_run",
+                      "exit_code":  null,
+                      "output":  [
+
+                                 ]
+                  },
+                  {
+                      "name":  "EP01 rebuild rough cut review package",
+                      "kind":  "episode_review_package",
+                      "command":  "powershell -ExecutionPolicy Bypass -File \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\build_review_package.ps1\u0027 -ReviewPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json\u0027 -OutputDir \u0027G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\u0027 -ManifestPath \u0027E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review_package.json\u0027 -PythonPath \u0027python\u0027",
+                      "status":  "dry_run",
+                      "exit_code":  null,
+                      "output":  [
+
+                                 ]
+                  }
+              ],
+    "ok":  true
+}

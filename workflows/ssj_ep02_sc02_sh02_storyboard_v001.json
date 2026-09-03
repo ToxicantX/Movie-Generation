@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Shisilang turnaround sheet as the identity and costume anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium-wide composition. Adult Chaoyang Valley Shisilang age 24 to 28 stands before a silent pine-wood mountain gate, arrogant black riding robe and fitted black martial coat, dark leather belt, whip held down at his side, narrow slanted eyes and cruel handsome expression, refined but predatory posture. Behind him, black-clad attendants and dragon-horses stand in a restrained formation. The gate plaque must be blank or unreadable; do not generate Chinese or English characters. Show him raising his voice toward the unseen mountain, but no speech bubble, no subtitles, no visible words. Qingdi is absent; the mountain gives no answer. Jade-green dusk mist, pine shadows, solemn forbidden silence, no combat, no gore, no readable text, no English words.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_shisilang_turnaround_basic_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC02_SH02_v001"
+                                        }
+                         }
+               }
+}

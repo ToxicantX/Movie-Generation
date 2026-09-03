@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Cinematic realistic prop reference for ancient Chinese mythic fantasy. Wufeng sword, meaning edgeless blunt sword: a plain dark heavy ancient iron sword-like weapon with no sharpened edge, no pointed tip, thick rectangular blunt blade like a black iron ruler or training sword, worn stone-black metal, simple wrapped grip, ancient wet-stone patina. Show the full prop clearly on mossy Dragon Pool stones, no person, no text, no labels, no watermark.",
+        "model": "gpt-image-2",
+        "size": "1024x1024",
+        "negative_prompt": "sharp sword, pointed tip, polished katana, fantasy glowing blade, ornate weapon, blood, gore, hand holding, person, text, watermark, logo, anime, cartoon"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/props/PROP_wufeng_sword_ref_v001"
+      }
+    }
+  }
+}

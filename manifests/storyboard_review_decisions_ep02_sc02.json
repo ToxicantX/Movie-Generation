@@ -1,0 +1,72 @@
+{
+  "updated": "2026-06-09T11:15:28",
+  "reviewer": "Codex auto-pass test mode",
+  "instructions": "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+  "review_index": [
+    {
+      "review_id": "SSJ_EP02_SC02",
+      "review_path": ".\\manifests\\ssj_ep02_sc02_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC02_STORYBOARD\\human_review.md",
+      "global_decision": "pending_storyboard_human_review",
+      "shot_count": 4
+    }
+  ],
+  "decisions": [
+    {
+      "review_id": "SSJ_EP02_SC02",
+      "review_path": ".\\manifests\\ssj_ep02_sc02_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC02_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC02_SH01",
+      "title": "拓拔野藏身巨石后观望",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC02_SH01_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh01_storyboard_v001_noref_retry.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh01_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: usable for pipeline test; no readable English/text observed."
+    },
+    {
+      "review_id": "SSJ_EP02_SC02",
+      "review_path": ".\\manifests\\ssj_ep02_sc02_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC02_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC02_SH02",
+      "title": "十四郎三次喊门",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC02_SH02_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh02_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh02_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: usable for pipeline test; no readable English/text observed."
+    },
+    {
+      "review_id": "SSJ_EP02_SC02",
+      "review_path": ".\\manifests\\ssj_ep02_sc02_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC02_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC02_SH03",
+      "title": "绿眼琴老者低声进言",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC02_SH03_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh03_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh03_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: usable for pipeline; Shisilang reads older than target 24-28, monitor/regenerate for production."
+    },
+    {
+      "review_id": "SSJ_EP02_SC02",
+      "review_path": ".\\manifests\\ssj_ep02_sc02_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC02_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC02_SH04",
+      "title": "十四郎冒昧上山",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC02_SH04_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh04_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh04_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: usable for pipeline; Shisilang reads older and green-eyed elder/qin identity is weaker than desired, monitor/regenerate for production."
+    }
+  ]
+}

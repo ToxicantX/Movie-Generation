@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T10:08:06",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc33.json",
+    "shot_id":  "TEST_SSJ_EP02_SC33_SH02",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Shisilang\u0027s rage now clearly reads as one step from real rupture rather than mere pressure.",
+    "notes":  "Codex visual precheck: SH02 works as the line-about-to-snap beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

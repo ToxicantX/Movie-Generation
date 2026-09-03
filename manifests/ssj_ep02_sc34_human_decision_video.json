@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-13T12:21:00",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC34_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Keshadu's conclusion now clearly reads as nearly fixed open fact."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC34_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Shisilang's fury now clearly reads as one step from visible rupture."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC34_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Tuobaye's near-empty core is clear and almost fully exhausted."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC34_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; the white-clothed woman's stillness now clearly feels about to break apart."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "updated": "2026-06-09T19:50:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 神农旧事，芳华动容",
+  "purpose": "Seed for EP02 SC12 after EP02 SC11 formal test-mode segment. Continue the ComfyUI short-drama pipeline from the white-clothed woman asking about the Chana Fanghua tune: Tuobaye recounts meeting Shennong on Nanjishan, accepting the deathbed trust, falling into Dragon Pool, and the woman reacting strongly to Shennong's Baicao poison death and the Chana Fanghua song.",
+  "segment_id": "SSJ_EP02_SC12",
+  "beat_id": "C02_B12",
+  "title": "神农旧事，芳华动容",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC11",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc11_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC11_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC11\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC11_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc11_formal_cut_result.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc11_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC11 is approved only for pipeline validation. All four SC11 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing. SH02 sword/sheath action and SH03-SH04 character continuity need production regeneration."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "白衣女子询问竹笛曲名来历后，拓拔野讲述南际山、神农、临终重托与龙潭经历。",
+    "adapted_summary": "白衣女子问起刹那芳华曲，拓拔野意识到那是神农临终所唱之曲，便将南际山顶邂逅神农、接受临终重托、从龙牙岩/龙潭一线坠落等经历完整讲给她听。白衣女子听到神农百草毒发、在龙牙岩物化时神色剧变；再听到神农临终高歌刹那芳华曲，眼中重新泛起泪光。短剧改编保持成人拓拔野设定，用回忆影像和当前反应交错表达，不在画面中显示血书内容、歌词、曲名或任何可读文字。",
+    "next_source_hint": "随后白衣女子解释刹那芳华曲与木族圣女、空桑仙子、神农旧情有关，并转入青帝、血书和蜃楼城线索。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "shennong_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_shennong_ref_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "longtan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_longtan_dragon_pool_ref_v001_00001_.png",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "previous_flute_hook_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC11_SH04_v001_00001_.png",
+    "previous_warning_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC11_SH03_v001_00001_.png",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC11_formal_cut_v001.mp4"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32 in all current and flashback material, rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute, and right-waist green bamboo sheath holding hidden broken Wufeng.",
+    "Shennong appears as an aged mythic ruler/healer in purple or ancient dignified robes, physically weakened by poison yet spiritually immense; avoid comic or ordinary old-man styling.",
+    "White-clothed woman remains adult, elegant, distant, water/rain-associated, fully clothed, and emotionally restrained until the Shennong/Chana Fanghua reaction.",
+    "Use flashback imagery as cinematic memory fragments rather than literal explanatory panels; no on-screen words, no readable blood letter, no lyrics, no floating labels.",
+    "Setting alternates between current moonlit Tianhu bamboo lakeside and memory fragments of Nanjishan cliff, Dragon Tooth Rock, waterfall spray, and Dragon Pool.",
+    "No readable text, captions, subtitles, speech bubbles, English words, signs, plaques, UI, clear inscriptions, or visible song title."
+  ],
+  "localization_rules": [
+    "All planning text and eventual editing dialogue should be Chinese unless a technical field requires English.",
+    "Storyboard prompts may include intended Chinese dialogue as off-screen planning context, but must request no rendered subtitles or readable text.",
+    "I2V prompts must use silent visual generation: no synthesized speech, no lip-sync dialogue, no flute/xiao audio, no heartbeat audio, no captions, no subtitles, no readable signs, no English words.",
+    "Chinese dialogue, narration, sound design, music, and subtitles should be added later in editing."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Use stable recollection, restrained reaction, mist, robe, waterfall spray, and light movement. Avoid lip-sync, fast body turns, readable letters, and musical-note graphics."
+  },
+  "suggested_shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC12_SH01",
+      "title": "一五一十诉旧事",
+      "duration_seconds": "8-10",
+      "visual_focus": "At the moonlit Tianhu lakeside, adult Tuobaye begins recounting the story with the green bamboo flute near his hand; the white-clothed woman listens intently, sensing the name behind the tune.",
+      "reference_anchor": "previous_flute_hook_storyboard and tuobaye_turnaround"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC12_SH02",
+      "title": "南际山遇神农",
+      "duration_seconds": "8-10",
+      "visual_focus": "Memory fragment: adult-adapted Tuobaye encounters the poisoned aged Shennong on the Nanjishan cliff near waterfall spray, with late-sunset or storm-lit mythic atmosphere.",
+      "reference_anchor": "shennong_reference and longtan_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC12_SH03",
+      "title": "临终重托坠龙潭",
+      "duration_seconds": "8-10",
+      "visual_focus": "Memory fragment: Shennong entrusts a sealed blood letter or relic bundle without readable content; Tuobaye is later shown falling through waterfall mist toward Dragon Pool, abstract and safe.",
+      "reference_anchor": "shennong_reference, tuobaye_turnaround, and longtan_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC12_SH04",
+      "title": "闻毒与芳华动容",
+      "duration_seconds": "8-10",
+      "visual_focus": "Back at Tianhu, the white-clothed woman reacts to Shennong's poison death and the Chana Fanghua tune; her eyes glisten while Tuobaye watches, unsure what old grief he has touched.",
+      "reference_anchor": "yushiqie_reference and previous_flute_hook_storyboard"
+    }
+  ],
+  "next_work": [
+    "Create SSJ_EP02_SC12 storyboard plan with 4 shots, each 8-10 seconds max.",
+    "Use visual cross-cutting between present reaction and memory fragments; avoid explanatory text panels.",
+    "Do not render blood letter contents, lyrics, song title, 神农, 空桑, 木族, 刹那芳华, or any readable Chinese/English text.",
+    "Use silent/no-caption/no-readable-text I2V prompts. Do not generate speech, lip-sync, flute/xiao audio, or musical notes inside video.",
+    "If Gemini file_ids I2V remains rejected and no Runway key exists, use technical still fallback only for continuity and mark every output as non-production."
+  ]
+}

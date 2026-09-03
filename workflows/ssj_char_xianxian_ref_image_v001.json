@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "inputs": {
+        "prompt": "A mature adult graceful woman in an ancient Chinese mythic fantasy world, visual age twenty-four to thirty-two, gentle lively eyes, pale teal and white flowing robes with subtle delicate embroidery, warm intelligent expression, cinematic realistic portrait, three-quarter body character reference, soft natural background, clear face and costume, gentle bright atmosphere, no childlike features, no text, no watermark",
+        "model": "gpt-image-2",
+        "size": "1024x1536",
+        "negative_prompt": "child, teenager, schoolgirl, doll face, anime girl, modern dress, oversexualized costume, western princess gown, text, watermark, logo"
+      },
+      "class_type": "OpenAICompatibleImageGenerate"
+    },
+    "2": {
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/characters/CHAR_xianxian_ref_v001"
+      },
+      "class_type": "SaveImage"
+    }
+  }
+}

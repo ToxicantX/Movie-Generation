@@ -1,0 +1,115 @@
+{
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 玉屏山 / 天湖开场",
+  "review_schema": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\consistency_review_schema.json",
+  "segment_id": "SSJ_EP02_SC01",
+  "beat_id": "C02_B01",
+  "title": "Arrival at Yuping Mountain and the silent Qingdi sanctuary",
+  "updated": "2026-06-09",
+  "global_decision": "approved_for_episode_cut",
+  "global_reason": "All EP02 SC01 video shots were approved in Codex auto-pass test mode with user authorization. Known test issue recorded: generated dialogue/localization is currently English and must be corrected to Chinese before production release.",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC01_SH01",
+      "title": "Moonlit arrival over Tianhu",
+      "beat": "C02_B01",
+      "duration_seconds": "8-10",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC01_SH01_v001_00001_.png",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC01_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC01_SH01_i2v_v001",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh01_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh01_i2v_v001.json",
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH01_i2v_v001.mp4",
+      "preferred_video_mode": "image_to_video_required",
+      "status": "pass",
+      "checks": {
+        "character_identity": "pass",
+        "character_props": "pass",
+        "location_identity": "pass",
+        "storyboard_match": "pass",
+        "motion_continuity": "pass",
+        "safety_constraints": "pass",
+        "clean_output": "pass",
+        "technical_output": "pass"
+      },
+      "notes": "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth.\nNon-fallback I2V candidate found during output refresh: G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH01_i2v_v001.mp4. Human consistency review is required before formal release.\nHuman review: Codex auto-pass test mode. Known issue: generated dialogue/localization currently leans English; enforce Chinese dialogue/subtitles in the next prompt pass before production.",
+      "final_i2v_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh01_i2v_v001.json",
+      "human_review": {
+        "updated": "2026-06-09T10:33:55",
+        "reviewer": "Codex auto-pass test mode",
+        "decision": "pass",
+        "regeneration_scope": "video",
+        "reason": "auto-pass for pipeline test with user authorization",
+        "notes": "Known issue: generated dialogue/localization is currently English; require Chinese dialogue/subtitles in later production prompts."
+      }
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC01_SH02",
+      "title": "Dismount at the pine-bamboo gate",
+      "beat": "C02_B01",
+      "duration_seconds": "8-10",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC01_SH02_v001_00001_.png",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC01_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC01_SH02_i2v_v001",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh02_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh02_i2v_v001.json",
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH02_i2v_v001.mp4",
+      "preferred_video_mode": "image_to_video_required",
+      "status": "pass",
+      "checks": {
+        "character_identity": "pass",
+        "character_props": "pass",
+        "location_identity": "pass",
+        "storyboard_match": "pass",
+        "motion_continuity": "pass",
+        "safety_constraints": "pass",
+        "clean_output": "pass",
+        "technical_output": "pass"
+      },
+      "notes": "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth.\nNon-fallback I2V candidate found during output refresh: G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH02_i2v_v001.mp4. Human consistency review is required before formal release.\nHuman review: Codex auto-pass test mode. Known issue: generated dialogue/localization currently leans English; enforce Chinese dialogue/subtitles in the next prompt pass before production.",
+      "final_i2v_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh02_i2v_v001.json",
+      "human_review": {
+        "updated": "2026-06-09T10:33:55",
+        "reviewer": "Codex auto-pass test mode",
+        "decision": "pass",
+        "regeneration_scope": "video",
+        "reason": "auto-pass for pipeline test with user authorization",
+        "notes": "Known issue: generated dialogue/localization is currently English; require Chinese dialogue/subtitles in later production prompts."
+      }
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC01_SH03",
+      "title": "Empty courtyard of unseen authority",
+      "beat": "C02_B01",
+      "duration_seconds": "8-10",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC01_SH03_v001_00001_.png",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC01_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC01_SH03_i2v_v001",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh03_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh03_i2v_v001.json",
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH03_i2v_v001.mp4",
+      "preferred_video_mode": "image_to_video_required",
+      "status": "pass",
+      "checks": {
+        "character_identity": "pass",
+        "character_props": "pass",
+        "location_identity": "pass",
+        "storyboard_match": "pass",
+        "motion_continuity": "pass",
+        "safety_constraints": "pass",
+        "clean_output": "pass",
+        "technical_output": "pass"
+      },
+      "notes": "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth.\nNon-fallback I2V candidate found during output refresh: G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC01_SH03_i2v_v001.mp4. Human consistency review is required before formal release.\nHuman review: Codex auto-pass test mode. Known issue: generated dialogue/localization currently leans English; enforce Chinese dialogue/subtitles in the next prompt pass before production.",
+      "final_i2v_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc01_sh03_i2v_v001.json",
+      "human_review": {
+        "updated": "2026-06-09T10:33:55",
+        "reviewer": "Codex auto-pass test mode",
+        "decision": "pass",
+        "regeneration_scope": "video",
+        "reason": "auto-pass for pipeline test with user authorization",
+        "notes": "Known issue: generated dialogue/localization is currently English; require Chinese dialogue/subtitles in later production prompts."
+      }
+    }
+  ]
+}

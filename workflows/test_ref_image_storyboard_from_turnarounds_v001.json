@@ -1,0 +1,25 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Use the input character reference sheets to create one cinematic realistic storyboard frame for an ancient Chinese mythic fantasy short drama. Adult Tuobaye kneels in a safe Nanji Mountain meadow at golden dusk, tying a cloth relic bundle; Shennong sits nearby in a deep purple robe, calm and alive, watching with farewell warmth. Preserve Tuobaye's rough grey-brown layered cloth, rope belt, travel pouch, messy topknot, and green bamboo flute from the reference sheet. Preserve Shennong's long white hair, long white beard, deep purple herbal robe, pouch, and calm elder identity from the reference sheet. Safe meadow, sea glow, distant waterfall mist, poplar/catkins, natural fabric texture, no text, no watermark.",
+        "model": "gpt-image-2",
+        "size": "1024x1024",
+        "reference_image_paths": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png\nG:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_shennong_turnaround_basic_v001_00001_.png",
+        "negative_prompt": "text, captions, watermark, logo, child, teenager, minor, injury, corpse, cliff edge danger, falling, market street, beggar bowl, modern city, sci-fi, western armor, anime, cartoon, inconsistent face, missing bamboo flute"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/tests/ref_storyboard_from_turnarounds_v001"
+      }
+    }
+  }
+}

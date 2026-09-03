@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Cinematic realistic ancient Chinese mythic fantasy location reference, 16:9. A secluded dragon pool below Nanji Mountain at blue-gold dusk turning into moonlight: cold jade water, circular mossy stone bank, waterfall mist, ancient pine and poplar roots, glowing medicinal herbs near the shore, faint dragon-shaped ripples under the water, safe readable terrain for action staging. Mythic Great Wilderness atmosphere, restrained lighting, no people, no text, no watermark, no gore, no horror swamp, no modern pool.",
+        "model": "gpt-image-2",
+        "size": "1536x1024",
+        "negative_prompt": "modern pool, swimming pool, tropical beach, horror swamp, gore, corpse, drowning body, cliff-edge danger, falling, city, western castle, sci-fi, anime, cartoon, text, watermark, logo"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/locations/LOC_longtan_dragon_pool_ref_v001"
+      }
+    }
+  }
+}

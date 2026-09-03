@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T22:54:42",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc16.json",
+    "shot_id":  "TEST_SSJ_EP02_SC16_SH02",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: supernatural serpent reveal is strong and readable",
+    "notes":  "Production caveat: keep the serpent dark and non-gory, and avoid over-detailing the crowd in later regeneration.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

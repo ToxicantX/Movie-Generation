@@ -1,0 +1,20 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "GeminiAPIVideoGenerate",
+                             "inputs":  {
+                                            "model":  "gemini-3.1-pro",
+                                            "prompt":  "Animate this storyboard frame as a serene 8 second cinematic establishing shot for Nanji Mountain. Preserve the locked scene identity: safe open mythic Chinese high mountain meadow at golden sunset, distant sea glow, far waterfall dissolving into mist, poplar forest, drifting white catkins, jade-green begonia, windswept grass, warm sunset and cool mist contrast. Preserve ancient white-haired Shennong with calm wise eyes, deep purple robe, herbal embroidery, and solemn peaceful presence. Gentle wind moves grass, robe fabric, hair, and catkins. Slow cinematic camera push across the meadow toward the elder. Safe terrain, no cliff edge emphasis, no danger, no violence, no injury, no minors, no falling, no titles, no captions, no text.",
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH01_v001_00001_.png",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC01_SH01_i2v_v001",
+                                            "base_url":  "http://127.0.0.1:7860",
+                                            "reference_field":  "file_ids",
+                                            "aspect_ratio":  "16:9",
+                                            "reference_image_paths":  "",
+                                            "video_reference_mode":  "experimental_file_ids",
+                                            "request_timeout_seconds":  2400
+                                        }
+                         }
+               }
+}

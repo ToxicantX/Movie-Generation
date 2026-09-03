@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-11T22:18:30",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC15_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; hidden-thought beat is readable and consistent."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC15_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; distant mountain-slope alarm remains restrained and readable."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC15_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Duan Yukai reveal is strong, with production caveat to keep blood battle-worn only."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC15_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; approved regenerated gate composition keeps Shisilang outside the threshold and should remain the source of truth for future regeneration."
+    }
+  ]
+}

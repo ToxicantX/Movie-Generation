@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-07-11T18:53:53",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc46.json",
+    "shot_id":  "TEST_SSJ_EP02_SC46_SH02",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "The rage line at the edge of rupture is immediately legible and the defensive counterpart remains visually overmatched; no readable text is present.",
+    "notes":  "Non-production fallback: generated without the continuity reference after 502/524 errors; interior shift and overt energy effect must be corrected in production regeneration.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

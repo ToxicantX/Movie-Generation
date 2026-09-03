@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Prop reference, realistic ancient Chinese mythic drama. A Wufeng weapon: heavy blunt black iron ruler-shaped ancient weapon, rectangular thick iron bar with wrapped handle, flat square end, no edge, no point, no shine, no ornament. It looks like a dark iron training sword without a blade, lying on wet mossy stones beside a mountain pool. Single object, full object visible, simple clear silhouette, no person, no hand, no text.",
+        "model": "gpt-image-2",
+        "size": "1024x1024",
+        "negative_prompt": "sharp blade, pointed tip, sword edge, katana, saber, glowing blade, ornate fantasy sword, blood, person, hand, text, watermark, logo"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/props/PROP_wufeng_blunt_iron_ref_v002"
+      }
+    }
+  }
+}

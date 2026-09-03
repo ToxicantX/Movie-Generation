@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-07-11T18:53:54",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc46.json",
+    "shot_id":  "TEST_SSJ_EP02_SC46_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Tuobaye near-final depletion reads clearly from the collapsed central figure under pressure from both sides; no readable text is present.",
+    "notes":  "Test-mode only: the two standing identities are visually too similar and require production-level identity correction.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

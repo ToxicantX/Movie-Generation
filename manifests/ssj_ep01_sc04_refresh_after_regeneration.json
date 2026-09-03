@@ -1,0 +1,41 @@
+﻿{
+    "updated":  "2026-06-08T18:37:08",
+    "review_path":  ".\\manifests\\ssj_ep01_sc04_consistency_review.json",
+    "workflow_create_result_path":  "",
+    "found":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC04_SH01",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001.mp4",
+                      "pattern":  "AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001*.mp4",
+                      "searched_patterns":  [
+                                                "AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_i2v_v001*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP01_SC04_SH01_*i2v*.mp4"
+                                            ],
+                      "last_write_time":  "2026-06-08T18:26:44"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001.mp4",
+                      "pattern":  "AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001*.mp4",
+                      "searched_patterns":  [
+                                                "AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_i2v_v001*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_*i2v*.mp4"
+                                            ],
+                      "last_write_time":  "2026-06-08T18:28:31"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC04_SH03",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001.mp4",
+                      "pattern":  "AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001*.mp4",
+                      "searched_patterns":  [
+                                                "AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_i2v_v001*.mp4",
+                                                "AIShortDrama\\videos\\SSJ_EP01_SC04_SH03_*i2v*.mp4"
+                                            ],
+                      "last_write_time":  "2026-06-08T18:30:45"
+                  }
+              ],
+    "invalid":  [
+
+                ],
+    "ready_to_review":  true
+}

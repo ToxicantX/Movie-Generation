@@ -1,0 +1,22 @@
+{
+  "updated": "2026-06-08T12:44:00",
+  "reviewer": "codex_ai_precheck",
+  "global_decision": "pending_human_review",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP01_SC02_SH01",
+      "decision": "needs_regeneration",
+      "notes": "AI precheck: first frame matches storyboard, but middle and last frames drift away from the relic-securing action into a face/dialogue shot and distant seated composition. Regenerate with stronger locked-composition and continuous hand-action language."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC02_SH02",
+      "decision": "pending",
+      "notes": "AI precheck: usable candidate. Identity, Shennong placement, safe path, and farewell intent are mostly preserved."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC02_SH03",
+      "decision": "pending",
+      "notes": "AI precheck: usable candidate with minor costume/prop drift. Safe path constraint is preserved."
+    }
+  ]
+}

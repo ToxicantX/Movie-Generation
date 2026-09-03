@@ -1,0 +1,207 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "01 · 项目创建与来源导入",
+    "locale": "zh-CN",
+    "output": "diagrams/01-project-creation.html",
+    "animation": "none",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "source",
+      "label": "选择来源"
+    },
+    {
+      "id": "validate",
+      "label": "校验来源"
+    },
+    {
+      "id": "record",
+      "label": "创建项目记录"
+    },
+    {
+      "id": "format",
+      "label": "选择视频类型"
+    },
+    {
+      "id": "style",
+      "label": "确认风格与集数"
+    },
+    {
+      "id": "save",
+      "label": "保存项目"
+    }
+  ],
+  "semanticChecks": {
+    "allowedRoots": [
+      "choose_source"
+    ],
+    "allowedTerminals": [
+      "save_project"
+    ],
+    "requiredPaths": [
+      {
+        "from": "choose_source",
+        "to": "save_project"
+      },
+      {
+        "from": "choose_format",
+        "to": "episode_plan"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "choose_source",
+      "lane": "source",
+      "col": 3,
+      "width": 132,
+      "type": "external",
+      "label": "选择小说 / 剧本",
+      "sublabel": ".txt · .md · .novel"
+    },
+    {
+      "id": "validate_source",
+      "lane": "validate",
+      "col": 3,
+      "type": "security",
+      "label": "校验来源",
+      "sublabel": "路径 · 扩展名 · 编码",
+      "width": 132
+    },
+    {
+      "id": "create_record",
+      "lane": "record",
+      "col": 3,
+      "type": "frontend",
+      "label": "创建项目",
+      "sublabel": "名称 · slug · 来源",
+      "width": 132
+    },
+    {
+      "id": "choose_format",
+      "lane": "format",
+      "col": 3,
+      "type": "backend",
+      "label": "选择视频类型",
+      "sublabel": "单片 / 短剧",
+      "width": 132
+    },
+    {
+      "id": "confirm_style",
+      "lane": "style",
+      "col": 3,
+      "width": 132,
+      "type": "security",
+      "label": "确认主体风格",
+      "sublabel": "真人 · 二维 · 三维",
+      "tag": "必选"
+    },
+    {
+      "id": "save_project",
+      "lane": "save",
+      "col": 3,
+      "type": "database",
+      "label": "保存项目",
+      "sublabel": "PostgreSQL · draft",
+      "width": 132
+    },
+    {
+      "id": "episode_plan",
+      "lane": "style",
+      "col": 5,
+      "type": "backend",
+      "label": "设置集数策略",
+      "sublabel": "自动估算 / 固定",
+      "width": 132
+    },
+    {
+      "id": "source_error",
+      "lane": "validate",
+      "col": 5,
+      "type": "messagebus",
+      "label": "来源无效",
+      "sublabel": "提示原因并重选",
+      "width": 132
+    }
+  ],
+  "edges": [
+    {
+      "from": "choose_source",
+      "to": "validate_source",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "validate_source",
+      "to": "create_record",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "create_record",
+      "to": "choose_format",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "choose_format",
+      "to": "confirm_style",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "confirm_style",
+      "to": "save_project",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "choose_format",
+      "to": "episode_plan",
+      "label": "短剧",
+      "role": "branch"
+    },
+    {
+      "from": "episode_plan",
+      "to": "confirm_style",
+      "label": "集数策略",
+      "role": "branch"
+    },
+    {
+      "from": "validate_source",
+      "to": "source_error",
+      "label": "无效",
+      "role": "error",
+      "variant": "security"
+    },
+    {
+      "from": "source_error",
+      "to": "choose_source",
+      "label": "重新选择",
+      "role": "return",
+      "variant": "security"
+    }
+  ],
+  "mainPath": [
+    "choose_source",
+    "validate_source",
+    "create_record",
+    "choose_format",
+    "confirm_style",
+    "save_project"
+  ]
+}

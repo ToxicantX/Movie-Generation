@@ -1,0 +1,47 @@
+{
+  "updated": "2026-06-09T17:25:00",
+  "plan_path": ".\\manifests\\ssj_ep02_sc08_storyboard_plan.json",
+  "workflow_dir": ".\\workflows",
+  "created": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC08_SH01",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh01_storyboard_v001_noref_retry.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh01_technical_still_fallback_v001.json",
+      "expected_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC08_SH01_v001_00001_.png",
+      "storyboard_fallback_used": true,
+      "storyboard_fallback_note": "Primary reference-image workflow hit Image API 502; no-reference retry succeeded for test pipeline continuity.",
+      "final_i2v_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh01_technical_still_fallback_v001.json",
+      "final_video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC08_SH01_technical_still_fallback_v001",
+      "fallback_note": "Gemini-API rejects experimental mode=video with file_ids under the current contract probe; RUNWAYML_API_SECRET is missing, so technical still fallback was used for test pipeline continuity."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC08_SH02",
+      "storyboard_workflow": ".\\workflows\\ssj_ep02_sc08_sh02_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh02_technical_still_fallback_v001.json",
+      "expected_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC08_SH02_v001_00001_.png",
+      "final_i2v_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh02_technical_still_fallback_v001.json",
+      "final_video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC08_SH02_technical_still_fallback_v001",
+      "fallback_note": "Gemini-API rejects experimental mode=video with file_ids under the current contract probe; RUNWAYML_API_SECRET is missing, so technical still fallback was used for test pipeline continuity."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC08_SH03",
+      "storyboard_workflow": ".\\workflows\\ssj_ep02_sc08_sh03_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh03_technical_still_fallback_v001.json",
+      "expected_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC08_SH03_v001_00001_.png",
+      "final_i2v_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh03_technical_still_fallback_v001.json",
+      "final_video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC08_SH03_technical_still_fallback_v001",
+      "fallback_note": "Gemini-API rejects experimental mode=video with file_ids under the current contract probe; RUNWAYML_API_SECRET is missing, so technical still fallback was used for test pipeline continuity."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC08_SH04",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh04_storyboard_v001_noref_retry.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh04_technical_still_fallback_v001.json",
+      "expected_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC08_SH04_v001_00001_.png",
+      "storyboard_fallback_used": true,
+      "storyboard_fallback_note": "Primary reference-image workflow hit Image API 502; no-reference retry succeeded for test pipeline continuity.",
+      "final_i2v_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh04_technical_still_fallback_v001.json",
+      "final_video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC08_SH04_technical_still_fallback_v001",
+      "fallback_note": "Gemini-API rejects experimental mode=video with file_ids under the current contract probe; RUNWAYML_API_SECRET is missing, so technical still fallback was used for test pipeline continuity."
+    }
+  ]
+}

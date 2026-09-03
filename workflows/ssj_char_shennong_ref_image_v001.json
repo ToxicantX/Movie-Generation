@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "inputs": {
+        "prompt": "An ancient white-haired divine elder in a deep purple robe, mythic Chinese god-emperor and herbal sage, very old but calm and powerful, serene wise eyes, solemn but warm farewell expression, resting calmly on safe mountain meadow grass near sunset, limited graceful movement, ancient herbal and wood element details on robe, cinematic realistic fantasy drama portrait, clear face and costume, no text, no watermark",
+        "model": "gpt-image-2",
+        "size": "1024x1536",
+        "negative_prompt": "western wizard, golden emperor dragon robe, glowing superhero, horror corpse, zombie, explicit dying scene, cliff edge danger, cartoon old man, sci-fi robe, modern clothing, text, watermark, logo"
+      },
+      "class_type": "OpenAICompatibleImageGenerate"
+    },
+    "2": {
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/characters/CHAR_shennong_ref_v001"
+      },
+      "class_type": "SaveImage"
+    }
+  }
+}

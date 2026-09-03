@@ -1,0 +1,28 @@
+{
+    "updated":  "2026-06-09T12:52:12",
+    "review_path":  ".\\manifests\\ssj_ep02_sc03_storyboard_review.json",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc03_video_review_decision_test_auto_pass.json",
+    "global_decision":  "approved_for_episode_cut",
+    "shots":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC03_SH01",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC03_SH02",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC03_SH03",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP02_SC03_SH04",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  }
+              ]
+}

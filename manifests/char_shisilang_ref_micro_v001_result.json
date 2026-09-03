@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-09T00:16:37",
+    "shot_id":  "CHAR_shisilang_ref_micro_v001",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_shisilang_ref_micro_v001.json",
+    "prompt_id":  "826adf39-8e2f-4f73-8343-60156f18eac7",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_shisilang_ref_micro_v001.json -\u003e prompt_id=826adf39-8e2f-4f73-8343-60156f18eac7"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "826adf39-8e2f-4f73-8343-60156f18eac7",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

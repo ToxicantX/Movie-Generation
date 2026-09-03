@@ -1,0 +1,95 @@
+{
+  "updated": "2026-06-09T14:10:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 湖亭焚香石壁歌",
+  "purpose": "Seed for EP02 SC06 after EP02 SC05 formal test-mode segment. Use this to plan the next 8-10 second short-drama shots through ComfyUI.",
+  "segment_id": "SSJ_EP02_SC06",
+  "beat_id": "C02_B06",
+  "title": "湖亭焚香，石壁旧歌",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC05",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc05_storyboard_review.json",
+    "previous_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC05\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC05_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc05_formal_cut_result.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc05_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC05 is approved only for pipeline validation. SH04 costume color/refinement drift should be tightened in production."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "眼前湖水澄清，月轮荡漾，湖边小亭，有一缕焚香，袅袅而上。",
+    "adapted_summary": "拓拔野循箫声越过竹篱和亭阁，却只见湖边小亭、袅袅焚香和空无一人的月下湖岸。他在亭中看到白色玛瑙香炉与紫烟，又发现北侧高石壁上有巨大凸起文字，认出那正是神农昨日唱过的歌，心中悲喜交错，取下绿竹笛吹起同一曲调。",
+    "next_source_hint": "拓拔野吹笛后，身后箫声应和，转身误以为神农，却见白衣女子出现。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_tianhu_card": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_location_yupingshan_tianhu_v1.json",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "previous_bamboo_wall_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC05_SH04_v001_00001_.png",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC05_formal_cut_v001.mp4"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute at waist or in hand, Wufeng in a bamboo sheath at the right waist.",
+    "White dragon-deer remains a friendly mythic mount and emotional companion, staying near Tuobaye without comic exaggeration.",
+    "The lake pavilion is simple and handmade: bamboo, pine logs, stone table, white agate incense burner, faint purple incense smoke, moonlit lake water.",
+    "Stone-wall text is a story beat but image/video must not generate readable characters. Show raised, ancient, indistinct glyph-like relief or blurred large strokes instead of legible writing.",
+    "Do not reveal the white-clothed woman yet until the final hook or next segment; this segment may end on the off-screen response of the flute/xiao sound.",
+    "Emotional arc: mystery, disappointment, recognition of 神农's song, quiet grief, then musical response."
+  ],
+  "localization_rules": [
+    "All planning text and eventual editing dialogue should be Chinese unless a technical field requires English.",
+    "Storyboard prompts may describe Chinese short-drama style, but must request no readable screen text.",
+    "I2V prompts must use silent visual generation: no synthesized speech, no captions, no subtitles, no readable signs, no English words.",
+    "Chinese narration, flute/xiao sound design, and subtitles should be added later in editing."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "experimental_file_ids only while current local backend supports it; otherwise use official T2V smoke tests or switch provider for formal I2V",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Prefer stable camera, incense smoke, water shimmer, slow reaction shots, and flute-playing pose; avoid complex performance animation."
+  },
+  "suggested_shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC06_SH01",
+      "title": "湖边小亭焚香无人",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye and the white dragon-deer arrive at the moonlit lakeside pavilion, finding only incense smoke and no person.",
+      "reference_anchor": "previous_bamboo_wall_storyboard or yupingshan_tianhu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC06_SH02",
+      "title": "玛瑙香炉紫烟如箫",
+      "duration_seconds": "8-10",
+      "visual_focus": "A close atmospheric shot of the white agate incense burner on a stone table, purple smoke curling like the vanished melody.",
+      "reference_anchor": "yupingshan_tianhu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC06_SH03",
+      "title": "石壁旧歌触动神农记忆",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye looks up at the high stone wall with huge raised unreadable glyph-like strokes and recognizes the old song emotionally.",
+      "reference_anchor": "tuobaye_turnaround or yupingshan_tianhu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC06_SH04",
+      "title": "月下竹笛回应箫声",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye sits or stands in the lakeside pavilion and raises his green bamboo flute, playing toward the moonlit lake while the dragon-deer watches.",
+      "reference_anchor": "tuobaye_turnaround"
+    }
+  ],
+  "next_work": [
+    "Create SSJ_EP02_SC06 storyboard plan with 3 to 4 shots, each 8-10 seconds max.",
+    "Do not render readable wall text; preserve the plot beat through reaction, composition, and indistinct raised glyph-like relief.",
+    "Keep all video prompts silent/no-caption/no-readable-text to prevent English dialogue drift.",
+    "Reserve the white-clothed woman reveal for SC07 or only as a final non-identifiable off-screen hook."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "updated": "2026-06-13T19:08:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 真相将定型，静压将崩解",
+  "purpose": "Seed for EP02 SC43 after EP02 SC42 formal test-mode segment. Continue the ComfyUI short-drama pipeline from the point where truth is nearly solidified and the white-clothed woman's restraint is nearly shattering into the next threshold: Keshadu's conclusion is almost fully formed as public fact, Shisilang's fury is at the edge of rupture, Tuobaye is nearly completely exhausted, and the white-clothed woman's still pressure is at the edge of visible collapse.",
+  "segment_id": "SSJ_EP02_SC43",
+  "beat_id": "C02_B43",
+  "title": "真相将定型，静压将崩解",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC42",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc42_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC42_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC42\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC42_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc42_formal_cut_result.json",
+    "previous_formal_segment_probe": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc42_formal_cut_probe.json"
+  }
+}

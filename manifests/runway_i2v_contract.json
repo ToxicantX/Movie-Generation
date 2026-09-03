@@ -1,0 +1,39 @@
+{
+  "updated": "2026-06-08",
+  "purpose": "Fallback reference-driven video route inside ComfyUI when Gemini-API I2V support is unavailable.",
+  "provider": "Runway",
+  "official_api_shape": {
+    "method": "POST",
+    "path": "/v1/image_to_video",
+    "headers": [
+      "Authorization: Bearer RUNWAYML_API_SECRET",
+      "X-Runway-Version"
+    ],
+    "body": {
+      "model": "gen4_turbo",
+      "promptImage": "data:image/png;base64,...",
+      "promptText": "string",
+      "ratio": "1280:720",
+      "duration": 10
+    }
+  },
+  "comfy_node": "G:\\ComfyUI\\custom_nodes\\runway_i2v_node.py",
+  "class_type": "RunwayImageToVideoGenerate",
+  "dry_run_workflows": [
+    "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh01_runway_i2v_dryrun.json",
+    "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh02_runway_i2v_dryrun.json",
+    "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh03_runway_i2v_dryrun.json"
+  ],
+  "live_workflows": [
+    "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh01_runway_i2v_live.json",
+    "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh02_runway_i2v_live.json",
+    "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh03_runway_i2v_live.json"
+  ],
+  "sequence_runner": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\run_runway_i2v_sequence.ps1",
+  "postprocess_after_i2v": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\postprocess_episode_after_i2v.ps1",
+  "episode_cut_script": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\concat_episode_from_review_cv2.ps1",
+  "required_secret": "RUNWAYML_API_SECRET or node api_key input",
+  "dry_run_result": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\runway_i2v_sequence_result.json",
+  "runtime_status": "ComfyUI object_info exposes RunwayImageToVideoGenerate",
+  "status": "installed_and_three_shot_dry_run_verified_waiting_for_runway_api_secret"
+}

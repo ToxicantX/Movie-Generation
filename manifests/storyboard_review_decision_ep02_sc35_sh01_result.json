@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T13:30:59",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc35.json",
+    "shot_id":  "TEST_SSJ_EP02_SC35_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Keshadu\u0027s conclusion now clearly reads as nearly fixed public fact, with Tuobaye spent and the white-clothed woman still holding the invisible center line.",
+    "notes":  "Codex visual precheck: SH01 works as the conclusion-nearly-public beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

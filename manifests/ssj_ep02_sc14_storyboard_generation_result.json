@@ -1,0 +1,321 @@
+{
+    "updated":  "2026-06-10T01:26:31",
+    "workflow_create_result_path":  ".\\manifests\\ssj_ep02_sc14_workflow_create_result.json",
+    "skip_existing":  true,
+    "force_no_reference":  false,
+    "run_count":  4,
+    "completed_count":  4,
+    "fallback_count":  0,
+    "runs":  [
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC14_SH01",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC14_SH01_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc14_sh01_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc14_sh01_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc14_sh01_storyboard_v001.json -\\u003e prompt_id=dcfc2fc1-74a6-4ac3-a3b4-d9e36f9e8355\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"dcfc2fc1-74a6-4ac3-a3b4-d9e36f9e8355\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-10T01:14:15",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC14_SH01",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc14_sh01_storyboard_v001.json",
+                                                        "prompt_id":  "dcfc2fc1-74a6-4ac3-a3b4-d9e36f9e8355",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc14_sh01_storyboard_v001.json -\u003e prompt_id=dcfc2fc1-74a6-4ac3-a3b4-d9e36f9e8355"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "dcfc2fc1-74a6-4ac3-a3b4-d9e36f9e8355",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  0,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  true,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc14_sh01_storyboard_v001.json -\\u003e prompt_id=dcfc2fc1-74a6-4ac3-a3b4-d9e36f9e8355\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"dcfc2fc1-74a6-4ac3-a3b4-d9e36f9e8355\",",
+                                                                              "                        \"status\":  \"success\",",
+                                                                              "                        \"completed\":  true,",
+                                                                              "                        \"error\":  null",
+                                                                              "                    },",
+                                                                              "    \"error\":  null",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  null,
+                                                          "failure_type":  null,
+                                                          "ok":  true
+                                                      }
+                                                  ],
+                                     "rate_retries_used":  0,
+                                     "transient_retries_used":  0,
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc14_sh01_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC14_SH02",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC14_SH02_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc14_sh02_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc14_sh02_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc14_sh02_storyboard_v001.json -\\u003e prompt_id=2d57c717-59af-4588-a9eb-b31d5386f8f3\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"2d57c717-59af-4588-a9eb-b31d5386f8f3\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-10T01:19:37",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC14_SH02",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc14_sh02_storyboard_v001.json",
+                                                        "prompt_id":  "2d57c717-59af-4588-a9eb-b31d5386f8f3",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc14_sh02_storyboard_v001.json -\u003e prompt_id=2d57c717-59af-4588-a9eb-b31d5386f8f3"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "2d57c717-59af-4588-a9eb-b31d5386f8f3",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  0,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  true,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc14_sh02_storyboard_v001.json -\\u003e prompt_id=2d57c717-59af-4588-a9eb-b31d5386f8f3\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"2d57c717-59af-4588-a9eb-b31d5386f8f3\",",
+                                                                              "                        \"status\":  \"success\",",
+                                                                              "                        \"completed\":  true,",
+                                                                              "                        \"error\":  null",
+                                                                              "                    },",
+                                                                              "    \"error\":  null",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  null,
+                                                          "failure_type":  null,
+                                                          "ok":  true
+                                                      }
+                                                  ],
+                                     "rate_retries_used":  0,
+                                     "transient_retries_used":  0,
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc14_sh02_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC14_SH03",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC14_SH03_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc14_sh03_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc14_sh03_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc14_sh03_storyboard_v001.json -\\u003e prompt_id=2636bd0c-f3ff-4c15-894c-1fd40278814b\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"2636bd0c-f3ff-4c15-894c-1fd40278814b\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-10T01:20:53",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC14_SH03",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc14_sh03_storyboard_v001.json",
+                                                        "prompt_id":  "2636bd0c-f3ff-4c15-894c-1fd40278814b",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc14_sh03_storyboard_v001.json -\u003e prompt_id=2636bd0c-f3ff-4c15-894c-1fd40278814b"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "2636bd0c-f3ff-4c15-894c-1fd40278814b",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  0,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  true,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc14_sh03_storyboard_v001.json -\\u003e prompt_id=2636bd0c-f3ff-4c15-894c-1fd40278814b\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"2636bd0c-f3ff-4c15-894c-1fd40278814b\",",
+                                                                              "                        \"status\":  \"success\",",
+                                                                              "                        \"completed\":  true,",
+                                                                              "                        \"error\":  null",
+                                                                              "                    },",
+                                                                              "    \"error\":  null",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  null,
+                                                          "failure_type":  null,
+                                                          "ok":  true
+                                                      }
+                                                  ],
+                                     "rate_retries_used":  0,
+                                     "transient_retries_used":  0,
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc14_sh03_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC14_SH04",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC14_SH04_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc14_sh04_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc14_sh04_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc14_sh04_storyboard_v001.json -\\u003e prompt_id=b2e7d709-51f5-4157-8e80-71c6f5b5ebfd\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"b2e7d709-51f5-4157-8e80-71c6f5b5ebfd\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-10T01:25:20",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC14_SH04",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc14_sh04_storyboard_v001.json",
+                                                        "prompt_id":  "b2e7d709-51f5-4157-8e80-71c6f5b5ebfd",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc14_sh04_storyboard_v001.json -\u003e prompt_id=b2e7d709-51f5-4157-8e80-71c6f5b5ebfd"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "b2e7d709-51f5-4157-8e80-71c6f5b5ebfd",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  1,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  false,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc14_sh04_storyboard_v001.json -\\u003e prompt_id=0f9a6715-d618-4fb6-99c5-66c4cc6f2141\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"0f9a6715-d618-4fb6-99c5-66c4cc6f2141\",",
+                                                                              "                        \"status\":  \"error\",",
+                                                                              "                        \"completed\":  false,",
+                                                                              "                        \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"Upstream rate limit exceeded, please retry later\\\",\\\"type\\\":\\\"rate_limit_error\\\"}}\\n\"",
+                                                                              "                    },",
+                                                                              "    \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"Upstream rate limit exceeded, please retry later\\\",\\\"type\\\":\\\"rate_limit_error\\\"}}\\n\"",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  "Image API error 429: {\"error\":{\"message\":\"Upstream rate limit exceeded, please retry later\",\"type\":\"rate_limit_error\"}}\n",
+                                                          "failure_type":  "rate_limit",
+                                                          "ok":  false
+                                                      },
+                                                      {
+                                                          "attempt":  2,
+                                                          "exit_code":  0,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  true,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc14_sh04_storyboard_v001.json -\\u003e prompt_id=b2e7d709-51f5-4157-8e80-71c6f5b5ebfd\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"b2e7d709-51f5-4157-8e80-71c6f5b5ebfd\",",
+                                                                              "                        \"status\":  \"success\",",
+                                                                              "                        \"completed\":  true,",
+                                                                              "                        \"error\":  null",
+                                                                              "                    },",
+                                                                              "    \"error\":  null",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  null,
+                                                          "failure_type":  null,
+                                                          "ok":  true
+                                                      }
+                                                  ],
+                                     "rate_retries_used":  1,
+                                     "transient_retries_used":  0,
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc14_sh04_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 }
+             ],
+    "ok":  true
+}

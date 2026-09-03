@@ -1,0 +1,62 @@
+{
+  "updated": "2026-06-09T20:39:47",
+  "mode": "technical_still_fallback_comfy_node",
+  "comfy_url": "http://127.0.0.1:8188",
+  "workflow_paths": [
+    ".\\workflows\\ssj_ep02_sc12_sh01_technical_still_fallback_v001.json",
+    ".\\workflows\\ssj_ep02_sc12_sh02_technical_still_fallback_v001.json",
+    ".\\workflows\\ssj_ep02_sc12_sh03_technical_still_fallback_v001.json",
+    ".\\workflows\\ssj_ep02_sc12_sh04_technical_still_fallback_v001.json"
+  ],
+  "runs": [
+    {
+      "workflow_path": ".\\workflows\\ssj_ep02_sc12_sh01_technical_still_fallback_v001.json",
+      "prompt_id": "5f7c45a5-91c6-462c-9269-cf55d0aae9bc",
+      "wait": {
+        "prompt_id": "5f7c45a5-91c6-462c-9269-cf55d0aae9bc",
+        "status": "success",
+        "completed": true,
+        "error": null
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "workflow_path": ".\\workflows\\ssj_ep02_sc12_sh02_technical_still_fallback_v001.json",
+      "prompt_id": "f57095dc-1c71-40aa-9f0d-641deeaf7608",
+      "wait": {
+        "prompt_id": "f57095dc-1c71-40aa-9f0d-641deeaf7608",
+        "status": "success",
+        "completed": true,
+        "error": null
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "workflow_path": ".\\workflows\\ssj_ep02_sc12_sh03_technical_still_fallback_v001.json",
+      "prompt_id": "c88d4b03-9a91-4893-9150-9382c6752dad",
+      "wait": {
+        "prompt_id": "c88d4b03-9a91-4893-9150-9382c6752dad",
+        "status": "success",
+        "completed": true,
+        "error": null
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "workflow_path": ".\\workflows\\ssj_ep02_sc12_sh04_technical_still_fallback_v001.json",
+      "prompt_id": "07a68362-dd57-4c46-9df8-b8f77cbb09f1",
+      "wait": {
+        "prompt_id": "07a68362-dd57-4c46-9df8-b8f77cbb09f1",
+        "status": "success",
+        "completed": true,
+        "error": null
+      },
+      "ok": true,
+      "error": null
+    }
+  ],
+  "ok": true
+}

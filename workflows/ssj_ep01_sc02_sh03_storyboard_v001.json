@@ -1,0 +1,24 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9. Adult Tuobaye walks alone along a safe descending mountain path at blue-gold dusk, carrying a cloth bundle of ancient books and token, green bamboo flute at his waist, rugged rough cloth clothing, determined but grieving expression. Nanji Mountain wilderness continues: grass, poplar shadows, distant waterfall mist and sea glow behind him, first stars above. No cliff edge, no falling, no attack, no injury. Mythic Chinese realism, natural fabric, restrained emotional lighting, no text, no watermark.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC02_SH03_v001"
+                                        }
+                         }
+               }
+}

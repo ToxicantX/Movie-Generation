@@ -1,0 +1,98 @@
+﻿{
+    "updated":  "2026-06-11T22:00:07",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc15.json",
+    "review_paths":  [
+                         ".\\manifests\\ssj_ep02_sc15_storyboard_review.json"
+                     ],
+    "include_pending":  false,
+    "include_blocked":  false,
+    "summary":  {
+                    "pending":  0,
+                    "pass":  4,
+                    "needs_regeneration":  0,
+                    "blocked":  0,
+                    "missing_workflow":  0,
+                    "missing_storyboard":  0
+                },
+    "queue_count":  4,
+    "queue":  [
+                  {
+                      "review_id":  "SSJ_EP02_SC15",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc15_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC15_SH01",
+                      "title":  "竹下各怀心事",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass: hidden-thought beat is clear and identity is stable",
+                      "notes":  "Keep this split-bamboo composition as a continuity anchor for later hidden-observer beats.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC15_SH01_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc15_sh01_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc15_sh01_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc15_sh01_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC15",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc15_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC15_SH02",
+                      "title":  "半山刀兵惊禁地",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass: distant alarm pressure reads correctly and no readable text appears",
+                      "notes":  "Production caveat: keep mountain-slope conflict distant in video and avoid turning this into a full battle shot.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC15_SH02_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc15_sh02_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc15_sh02_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc15_sh02_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC15",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc15_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC15_SH03",
+                      "title":  "段聿铠血身登楼",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass: Duan Yukai reveal is strong and readable for this beat",
+                      "notes":  "Production caveat: keep blood battle-worn only and do not escalate crowd detail further in regeneration unless needed.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC15_SH03_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc15_sh03_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc15_sh03_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc15_sh03_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC15",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc15_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC15_SH04",
+                      "title":  "十四郎请战",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass after regeneration: Shisilang now remains outside the forbidden gate and the inner/outer courtyard logic is readable",
+                      "notes":  "Approved regenerated version uses outer-gate framing correctly. In video, keep Shisilang outside the threshold and preserve no-readable-plaque constraint.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC15_SH04_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc15_sh04_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc15_sh04_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc15_sh04_i2v_v001.json",
+                      "can_auto_run":  true
+                  }
+              ],
+    "next_actions":  [
+                         "For pass decisions, run_i2v uses the approved storyboard as the single visual source through the prepared Comfy workflow.",
+                         "For needs_regeneration decisions, regenerate the storyboard before rebuilding this queue.",
+                         "Run run_storyboard_i2v_queue.ps1 with -DryRun first."
+                     ],
+    "ok":  true
+}

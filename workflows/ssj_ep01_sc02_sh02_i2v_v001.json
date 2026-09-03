@@ -1,0 +1,19 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "GeminiAPIVideoGenerate",
+                             "inputs":  {
+                                            "model":  "gemini-3.1-pro",
+                                            "prompt":  "Animate this storyboard frame as a quiet farewell shot. Tuobaye turns back briefly from the safe mountain path, then steadies himself to leave. Shennong remains seated calmly in the meadow behind him. Preserve identities, clothing, bamboo flute, relic bundle, dusk meadow, waterfall mist, and no danger. Gentle wind and slow camera drift only, no text.",
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC02_SH02_v001_00001_.png",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC02_SH02_i2v_v001",
+                                            "base_url":  "http://127.0.0.1:7860",
+                                            "reference_field":  "file_ids",
+                                            "video_reference_mode":  "experimental_file_ids",
+                                            "reference_image_paths":  "",
+                                            "aspect_ratio":  "16:9"
+                                        }
+                         }
+               }
+}

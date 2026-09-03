@@ -1,0 +1,204 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "08 · 可选音频与音画合成",
+    "locale": "zh-CN",
+    "output": "diagrams/08-audio-postprocess.html",
+    "animation": "none",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "load",
+      "label": "读取视频与台词"
+    },
+    {
+      "id": "decision",
+      "label": "选择音频处理方式"
+    },
+    {
+      "id": "produce",
+      "label": "生成或跳过音频"
+    },
+    {
+      "id": "persist",
+      "label": "保存音频资产"
+    },
+    {
+      "id": "mix",
+      "label": "执行音画合成"
+    },
+    {
+      "id": "review",
+      "label": "音画验收与调整"
+    }
+  ],
+  "semanticChecks": {
+    "allowedRoots": [
+      "load_clip"
+    ],
+    "allowedTerminals": [
+      "av_review",
+      "silent_output",
+      "revise_audio"
+    ],
+    "requiredPaths": [
+      {
+        "from": "load_clip",
+        "to": "av_review"
+      },
+      {
+        "from": "audio_enabled",
+        "to": "silent_output"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "load_clip",
+      "lane": "load",
+      "col": 3,
+      "type": "database",
+      "label": "读取视频与台词",
+      "sublabel": "shot_id 对齐",
+      "width": 132
+    },
+    {
+      "id": "audio_enabled",
+      "lane": "decision",
+      "col": 3,
+      "type": "security",
+      "label": "启用外部音频？",
+      "sublabel": "项目级开关",
+      "width": 132
+    },
+    {
+      "id": "edge_tts",
+      "lane": "produce",
+      "col": 3,
+      "type": "cloud",
+      "label": "生成 Edge TTS",
+      "sublabel": "voice · rate · pitch",
+      "width": 132
+    },
+    {
+      "id": "audio_assets",
+      "lane": "persist",
+      "col": 3,
+      "type": "database",
+      "label": "保存音频资产",
+      "sublabel": "台词 · 旁白 · 版本",
+      "width": 132
+    },
+    {
+      "id": "ffmpeg_mix",
+      "lane": "mix",
+      "col": 3,
+      "type": "backend",
+      "label": "执行音画合成",
+      "sublabel": "FFmpeg · 时轴对齐",
+      "width": 132
+    },
+    {
+      "id": "av_review",
+      "lane": "review",
+      "col": 3,
+      "type": "security",
+      "label": "音画验收",
+      "sublabel": "同步 · 音量 · 完整性",
+      "tag": "人工",
+      "width": 132
+    },
+    {
+      "id": "silent_output",
+      "lane": "produce",
+      "col": 5,
+      "type": "external",
+      "label": "保留无声片段",
+      "sublabel": "直接进入后续剪辑",
+      "width": 132
+    },
+    {
+      "id": "revise_audio",
+      "lane": "review",
+      "col": 5,
+      "type": "frontend",
+      "label": "调整音频设计",
+      "sublabel": "文本 · 音色 · 语速",
+      "width": 132
+    }
+  ],
+  "edges": [
+    {
+      "from": "load_clip",
+      "to": "audio_enabled",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "audio_enabled",
+      "to": "edge_tts",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "edge_tts",
+      "to": "audio_assets",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "audio_assets",
+      "to": "ffmpeg_mix",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "ffmpeg_mix",
+      "to": "av_review",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "audio_enabled",
+      "to": "silent_output",
+      "label": "关闭",
+      "role": "branch",
+      "variant": "dashed"
+    },
+    {
+      "from": "edge_tts",
+      "to": "revise_audio",
+      "label": "生成失败",
+      "role": "error",
+      "variant": "security"
+    },
+    {
+      "from": "av_review",
+      "to": "revise_audio",
+      "label": "不通过",
+      "role": "error",
+      "variant": "security"
+    }
+  ],
+  "mainPath": [
+    "load_clip",
+    "audio_enabled",
+    "edge_tts",
+    "audio_assets",
+    "ffmpeg_mix",
+    "av_review"
+  ]
+}

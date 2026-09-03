@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T21:27:32",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc15.json",
+    "shot_id":  "TEST_SSJ_EP02_SC15_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: Duan Yukai reveal is strong and readable for this beat",
+    "notes":  "Production caveat: keep blood battle-worn only and do not escalate crowd detail further in regeneration unless needed.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

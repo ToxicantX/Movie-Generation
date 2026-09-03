@@ -1,0 +1,38 @@
+{
+  "updated": "2026-06-09T19:04:00",
+  "reviewer": "Codex test-mode auto confirmation; user authorized auto-pass when absent on 2026-06-09",
+  "global_decision": "approved_for_episode_cut",
+  "language_policy": {
+    "mode": "silent_visual_generation",
+    "rule": "Do not synthesize speech, flute/xiao audio, sound effects, captions/subtitles/readable text, or English words. Chinese narration, dialogue, sound design, and subtitles are added later during editing."
+  },
+  "known_quality_notes": [
+    "Test-mode pass only; production review must replace all four SC10 videos with true I2V outputs before release.",
+    "All four SC10 videos are technical still fallback clips because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing.",
+    "SH02 woman costume drifts blue-grey and Wufeng ornamentation is more elaborate than target plain broken sword.",
+    "SH03 sword reads too long/two-section for strict prop continuity and should be regenerated for production.",
+    "Sword glow marks are abstract and not readable as Chinese or English text in visual precheck."
+  ],
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC10_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; respectful handover beat is clear and usable for pipeline continuity."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC10_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; floating sword beat is clear, with production caveat on costume color and sword ornamentation."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC10_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; rust-falling glow beat is usable, with production caveat that Wufeng reads too long."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC10_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; restrained grief and tear beat is strong for pipeline validation."
+    }
+  ]
+}

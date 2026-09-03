@@ -1,0 +1,41 @@
+{
+  "updated": "2026-06-08",
+  "chapter_index": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_chapter_index.json",
+  "volume01_stats": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_stats.json",
+  "volume01_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_plan.json",
+  "obsidian_index": "E:\\WuShengXi-Obsidian\\Projects\\AI短剧生成工厂\\14-搜神记全本卷章索引.md",
+  "obsidian_plan": "E:\\WuShengXi-Obsidian\\Projects\\AI短剧生成工厂\\15-搜神记第一卷短剧化计划.md",
+  "obsidian_summary": "E:\\WuShengXi-Obsidian\\Projects\\AI短剧生成工厂\\16-搜神记第一卷卷级摘要.md",
+  "chapters": [
+    {
+      "chapter": "第一章 神农使者",
+      "line": 9,
+      "short_drama_priority": "P0"
+    },
+    {
+      "chapter": "第二章 谪仙人",
+      "line": 150,
+      "short_drama_priority": "P1"
+    },
+    {
+      "chapter": "第三章 傀儡英雄",
+      "line": 305,
+      "short_drama_priority": "P1"
+    },
+    {
+      "chapter": "第四章 水妖龙女",
+      "line": 462,
+      "short_drama_priority": "P1"
+    },
+    {
+      "chapter": "第五章 大荒游侠",
+      "line": 610,
+      "short_drama_priority": "P1"
+    },
+    {
+      "chapter": "第六章 妖夜风云",
+      "line": 722,
+      "short_drama_priority": "P1"
+    }
+  ]
+}

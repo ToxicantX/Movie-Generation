@@ -1,0 +1,9 @@
+{
+  "updated": "2026-06-12T14:09:00",
+  "segment_id": "SSJ_EP02_SC22",
+  "shot_id": "TEST_SSJ_EP02_SC22_SH02",
+  "failed_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC22_SH02_v001_00001_.png",
+  "approved_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC22_SH02_v001_00002_.png",
+  "issue": "Initial version read too much like Tuobaye controlling or dragging through the whip itself, which weakened the intended hidden-aid-assisted rough counterattack beat.",
+  "resolution": "Approved regenerated version shifts the read to a direct battered palm/body strike that lands after the hidden pull, while keeping Tuobaye visibly wounded and off-balance."
+}

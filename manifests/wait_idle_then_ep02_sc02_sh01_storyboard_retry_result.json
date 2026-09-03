@@ -1,0 +1,48 @@
+{
+    "updated":  "2026-06-09T11:07:29",
+    "comfy_url":  "http://127.0.0.1:8188",
+    "command":  "powershell -ExecutionPolicy Bypass -File E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\run_image_workflow_and_wait.ps1 -WorkflowPath E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc02_sh01_storyboard_v001_noref_retry.json -ShotId TEST_SSJ_EP02_SC02_SH01 -ResultPath E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc02_sh01_storyboard_noref_retry_run_result_v2.json -PollSeconds 5 -MaxPolls 180",
+    "status":  "success",
+    "polls":  [
+                  {
+                      "poll":  1,
+                      "time":  "2026-06-09T11:07:29",
+                      "running":  1,
+                      "pending":  0
+                  },
+                  {
+                      "poll":  2,
+                      "time":  "2026-06-09T11:07:49",
+                      "running":  1,
+                      "pending":  0
+                  },
+                  {
+                      "poll":  3,
+                      "time":  "2026-06-09T11:08:09",
+                      "running":  0,
+                      "pending":  0
+                  }
+              ],
+    "command_exit_code":  0,
+    "command_output":  [
+                           "{",
+                           "    \"updated\":  \"2026-06-09T11:08:09\",",
+                           "    \"shot_id\":  \"TEST_SSJ_EP02_SC02_SH01\",",
+                           "    \"workflow_path\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc02_sh01_storyboard_v001_noref_retry.json\",",
+                           "    \"prompt_id\":  \"2b0b8c37-d18f-48dc-a330-9c1b61de711f\",",
+                           "    \"status\":  \"success\",",
+                           "    \"completed\":  true,",
+                           "    \"submit_output\":  [",
+                           "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc02_sh01_storyboard_v001_noref_retry.json -\\u003e prompt_id=2b0b8c37-d18f-48dc-a330-9c1b61de711f\"",
+                           "                      ],",
+                           "    \"wait_result\":  {",
+                           "                        \"prompt_id\":  \"2b0b8c37-d18f-48dc-a330-9c1b61de711f\",",
+                           "                        \"status\":  \"success\",",
+                           "                        \"completed\":  true,",
+                           "                        \"error\":  null",
+                           "                    },",
+                           "    \"error\":  null",
+                           "}"
+                       ],
+    "error":  null
+}

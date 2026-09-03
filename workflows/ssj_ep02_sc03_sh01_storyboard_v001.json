@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input EP02 SC02 gate-and-warband storyboard as continuity for the blocked lower route. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 widescreen. Dusk deepening into night at the pine-wood gate of Yuping peak; black-clad guards form a sealed circle at the lower gate and mossy stone stair, no readable plaque or signs. Adult Tuobaye age 28 to 32 watches from a hidden boulder with the friendly white dragon-deer beside him; preserve rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, and plain dark blunt rectangular edgeless Wufeng iron object tied low. The white dragon-deer turns its head toward the western side peak, ears alert, showing it has found another path. Qingdi remains unseen. Suspenseful Chinese short-drama visual style, no captions, no subtitles, no readable text, no English words, no speech bubbles, no combat, no gore, no injury.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC02_SH04_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC03_SH01_v001"
+                                        }
+                         }
+               }
+}

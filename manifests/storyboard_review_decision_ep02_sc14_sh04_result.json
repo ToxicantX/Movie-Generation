@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T20:47:04",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc14.json",
+    "shot_id":  "TEST_SSJ_EP02_SC14_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "test-mode auto-pass: hidden-wait composition works and visitors remain secondary",
+    "notes":  "Production caveat: courtyard gate framing is strong, so downstream video must be watched for hallucinated plaques or readable calligraphy.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

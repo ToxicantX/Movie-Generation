@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-12T06:28:00",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC20_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; shocked aftermath beat remains readable and Tuobaye does not drift into triumph."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC20_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Keshadu suspicion beat is readable and preserves role separation."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC20_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; approved regenerated version keeps the no-edge sword as a dangerous broken reveal rather than a hero trophy."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC20_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; approved regenerated version keeps Tuobaye overmatched and the white-clothed woman quietly displeased."
+    }
+  ]
+}

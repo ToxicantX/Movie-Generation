@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc27_storyboard_review.json",
+  "output_path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC27_technical_preview_cut.mp4",
+  "sources": [
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC27_SH01_technical_still_fallback_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    },
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC27_SH02_technical_still_fallback_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    },
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC27_SH03_technical_still_fallback_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    },
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC27_SH04_technical_still_fallback_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    }
+  ],
+  "frame_count": 960,
+  "fps": 24.0,
+  "size": [
+    1280,
+    720
+  ],
+  "bytes": 21647633
+}

@@ -1,0 +1,8 @@
+{
+  "updated": "2026-06-10T23:21:29",
+  "stage_name": "允许生成漫画",
+  "enabled": false,
+  "status": "waiting",
+  "note": "smoke test: generation switch closed",
+  "next_action": "open this switch after review"
+}

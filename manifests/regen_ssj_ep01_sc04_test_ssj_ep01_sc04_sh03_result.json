@@ -1,0 +1,19 @@
+{
+    "updated":  "2026-06-08T18:28:33",
+    "shot_id":  "TEST_SSJ_EP01_SC04_SH03",
+    "mode":  "image_to_video_with_storyboard_image_path",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh03_i2v_v001.json",
+    "prompt_id":  "c911151c-156a-44e6-a55b-acad816ad8bd",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh03_i2v_v001.json -\u003e prompt_id=c911151c-156a-44e6-a55b-acad816ad8bd"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "c911151c-156a-44e6-a55b-acad816ad8bd",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

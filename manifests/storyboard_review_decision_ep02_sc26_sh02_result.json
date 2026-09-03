@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T02:43:24",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc26.json",
+    "shot_id":  "TEST_SSJ_EP02_SC26_SH02",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Shisilang\u0027s wounded pride now reads as unraveling control rather than just ordinary anger.",
+    "notes":  "Codex visual precheck: SH02 works as the unraveling-pride beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

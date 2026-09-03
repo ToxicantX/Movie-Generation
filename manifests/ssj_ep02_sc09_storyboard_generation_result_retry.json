@@ -1,0 +1,347 @@
+{
+    "updated":  "2026-06-09T17:57:23",
+    "workflow_create_result_path":  ".\\manifests\\ssj_ep02_sc09_workflow_create_result.json",
+    "skip_existing":  true,
+    "force_no_reference":  false,
+    "run_count":  4,
+    "completed_count":  4,
+    "fallback_count":  2,
+    "runs":  [
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC09_SH01",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC09_SH01_v001_00001_.png",
+                     "skipped_existing":  true,
+                     "primary":  null,
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc09_sh01_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC09_SH02",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC09_SH02_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc09_sh02_storyboard_run_result.json",
+                                     "exit_code":  1,
+                                     "output_tail":  [
+                                                         "    \"completed\":  false,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc09_sh02_storyboard_v001.json -\\u003e prompt_id=bbb1a5ef-c892-497b-8830-ef2bd27a876b\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"bbb1a5ef-c892-497b-8830-ef2bd27a876b\",",
+                                                         "                        \"status\":  \"error\",",
+                                                         "                        \"completed\":  false,",
+                                                         "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"code\\\":\\\"server_error\\\",\\\"message\\\":\\\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID e26a3eb3-f68d-4715-bdfb-7597ff5399b8 in your message.\\\",\\\"type\\\":\\\"server_error\\\"}}\\n\"",
+                                                         "                    },",
+                                                         "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"code\\\":\\\"server_error\\\",\\\"message\\\":\\\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID e26a3eb3-f68d-4715-bdfb-7597ff5399b8 in your message.\\\",\\\"type\\\":\\\"server_error\\\"}}\\n\"",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T17:35:54",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC09_SH02",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001.json",
+                                                        "prompt_id":  "bbb1a5ef-c892-497b-8830-ef2bd27a876b",
+                                                        "status":  "error",
+                                                        "completed":  false,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001.json -\u003e prompt_id=bbb1a5ef-c892-497b-8830-ef2bd27a876b"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "bbb1a5ef-c892-497b-8830-ef2bd27a876b",
+                                                                            "status":  "error",
+                                                                            "completed":  false,
+                                                                            "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID e26a3eb3-f68d-4715-bdfb-7597ff5399b8 in your message.\",\"type\":\"server_error\"}}\n"
+                                                                        },
+                                                        "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID e26a3eb3-f68d-4715-bdfb-7597ff5399b8 in your message.\",\"type\":\"server_error\"}}\n"
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  1,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  false,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc09_sh02_storyboard_v001.json -\\u003e prompt_id=bbb1a5ef-c892-497b-8830-ef2bd27a876b\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"bbb1a5ef-c892-497b-8830-ef2bd27a876b\",",
+                                                                              "                        \"status\":  \"error\",",
+                                                                              "                        \"completed\":  false,",
+                                                                              "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"code\\\":\\\"server_error\\\",\\\"message\\\":\\\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID e26a3eb3-f68d-4715-bdfb-7597ff5399b8 in your message.\\\",\\\"type\\\":\\\"server_error\\\"}}\\n\"",
+                                                                              "                    },",
+                                                                              "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"code\\\":\\\"server_error\\\",\\\"message\\\":\\\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID e26a3eb3-f68d-4715-bdfb-7597ff5399b8 in your message.\\\",\\\"type\\\":\\\"server_error\\\"}}\\n\"",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID e26a3eb3-f68d-4715-bdfb-7597ff5399b8 in your message.\",\"type\":\"server_error\"}}\n",
+                                                          "ok":  false
+                                                      }
+                                                  ],
+                                     "ok":  false
+                                 },
+                     "fallback":  {
+                                      "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json",
+                                      "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc09_sh02_storyboard_noref_retry_run_result.json",
+                                      "exit_code":  0,
+                                      "output_tail":  [
+                                                          "    \"completed\":  true,",
+                                                          "    \"submit_output\":  [",
+                                                          "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json -\\u003e prompt_id=87244bfb-e6a5-481a-b744-1715ef58cf93\"",
+                                                          "                      ],",
+                                                          "    \"wait_result\":  {",
+                                                          "                        \"prompt_id\":  \"87244bfb-e6a5-481a-b744-1715ef58cf93\",",
+                                                          "                        \"status\":  \"success\",",
+                                                          "                        \"completed\":  true,",
+                                                          "                        \"error\":  null",
+                                                          "                    },",
+                                                          "    \"error\":  null",
+                                                          "}"
+                                                      ],
+                                      "run_result":  {
+                                                         "updated":  "2026-06-09T17:39:00",
+                                                         "shot_id":  "TEST_SSJ_EP02_SC09_SH02",
+                                                         "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json",
+                                                         "prompt_id":  "87244bfb-e6a5-481a-b744-1715ef58cf93",
+                                                         "status":  "success",
+                                                         "completed":  true,
+                                                         "submit_output":  [
+                                                                               "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json -\u003e prompt_id=87244bfb-e6a5-481a-b744-1715ef58cf93"
+                                                                           ],
+                                                         "wait_result":  {
+                                                                             "prompt_id":  "87244bfb-e6a5-481a-b744-1715ef58cf93",
+                                                                             "status":  "success",
+                                                                             "completed":  true,
+                                                                             "error":  null
+                                                                         },
+                                                         "error":  null
+                                                     },
+                                      "attempts":  [
+                                                       {
+                                                           "attempt":  1,
+                                                           "exit_code":  0,
+                                                           "output_tail":  [
+                                                                               "    \"completed\":  true,",
+                                                                               "    \"submit_output\":  [",
+                                                                               "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json -\\u003e prompt_id=87244bfb-e6a5-481a-b744-1715ef58cf93\"",
+                                                                               "                      ],",
+                                                                               "    \"wait_result\":  {",
+                                                                               "                        \"prompt_id\":  \"87244bfb-e6a5-481a-b744-1715ef58cf93\",",
+                                                                               "                        \"status\":  \"success\",",
+                                                                               "                        \"completed\":  true,",
+                                                                               "                        \"error\":  null",
+                                                                               "                    },",
+                                                                               "    \"error\":  null",
+                                                                               "}"
+                                                                           ],
+                                                           "error":  null,
+                                                           "ok":  true
+                                                       }
+                                                   ],
+                                      "ok":  true
+                                  },
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json",
+                     "completed":  true,
+                     "fallback_used":  true
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC09_SH03",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC09_SH03_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc09_sh03_storyboard_run_result.json",
+                                     "exit_code":  1,
+                                     "output_tail":  [
+                                                         "    \"completed\":  false,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc09_sh03_storyboard_v001.json -\\u003e prompt_id=b4eb30eb-2a6b-4d6f-8ee8-5fe7621f3d99\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"b4eb30eb-2a6b-4d6f-8ee8-5fe7621f3d99\",",
+                                                         "                        \"status\":  \"error\",",
+                                                         "                        \"completed\":  false,",
+                                                         "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"code\\\":\\\"server_error\\\",\\\"message\\\":\\\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f555d1a4-15aa-4599-af68-fe71b084380e in your message.\\\",\\\"type\\\":\\\"server_error\\\"}}\\n\"",
+                                                         "                    },",
+                                                         "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"code\\\":\\\"server_error\\\",\\\"message\\\":\\\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f555d1a4-15aa-4599-af68-fe71b084380e in your message.\\\",\\\"type\\\":\\\"server_error\\\"}}\\n\"",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T17:44:16",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC09_SH03",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001.json",
+                                                        "prompt_id":  "b4eb30eb-2a6b-4d6f-8ee8-5fe7621f3d99",
+                                                        "status":  "error",
+                                                        "completed":  false,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001.json -\u003e prompt_id=b4eb30eb-2a6b-4d6f-8ee8-5fe7621f3d99"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "b4eb30eb-2a6b-4d6f-8ee8-5fe7621f3d99",
+                                                                            "status":  "error",
+                                                                            "completed":  false,
+                                                                            "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f555d1a4-15aa-4599-af68-fe71b084380e in your message.\",\"type\":\"server_error\"}}\n"
+                                                                        },
+                                                        "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f555d1a4-15aa-4599-af68-fe71b084380e in your message.\",\"type\":\"server_error\"}}\n"
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  1,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  false,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc09_sh03_storyboard_v001.json -\\u003e prompt_id=b4eb30eb-2a6b-4d6f-8ee8-5fe7621f3d99\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"b4eb30eb-2a6b-4d6f-8ee8-5fe7621f3d99\",",
+                                                                              "                        \"status\":  \"error\",",
+                                                                              "                        \"completed\":  false,",
+                                                                              "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"code\\\":\\\"server_error\\\",\\\"message\\\":\\\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f555d1a4-15aa-4599-af68-fe71b084380e in your message.\\\",\\\"type\\\":\\\"server_error\\\"}}\\n\"",
+                                                                              "                    },",
+                                                                              "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"code\\\":\\\"server_error\\\",\\\"message\\\":\\\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f555d1a4-15aa-4599-af68-fe71b084380e in your message.\\\",\\\"type\\\":\\\"server_error\\\"}}\\n\"",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  "Image API error 502: {\"error\":{\"code\":\"server_error\",\"message\":\"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID f555d1a4-15aa-4599-af68-fe71b084380e in your message.\",\"type\":\"server_error\"}}\n",
+                                                          "ok":  false
+                                                      }
+                                                  ],
+                                     "ok":  false
+                                 },
+                     "fallback":  {
+                                      "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001_noref_retry.json",
+                                      "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc09_sh03_storyboard_noref_retry_run_result.json",
+                                      "exit_code":  0,
+                                      "output_tail":  [
+                                                          "    \"completed\":  true,",
+                                                          "    \"submit_output\":  [",
+                                                          "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc09_sh03_storyboard_v001_noref_retry.json -\\u003e prompt_id=5f67fc45-bc95-4558-a825-ee81f7347e5d\"",
+                                                          "                      ],",
+                                                          "    \"wait_result\":  {",
+                                                          "                        \"prompt_id\":  \"5f67fc45-bc95-4558-a825-ee81f7347e5d\",",
+                                                          "                        \"status\":  \"success\",",
+                                                          "                        \"completed\":  true,",
+                                                          "                        \"error\":  null",
+                                                          "                    },",
+                                                          "    \"error\":  null",
+                                                          "}"
+                                                      ],
+                                      "run_result":  {
+                                                         "updated":  "2026-06-09T17:48:12",
+                                                         "shot_id":  "TEST_SSJ_EP02_SC09_SH03",
+                                                         "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001_noref_retry.json",
+                                                         "prompt_id":  "5f67fc45-bc95-4558-a825-ee81f7347e5d",
+                                                         "status":  "success",
+                                                         "completed":  true,
+                                                         "submit_output":  [
+                                                                               "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001_noref_retry.json -\u003e prompt_id=5f67fc45-bc95-4558-a825-ee81f7347e5d"
+                                                                           ],
+                                                         "wait_result":  {
+                                                                             "prompt_id":  "5f67fc45-bc95-4558-a825-ee81f7347e5d",
+                                                                             "status":  "success",
+                                                                             "completed":  true,
+                                                                             "error":  null
+                                                                         },
+                                                         "error":  null
+                                                     },
+                                      "attempts":  [
+                                                       {
+                                                           "attempt":  1,
+                                                           "exit_code":  0,
+                                                           "output_tail":  [
+                                                                               "    \"completed\":  true,",
+                                                                               "    \"submit_output\":  [",
+                                                                               "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc09_sh03_storyboard_v001_noref_retry.json -\\u003e prompt_id=5f67fc45-bc95-4558-a825-ee81f7347e5d\"",
+                                                                               "                      ],",
+                                                                               "    \"wait_result\":  {",
+                                                                               "                        \"prompt_id\":  \"5f67fc45-bc95-4558-a825-ee81f7347e5d\",",
+                                                                               "                        \"status\":  \"success\",",
+                                                                               "                        \"completed\":  true,",
+                                                                               "                        \"error\":  null",
+                                                                               "                    },",
+                                                                               "    \"error\":  null",
+                                                                               "}"
+                                                                           ],
+                                                           "error":  null,
+                                                           "ok":  true
+                                                       }
+                                                   ],
+                                      "ok":  true
+                                  },
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001_noref_retry.json",
+                     "completed":  true,
+                     "fallback_used":  true
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC09_SH04",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC09_SH04_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh04_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc09_sh04_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc09_sh04_storyboard_v001.json -\\u003e prompt_id=fb2cb93a-f096-401b-9f57-11b92d96f30e\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"fb2cb93a-f096-401b-9f57-11b92d96f30e\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T17:52:43",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC09_SH04",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh04_storyboard_v001.json",
+                                                        "prompt_id":  "fb2cb93a-f096-401b-9f57-11b92d96f30e",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc09_sh04_storyboard_v001.json -\u003e prompt_id=fb2cb93a-f096-401b-9f57-11b92d96f30e"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "fb2cb93a-f096-401b-9f57-11b92d96f30e",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "attempts":  [
+                                                      {
+                                                          "attempt":  1,
+                                                          "exit_code":  0,
+                                                          "output_tail":  [
+                                                                              "    \"completed\":  true,",
+                                                                              "    \"submit_output\":  [",
+                                                                              "                          \".\\\\workflows\\\\ssj_ep02_sc09_sh04_storyboard_v001.json -\\u003e prompt_id=fb2cb93a-f096-401b-9f57-11b92d96f30e\"",
+                                                                              "                      ],",
+                                                                              "    \"wait_result\":  {",
+                                                                              "                        \"prompt_id\":  \"fb2cb93a-f096-401b-9f57-11b92d96f30e\",",
+                                                                              "                        \"status\":  \"success\",",
+                                                                              "                        \"completed\":  true,",
+                                                                              "                        \"error\":  null",
+                                                                              "                    },",
+                                                                              "    \"error\":  null",
+                                                                              "}"
+                                                                          ],
+                                                          "error":  null,
+                                                          "ok":  true
+                                                      }
+                                                  ],
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc09_sh04_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 }
+             ],
+    "ok":  true
+}

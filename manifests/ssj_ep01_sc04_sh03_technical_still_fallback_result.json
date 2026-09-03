@@ -1,0 +1,19 @@
+{
+    "updated":  "2026-06-08T17:30:18",
+    "shot_id":  "TEST_SSJ_EP01_SC04_SH03",
+    "mode":  "comfy_still_frame_technical_fallback",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh03_technical_still_fallback_v001.json",
+    "prompt_id":  "d1f352a1-9538-40ff-9720-a9d183c9ef65",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh03_technical_still_fallback_v001.json -\u003e prompt_id=d1f352a1-9538-40ff-9720-a9d183c9ef65"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "d1f352a1-9538-40ff-9720-a9d183c9ef65",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

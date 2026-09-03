@@ -1,0 +1,38 @@
+{
+  "updated": "2026-06-09T18:08:18",
+  "reviewer": "Codex test-mode auto confirmation; user authorized auto-pass when absent on 2026-06-09",
+  "global_decision": "approved_for_episode_cut",
+  "language_policy": {
+    "mode": "silent_visual_generation",
+    "rule": "Do not synthesize speech, flute/xiao audio, sound effects, captions/subtitles/readable text, or English words. Chinese narration, dialogue, sound design, and subtitles are added later during editing."
+  },
+  "known_quality_notes": [
+    "Test-mode pass only; production review must replace all four SC09 videos with true I2V outputs before release.",
+    "All four SC09 videos are technical still fallback clips because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing.",
+    "SH02 storyboard used no-reference retry after image API 429; woman costume is darker than target white and should be regenerated for production.",
+    "SH03 storyboard is strong for white dragon-deer consistency.",
+    "SH04 Wufeng prop is less prominent, but the emotional resolve beat is usable for pipeline validation."
+  ],
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; woman noticing Wufeng beat is usable for pipeline continuity."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Wufeng explanation beat is usable, with production caveat on woman costume color drift."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; white dragon-deer proud step beat is visually strong for pipeline validation."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; internal-power embarrassment and resolve beat is usable."
+    }
+  ]
+}

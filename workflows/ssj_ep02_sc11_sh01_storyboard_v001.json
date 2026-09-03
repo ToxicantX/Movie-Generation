@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input SC10 grief storyboard as emotional continuity for the adult white-clothed woman, adult Tuobaye, moonlit lake, bamboo, mist, and broken Wufeng. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 respectful medium two-character composition. Adult Tuobaye age 28 to 32 in rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, and right-waist green bamboo sheath leans forward anxiously with both hands partly open, silently willing to return the broken Wufeng to the woman. The adult white-clothed woman remains fully clothed, calm, gentle but sorrowful, holding or facing the broken plain blue-grey sword without dramatic romance-body emphasis. Keep the sword broken, simple, and non-ornamental; no readable marks. No captions, no subtitles, no readable Chinese characters, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH04_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC11_SH01_v001"
+                                        }
+                         }
+               }
+}

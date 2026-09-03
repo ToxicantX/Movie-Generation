@@ -1,0 +1,11 @@
+{
+  "updated": "2026-06-10T23:21:29",
+  "completed": true,
+  "blocked": false,
+  "waiting": true,
+  "stage": "generate_batch",
+  "episode_number": 3,
+  "waiting_reason": "approval_switch_closed",
+  "next_action": "review the draft, then open the approval switch",
+  "result_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\comfy_modular_switch_smoke_generation.json"
+}

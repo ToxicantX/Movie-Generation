@@ -1,0 +1,88 @@
+{
+    "project":  "AI鐭墽鐢熸垚宸ュ巶",
+    "source":  "搜神记 第一卷 第一章 神农使者",
+    "review_schema":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\consistency_review_schema.json",
+    "segment_id":  "SSJ_EP01_SC03",
+    "beat_id":  "C01_B07",
+    "title":  "Dragon pool ordeal and awakening",
+    "updated":  "2026-06-08",
+    "global_decision":  "pending_storyboard_human_review",
+    "global_reason":  "All storyboard frames were generated and need human review before I2V.",
+    "shots":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC03_SH01",
+                      "title":  "Arrival at the dragon pool",
+                      "beat":  "C01_B07",
+                      "duration_seconds":  "8-10",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC03_SH01_v001_00001_.png",
+                      "storyboard_filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC03_SH01_v001",
+                      "video_filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC03_SH01_i2v_v001",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh01_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh01_i2v_v001.json",
+                      "video_path":  null,
+                      "preferred_video_mode":  "image_to_video_required",
+                      "status":  "storyboard_generated_pending_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth."
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC03_SH02",
+                      "title":  "Shennong Dan awakening and Wufeng sword",
+                      "beat":  "C01_B07",
+                      "duration_seconds":  "8-10",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC03_SH02_v001_00001_.png",
+                      "storyboard_filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC03_SH02_v001",
+                      "video_filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC03_SH02_i2v_v001",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh02_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh02_i2v_v001.json",
+                      "video_path":  null,
+                      "preferred_video_mode":  "image_to_video_required",
+                      "status":  "storyboard_generated_pending_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth."
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC03_SH03",
+                      "title":  "White dragon-deer reveal",
+                      "beat":  "C01_B07",
+                      "duration_seconds":  "8-10",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC03_SH03_v001_00001_.png",
+                      "storyboard_filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC03_SH03_v001",
+                      "video_filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC03_SH03_i2v_v001",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh03_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh03_i2v_v001.json",
+                      "video_path":  null,
+                      "preferred_video_mode":  "image_to_video_required",
+                      "status":  "storyboard_generated_pending_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth."
+                  }
+              ]
+}

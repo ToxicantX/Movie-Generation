@@ -1,0 +1,78 @@
+{
+    "updated":  "2026-06-09T00:35:21",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\human_review_decisions_ep01.json",
+    "review_paths":  [
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json"
+                     ],
+    "allow_technical_fallback_pass":  false,
+    "allow_stale_current_status":  false,
+    "counts":  {
+                   "pending":  0,
+                   "pass":  16,
+                   "needs_regeneration":  0,
+                   "blocked":  0
+               },
+    "review_count":  5,
+    "decision_count":  16,
+    "segment_decision_count":  12,
+    "segment_pass_count":  12,
+    "invalid_count":  0,
+    "missing_count":  0,
+    "stale_count":  0,
+    "unsafe_pass_count":  0,
+    "warning_count":  0,
+    "ready_for_apply":  true,
+    "formal_segments_all_marked_pass":  true,
+    "reviews":  [
+                    {
+                        "review_id":  "SSJ_EP01_SC01",
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                        "global_decision":  "pending_human_consistency_review",
+                        "shot_count":  3
+                    },
+                    {
+                        "review_id":  "SSJ_EP01_SC02",
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                        "global_decision":  "pending_human_consistency_review",
+                        "shot_count":  3
+                    },
+                    {
+                        "review_id":  "SSJ_EP01_SC03",
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                        "global_decision":  "pending_human_consistency_review",
+                        "shot_count":  3
+                    },
+                    {
+                        "review_id":  "SSJ_EP01_SC04",
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+                        "global_decision":  "pending_human_consistency_review",
+                        "shot_count":  3
+                    },
+                    {
+                        "review_id":  "SSJ_EP01_TECHNICAL_ROUGH_CUT",
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json",
+                        "global_decision":  "pending_human_consistency_review",
+                        "shot_count":  4
+                    }
+                ],
+    "invalid":  [
+
+                ],
+    "missing":  [
+
+                ],
+    "stale":  [
+
+              ],
+    "unsafe_passes":  [
+
+                      ],
+    "warnings":  [
+
+                 ],
+    "ok":  true
+}

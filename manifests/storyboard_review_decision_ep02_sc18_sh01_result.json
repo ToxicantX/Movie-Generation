@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T01:34:54",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc18.json",
+    "shot_id":  "TEST_SSJ_EP02_SC18_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: false-authority stop command reads clearly and gate geography is intact",
+    "notes":  "Production caveat: keep Tuobaye as bluffing under pressure, not as a composed martial authority.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

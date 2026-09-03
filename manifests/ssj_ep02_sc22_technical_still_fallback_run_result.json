@@ -1,0 +1,62 @@
+{
+  "updated": "2026-06-12T14:16:05",
+  "mode": "technical_still_fallback_comfy_node",
+  "comfy_url": "http://127.0.0.1:8188",
+  "workflow_paths": [
+    "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh01_technical_still_fallback_v001.json",
+    "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh02_technical_still_fallback_v001.json",
+    "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh03_technical_still_fallback_v001.json",
+    "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh04_technical_still_fallback_v001.json"
+  ],
+  "runs": [
+    {
+      "workflow_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh01_technical_still_fallback_v001.json",
+      "prompt_id": "6c91bf84-c459-44c4-a296-221b4e3eebb3",
+      "wait": {
+        "prompt_id": "6c91bf84-c459-44c4-a296-221b4e3eebb3",
+        "status": "success",
+        "completed": true,
+        "error": null
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "workflow_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh02_technical_still_fallback_v001.json",
+      "prompt_id": "289a18a5-0af9-4e94-bc31-f0d79ff7bede",
+      "wait": {
+        "prompt_id": "289a18a5-0af9-4e94-bc31-f0d79ff7bede",
+        "status": "success",
+        "completed": true,
+        "error": null
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "workflow_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh03_technical_still_fallback_v001.json",
+      "prompt_id": "c56e1a3b-e9d9-4d40-b4f2-da2b2b71a37e",
+      "wait": {
+        "prompt_id": "c56e1a3b-e9d9-4d40-b4f2-da2b2b71a37e",
+        "status": "success",
+        "completed": true,
+        "error": null
+      },
+      "ok": true,
+      "error": null
+    },
+    {
+      "workflow_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh04_technical_still_fallback_v001.json",
+      "prompt_id": "bb3f075a-b535-47a2-9b99-f718b716fc93",
+      "wait": {
+        "prompt_id": "bb3f075a-b535-47a2-9b99-f718b716fc93",
+        "status": "success",
+        "completed": true,
+        "error": null
+      },
+      "ok": true,
+      "error": null
+    }
+  ],
+  "ok": true
+}

@@ -1,0 +1,38 @@
+{
+  "updated": "2026-06-09T17:25:45",
+  "reviewer": "Codex test-mode auto confirmation; user authorized auto-pass when absent on 2026-06-09",
+  "global_decision": "approved_for_episode_cut",
+  "language_policy": {
+    "mode": "silent_visual_generation",
+    "rule": "Do not synthesize speech, xiao/flute audio, heartbeat audio, or generate captions/subtitles/readable text. No English words. Chinese narration, dialogue, sound design, and subtitles are added later during editing."
+  },
+  "known_quality_notes": [
+    "Test-mode pass only; production review must replace all four SC08 videos with true I2V outputs before release.",
+    "All four SC08 videos are technical still fallback clips because the current Gemini-API contract rejects experimental mode=video with file_ids.",
+    "Runway live I2V was not available because RUNWAYML_API_SECRET is missing.",
+    "Storyboards are usable for pipeline validation: SH01/SH04 used no-reference fallback after upstream Image API 502; SH02/SH03 used primary storyboard workflows.",
+    "Keep I2V silent/no-caption/no-readable-text; Chinese dialogue and sound design are deferred to editing."
+  ],
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC08_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; white-clothed woman question beat is usable for pipeline continuity."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC08_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Tuobaye stunned reaction and fallen bamboo flute beat are usable for pipeline continuity."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC08_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; encounter layout with woman, Tuobaye, and white dragon-deer is usable for pipeline continuity."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC08_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; awkward-composure beat is usable, but Tuobaye consistency should be reviewed for production."
+    }
+  ]
+}

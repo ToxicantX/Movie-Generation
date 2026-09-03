@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-09T18:33:09",
+    "shot_id":  "TEST_SSJ_EP02_SC10_SH04",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json",
+    "prompt_id":  "0ba5fb13-ba23-4b39-b731-3a7433c1721a",
+    "status":  "error",
+    "completed":  false,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001_noref_retry.json -\u003e prompt_id=0ba5fb13-ba23-4b39-b731-3a7433c1721a"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "0ba5fb13-ba23-4b39-b731-3a7433c1721a",
+                        "status":  "error",
+                        "completed":  false,
+                        "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream authentication failed, please contact administrator\",\"type\":\"upstream_error\"}}\n"
+                    },
+    "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream authentication failed, please contact administrator\",\"type\":\"upstream_error\"}}\n"
+}

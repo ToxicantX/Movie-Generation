@@ -1,0 +1,237 @@
+{
+    "updated":  "2026-06-09T17:34:44",
+    "workflow_create_result_path":  ".\\manifests\\ssj_ep02_sc09_workflow_create_result.json",
+    "skip_existing":  true,
+    "force_no_reference":  false,
+    "run_count":  4,
+    "completed_count":  1,
+    "fallback_count":  1,
+    "runs":  [
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC09_SH01",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC09_SH01_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh01_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc09_sh01_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc09_sh01_storyboard_v001.json -\\u003e prompt_id=32e6372e-eb8f-4a68-baec-d15b491d2a7b\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"32e6372e-eb8f-4a68-baec-d15b491d2a7b\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T17:31:54",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC09_SH01",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh01_storyboard_v001.json",
+                                                        "prompt_id":  "32e6372e-eb8f-4a68-baec-d15b491d2a7b",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc09_sh01_storyboard_v001.json -\u003e prompt_id=32e6372e-eb8f-4a68-baec-d15b491d2a7b"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "32e6372e-eb8f-4a68-baec-d15b491d2a7b",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc09_sh01_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC09_SH02",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC09_SH02_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc09_sh02_storyboard_run_result.json",
+                                     "exit_code":  1,
+                                     "output_tail":  [
+                                                         "    \"completed\":  false,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc09_sh02_storyboard_v001.json -\\u003e prompt_id=d35b3c65-84b3-43c3-bba8-d877767e0618\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"d35b3c65-84b3-43c3-bba8-d877767e0618\",",
+                                                         "                        \"status\":  \"error\",",
+                                                         "                        \"completed\":  false,",
+                                                         "                        \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"Upstream rate limit exceeded, please retry later\\\",\\\"type\\\":\\\"rate_limit_error\\\"}}\\n\"",
+                                                         "                    },",
+                                                         "    \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"Upstream rate limit exceeded, please retry later\\\",\\\"type\\\":\\\"rate_limit_error\\\"}}\\n\"",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T17:34:10",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC09_SH02",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001.json",
+                                                        "prompt_id":  "d35b3c65-84b3-43c3-bba8-d877767e0618",
+                                                        "status":  "error",
+                                                        "completed":  false,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001.json -\u003e prompt_id=d35b3c65-84b3-43c3-bba8-d877767e0618"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "d35b3c65-84b3-43c3-bba8-d877767e0618",
+                                                                            "status":  "error",
+                                                                            "completed":  false,
+                                                                            "error":  "Image API error 429: {\"error\":{\"message\":\"Upstream rate limit exceeded, please retry later\",\"type\":\"rate_limit_error\"}}\n"
+                                                                        },
+                                                        "error":  "Image API error 429: {\"error\":{\"message\":\"Upstream rate limit exceeded, please retry later\",\"type\":\"rate_limit_error\"}}\n"
+                                                    },
+                                     "ok":  false
+                                 },
+                     "fallback":  {
+                                      "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json",
+                                      "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc09_sh02_storyboard_noref_retry_run_result.json",
+                                      "exit_code":  1,
+                                      "output_tail":  [
+                                                          "    \"completed\":  false,",
+                                                          "    \"submit_output\":  [",
+                                                          "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json -\\u003e prompt_id=0d86eccb-0e0c-4b50-8dce-c2e4239801a6\"",
+                                                          "                      ],",
+                                                          "    \"wait_result\":  {",
+                                                          "                        \"prompt_id\":  \"0d86eccb-0e0c-4b50-8dce-c2e4239801a6\",",
+                                                          "                        \"status\":  \"error\",",
+                                                          "                        \"completed\":  false,",
+                                                          "                        \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                          "                    },",
+                                                          "    \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                          "}"
+                                                      ],
+                                      "run_result":  {
+                                                         "updated":  "2026-06-09T17:34:26",
+                                                         "shot_id":  "TEST_SSJ_EP02_SC09_SH02",
+                                                         "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json",
+                                                         "prompt_id":  "0d86eccb-0e0c-4b50-8dce-c2e4239801a6",
+                                                         "status":  "error",
+                                                         "completed":  false,
+                                                         "submit_output":  [
+                                                                               "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json -\u003e prompt_id=0d86eccb-0e0c-4b50-8dce-c2e4239801a6"
+                                                                           ],
+                                                         "wait_result":  {
+                                                                             "prompt_id":  "0d86eccb-0e0c-4b50-8dce-c2e4239801a6",
+                                                                             "status":  "error",
+                                                                             "completed":  false,
+                                                                             "error":  "Image API error 429: {\"error\":{\"message\":\"group requests-per-minute limit exceeded\",\"type\":\"rate_limit_exceeded\"}}\n"
+                                                                         },
+                                                         "error":  "Image API error 429: {\"error\":{\"message\":\"group requests-per-minute limit exceeded\",\"type\":\"rate_limit_exceeded\"}}\n"
+                                                     },
+                                      "ok":  false
+                                  },
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json",
+                     "completed":  false,
+                     "fallback_used":  true
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC09_SH03",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC09_SH03_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc09_sh03_storyboard_run_result.json",
+                                     "exit_code":  1,
+                                     "output_tail":  [
+                                                         "    \"completed\":  false,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc09_sh03_storyboard_v001.json -\\u003e prompt_id=4c916a4d-3bc5-48a9-ac97-b372e27f329c\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"4c916a4d-3bc5-48a9-ac97-b372e27f329c\",",
+                                                         "                        \"status\":  \"error\",",
+                                                         "                        \"completed\":  false,",
+                                                         "                        \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                         "                    },",
+                                                         "    \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T17:34:32",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC09_SH03",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001.json",
+                                                        "prompt_id":  "4c916a4d-3bc5-48a9-ac97-b372e27f329c",
+                                                        "status":  "error",
+                                                        "completed":  false,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001.json -\u003e prompt_id=4c916a4d-3bc5-48a9-ac97-b372e27f329c"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "4c916a4d-3bc5-48a9-ac97-b372e27f329c",
+                                                                            "status":  "error",
+                                                                            "completed":  false,
+                                                                            "error":  "Image API error 429: {\"error\":{\"message\":\"group requests-per-minute limit exceeded\",\"type\":\"rate_limit_exceeded\"}}\n"
+                                                                        },
+                                                        "error":  "Image API error 429: {\"error\":{\"message\":\"group requests-per-minute limit exceeded\",\"type\":\"rate_limit_exceeded\"}}\n"
+                                                    },
+                                     "ok":  false
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001.json",
+                     "completed":  false,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC09_SH04",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC09_SH04_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh04_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc09_sh04_storyboard_run_result.json",
+                                     "exit_code":  1,
+                                     "output_tail":  [
+                                                         "    \"completed\":  false,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc09_sh04_storyboard_v001.json -\\u003e prompt_id=24278da7-6a71-4f3d-8c49-b703bf033489\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"24278da7-6a71-4f3d-8c49-b703bf033489\",",
+                                                         "                        \"status\":  \"error\",",
+                                                         "                        \"completed\":  false,",
+                                                         "                        \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                         "                    },",
+                                                         "    \"error\":  \"Image API error 429: {\\\"error\\\":{\\\"message\\\":\\\"group requests-per-minute limit exceeded\\\",\\\"type\\\":\\\"rate_limit_exceeded\\\"}}\\n\"",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T17:34:38",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC09_SH04",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc09_sh04_storyboard_v001.json",
+                                                        "prompt_id":  "24278da7-6a71-4f3d-8c49-b703bf033489",
+                                                        "status":  "error",
+                                                        "completed":  false,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc09_sh04_storyboard_v001.json -\u003e prompt_id=24278da7-6a71-4f3d-8c49-b703bf033489"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "24278da7-6a71-4f3d-8c49-b703bf033489",
+                                                                            "status":  "error",
+                                                                            "completed":  false,
+                                                                            "error":  "Image API error 429: {\"error\":{\"message\":\"group requests-per-minute limit exceeded\",\"type\":\"rate_limit_exceeded\"}}\n"
+                                                                        },
+                                                        "error":  "Image API error 429: {\"error\":{\"message\":\"group requests-per-minute limit exceeded\",\"type\":\"rate_limit_exceeded\"}}\n"
+                                                    },
+                                     "ok":  false
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc09_sh04_storyboard_v001.json",
+                     "completed":  false,
+                     "fallback_used":  false
+                 }
+             ],
+    "ok":  false
+}

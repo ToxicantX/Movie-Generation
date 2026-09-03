@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input adult Yushiqie reference as the respectful identity anchor for the adult white-clothed woman. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 solemn medium two-character composition. The adult white-clothed woman in pale white robes gives Tuobaye a quiet warning gesture, solemn and protective, implying he must hide the Wood Tribe divine sword; adult Tuobaye listens wide-eyed and grateful, one hand near the right-waist green bamboo sheath where the broken Wufeng now rests. The mood is ritual warning and protective concern, not romance emphasis. Do not show written labels, clan symbols, plaques, readable Chinese characters, English words, or subtitles. No speech bubbles, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC11_SH03_v001"
+                                        }
+                         }
+               }
+}

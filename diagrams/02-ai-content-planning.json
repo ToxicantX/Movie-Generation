@@ -1,0 +1,208 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "02 · AI 全文规划与确认",
+    "locale": "zh-CN",
+    "output": "diagrams/02-ai-content-planning.html",
+    "animation": "none",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "load",
+      "label": "加载项目全文"
+    },
+    {
+      "id": "api",
+      "label": "调用文本 API"
+    },
+    {
+      "id": "concept",
+      "label": "生成内容方案"
+    },
+    {
+      "id": "bible",
+      "label": "提取故事圣经"
+    },
+    {
+      "id": "plan",
+      "label": "生成内容规划"
+    },
+    {
+      "id": "confirm",
+      "label": "确认或调整规划"
+    }
+  ],
+  "semanticChecks": {
+    "allowedRoots": [
+      "load_project"
+    ],
+    "allowedTerminals": [
+      "human_confirm"
+    ],
+    "requiredPaths": [
+      {
+        "from": "load_project",
+        "to": "human_confirm"
+      },
+      {
+        "from": "text_api",
+        "to": "fallback_draft"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "load_project",
+      "lane": "load",
+      "col": 3,
+      "type": "database",
+      "label": "加载项目全文",
+      "sublabel": "来源 · 类型 · 风格",
+      "width": 132
+    },
+    {
+      "id": "text_api",
+      "lane": "api",
+      "col": 3,
+      "type": "cloud",
+      "label": "调用文本 API",
+      "sublabel": "OpenAI 兼容接口",
+      "width": 132
+    },
+    {
+      "id": "concept",
+      "lane": "concept",
+      "col": 3,
+      "type": "backend",
+      "label": "生成方案",
+      "sublabel": "主题 · 卖点 · 方向",
+      "width": 132
+    },
+    {
+      "id": "story_bible",
+      "lane": "bible",
+      "col": 3,
+      "width": 132,
+      "type": "database",
+      "label": "生成故事圣经",
+      "sublabel": "世界观 · 角色 · 场景"
+    },
+    {
+      "id": "content_plan",
+      "lane": "plan",
+      "col": 3,
+      "type": "backend",
+      "label": "生成内容规划",
+      "sublabel": "单元 · 集数 · 摘要",
+      "width": 132
+    },
+    {
+      "id": "human_confirm",
+      "lane": "confirm",
+      "col": 3,
+      "type": "security",
+      "label": "确认规划",
+      "sublabel": "锁定后续输入",
+      "tag": "人工",
+      "width": 132
+    },
+    {
+      "id": "fallback_draft",
+      "lane": "concept",
+      "col": 1,
+      "type": "messagebus",
+      "label": "规则草稿",
+      "sublabel": "明确标记 fallback",
+      "width": 132
+    },
+    {
+      "id": "revise_plan",
+      "lane": "confirm",
+      "col": 5,
+      "type": "frontend",
+      "label": "调整规划",
+      "sublabel": "修改配置或内容",
+      "width": 132
+    }
+  ],
+  "edges": [
+    {
+      "from": "load_project",
+      "to": "text_api",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "text_api",
+      "to": "concept",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "concept",
+      "to": "story_bible",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "story_bible",
+      "to": "content_plan",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "content_plan",
+      "to": "human_confirm",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "text_api",
+      "to": "fallback_draft",
+      "label": "未配置 / 失败",
+      "role": "error",
+      "variant": "security"
+    },
+    {
+      "from": "fallback_draft",
+      "to": "concept",
+      "label": "降级继续",
+      "role": "return"
+    },
+    {
+      "from": "human_confirm",
+      "to": "revise_plan",
+      "label": "退回",
+      "role": "error",
+      "variant": "security"
+    },
+    {
+      "from": "revise_plan",
+      "to": "text_api",
+      "label": "重新规划",
+      "role": "return",
+      "variant": "security"
+    }
+  ],
+  "mainPath": [
+    "load_project",
+    "text_api",
+    "concept",
+    "story_bible",
+    "content_plan",
+    "human_confirm"
+  ]
+}

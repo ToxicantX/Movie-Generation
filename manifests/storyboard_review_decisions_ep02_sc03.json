@@ -1,0 +1,72 @@
+{
+  "updated": "2026-06-09T12:37:14",
+  "reviewer": "Codex auto-pass test mode",
+  "instructions": "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+  "review_index": [
+    {
+      "review_id": "SSJ_EP02_SC03",
+      "review_path": ".\\manifests\\ssj_ep02_sc03_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC03_STORYBOARD\\human_review.md",
+      "global_decision": "pending_storyboard_human_review",
+      "shot_count": 4
+    }
+  ],
+  "decisions": [
+    {
+      "review_id": "SSJ_EP02_SC03",
+      "review_path": ".\\manifests\\ssj_ep02_sc03_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC03_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC03_SH01",
+      "title": "守卫封门，白龙鹿转向",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC03_SH01_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh01_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh01_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: guarded gate and white dragon-deer turn are clear; no readable text observed."
+    },
+    {
+      "review_id": "SSJ_EP02_SC03",
+      "review_path": ".\\manifests\\ssj_ep02_sc03_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC03_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC03_SH02",
+      "title": "西峰密林疾奔",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC03_SH02_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh02_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh02_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: uphill forest ride is clear and controlled; no readable text observed."
+    },
+    {
+      "review_id": "SSJ_EP02_SC03",
+      "review_path": ".\\manifests\\ssj_ep02_sc03_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC03_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC03_SH03",
+      "title": "月下峰顶对望玉屏",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC03_SH03_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh03_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh03_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: moonlit separated peaks and vista are strong; no readable text observed."
+    },
+    {
+      "review_id": "SSJ_EP02_SC03",
+      "review_path": ".\\manifests\\ssj_ep02_sc03_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC03_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC03_SH04",
+      "title": "千丈云海一跃",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC03_SH04_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh04_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc03_sh04_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: simplified leap composition is clean for I2V; monitor for motion artifacts in video."
+    }
+  ]
+}

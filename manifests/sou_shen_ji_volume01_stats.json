@@ -1,0 +1,44 @@
+[
+  {
+    "chapter": "第一章 神农使者",
+    "start_line": 9,
+    "end_line": 149,
+    "chars": 13195,
+    "top_mentions": "拓拔野:123, 神农:60, 青帝:4"
+  },
+  {
+    "chapter": "第二章 谪仙人",
+    "start_line": 150,
+    "end_line": 304,
+    "chars": 12327,
+    "top_mentions": "拓拔野:110, 青帝:39, 神农:20, 纤纤:1"
+  },
+  {
+    "chapter": "第三章 傀儡英雄",
+    "start_line": 305,
+    "end_line": 461,
+    "chars": 13295,
+    "top_mentions": "拓拔野:73, 青帝:65, 神农:5"
+  },
+  {
+    "chapter": "第四章 水妖龙女",
+    "start_line": 462,
+    "end_line": 609,
+    "chars": 12959,
+    "top_mentions": "拓拔野:101, 雨师妾:12, 青帝:12, 神农:7, 黑帝:1"
+  },
+  {
+    "chapter": "第五章 大荒游侠",
+    "start_line": 610,
+    "end_line": 721,
+    "chars": 12191,
+    "top_mentions": "雨师妾:85, 拓拔野:83, 神农:6, 青帝:4, 纤纤:2, 烈炎:1"
+  },
+  {
+    "chapter": "第六章 妖夜风云",
+    "start_line": 722,
+    "end_line": 856,
+    "chars": 13554,
+    "top_mentions": "拓拔野:59, 雨师妾:40, 纤纤:11, 黑帝:2, 西王母:1"
+  }
+]

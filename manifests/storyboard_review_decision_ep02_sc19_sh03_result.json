@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T03:01:00",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc19.json",
+    "shot_id":  "TEST_SSJ_EP02_SC19_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "needs_regeneration",
+    "reason":  "blocking characterization drift: Tuobaye looks too composed and heroic in midair instead of awkwardly panicked under invisible assistance",
+    "notes":  "Regenerate with strict awkward-lift logic: Tuobaye must look startled, off-balance, and involuntarily hoisted; no elegant aerial posture, no poised martial levitation, and white-clothed woman must remain subtle and grounded.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

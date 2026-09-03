@@ -1,0 +1,24 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input adult Yushiqie reference as identity anchor for the white-clothed woman. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 emotional medium close two-character composition. Back at moonlit Tianhu, the adult white-clothed woman in pale white robes hears of Shennong\u0027s Baicao poison death and the Chana Fanghua tune; her face remains restrained but her eyes glisten with sudden old grief. Adult Tuobaye stands nearby in rugged grey-brown clothes, worried and unsure what memory he has touched; the green bamboo flute and hidden right-waist bamboo sheath remain secondary props. Use moonlight, mist, bamboo, and lake reflections. No visible song title, no musical notes, no readable Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no signs, no plaques, no UI. No input reference image is attached in this retry because the reference-image edit endpoint failed; rely on the written character, creature, costume, prop, and location continuity locks. Keep the frame coherent and production-reviewable.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC12_SH04_v001"
+                                        }
+                         }
+               }
+}

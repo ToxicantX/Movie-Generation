@@ -1,0 +1,42 @@
+{
+    "updated":  "2026-06-08T23:23:37",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_storyboard_review_branches\\regen_storyboard_decisions.json",
+    "review_paths":  [
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_storyboard_review_branches\\regen_ssj_ep02_sc01_storyboard_review.json"
+                     ],
+    "counts":  {
+                   "pending":  2,
+                   "pass":  0,
+                   "needs_regeneration":  1,
+                   "blocked":  0
+               },
+    "review_count":  1,
+    "decision_count":  3,
+    "invalid_count":  0,
+    "missing_count":  0,
+    "stale_count":  0,
+    "warning_count":  0,
+    "ready_for_i2v_queue":  false,
+    "all_storyboards_reviewed":  false,
+    "reviews":  [
+                    {
+                        "review_id":  "SSJ_EP02_SC01",
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_storyboard_review_branches\\regen_ssj_ep02_sc01_storyboard_review.json",
+                        "global_decision":  "pending_storyboard_human_review",
+                        "shot_count":  3
+                    }
+                ],
+    "invalid":  [
+
+                ],
+    "missing":  [
+
+                ],
+    "stale":  [
+
+              ],
+    "warnings":  [
+
+                 ],
+    "ok":  true
+}

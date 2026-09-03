@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T10:08:11",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc33.json",
+    "shot_id":  "TEST_SSJ_EP02_SC33_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "The white-clothed woman\u0027s stillness now clearly feels on the edge of visible cracking.",
+    "notes":  "Codex visual precheck: SH04 works as the stillness-almost-cracking beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

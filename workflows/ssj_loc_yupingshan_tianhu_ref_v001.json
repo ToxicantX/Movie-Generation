@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "inputs": {
+        "prompt": "Moonlit heavenly lake on an ancient Chinese mythic mountain sanctuary, pine and bamboo reflections in clear water, austere wooden and bamboo pavilions, empty forbidden courtyard of a wood-element divine ruler, jade-green mist, faint purple incense smoke, carved cliff text in the distance, restrained authority, cinematic realistic fantasy drama location reference, vertical 9:16, no people, no text, no watermark",
+        "model": "gpt-image-2",
+        "size": "1024x1536",
+        "negative_prompt": "busy palace, golden dragon throne room, modern garden, tourist resort, western castle, city skyline, neon, sci-fi, crowd, people, text, logo, watermark"
+      },
+      "class_type": "OpenAICompatibleImageGenerate"
+    },
+    "2": {
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/locations/LOC_yupingshan_tianhu_ref_v001"
+      },
+      "class_type": "SaveImage"
+    }
+  }
+}

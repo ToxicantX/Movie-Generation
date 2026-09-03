@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T03:38:35",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc19.json",
+    "shot_id":  "TEST_SSJ_EP02_SC19_SH04",
+    "old_decision":  "needs_regeneration",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass after regeneration: accidental counter no longer reads as a polished martial kick",
+    "notes":  "Approved regenerated version preserves the surprised, uncontrolled feel of the hit. Use this approved image as the only downstream video source.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

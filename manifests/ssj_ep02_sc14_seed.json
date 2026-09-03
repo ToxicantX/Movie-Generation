@@ -1,0 +1,101 @@
+{
+  "updated": "2026-06-10T01:08:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 朝阳谷来客，后院暂避",
+  "purpose": "Seed for EP02 SC14 after EP02 SC13 formal test-mode segment. Continue the ComfyUI short-drama pipeline from the blood-letter warning into the next external-pressure beat: Tuobaye asks the white-clothed woman to accompany him to Mirage City and is refused; Chaoyang Valley Shisilanggongzi arrives across Tianhu to seek Qingdi; the woman decides they should avoid the visitors; she carries Tuobaye by invisible force into the rear courtyard while the white dragon-deer follows; they hide separately among bamboo as Shisilanggongzi, an elder, and attendants wait respectfully outside Qingdi's forbidden courtyard.",
+  "segment_id": "SSJ_EP02_SC14",
+  "beat_id": "C02_B14",
+  "title": "朝阳谷来客，后院暂避",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC13",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc13_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC13_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC13\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC13_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc13_formal_cut_result.json",
+    "previous_formal_segment_probe": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc13_formal_cut_probe.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc13_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC13 is approved only for pipeline validation. All four videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing. SH04 has production-level identity drift: the white-clothed woman's headpiece is too ornate and Tuobaye is too tribal/refined."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "白衣女子将神帝血书折好隔空递还拓拔野，并说纵使血书交与青帝，青帝恐怕也不会随他去蜃楼城。",
+    "adapted_summary": "拓拔野追问缘由，白衣女子只说其中复杂，去了蜃楼城自然知道。拓拔野焦急，转而请求她陪自己去蜃楼城，却被她微笑婉拒。正在他失望无计时，天湖对岸传来朝阳谷十四郎拜见青帝的喊声。白衣女子微皱眉，说朝阳谷的人来了，要避上一避。她衣袂飘飞，以无形气流带着拓拔野掠入三进庭院后院，白龙鹿紧随。她让拓拔野藏在西侧竹丛，自己立于东侧竹下；门外十四郎、黑衣老者和两个大汉恭敬走近，反复报见，却不敢踏入青帝禁中之禁。",
+    "next_source_hint": "二人分藏竹下时，拓拔野沉浸在白衣女子若即若离的情绪里；白衣女子则思索拓拔野与刹那芳华、无锋剑、神农托付之间的因缘。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_warning_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC13_SH04_v001_00001_.png",
+    "previous_courtyard_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC13_SH02_v001_00001_.png",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC13_formal_cut_v001.mp4"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute, right-waist green bamboo sheath, hidden broken Wufeng.",
+    "White-clothed woman remains adult, elegant, distant, water/rain-associated, fully clothed, emotionally restrained, and should not drift into ornate court jewelry styling.",
+    "White dragon-deer may appear as a loyal companion following Tuobaye; keep it graceful and non-threatening.",
+    "Chaoyang Valley visitors are external pressure, not the emotional center: black-clothed young noble Shisilanggongzi, black-clothed elder, and two attendants may appear at a distance or outside the courtyard gate.",
+    "Qingdi should not appear; show his absence through closed courtyard, empty pavilion, respectful visitors waiting outside, and silent architecture.",
+    "The courtyard is Qingdi's forbidden inner residence: three-entry garden, bamboo on east/west sides, wet stone, moonlit pine shadows, distant Tianhu mist.",
+    "No readable text, captions, subtitles, speech bubbles, English words, signs, plaques, gate calligraphy, letter contents, UI, or clear inscriptions."
+  ],
+  "localization_rules": [
+    "All planning text and eventual editing dialogue should be Chinese unless a technical field requires English.",
+    "Storyboard prompts may include intended Chinese dialogue as off-screen planning context, but must request no rendered subtitles or readable text.",
+    "I2V prompts must use silent visual generation: no synthesized speech, no lip-sync dialogue, no crowd shouting audio, no music, no captions, no subtitles, no readable signs, no English words.",
+    "Chinese dialogue, narration, sound design, music, and subtitles should be added later in editing."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Use restrained refusal, distant visitor arrival, silent gliding movement, hiding among bamboo, and respectful waiting outside the gate. Avoid lip-sync, readable documents, readable gate signs, and complex crowd action."
+  },
+  "suggested_shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH01",
+      "title": "同行之请被婉拒",
+      "duration_seconds": "8-10",
+      "visual_focus": "After receiving the folded letter, adult Tuobaye urgently asks the white-clothed woman to go with him to Mirage City; she gives a faint distant smile and refuses, leaving him visibly disappointed.",
+      "reference_anchor": "previous_warning_storyboard or yushiqie_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH02",
+      "title": "天湖对岸来客",
+      "duration_seconds": "8-10",
+      "visual_focus": "Across the moonlit Tianhu, distant black-clothed visitors appear near the courtyard approach as external pressure; Tuobaye and the woman both turn toward the sound, but no one speaks on-screen.",
+      "reference_anchor": "yupingshan_tianhu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH03",
+      "title": "行云掠入后院",
+      "duration_seconds": "8-10",
+      "visual_focus": "The white-clothed woman moves like flowing cloud, carrying adult Tuobaye by invisible force into the rear courtyard; the white dragon-deer follows through moonlit mist and bamboo.",
+      "reference_anchor": "previous_courtyard_storyboard or bailonglu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH04",
+      "title": "竹影后静候来人",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye hides behind west-side bamboo with the white dragon-deer while the woman stands apart under east-side bamboo; beyond layered doors, Shisilanggongzi and attendants wait respectfully outside Qingdi's silent courtyard.",
+      "reference_anchor": "previous_courtyard_storyboard or yushiqie_reference"
+    }
+  ],
+  "next_work": [
+    "Create SSJ_EP02_SC14 storyboard plan with 4 shots, each 8-10 seconds max.",
+    "Keep Chaoyang Valley visitors mostly distant or partly obscured to reduce identity burden.",
+    "Do not render gate plaques, calligraphy, shouted dialogue as subtitles, or any readable Chinese/English text.",
+    "Use silent/no-caption/no-readable-text I2V prompts. Do not generate speech, lip-sync, crowd audio, or readable signs.",
+    "If Gemini file_ids I2V remains rejected and no Runway key exists, use technical still fallback only for continuity and mark every output as non-production."
+  ]
+}

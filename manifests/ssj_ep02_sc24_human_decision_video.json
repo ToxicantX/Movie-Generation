@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-13T01:26:40",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC24_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Keshadu's more direct probing pressure remains readable."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC24_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Shisilang's humiliated anger and refusal to retreat remain clear."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC24_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; approved regenerated storyboard keeps Tuobaye specifically trapped between suspicion and aggression rather than dissolving into a generic crowd tableau."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC24_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; the white-clothed woman's near-exposure pressure remains readable without overt magic."
+    }
+  ]
+}

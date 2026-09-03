@@ -1,0 +1,18 @@
+{
+  "updated": "2026-06-11T23:12:00",
+  "segment_id": "SSJ_EP02_SC16",
+  "resolved_regeneration_outputs": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC16_SH03",
+      "approved_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC16_SH03_v001_00002_.png",
+      "supersedes": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC16_SH03_v001_00001_.png",
+      "reason": "Removed invented weapon and restored pressured-defense logic."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC16_SH04",
+      "approved_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC16_SH04_v001_00002_.png",
+      "supersedes": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC16_SH04_v001_00001_.png",
+      "reason": "Restored hidden-courtyard observer geography and kept battle outside the gate."
+    }
+  ]
+}

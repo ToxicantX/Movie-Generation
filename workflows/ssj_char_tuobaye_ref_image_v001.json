@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "inputs": {
+        "prompt": "A mature adult wandering hero in an ancient Chinese mythic fantasy world, age 28 to 32, dusty weathered face, bright lively eyes, ragged practical rough cloth clothing, green bamboo flute tucked at his waist clearly visible, lean agile wilderness survivor body, curious and fearless expression, cinematic realistic mature face, three-quarter body character reference, natural mountain forest background, ancient wilderness texture, no text, no watermark",
+        "model": "gpt-image-2",
+        "size": "1024x1536",
+        "negative_prompt": "modern hoodie, modern beggar, western medieval armor, noble prince costume, anime boy, child, teenager, minor, childish cartoon face, clean luxury clothing, sci-fi accessories, text, watermark, logo"
+      },
+      "class_type": "OpenAICompatibleImageGenerate"
+    },
+    "2": {
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/characters/CHAR_tuobaye_ref_v001"
+      },
+      "class_type": "SaveImage"
+    }
+  }
+}

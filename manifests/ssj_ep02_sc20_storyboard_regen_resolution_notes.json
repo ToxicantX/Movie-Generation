@@ -1,0 +1,18 @@
+{
+  "updated": "2026-06-12T05:47:00",
+  "segment_id": "SSJ_EP02_SC20",
+  "resolved_regeneration_outputs": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC20_SH03",
+      "approved_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH03_v001_00002_.png",
+      "supersedes": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH03_v001_00001_.png",
+      "reason": "Reduced heroic sword-trophy pose and restored dangerous, politically alarming sword reveal."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC20_SH04",
+      "approved_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH04_v001_00002_.png",
+      "supersedes": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC20_SH04_v001_00001_.png",
+      "reason": "Reduced battle-readiness and restored the feeling that Tuobaye is overmatched while the white-clothed woman watches in restrained anger."
+    }
+  ]
+}

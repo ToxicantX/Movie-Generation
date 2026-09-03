@@ -1,0 +1,37 @@
+{
+    "updated":  "2026-06-09T14:46:16",
+    "plan_path":  ".\\manifests\\ssj_ep02_sc07_storyboard_plan.json",
+    "workflow_dir":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows",
+    "created":  [
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC07_SH01",
+                        "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh01_storyboard_v001.json",
+                        "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh01_i2v_v001.json",
+                        "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC07_SH01_v001_00001_.png"
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC07_SH02",
+                        "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh02_storyboard_v001.json",
+                        "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh02_i2v_v001.json",
+                        "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC07_SH02_v001_00001_.png"
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC07_SH03",
+                        "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh03_storyboard_v001.json",
+                        "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh03_technical_still_fallback_v001.json",
+                        "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC07_SH03_v001_00001_.png",
+                        "final_i2v_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh03_technical_still_fallback_v001.json",
+                        "final_video_filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC07_SH03_technical_still_fallback_v001",
+                        "fallback_note":  "v001/v002 Gemini I2V provider 500 silent abort; technical still fallback used for test pipeline continuity."
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC07_SH04",
+                        "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh04_storyboard_v001.json",
+                        "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh04_i2v_v002_simplified.json",
+                        "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC07_SH04_v001_00001_.png",
+                        "final_i2v_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh04_i2v_v002_simplified.json",
+                        "final_video_filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC07_SH04_i2v_v002_simplified",
+                        "fallback_note":  "v001 Gemini I2V provider 500 silent abort; v002 simplified low-motion workflow succeeded."
+                    }
+                ]
+}

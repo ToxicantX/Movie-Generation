@@ -1,0 +1,66 @@
+{
+  "updated": "2026-06-08",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 玉屏山 / 天湖开场",
+  "segment_id": "SSJ_EP02_SC01",
+  "beat_id": "C02_B01",
+  "title": "Arrival at Yuping Mountain and the silent Qingdi sanctuary",
+  "purpose": "Start the next short-drama segment from the EP01 SC04 departure. Lock the new location atmosphere before introducing more character and conflict complexity.",
+  "continuity_from": {
+    "segment_id": "SSJ_EP01_SC04",
+    "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+    "previous_tail_frame": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC04\\TEST_SSJ_EP01_SC04_SH03\\TEST_SSJ_EP01_SC04_SH03_last.jpg",
+    "previous_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH03_v001_00001_.png",
+    "caveat": "SC04 is pending human review. This plan prepares the next segment but does not approve EP01 release material."
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 uses the previous SC04 destination storyboard for ride continuity. SH02 uses Tuobaye's basic turnaround for protagonist locking. SH03 uses the Yuping Mountain / Tianhu location reference for the empty-courtyard hook.",
+  "video_policy": "Gemini experimental I2V should use only each generated and approved storyboard image as source of truth. Do not pass extra character, creature, location, or temporal references into video generation.",
+  "assets": {
+    "tuobaye_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_tuobaye_ref_v001_00001_.png",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "wufeng_corrected_prop": "G:\\ComfyUI\\output\\AIShortDrama\\props\\PROP_wufeng_blunt_iron_ref_v002_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC01_SH01",
+      "beat": "C02_B01",
+      "title": "Moonlit arrival over Tianhu",
+      "duration_seconds": "8-10",
+      "characters": ["拓拔野", "白龙鹿"],
+      "location": "玉屏山山路 / 远处天湖",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC01_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC01_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH03_v001_00001_.png",
+      "storyboard_prompt": "Use the input previous departure storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, widescreen composition. Adult Tuobaye age 28 to 32 rides the friendly white dragon-deer along the final moonlit ridge before Yuping Mountain and Tianhu. Keep the rider and mount readable but not close-up: rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute visible, relic bundle secure, plain dark blunt rectangular edgeless black iron Wufeng object secured low. White dragon-deer remains identifiable: white fur, pearl neck and shoulder scales, pale jade antlers, long white mane, calm intelligent eyes. Ahead is the clear heavenly lake reflecting moonlight, pine and bamboo forest, austere wooden pavilions, jade-green mist, forbidden quiet. Hopeful arrival, no crowded palace, no city, no combat, no fall, no text.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second arrival transition. Tuobaye and the white dragon-deer move slowly along the moonlit ridge toward Tianhu. Preserve the adult rider, white dragon-deer silhouette, green bamboo flute, relic bundle, distant lake reflection, pine and bamboo, jade mist, and quiet forbidden sanctuary mood. Slow camera drift only, no combat, no falling, no text."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC01_SH02",
+      "beat": "C02_B01",
+      "title": "Dismount at the pine-bamboo gate",
+      "duration_seconds": "8-10",
+      "characters": ["拓拔野", "白龙鹿"],
+      "location": "青帝御苑松木山门",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC01_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC01_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+      "storyboard_prompt": "Use the input Tuobaye turnaround sheet as the protagonist identity and costume anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, widescreen medium-wide composition. Adult Tuobaye age 28 to 32 calmly dismounts from the friendly white dragon-deer before a silent pine and bamboo gate of Qingdi's secluded sanctuary. Preserve Tuobaye's rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute visible, relic bundle secure, weathered adult face, practical wilderness posture. The plain dark blunt rectangular edgeless black iron Wufeng object is tied low and reads as a heavy iron prop, not a sharp sword. White dragon-deer waits beside him with white fur, pearl neck scales, pale jade antlers, long white mane, calm eyes. Gate details: old pine beams, bamboo fence, lake mist behind, small stone lanterns, jade-green moonlight, no guards, no crowd, no Qingdi visible, no combat, no injury, no text.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second quiet dismount. Tuobaye steps down carefully, the white dragon-deer shifts its head gently, and the silent gate waits ahead. Preserve adult Tuobaye costume, bamboo flute, relic bundle, blunt Wufeng iron object, white dragon-deer identity, pine-bamboo sanctuary gate, moonlit jade mist. No violence, no falling, no text."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC01_SH03",
+      "beat": "C02_B01",
+      "title": "Empty courtyard of unseen authority",
+      "duration_seconds": "8-10",
+      "characters": ["拓拔野"],
+      "location": "青帝御苑空院 / 天湖竹亭",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC01_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC01_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input Yuping Mountain and Tianhu reference as the location anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, widescreen composition. The camera looks into an empty bamboo and pine courtyard beside Tianhu: austere wooden pavilion, bamboo railings, white agate incense burner on a stone table, faint purple incense smoke, high stone wall with old carved marks, lake reflection and jade-green mist. Adult Tuobaye stands at the threshold in small silhouette with green bamboo flute and relic bundle readable, pausing before entering. Qingdi is not visible; the absence should feel powerful and ominous. Moonlit blue and jade-green palette, forbidden quiet, no palace throne, no crowd, no city, no combat, no injury, no text.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second suspense hook. Incense smoke curls, lake mist moves, bamboo leaves sway, and Tuobaye pauses at the empty courtyard threshold. Preserve Tianhu courtyard identity, white agate incense burner, carved stone wall, moonlit jade-green mist, and unseen authority. No Qingdi face, no crowd, no combat, no text."
+    }
+  ]
+}

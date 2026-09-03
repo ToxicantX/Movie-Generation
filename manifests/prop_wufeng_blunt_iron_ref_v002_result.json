@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-08T15:09:46",
+    "shot_id":  "PROP_wufeng_blunt_iron_ref_v002",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_prop_wufeng_blunt_iron_ref_v002.json",
+    "prompt_id":  "28283588-6cc4-47ad-ac4a-4df3f24b05ee",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_prop_wufeng_blunt_iron_ref_v002.json -\u003e prompt_id=28283588-6cc4-47ad-ac4a-4df3f24b05ee"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "28283588-6cc4-47ad-ac4a-4df3f24b05ee",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

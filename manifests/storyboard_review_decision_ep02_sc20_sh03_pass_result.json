@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T05:56:44",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc20.json",
+    "shot_id":  "TEST_SSJ_EP02_SC20_SH03",
+    "old_decision":  "needs_regeneration",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass after regeneration: no-edge sword now reads as a dangerous broken reveal instead of a victory trophy",
+    "notes":  "Approved regenerated version should be the only downstream source. Keep the sword incomplete, alarming, and politically risky.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

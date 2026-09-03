@@ -1,0 +1,63 @@
+{
+  "project": "AI鐭墽鐢熸垚宸ュ巶",
+  "source": "搜神记 第一卷 第一章 神农使者",
+  "review_schema": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\consistency_review_schema.json",
+  "segment_id": "SSJ_EP01_SC03",
+  "beat_id": "C01_B07",
+  "title": "Dragon pool ordeal and awakening",
+  "updated": "2026-06-08",
+  "global_decision": "partial_video_review_package",
+  "global_reason": "Only SC03 SH01 and SH03 have video candidates. SH02 is excluded until storyboard prop revision.",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP01_SC03_SH01",
+      "title": "Arrival at the dragon pool",
+      "beat": "C01_B07",
+      "duration_seconds": "8-10",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC03_SH01_v001_00001_.png",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP01_SC03_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC03_SH01_i2v_v001",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh01_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh01_i2v_v001.json",
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH01_i2v_v001.mp4",
+      "preferred_video_mode": "image_to_video_required",
+      "status": "generated_pending_human_review",
+      "checks": {
+        "character_identity": "pending_human_review",
+        "character_props": "pending_human_review",
+        "location_identity": "pending_human_review",
+        "storyboard_match": "pending_human_review",
+        "motion_continuity": "pending_human_review",
+        "safety_constraints": "pending_human_review",
+        "clean_output": "pending_human_review",
+        "technical_output": "pass"
+      },
+      "notes": "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth.\nAI precheck: storyboard strong; I2V generated for action-location stability review."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC03_SH03",
+      "title": "White dragon-deer reveal",
+      "beat": "C01_B07",
+      "duration_seconds": "8-10",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC03_SH03_v001_00001_.png",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP01_SC03_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC03_SH03_i2v_v001",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh03_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh03_i2v_v001.json",
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH03_i2v_v001.mp4",
+      "preferred_video_mode": "image_to_video_required",
+      "status": "generated_pending_human_review",
+      "checks": {
+        "character_identity": "pending_human_review",
+        "character_props": "pending_human_review",
+        "location_identity": "pending_human_review",
+        "storyboard_match": "pending_human_review",
+        "motion_continuity": "pending_human_review",
+        "safety_constraints": "pending_human_review",
+        "clean_output": "pending_human_review",
+        "technical_output": "pass"
+      },
+      "notes": "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth.\nAI precheck: white dragon-deer storyboard strong; I2V generated for creature consistency review. Square storyboard means this is a technical/identity candidate, not final 16:9."
+    }
+  ]
+}

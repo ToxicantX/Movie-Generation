@@ -1,0 +1,19 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "GeminiAPIVideoGenerate",
+                             "inputs":  {
+                                            "model":  "gemini-3.1-pro",
+                                            "prompt":  "Animate this storyboard frame as a quiet reveal shot. The white dragon-deer takes one gentle step through mist while Tuobaye lowers the Wufeng sword and watches in awe. Preserve creature identity: white fur, jade antlers, pearl scales, long mane, calm eyes. Preserve Tuobaye\u0027s rugged adult costume, bamboo flute, relic bundle, safe stone bank, and trust-building mood. No attack, no chase, no injury, no text.",
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC03_SH03_v001_00001_.png",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC03_SH03_i2v_v001",
+                                            "base_url":  "http://127.0.0.1:7860",
+                                            "reference_field":  "file_ids",
+                                            "video_reference_mode":  "experimental_file_ids",
+                                            "reference_image_paths":  "",
+                                            "aspect_ratio":  "16:9"
+                                        }
+                         }
+               }
+}

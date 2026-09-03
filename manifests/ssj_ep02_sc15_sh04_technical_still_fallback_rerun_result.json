@@ -1,0 +1,23 @@
+﻿{
+    "updated":  "2026-06-11T22:16:30",
+    "mode":  "technical_still_fallback_comfy_node",
+    "comfy_url":  "http://127.0.0.1:8188",
+    "workflow_paths":  [
+                           ".\\workflows\\ssj_ep02_sc15_sh04_technical_still_fallback_v001.json"
+                       ],
+    "runs":  [
+                 {
+                     "workflow_path":  ".\\workflows\\ssj_ep02_sc15_sh04_technical_still_fallback_v001.json",
+                     "prompt_id":  "65d95b3c-7cf6-4dd7-ae12-692d865218bd",
+                     "wait":  {
+                                  "prompt_id":  "65d95b3c-7cf6-4dd7-ae12-692d865218bd",
+                                  "status":  "success",
+                                  "completed":  true,
+                                  "error":  null
+                              },
+                     "ok":  true,
+                     "error":  null
+                 }
+             ],
+    "ok":  true
+}

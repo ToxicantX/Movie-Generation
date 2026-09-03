@@ -1,0 +1,72 @@
+{
+  "updated": "2026-06-09T13:55:00",
+  "reviewer": "Codex auto-pass test mode; user authorized auto-pass when absent on 2026-06-09",
+  "instructions": "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+  "review_index": [
+    {
+      "review_id": "SSJ_EP02_SC05",
+      "review_path": ".\\manifests\\ssj_ep02_sc05_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC05_STORYBOARD\\human_review.md",
+      "global_decision": "pending_storyboard_human_review",
+      "shot_count": 4
+    }
+  ],
+  "decisions": [
+    {
+      "review_id": "SSJ_EP02_SC05",
+      "review_path": ".\\manifests\\ssj_ep02_sc05_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC05_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC05_SH01",
+      "title": "绕湖靠近松竹亭阁",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC05_SH01_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc05_sh01_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc05_sh01_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: Tianhu shoreline and distant pine-bamboo pavilions are clear; no readable text or premature character reveal observed."
+    },
+    {
+      "review_id": "SSJ_EP02_SC05",
+      "review_path": ".\\manifests\\ssj_ep02_sc05_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC05_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC05_SH02",
+      "title": "穿廊登台四处无人",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC05_SH02_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc05_sh02_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc05_sh02_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: empty handmade residence beat is usable; Tuobaye costume reads dark but acceptable for test."
+    },
+    {
+      "review_id": "SSJ_EP02_SC05",
+      "review_path": ".\\manifests\\ssj_ep02_sc05_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC05_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC05_SH03",
+      "title": "空庭月影忽闻箫声",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC05_SH03_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc05_sh03_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc05_sh03_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: empty courtyard and listening posture are clear; no musical notes, captions, or source reveal observed."
+    },
+    {
+      "review_id": "SSJ_EP02_SC05",
+      "review_path": ".\\manifests\\ssj_ep02_sc05_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC05_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC05_SH04",
+      "title": "循声穿过矮竹墙",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC05_SH04_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc05_sh04_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc05_sh04_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: bamboo-wall following beat is usable; Tuobaye costume skews grey-blue and refined, acceptable for pipeline test only."
+    }
+  ]
+}

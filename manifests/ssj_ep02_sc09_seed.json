@@ -1,0 +1,99 @@
+{
+  "updated": "2026-06-09T17:28:32",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 无锋断剑与白龙鹿锁链",
+  "purpose": "Seed for EP02 SC09 after EP02 SC08 formal test-mode segment. Continue the ComfyUI short-drama pipeline from the white-clothed woman noticing Wufeng, asking about its origin, and recognizing the white dragon-deer chain context.",
+  "segment_id": "SSJ_EP02_SC09",
+  "beat_id": "C02_B09",
+  "title": "无锋来历，鹿兄昂然",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC08",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc08_storyboard_review.json",
+    "previous_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC08\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC08_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc08_formal_cut_result.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc08_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC08 is approved only for pipeline validation. All four SC08 videos used Comfy StillFrameVideoFallback because Gemini-API rejected experimental file_ids I2V and Runway secret was missing."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "白衣女子见他片刻间扭动身子，摆了数个造型，心中不解。正待说话，突然看见他腰间所悬断剑，轻轻“噫”了一声。",
+    "adapted_summary": "白衣女子从拓拔野腰间看到断裂的无锋剑，神色微变，询问此剑从何处得来。拓拔野不再隐瞒，解释自己从深潭中捡到此剑，并因替白龙鹿打开锁链而将剑砍断。白龙鹿听到他说起自己，骄傲地走到白衣女子身前。白衣女子认出白龙鹿曾被北海十七混金索困在龙潭，指出拓拔野内力不足，所以才会折断无锋。拓拔野被说中短处，羞惭脸红，暗下决心要练出一身武功。",
+    "next_source_hint": "随后白衣女子向拓拔野借剑一观，断剑显露神农与空桑旧事，情绪转入白衣女子与神农往事线索。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "previous_woman_question_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC08_SH01_v001_00001_.png",
+    "previous_tuobaye_reaction_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC08_SH02_v001_00001_.png",
+    "previous_encounter_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC08_SH03_v001_00001_.png",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC08_formal_cut_v001.mp4"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute, and broken Wufeng in a bamboo sheath at the right waist.",
+    "Wufeng is a plain rusty blue-grey iron sword now broken; avoid readable inscriptions in image/video unless a later dedicated insert explicitly handles non-readable engraved marks. Do not render clear Chinese text.",
+    "White-clothed woman remains adult, elegant, distant, water/rain-associated, fully clothed, and respectful. Use adult Yushiqie reference as the safest visual anchor while keeping first-meeting mystery.",
+    "White dragon-deer should look mythic and dignified, proud when stepping forward; avoid ordinary deer drift.",
+    "The emotional beats are curiosity, honest explanation, proud companion display, gentle correction, embarrassment, and resolve. Avoid sexualized framing or teen-romance coding.",
+    "Setting remains moonlit Tianhu bamboo pavilion, lake reflection, bamboo shadows, mist, and faint incense smoke.",
+    "No readable text, captions, subtitles, speech bubbles, English words, signs, plaques, or UI."
+  ],
+  "localization_rules": [
+    "All planning text and eventual editing dialogue should be Chinese unless a technical field requires English.",
+    "Storyboard prompts may include intended Chinese dialogue as off-screen planning context, but must request no rendered subtitles or readable text.",
+    "I2V prompts must use silent visual generation: no synthesized speech, no lip-sync dialogue, no flute/xiao audio, no captions, no subtitles, no readable signs, no English words.",
+    "Chinese dialogue, narration, sound design, and subtitles should be added later in editing."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Use stable reaction shots, hand near broken sword, white dragon-deer stepping forward, subtle robe/hair/mist motion, and restrained facial reactions. Avoid lip-sync, fast body turns, or readable inscription closeups."
+  },
+  "suggested_shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH01",
+      "title": "女子瞥见无锋",
+      "duration_seconds": "8-10",
+      "visual_focus": "The adult white-clothed woman notices the broken Wufeng sword at Tuobaye right waist; her calm eyes shift from his awkward pose to the sword, with a subtle change of expression.",
+      "reference_anchor": "previous_woman_question_storyboard or yushiqie_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH02",
+      "title": "深潭拾剑开锁",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye honestly gestures to the broken blue-grey Wufeng at his waist, implying he found it in a deep pool and broke it while freeing his companion; keep dialogue for later edit only.",
+      "reference_anchor": "tuobaye_turnaround or previous_tuobaye_reaction_storyboard"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH03",
+      "title": "鹿兄昂然上前",
+      "duration_seconds": "8-10",
+      "visual_focus": "The white dragon-deer proudly steps forward between Tuobaye and the white-clothed woman, dignified and luminous, as if showing that it is the rescued companion.",
+      "reference_anchor": "bailonglu_reference and previous_encounter_storyboard"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH04",
+      "title": "内力不足暗自立誓",
+      "duration_seconds": "8-10",
+      "visual_focus": "The woman calmly recognizes the North Sea mixed-metal chain context and gently points out Tuobaye lacked internal power; Tuobaye blushes with embarrassment and lowers his gaze, then tightens his fist in quiet resolve.",
+      "reference_anchor": "tuobaye_turnaround and yushiqie_reference"
+    }
+  ],
+  "next_work": [
+    "Create SSJ_EP02_SC09 storyboard plan with 4 shots, each 8-10 seconds max.",
+    "Keep Wufeng visible as a broken plain blue-grey iron sword in a bamboo sheath or hand, but do not render readable inscriptions.",
+    "Use silent/no-caption/no-readable-text I2V prompts. Do not generate English or Chinese subtitles inside video.",
+    "If Gemini file_ids I2V remains rejected and no Runway key exists, use technical still fallback only for continuity and mark every output as non-production."
+  ]
+}

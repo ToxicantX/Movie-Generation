@@ -1,0 +1,111 @@
+{
+  "updated": "2026-06-13",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 真相欲出，静雷将炸",
+  "segment_id": "SSJ_EP02_SC28",
+  "beat_id": "C02_B28",
+  "title": "真相欲出，静雷将炸",
+  "purpose": "承接 SC27：真相已经几乎无法再压住。此段继续按节点拆开：先是科沙度的怀疑逼到最后遮蔽前沿，再是十四郎的崩线怒势把场面推得更危险，接着拓拔野在濒临断线中继续硬撑，最后把白衣女子那股静雷欲爆的克制推到只差一瞬就会出手的状态。全段继续保持无声视觉，不生成口播、字幕或任何可读文本。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC27",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc27_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC27_formal_cut_v001.mp4",
+    "previous_truth_lips_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC27_SH01_v001_00001_.png",
+    "previous_fury_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC27_SH02_v001_00001_.png",
+    "previous_limit_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC27_SH03_v001_00001_.png",
+    "previous_thunder_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC27_SH04_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc28_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 真相欲出 / 怒势崩坏 / 拓拔野极限 / 静雷将炸。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 anchors to the approved truth-at-the-lips frame. SH02 anchors to the approved control-breaking fury frame. SH03 anchors to the approved limit-about-to-break frame. SH04 anchors to the approved thunder-before-break frame and pushes it closer to irreversible action.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, gate calligraphy, speech bubbles, English words, or clear Chinese inscriptions inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, accusation, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "真相已到将出之口。",
+      "十四郎怒势已崩。",
+      "拓拔野几乎撑断。",
+      "白衣女子静雷将炸。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_truth_lips_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC27_SH01_v001_00001_.png",
+    "previous_fury_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC27_SH02_v001_00001_.png",
+    "previous_limit_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC27_SH03_v001_00001_.png",
+    "previous_thunder_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC27_SH04_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC28_SH01",
+      "beat": "C02_B28",
+      "title": "科沙度真相欲出",
+      "duration_seconds": "8-10",
+      "characters": [
+        "科沙度",
+        "拓拔野",
+        "白衣女子"
+      ],
+      "location": "禁院门前 / 将破之口",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC28_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC28_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC27_SH01_v001_00001_.png",
+      "storyboard_prompt": "Use the approved SC27 truth-at-the-lips storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 almost-spoken-truth composition. Keshadu's suspicion now appears only a hair away from becoming explicit knowledge. Adult Tuobaye remains battered, strained, and unable to answer from strength. The white-clothed woman remains outwardly calm, but the frame should feel as if the last layer of concealment is nearly gone. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent almost-spoken-truth beat. Keshadu's suspicion hovers at the brink of being spoken while Tuobaye stays strained and the white-clothed woman remains unreadable; robes, gaze shifts, mist, and lantern light move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC28_SH02",
+      "beat": "C02_B28",
+      "title": "十四郎怒势将崩",
+      "duration_seconds": "8-10",
+      "characters": [
+        "十四郎",
+        "拓拔野"
+      ],
+      "location": "禁院门前 / 失控临界",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC28_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC28_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC27_SH02_v001_00001_.png",
+      "storyboard_prompt": "Use the approved SC27 control-breaking fury storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 fury-on-the-edge composition. Fourteen's humiliation-driven rage is now on the edge of spilling into something reckless and damaging. Tuobaye remains battered and defensive, never in control. The image should feel like control is a thread about to snap. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent fury-on-the-edge beat. Fourteen's rage teeters on full loss of control while Tuobaye stays battered and defensive; robes, breath, hair, and lantern light move with unstable force. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC28_SH03",
+      "beat": "C02_B28",
+      "title": "拓拔野极限将断",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "科沙度",
+        "十四郎"
+      ],
+      "location": "禁院门前 / 极限欲裂",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC28_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC28_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC27_SH03_v001_00001_.png",
+      "storyboard_prompt": "Use the approved SC27 limit-about-to-break storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 endurance-about-to-fail composition. Adult Tuobaye is now visibly on the verge of no longer being able to hold himself together. Keshadu's pressure and Fourteen's fury close in from both sides. He should read as one hard push away from collapse while still stubbornly upright. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent endurance-about-to-fail beat. Tuobaye is nearly past what his body and bluff can sustain, yet still holds upright under converging pressure; robes, breath, mist, and lantern light move with strained instability. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC28_SH04",
+      "beat": "C02_B28",
+      "title": "白衣女子静雷将炸",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白衣女子",
+        "科沙度",
+        "拓拔野"
+      ],
+      "location": "禁院门前 / 爆点欲临",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC28_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC28_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC27_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the approved SC27 thunder-before-break storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 imminent-break composition. The white-clothed woman remains outwardly still, but now the frame should feel unmistakably like the final second before restraint fails. Keshadu remains dangerously close to the hidden truth; Tuobaye stays trapped inside the field she is barely holding closed. No overt magic effects yet, no glowing spectacle, no readable text, no captions, no subtitles, no signs, no plaques, no English words, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent imminent-break beat. The white-clothed woman remains almost perfectly motionless while the sensation of imminent release becomes unavoidable; sleeves, hair, mist, and lantern light move with dangerous restraint. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

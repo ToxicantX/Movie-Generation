@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Tuobaye turnaround as costume and face identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 vertical-feeling medium-wide composition. Adult Tuobaye in consistent rugged grey-brown rough cloth stands beneath a tall moonlit stone wall at the south corner of Tianhu, looking up with shock and grief as if recognizing an old song from 神农. The white dragon-deer stands beside him quietly. The stone wall must show only large ancient raised glyph-like relief strokes that are blurred, broken, partial, and unreadable, like abstract weathered marks; do not render legible Chinese characters, calligraphy, poem lines, captions, subtitles, plaques, signs, labels, or English words. Moonlight, bamboo, lake mist, solemn memory mood.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC06_SH03_v001"
+                                        }
+                         }
+               }
+}

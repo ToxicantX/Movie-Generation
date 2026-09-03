@@ -1,0 +1,20 @@
+{
+  "updated": "2026-06-08T16:37:29",
+  "workflow_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh02_technical_still_fallback_v001.json",
+  "prompt_id": "d68543ec-d1b9-4151-b9d8-6dae5e3599ea",
+  "wait_result": {
+    "prompt_id": "d68543ec-d1b9-4151-b9d8-6dae5e3599ea",
+    "status": "success",
+    "completed": true,
+    "error": null
+  },
+  "files": [
+    {
+      "FullName": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH02_technical_still_fallback_v001.mp4",
+      "Length": 2520417,
+      "LastWriteTime": "2026-06-08T16:37:28.9963461+08:00"
+    }
+  ],
+  "status": "success",
+  "note": "Technical fallback generated inside ComfyUI from approved storyboard still; not final-quality I2V."
+}

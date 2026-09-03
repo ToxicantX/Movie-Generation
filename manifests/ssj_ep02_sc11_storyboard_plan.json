@@ -1,0 +1,107 @@
+{
+  "updated": "2026-06-09",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 无锋归鞘，木族叮嘱",
+  "segment_id": "SSJ_EP02_SC11",
+  "beat_id": "C02_B11",
+  "title": "无锋归鞘，木族叮嘱",
+  "purpose": "承接无锋睹剑伤情后：拓拔野愿将断剑归还并为弄断剑惶恐；白衣女子以无形之力让无锋归入拓拔野右腰绿竹剑鞘；她询问拓拔野族属，叮嘱他收好木族神器；最后目光转向竹笛，引出刹那芳华曲和神农临终重托。画面只做无声视觉，不生成口播、字幕或可读文字。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC10",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC10_formal_cut_v001.mp4",
+    "previous_handover_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH01_v001_00001_.png",
+    "previous_floating_sword_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH02_v001_00001_.png",
+    "previous_glow_sword_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH03_v001_00001_.png",
+    "previous_grief_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH04_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc11_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 人有情 / 剑断情伤 / 断剑归鞘 / 木族神器 / 刹那芳华。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 uses previous SC10 grief or handover frame to maintain emotional continuity. SH02 uses Tuobaye turnaround or SC10 handover frame to lock right-waist green bamboo sheath and rugged costume. SH03 uses adult Yushiqie reference or SC10 two-character frame to stabilize the white-clothed woman. SH04 uses Tuobaye turnaround or prior grief frame to keep green bamboo flute and Tuobaye reaction clear.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, speech bubbles, musical notes, English words, or clear Chinese inscriptions inside image/video.",
+    "inscription_rule": "Do not render visible 神农, 空桑, 木族, 刹那芳华, or any readable Chinese characters. If old marks appear on Wufeng, they must be abstract glow strokes only.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, lip-sync, flute/xiao audio, heartbeat audio, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "既然这把剑原是仙女姐姐的，今日就物归原主吧。",
+      "剑断情伤，这也是天意，与你不相干。",
+      "公子就将此剑收好，不要轻易出示。",
+      "公子又是从何处听得这首刹那芳华曲？"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "previous_handover_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH01_v001_00001_.png",
+    "previous_floating_sword_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH02_v001_00001_.png",
+    "previous_grief_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH04_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC11_SH01",
+      "beat": "C02_B11",
+      "title": "愿归原主",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子"
+      ],
+      "location": "月下竹亭 / 湖边竹影",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC11_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC11_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC10_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the input SC10 grief storyboard as emotional continuity for the adult white-clothed woman, adult Tuobaye, moonlit lake, bamboo, mist, and broken Wufeng. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 respectful medium two-character composition. Adult Tuobaye age 28 to 32 in rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, and right-waist green bamboo sheath leans forward anxiously with both hands partly open, silently willing to return the broken Wufeng to the woman. The adult white-clothed woman remains fully clothed, calm, gentle but sorrowful, holding or facing the broken plain blue-grey sword without dramatic romance-body emphasis. Keep the sword broken, simple, and non-ornamental; no readable marks. No captions, no subtitles, no readable Chinese characters, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent remorse-and-absolution beat. Tuobaye hesitates and offers to give the sword back; the white-clothed woman remains gentle and sorrowful; robe edges, mist, lake reflection, and bamboo shadows move subtly. No dialogue, no lip-sync, no flute or xiao audio, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC11_SH02",
+      "beat": "C02_B11",
+      "title": "断剑归鞘",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子"
+      ],
+      "location": "月下竹亭 / 湖边石地",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC11_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC11_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+      "storyboard_prompt": "Use the input adult Tuobaye turnaround as identity and costume anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium-wide. The broken plain blue-grey Wufeng sword floats back through moonlit mist by invisible force and aligns precisely with the adult Tuobaye right-waist green bamboo sheath; the tip is just entering the sheath, showing destined ownership without action violence. Adult Tuobaye stands startled and grateful in rugged grey-brown travel clothes with rope belt, travel pouch, and green bamboo flute. The adult white-clothed woman stands several steps away, left hand gently lowered after guiding the sword. Keep the sword short/broken and simple, no readable 神农, 空桑, 木族, or any Chinese/English marks. No captions, no subtitles, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent sword-return beat. The broken Wufeng glides slowly into Tuobaye right-waist green bamboo sheath; Tuobaye breathes in surprise; the woman lowers her hand calmly; mist and robes move gently. No dialogue, no lip-sync, no sound effects, no flute or xiao audio, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC11_SH03",
+      "beat": "C02_B11",
+      "title": "木族叮嘱",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白衣女子",
+        "拓拔野"
+      ],
+      "location": "月下竹亭 / 湖边雾气",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC11_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC11_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input adult Yushiqie reference as the respectful identity anchor for the adult white-clothed woman. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 solemn medium two-character composition. The adult white-clothed woman in pale white robes gives Tuobaye a quiet warning gesture, solemn and protective, implying he must hide the Wood Tribe divine sword; adult Tuobaye listens wide-eyed and grateful, one hand near the right-waist green bamboo sheath where the broken Wufeng now rests. The mood is ritual warning and protective concern, not romance emphasis. Do not show written labels, clan symbols, plaques, readable Chinese characters, English words, or subtitles. No speech bubbles, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent warning beat. The woman speaks visually through a restrained hand gesture; Tuobaye nods awkwardly and protects the sheath; mist, sleeves, and bamboo shadows move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC11_SH04",
+      "beat": "C02_B11",
+      "title": "曲名刹那芳华",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白衣女子",
+        "拓拔野"
+      ],
+      "location": "月下竹亭 / 湖边竹影",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC11_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC11_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+      "storyboard_prompt": "Use the input adult Tuobaye turnaround as identity, costume, and green bamboo flute anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 quiet hook composition. The adult white-clothed woman notices the green bamboo flute at Tuobaye side or on the moonlit stone ground; her calm eyes shift to the flute with sudden recognition and restrained emotion. Adult Tuobaye looks startled, hand hovering near the flute, ready to recount Shennong's final trust. The right-waist green bamboo sheath with hidden broken Wufeng remains visible but secondary. Show no musical notes, no visible lyrics, no readable title text, no captions, no subtitles, no Chinese characters, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent flute-hook beat. The woman's gaze shifts to the green bamboo flute; Tuobaye startles and reaches toward it; mist and sleeves move gently. Do not play flute audio, no xiao audio, no music notes, no dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

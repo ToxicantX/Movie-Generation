@@ -1,0 +1,12 @@
+{
+  "updated": "2026-06-12T08:46:00",
+  "segment_id": "SSJ_EP02_SC21",
+  "resolved_regeneration_outputs": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC21_SH04",
+      "approved_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH04_v001_00003_.png",
+      "supersedes": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH04_v001_00001_.png",
+      "reason": "Restored same gate-space confrontation and made the white dragon-deer a protective entry rather than a separate fantasy battle tableau."
+    }
+  ]
+}

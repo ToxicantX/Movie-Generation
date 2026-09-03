@@ -1,0 +1,35 @@
+{
+  "updated": "2026-06-08",
+  "location_id": "LOC_dongshishan_pool",
+  "name": "东始山水潭",
+  "status": "location_v1",
+  "source": "搜神记 第一卷 第四章-第五章",
+  "visual_identity": {
+    "terrain": "secluded forest pool below Dongshi Mountain, cold clear moonlit water, red-veined fu trees, mossy rocks, quiet creek, distant mountain night",
+    "time_palette": "moonlit blue, cold jade water, dark green forest, red tree veins, silver mist",
+    "recurring_details": ["茨水", "红纹芑树", "冷月水潭", "巨石", "黑色象龙兽剪影", "水雾"],
+    "avoid": ["nudity", "seduction framing", "horror swamp", "modern pool", "tropical beach", "explicit violence"]
+  },
+  "angle_set": [
+    {
+      "angle_id": "LOC_DS_A01_MOON_POOL",
+      "use": "Safe establishing shot for Yushiqie route.",
+      "prompt_core": "secluded ancient Chinese mythic forest pool under moonlight, cold clear water, mossy stones, red-veined fu trees, silver mist, restrained water tension"
+    },
+    {
+      "angle_id": "LOC_DS_A02_DRAGON_BEAST_SILHOUETTE",
+      "use": "Yushiqie identity atmosphere without explicit scene content.",
+      "prompt_core": "black dragon-beast silhouette beside a moonlit forest pool, rain mist, red-veined trees, quiet powerful water-priestess atmosphere"
+    },
+    {
+      "angle_id": "LOC_DS_A03_AFTERCARE_REWRITE",
+      "use": "Safe rewrite for care/aftermath scenes.",
+      "prompt_core": "rainy forest shelter near a cold mountain pool, soft mist, medicinal herbs and water vessel, restrained emotional aftermath, no nudity"
+    }
+  ],
+  "reference_image_status": "usable_v001",
+  "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_dongshishan_pool_ref_v001_00001_.png",
+  "reference_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_loc_dongshishan_pool_ref_v001.json",
+  "reference_prompt_id": "b887a5f0-5e69-4c00-b32f-ffebcfeead48",
+  "reference_review": "Usable cold moonlit pool, red-veined trees, mist, and distant dragon-beast silhouette. No high-risk human content."
+}

@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-09T16:56:47",
+    "shot_id":  "huandian_xuanshe_reference",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\cre_huandian_xuanshe_ref_v001.json",
+    "prompt_id":  "51954acb-3a9c-48c6-b47c-0a994fa0e1c6",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\cre_huandian_xuanshe_ref_v001.json -\u003e prompt_id=51954acb-3a9c-48c6-b47c-0a994fa0e1c6"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "51954acb-3a9c-48c6-b47c-0a994fa0e1c6",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

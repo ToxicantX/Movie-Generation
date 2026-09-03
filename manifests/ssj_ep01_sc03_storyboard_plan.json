@@ -1,0 +1,57 @@
+{
+  "updated": "2026-06-08",
+  "source": "搜神记 第一卷 第一章 神农使者",
+  "segment_id": "SSJ_EP01_SC03",
+  "beat_id": "C01_B07",
+  "title": "Dragon pool ordeal and awakening",
+  "purpose": "Continue after Tuobaye leaves Nanji Mountain: the descent becomes a safe mythic action beat where Shennong Dan awakens, the blunt Wufeng sword is found, and the white dragon-deer is foreshadowed.",
+  "continuity_from": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 and SH02 use the Dragon Pool location reference. SH03 uses the White Dragon-Deer creature reference. Character identity is locked by prompt language and Tuobaye's turnaround sheet phrasing.",
+  "video_policy": "Gemini experimental I2V should use only the approved storyboard image as source of truth.",
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "longtan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_longtan_dragon_pool_ref_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP01_SC03_SH01",
+      "beat": "C01_B07",
+      "title": "Arrival at the dragon pool",
+      "duration_seconds": "8-10",
+      "characters": ["拓拔野"],
+      "location": "龙潭石岸",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP01_SC03_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC03_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_longtan_dragon_pool_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input dragon pool location reference as the scene anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9. Adult Tuobaye age 28 to 32 stands safely on the circular mossy stone bank of the Dragon Pool after descending from Nanji Mountain. He wears rugged grey-brown rough cloth layers, rope belt, worn travel pouch, green bamboo flute visible, and carries a cloth bundle of relics. Cold jade water, waterfall mist, ancient pine roots, glowing herbs, and faint dragon-shaped ripples match the reference location. He looks alert and exhausted but not injured. Safe readable stone platform, no cliff-edge danger, no drowning, no gore, no text.",
+      "video_prompt": "Animate this storyboard frame as a quiet 8-10 second arrival shot. Tuobaye steps carefully on the safe stone bank, watching faint ripples in the Dragon Pool. Preserve rugged adult identity, cloth bundle, green bamboo flute, cold jade water, waterfall mist, mossy stones, and restrained mythic tension. Gentle mist and water motion only, no falling, no drowning, no injury, no text."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC03_SH02",
+      "beat": "C01_B07",
+      "title": "Shennong Dan awakening and Wufeng sword",
+      "duration_seconds": "8-10",
+      "characters": ["拓拔野"],
+      "location": "龙潭石岸与浅水边",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP01_SC03_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC03_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_longtan_dragon_pool_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input dragon pool location reference as the scene anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9. Adult Tuobaye kneels on the safe mossy stone bank beside shallow cold jade water, one hand glowing softly at his chest from Shennong Dan awakening, the other hand discovering a plain dark blunt ancient sword half-buried among wet stones, Wufeng sword. Rugged grey-brown rough cloth, rope belt, green bamboo flute, relic bundle secure. The energy is subtle medicinal jade-gold light, not superhero lightning. Water ripples, mist, glowing herbs, ancient pine roots, safe terrain, no blood, no injury, no text.",
+      "video_prompt": "Animate this storyboard frame as a restrained awakening shot. A soft jade-gold glow pulses once from Tuobaye's chest and hand as he discovers the plain dark Wufeng sword among wet stones. Preserve safe dragon pool, mossy bank, cold water, rugged cloth, green bamboo flute, and no injury. Gentle glow, mist, and water ripples only; no violent combat, no gore, no text."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC03_SH03",
+      "beat": "C01_B07",
+      "title": "White dragon-deer reveal",
+      "duration_seconds": "8-10",
+      "characters": ["拓拔野", "白龙鹿"],
+      "location": "龙潭雾气水岸",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP01_SC03_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC03_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input white dragon-deer creature reference as the creature anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9. A noble friendly white dragon-deer steps from gentle mist at the Dragon Pool shore, full body visible: white fur, pearl scales along neck and shoulders, pale jade dragon-horn antlers, long white mane, intelligent calm eyes. Adult Tuobaye stands several steps away on a safe mossy stone bank, rugged grey-brown rough cloth, green bamboo flute, relic bundle, holding the plain dark Wufeng sword lowered calmly. The moment is wonder and trust, not attack. Misty mountain water background, no saddle, no rider, no violence, no injury, no text.",
+      "video_prompt": "Animate this storyboard frame as a quiet reveal shot. The white dragon-deer takes one gentle step through mist while Tuobaye lowers the Wufeng sword and watches in awe. Preserve creature identity: white fur, jade antlers, pearl scales, long mane, calm eyes. Preserve Tuobaye's rugged adult costume, bamboo flute, relic bundle, safe stone bank, and trust-building mood. No attack, no chase, no injury, no text."
+    }
+  ]
+}

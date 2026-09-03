@@ -1,0 +1,869 @@
+[
+  {
+    "type": "volume",
+    "title": "第一卷",
+    "line": 8
+  },
+  {
+    "type": "chapter",
+    "volume": "第一卷",
+    "title": "第一章 神农使者",
+    "line": 9
+  },
+  {
+    "type": "chapter",
+    "volume": "第一卷",
+    "title": "第二章 谪仙人",
+    "line": 150
+  },
+  {
+    "type": "chapter",
+    "volume": "第一卷",
+    "title": "第三章 傀儡英雄",
+    "line": 305
+  },
+  {
+    "type": "chapter",
+    "volume": "第一卷",
+    "title": "第四章 水妖龙女",
+    "line": 462
+  },
+  {
+    "type": "chapter",
+    "volume": "第一卷",
+    "title": "第五章 大荒游侠",
+    "line": 610
+  },
+  {
+    "type": "chapter",
+    "volume": "第一卷",
+    "title": "第六章 妖夜风云",
+    "line": 722
+  },
+  {
+    "type": "volume",
+    "title": "第二卷",
+    "line": 856
+  },
+  {
+    "type": "chapter",
+    "volume": "第二卷",
+    "title": "第一章 千里围猎",
+    "line": 857
+  },
+  {
+    "type": "chapter",
+    "volume": "第二卷",
+    "title": "第二章 咫尺天涯",
+    "line": 983
+  },
+  {
+    "type": "chapter",
+    "volume": "第二卷",
+    "title": "第三章 蜃楼城之夏",
+    "line": 1092
+  },
+  {
+    "type": "chapter",
+    "volume": "第二卷",
+    "title": "第四章 圆月弯刀",
+    "line": 1212
+  },
+  {
+    "type": "chapter",
+    "volume": "第二卷",
+    "title": "第五章 汤谷十日",
+    "line": 1338
+  },
+  {
+    "type": "volume",
+    "title": "第三卷",
+    "line": 1454
+  },
+  {
+    "type": "chapter",
+    "volume": "第三卷",
+    "title": "第一章 神器封印",
+    "line": 1455
+  },
+  {
+    "type": "chapter",
+    "volume": "第三卷",
+    "title": "第二章 古浪屿",
+    "line": 1590
+  },
+  {
+    "type": "chapter",
+    "volume": "第三卷",
+    "title": "第三章 鲸吞万里",
+    "line": 1692
+  },
+  {
+    "type": "chapter",
+    "volume": "第三卷",
+    "title": "第四章 鲛美人",
+    "line": 1807
+  },
+  {
+    "type": "chapter",
+    "volume": "第三卷",
+    "title": "第五章 此情可待",
+    "line": 1917
+  },
+  {
+    "type": "chapter",
+    "volume": "第三卷",
+    "title": "第六章 东海龙神",
+    "line": 2038
+  },
+  {
+    "type": "volume",
+    "title": "第四卷",
+    "line": 2185
+  },
+  {
+    "type": "chapter",
+    "volume": "第四卷",
+    "title": "第一章 流波夔牛",
+    "line": 2186
+  },
+  {
+    "type": "chapter",
+    "volume": "第四卷",
+    "title": "第二章 龙神太子",
+    "line": 2331
+  },
+  {
+    "type": "chapter",
+    "volume": "第四卷",
+    "title": "第三章 惊天之秘",
+    "line": 2458
+  },
+  {
+    "type": "chapter",
+    "volume": "第四卷",
+    "title": "第四章 相见时难",
+    "line": 2576
+  },
+  {
+    "type": "chapter",
+    "volume": "第四卷",
+    "title": "第五章 苗刀无锋",
+    "line": 2710
+  },
+  {
+    "type": "chapter",
+    "volume": "第四卷",
+    "title": "第六章 真假莫辨",
+    "line": 2831
+  },
+  {
+    "type": "volume",
+    "title": "第五卷",
+    "line": 2916
+  },
+  {
+    "type": "chapter",
+    "volume": "第五卷",
+    "title": "第一章 紫火神兵",
+    "line": 2917
+  },
+  {
+    "type": "chapter",
+    "volume": "第五卷",
+    "title": "第二章 落日楼头",
+    "line": 3059
+  },
+  {
+    "type": "chapter",
+    "volume": "第五卷",
+    "title": "第三章 凤尾城中",
+    "line": 3227
+  },
+  {
+    "type": "chapter",
+    "volume": "第五卷",
+    "title": "第四章 青丘美人",
+    "line": 3387
+  },
+  {
+    "type": "chapter",
+    "volume": "第五卷",
+    "title": "第五章 九尾妖狐",
+    "line": 3581
+  },
+  {
+    "type": "chapter",
+    "volume": "第五卷",
+    "title": "第六章 与子携行",
+    "line": 3766
+  },
+  {
+    "type": "volume",
+    "title": "第六卷",
+    "line": 4137
+  },
+  {
+    "type": "chapter",
+    "volume": "第六卷",
+    "title": "第一章 山雨欲来",
+    "line": 4138
+  },
+  {
+    "type": "chapter",
+    "volume": "第六卷",
+    "title": "第二章 雷泽惊变",
+    "line": 4332
+  },
+  {
+    "type": "chapter",
+    "volume": "第六卷",
+    "title": "第三章 月夜松林",
+    "line": 4548
+  },
+  {
+    "type": "chapter",
+    "volume": "第六卷",
+    "title": "第四章 流沙仙子",
+    "line": 4720
+  },
+  {
+    "type": "chapter",
+    "volume": "第六卷",
+    "title": "第五章 空桑故人",
+    "line": 4907
+  },
+  {
+    "type": "chapter",
+    "volume": "第六卷",
+    "title": "第六章 洞庭风雨",
+    "line": 5097
+  },
+  {
+    "type": "chapter",
+    "volume": "第六卷",
+    "title": "第七章 倾山倒海",
+    "line": 5269
+  },
+  {
+    "type": "volume",
+    "title": "第七卷",
+    "line": 5437
+  },
+  {
+    "type": "chapter",
+    "volume": "第七卷",
+    "title": "第一章 药山在望",
+    "line": 5438
+  },
+  {
+    "type": "chapter",
+    "volume": "第七卷",
+    "title": "第二章 三寸美人",
+    "line": 5652
+  },
+  {
+    "type": "chapter",
+    "volume": "第七卷",
+    "title": "第三章 灵山十巫",
+    "line": 5869
+  },
+  {
+    "type": "chapter",
+    "volume": "第七卷",
+    "title": "第四章 风神咆哮",
+    "line": 6077
+  },
+  {
+    "type": "chapter",
+    "volume": "第七卷",
+    "title": "第五章 白云深处",
+    "line": 6265
+  },
+  {
+    "type": "chapter",
+    "volume": "第七卷",
+    "title": "第六章 赤帝女桑",
+    "line": 6432
+  },
+  {
+    "type": "chapter",
+    "volume": "第七卷",
+    "title": "第七章 情火似海",
+    "line": 6580
+  },
+  {
+    "type": "volume",
+    "title": "第八卷",
+    "line": 6701
+  },
+  {
+    "type": "chapter",
+    "volume": "第八卷",
+    "title": "第一章 药神之争",
+    "line": 6702
+  },
+  {
+    "type": "chapter",
+    "volume": "第八卷",
+    "title": "第二章 神帝赭鞭",
+    "line": 6862
+  },
+  {
+    "type": "chapter",
+    "volume": "第八卷",
+    "title": "第三章 相煎何急",
+    "line": 7005
+  },
+  {
+    "type": "chapter",
+    "volume": "第八卷",
+    "title": "第四章 清冷九钟",
+    "line": 7153
+  },
+  {
+    "type": "chapter",
+    "volume": "第八卷",
+    "title": "第五章 丰山之盟",
+    "line": 7302
+  },
+  {
+    "type": "chapter",
+    "volume": "第八卷",
+    "title": "第六章 自投罗网",
+    "line": 7433
+  },
+  {
+    "type": "chapter",
+    "volume": "第八卷",
+    "title": "第七章 七彩圣土",
+    "line": 7597
+  },
+  {
+    "type": "volume",
+    "title": "第九卷",
+    "line": 7801
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第一章 迫在眉睫",
+    "line": 7802
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第二章 心如磐石",
+    "line": 7907
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第三章 矫龙难缚",
+    "line": 8064
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第四章 祭神大典",
+    "line": 8194
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第五章 火山腹中",
+    "line": 8369
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第六章 怒火焚情",
+    "line": 8535
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第七章 百年情仇",
+    "line": 8679
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第一章 赤炎金猊",
+    "line": 8887
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第二章 太乙火真",
+    "line": 9020
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第三章 两两相忘",
+    "line": 9147
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第四章 孤鹤万里",
+    "line": 9278
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第五章 楱杌虎伥",
+    "line": 9399
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第六章 寒荒凶兽",
+    "line": 9534
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第七章 似曾相识",
+    "line": 9682
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第一章 姑射仙子",
+    "line": 9845
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第二章 万兽围城",
+    "line": 9956
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第三章 冰心玉壶",
+    "line": 10084
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第四章 寒荒暗夜",
+    "line": 10204
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第五章 西海老祖",
+    "line": 10347
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第六章 柳暗花明",
+    "line": 10492
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第七章 天涯海角",
+    "line": 10640
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第一章 地河乾坤",
+    "line": 10784
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第二章 沧海月明",
+    "line": 10963
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第三章 釜底抽薪",
+    "line": 11090
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第四章 脉脉此情",
+    "line": 11225
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第五章 以牙还牙",
+    "line": 11382
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第六章 西海狂龙",
+    "line": 11549
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第七章 翻天神印",
+    "line": 11685
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第一章 天崩地裂",
+    "line": 11832
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第二章 苗刀再现",
+    "line": 11983
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第三章 流沙河畔",
+    "line": 12141
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第四章 夸父追日",
+    "line": 12281
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第五章 雁门大泽",
+    "line": 12438
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第六章 天上人间",
+    "line": 12565
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第七章 九冥尸虫",
+    "line": 12706
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第一章 通天斗法",
+    "line": 12861
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第二章 当时明月",
+    "line": 12975
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第三章 冥界之门",
+    "line": 13075
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第四章 大闹鬼界",
+    "line": 13187
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第五章 九泉之下",
+    "line": 13309
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第六章 人鬼殊途",
+    "line": 13434
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第七章 行尸走肉",
+    "line": 13565
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第八章 雪山迷情",
+    "line": 13688
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第九章 大荒日食",
+    "line": 13790
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第一章 方山禺渊",
+    "line": 13916
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第二章 三生之石",
+    "line": 14025
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第三章 惊闻巨变",
+    "line": 14157
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第四章 邪魂厉魄",
+    "line": 14265
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第五章 同仇敌忾",
+    "line": 14369
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第六章 西陵公主",
+    "line": 14471
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第七章 神鸟毕方",
+    "line": 14601
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第八章 似水流年",
+    "line": 14733
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第九章 一寸光阴",
+    "line": 14862
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第一章 昨夜星辰",
+    "line": 14980
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第二章 蟠桃大会",
+    "line": 15104
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第三章 瑶池风云",
+    "line": 15239
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第四章 成龙快婿",
+    "line": 15396
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第五章 舍我其谁",
+    "line": 15548
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第六章 不死神树",
+    "line": 15715
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第七章 前世今生",
+    "line": 15877
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第一章 零落成泥",
+    "line": 16033
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第二章 金风玉露",
+    "line": 16166
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第三章 九死一生",
+    "line": 16324
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第四章 阴差阳错",
+    "line": 16464
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第五章 金刀驸马",
+    "line": 16605
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第六章 情丝难断",
+    "line": 16759
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第七章 昨日重来",
+    "line": 16894
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第一章 似是故人",
+    "line": 17042
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第二章 不速之客",
+    "line": 17178
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第三章 石破天惊",
+    "line": 17317
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第四章 谁与争锋",
+    "line": 17464
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第五章 力挽狂澜",
+    "line": 17597
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第六章 五行之悟",
+    "line": 17746
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第七章 别来无恙",
+    "line": 17869
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第一章 六月飞雪",
+    "line": 18034
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第二章 大劫难逃",
+    "line": 18172
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第三章 螺宫殿内",
+    "line": 18293
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第四章 系铃解铃",
+    "line": 18457
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第五章 白云苍狗",
+    "line": 18621
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第六章 脱胎换骨",
+    "line": 18762
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第七章 曾经沧海",
+    "line": 18912
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第一章 扑朔迷离(03)",
+    "line": 19256
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第二章 云梦凶兽",
+    "line": 19449
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第三章 惊涛骇浪",
+    "line": 19634
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第四章 柔情似水",
+    "line": 19830
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第五章 共工少主",
+    "line": 20023
+  },
+  {
+    "type": "chapter",
+    "volume": "第九卷",
+    "title": "第六章 佳期如梦第六章 佳期",
+    "line": 20217
+  }
+]

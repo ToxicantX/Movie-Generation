@@ -1,0 +1,39 @@
+{
+  "updated": "2026-06-09T17:57:59",
+  "workflow_create_result_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc09_workflow_create_result.json",
+  "skip_existing": true,
+  "run_count": 4,
+  "completed_count": 4,
+  "fallback_count": 2,
+  "runs": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH01",
+      "expected_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC09_SH01_v001_00001_.png",
+      "completed": true,
+      "fallback_used": false,
+      "final_workflow": ".\\workflows\\ssj_ep02_sc09_sh01_storyboard_v001.json"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH02",
+      "expected_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC09_SH02_v001_00001_.png",
+      "completed": true,
+      "fallback_used": true,
+      "final_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh02_storyboard_v001_noref_retry.json"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH03",
+      "expected_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC09_SH03_v001_00001_.png",
+      "completed": true,
+      "fallback_used": true,
+      "final_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc09_sh03_storyboard_v001_noref_retry.json"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH04",
+      "expected_storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC09_SH04_v001_00001_.png",
+      "completed": true,
+      "fallback_used": false,
+      "final_workflow": ".\\workflows\\ssj_ep02_sc09_sh04_storyboard_v001.json"
+    }
+  ],
+  "ok": true
+}

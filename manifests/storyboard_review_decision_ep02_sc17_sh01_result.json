@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T00:15:38",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc17.json",
+    "shot_id":  "TEST_SSJ_EP02_SC17_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: spring-vine reversal is readable and non-gory",
+    "notes":  "Production caveat: keep vine breakout magical rather than horror-like in later regeneration.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

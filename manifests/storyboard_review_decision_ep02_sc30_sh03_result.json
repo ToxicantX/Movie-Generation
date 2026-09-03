@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T05:53:20",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc30.json",
+    "shot_id":  "TEST_SSJ_EP02_SC30_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Tuobaye\u0027s final-margin state is readable: he looks like he is surviving on the last possible reserve.",
+    "notes":  "Codex visual precheck: SH03 works as the final-margin beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

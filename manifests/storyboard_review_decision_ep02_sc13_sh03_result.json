@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-10T00:56:55",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc13.json",
+    "shot_id":  "TEST_SSJ_EP02_SC13_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "test-mode auto-pass: folded blood letter is unreadable and the trust handoff beat is clear",
+    "notes":  "Production caveat: Tuobaye is dirtier than the core reference but usable for pipeline validation; preserve no readable letter contents.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

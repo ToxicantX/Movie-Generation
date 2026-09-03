@@ -1,0 +1,26 @@
+{
+  "updated": "2026-06-08T17:24:45",
+  "segment_id": "SSJ_EP01_SC04",
+  "shot_id": "TEST_SSJ_EP01_SC04_SH01",
+  "workflow_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh01_i2v_v001.json",
+  "result_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_sh01_i2v_result.json",
+  "provider": "Gemini-API through ComfyUI GeminiAPIVideoGenerate",
+  "status": "failed_without_consuming_video_attempt",
+  "error_class": "Gemini video API 409",
+  "request_id": "req-1e91dd0e2c84467096327456664e18b0",
+  "summary": "Gemini-API uploaded the storyboard reference image, but Gemini Web did not confirm a submitted video task. No new chat/job appeared after the request, so the backend returned 409 and reported that no video attempt was consumed.",
+  "observed_service_state": {
+    "gemini_health": "ok",
+    "video_quota_available_after_failure": 4,
+    "media_list_has_new_sc04_video": false
+  },
+  "fallback_action": {
+    "type": "comfy_still_frame_technical_fallback",
+    "reason": "Keep the short-drama pipeline review/cut loop moving while official or stable I2V is unavailable.",
+    "workflows": [
+      "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh01_technical_still_fallback_v001.json",
+      "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_technical_still_fallback_v001.json",
+      "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh03_technical_still_fallback_v001.json"
+    ]
+  }
+}

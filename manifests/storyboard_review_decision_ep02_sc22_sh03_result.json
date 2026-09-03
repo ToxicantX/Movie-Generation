@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-12T14:05:23",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc22.json",
+    "shot_id":  "TEST_SSJ_EP02_SC22_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "The public reversal and crowd shock are clear; Fourteen, Tuobaye, the white dragon-deer, and the gate-space all remain legible in one frame.",
+    "notes":  "Codex visual precheck: SH03 cleanly sells the stunned aftermath beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

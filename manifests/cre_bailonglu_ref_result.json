@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-08T13:41:19",
+    "shot_id":  "CRE_bailonglu_ref",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_cre_bailonglu_ref_v001.json",
+    "prompt_id":  "10455933-dfd1-4a6d-8961-91af39ac916e",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_cre_bailonglu_ref_v001.json -\u003e prompt_id=10455933-dfd1-4a6d-8961-91af39ac916e"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "10455933-dfd1-4a6d-8961-91af39ac916e",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

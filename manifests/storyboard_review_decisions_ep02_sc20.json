@@ -1,0 +1,72 @@
+﻿{
+    "updated":  "2026-06-12T05:56:44",
+    "reviewer":  "Codex",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC20",
+                             "review_path":  ".\\manifests\\ssj_ep02_sc20_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC20_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC20",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc20_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC20_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC20_SH01",
+                          "title":  "众人瞠目结舌",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC20_SH01_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc20_sh01_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc20_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: shocked aftermath beat is readable and Duan Yukai remains distinct",
+                          "notes":  "Production caveat: keep Tuobaye surprised rather than triumphant in video."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC20",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc20_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC20_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC20_SH02",
+                          "title":  "科沙度疑心更重",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC20_SH02_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc20_sh02_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc20_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: Keshadu suspicion beat reads correctly",
+                          "notes":  "Production caveat: preserve Keshadu and Duan Yukai as clearly different figures in later regeneration."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC20",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc20_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC20_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC20_SH03",
+                          "title":  "神剑暴露众心惊",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC20_SH03_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc20_sh03_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc20_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass after regeneration: no-edge sword now reads as a dangerous broken reveal instead of a victory trophy",
+                          "notes":  "Approved regenerated version should be the only downstream source. Keep the sword incomplete, alarming, and politically risky."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC20",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc20_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC20_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC20_SH04",
+                          "title":  "十四郎亲自下场",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC20_SH04_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc20_sh04_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc20_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass after regeneration: Fourteen now clearly takes the initiative while Tuobaye feels pressured and the white-clothed woman reads as restrained but displeased",
+                          "notes":  "Approved regenerated version should be the only downstream source. Preserve Tuobaye as bluffing and overmatched in video."
+                      }
+                  ]
+}

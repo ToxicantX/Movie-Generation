@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T12:04:42",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc34.json",
+    "shot_id":  "TEST_SSJ_EP02_SC34_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "The white-clothed woman\u0027s stillness now clearly feels about to break apart.",
+    "notes":  "Codex visual precheck: SH04 works as the almost-broken-stillness beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

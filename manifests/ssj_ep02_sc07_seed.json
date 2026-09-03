@@ -1,0 +1,95 @@
+{
+  "updated": "2026-06-09T14:45:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 箫笛相和白衣初现",
+  "purpose": "Seed for EP02 SC07 after EP02 SC06 formal test-mode segment. Use this to plan the next 8-10 second short-drama shots through ComfyUI.",
+  "segment_id": "SSJ_EP02_SC07",
+  "beat_id": "C02_B07",
+  "title": "箫笛相和，白衣初现",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC06",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc06_storyboard_review.json",
+    "previous_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC06\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC06_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc06_formal_cut_result.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc06_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC06 is approved only for pipeline validation. SH04 white dragon-deer face drift should be tightened in production."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "突然身后有箫声扬起，错落合韵。拓拔野欣喜若狂，回头叫道：“前辈！”",
+    "adapted_summary": "拓拔野吹起竹笛后，身后忽有洞箫声应和。他以为是神农归来，惊喜回头，却发现月下竹间并非神农，而是一位白衣女子。女子持玛瑙洞箫，神情清冷淡远；拓拔野与白龙鹿都被她的气质震住。女子放下洞箫，淡然询问方才的笛声是否出自他手。",
+    "next_source_hint": "拓拔野因白衣女子的出现而失神，随后的对话与人物关系将进入新阶段。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "previous_flute_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC06_SH04_v001_00001_.png",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC06_formal_cut_v001.mp4"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute in hand or slipping from hand, Wufeng in a bamboo sheath at the right waist.",
+    "White dragon-deer remains a friendly mythic companion; avoid turning it into an ordinary deer.",
+    "White-clothed woman should be an adult, elegant, distant, and rain/water-associated; use the existing adult Yushiqie reference as the safest visual anchor, but keep her identity as first reveal unless later script confirms name.",
+    "Do not sexualize, infantilize, or romanticize with body-emphasis. The emotional beat is awe, shock, and mythic encounter.",
+    "The setting remains moonlit Tianhu bamboo pavilion, lake reflection, incense smoke, bamboo shadows.",
+    "No readable text, captions, subtitles, speech bubbles, English words, signs, or plaques."
+  ],
+  "localization_rules": [
+    "All planning text and eventual editing dialogue should be Chinese unless a technical field requires English.",
+    "Storyboard prompts may describe Chinese short-drama style, but must request no readable screen text.",
+    "I2V prompts must use silent visual generation: no synthesized speech, no flute/xiao audio, no captions, no subtitles, no readable signs, no English words.",
+    "Chinese dialogue, narration, flute/xiao sound design, and subtitles should be added later in editing."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "experimental_file_ids only while current local backend supports it; otherwise use official T2V smoke tests or switch provider for formal I2V",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Use stable reveal, reaction, and subtle head/hand movement. Avoid complex instrument-playing animation or fast turnarounds."
+  },
+  "suggested_shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH01",
+      "title": "箫声忽然相和",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye freezes mid-flute as an unseen xiao sound answers from behind; the dragon-deer also turns alertly.",
+      "reference_anchor": "previous_flute_storyboard or tuobaye_turnaround"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH02",
+      "title": "回头误认神农",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye turns back in sudden joy, expecting Shennong, with bamboo and moonlight behind him.",
+      "reference_anchor": "tuobaye_turnaround"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH03",
+      "title": "白衣女子月下持箫",
+      "duration_seconds": "8-10",
+      "visual_focus": "The adult white-clothed woman appears among moonlit bamboo, holding a white agate xiao near her lips, distant and serene.",
+      "reference_anchor": "yushiqie_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC07_SH04",
+      "title": "拓拔野与白龙鹿怔住",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye and the white dragon-deer stare in stunned silence as the woman lowers the xiao, beginning the encounter.",
+      "reference_anchor": "tuobaye_turnaround or yushiqie_reference"
+    }
+  ],
+  "next_work": [
+    "Create SSJ_EP02_SC07 storyboard plan with 4 shots, each 8-10 seconds max.",
+    "Use the adult Yushiqie visual reference for the white-clothed woman reveal; keep framing respectful and non-sexualized.",
+    "Keep all I2V prompts silent/no-caption/no-readable-text; dialogue is added later in editing.",
+    "Avoid generated lip-sync or readable subtitles during the encounter."
+  ]
+}

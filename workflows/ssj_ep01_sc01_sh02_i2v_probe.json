@@ -1,0 +1,17 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "inputs":  {
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH02_v001_00001_.png",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC01_SH02_i2v_probe",
+                                            "prompt":  "Animate this uploaded storyboard frame as a safe serene 8 second ancient Chinese fantasy shot. Preserve adult characters, rugged robes, green bamboo flute, ancient white-haired sage, high mountain meadow, golden sunset, distant sea, and soft waterfall mist. Gentle wind, slow camera push in, no danger, no violence, no injury, no minors, no text.",
+                                            "aspect_ratio":  "16:9",
+                                            "model":  "gemini-3.1-pro",
+                                            "reference_field":  "file_ids",
+                                            "base_url":  "http://127.0.0.1:7860"
+                                        },
+                             "class_type":  "GeminiAPIVideoGenerate"
+                         }
+               }
+}

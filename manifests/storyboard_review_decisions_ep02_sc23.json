@@ -1,0 +1,72 @@
+{
+  "updated": "2026-06-13T00:33:10",
+  "reviewer": "Codex test-mode visual review",
+  "instructions": "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+  "review_index": [
+    {
+      "review_id": "SSJ_EP02_SC23",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc23_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC23_STORYBOARD\\human_review.md",
+      "global_decision": "pending_storyboard_human_review",
+      "shot_count": 4
+    }
+  ],
+  "decisions": [
+    {
+      "review_id": "SSJ_EP02_SC23",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc23_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC23_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC23_SH01",
+      "title": "众惊转为追问",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC23_SH01_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc23_sh01_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc23_sh01_i2v_v001.json",
+      "decision": "pass",
+      "reason": "The crowd-pressure beat is clear: the mood has shifted from shock into collective questioning while Tuobaye remains battered and centered.",
+      "notes": "Codex visual precheck: SH01 cleanly establishes the aftermath crowd pressure."
+    },
+    {
+      "review_id": "SSJ_EP02_SC23",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc23_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC23_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC23_SH02",
+      "title": "十四郎羞怒难平",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC23_SH02_v001_00002_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc23_sh02_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc23_sh02_i2v_v001.json",
+      "decision": "pass",
+      "reason": "Regenerated version now reads as the post-hit humiliation beat: Shisilang has steadied himself and is burning with wounded pride rather than still being struck.",
+      "notes": "Approved regenerated storyboard keeps Tuobaye wary and battered while making Shisilangs recovered, humiliated rage the center of the frame."
+    },
+    {
+      "review_id": "SSJ_EP02_SC23",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc23_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC23_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC23_SH03",
+      "title": "科沙度锁定疑云",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC23_SH03_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc23_sh03_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc23_sh03_i2v_v001.json",
+      "decision": "pass",
+      "reason": "Keshadu's sharpened suspicion reads clearly, and the white-clothed woman remains quietly implicated without overt magic.",
+      "notes": "Codex visual precheck: SH03 works as the suspicion-locking beat."
+    },
+    {
+      "review_id": "SSJ_EP02_SC23",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc23_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC23_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC23_SH04",
+      "title": "白衣女子静压全场",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC23_SH04_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc23_sh04_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc23_sh04_i2v_v001.json",
+      "decision": "pass",
+      "reason": "The white-clothed woman's calm pressure is readable, with Keshadu's suspicion and Tuobaye's confusion still present in the same gate-space.",
+      "notes": "Codex visual precheck: SH04 is suitable as the silent-pressure beat."
+    }
+  ]
+}

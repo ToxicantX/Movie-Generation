@@ -1,0 +1,24 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input adult Yushiqie reference as the respectful identity anchor for the mysterious adult white-clothed woman. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium shot. In moonlit bamboo beside Tianhu, an adult white-clothed woman in pale flowing robes lowers a white agate xiao from near her lips and looks calmly toward Tuobaye off-camera, as if asking a question. Keep her elegant, distant, rain-and-water associated, fully clothed, non-sexualized, adult, with no body-emphasis and no childlike features. Purple incense smoke, lake moonlight, bamboo shadows, restrained drama lighting. Her mouth is closed or only subtly parted, no visible lip-sync. No readable text, no captions, no subtitles, no English words, no musical notes, no speech bubbles, no signs, no plaques, no modern elements. No input reference image is attached in this retry because the reference-image edit endpoint failed; rely on the written character, creature, costume, prop, and location continuity locks. Keep the frame coherent and production-reviewable.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC08_SH01_v001"
+                                        }
+                         }
+               }
+}

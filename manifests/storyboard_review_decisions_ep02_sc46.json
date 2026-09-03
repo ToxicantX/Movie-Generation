@@ -1,0 +1,72 @@
+﻿{
+    "updated":  "2026-07-11T19:06:26",
+    "reviewer":  "Codex test-mode visual review",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC46",
+                             "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc46_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC46_STORYBOARD\\human_review.md",
+                             "global_decision":  "approved_for_episode_cut",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC46",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc46_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC46_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC46_SH01",
+                          "title":  "科沙度真相将成势",
+                          "current_status":  "pass",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC46_SH01_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc46_sh01_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc46_sh01_technical_still_fallback_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Truth taking public shape reads clearly through the central white-clothed axis, opposing battered men, and observing crowd; no readable text is present.",
+                          "notes":  "Test-mode only: crowd density and exact Keshadu/Tuobaye identity mapping require final production review."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC46",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc46_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC46_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC46_SH02",
+                          "title":  "十四郎怒线将裂",
+                          "current_status":  "pass",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC46_SH02_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc46_sh02_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc46_sh02_technical_still_fallback_v001.json",
+                          "decision":  "pass",
+                          "reason":  "The rage line at the edge of rupture is immediately legible and the defensive counterpart remains visually overmatched; no readable text is present.",
+                          "notes":  "Non-production fallback: generated without the continuity reference after 502/524 errors; interior shift and overt energy effect must be corrected in production regeneration."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC46",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc46_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC46_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC46_SH03",
+                          "title":  "拓拔野将近空尽",
+                          "current_status":  "pass",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC46_SH03_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc46_sh03_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc46_sh03_technical_still_fallback_v001.json",
+                          "decision":  "pass",
+                          "reason":  "Tuobaye near-final depletion reads clearly from the collapsed central figure under pressure from both sides; no readable text is present.",
+                          "notes":  "Test-mode only: the two standing identities are visually too similar and require production-level identity correction."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC46",
+                          "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc46_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC46_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC46_SH04",
+                          "title":  "白衣女子静压将散裂",
+                          "current_status":  "pass",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC46_SH04_v001_00001_.png",
+                          "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc46_sh04_storyboard_v001.json",
+                          "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc46_sh04_technical_still_fallback_v001.json",
+                          "decision":  "pass",
+                          "reason":  "The white-clothed woman remains the still emotional axis while the surrounding men show imminent breakup pressure; no readable text is present.",
+                          "notes":  "Non-production fallback: generated without the continuity reference; daylight terrace, location, and costume drift must be corrected in production regeneration."
+                      }
+                  ]
+}

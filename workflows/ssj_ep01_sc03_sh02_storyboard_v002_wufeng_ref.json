@@ -1,0 +1,25 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 composition. Adult Tuobaye kneels safely on a mossy stone bank beside cold jade Dragon Pool water. A soft jade-gold Shennong Dan glow shines from his chest and hand. His other hand discovers a blunt black iron ruler-shaped Wufeng weapon among wet stones: rectangular thick bar body, flat square end, wrapped handle, no sharp edge, no pointed tip, not a normal sword. Rugged grey-brown cloth, rope belt, green bamboo flute visible, relic bundle secure. Water mist, glowing herbs, ancient pine roots, safe terrain, no blood, no injury, no text.",
+        "model": "gpt-image-2",
+        "size": "1536x1024",
+        "reference_image_paths": "",
+        "negative_prompt": "sharp sword, pointed tip, thin blade, katana, saber, glowing fantasy sword, blood, gore, injury, text, watermark, logo, anime, cartoon, child, teenager, minor"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/storyboards/SSJ_EP01_SC03_SH02_v002_wufeng"
+      }
+    }
+  }
+}

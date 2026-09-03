@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-11T20:49:26",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc14.json",
+    "shot_id":  "TEST_SSJ_EP02_SC14_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "test-mode auto-pass: identity and refusal beat are clear",
+    "notes":  "Production caveat: keep this simplified white-clothed woman styling as the anchor for the next segment.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

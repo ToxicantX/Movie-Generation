@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-13T17:15:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 真相将显形，静压将崩裂",
+  "purpose": "Seed for EP02 SC41 after EP02 SC40 formal test-mode segment. Continue the ComfyUI short-drama pipeline from the point where truth is nearly bare and the white-clothed woman's restraint is nearly cracking into the next threshold: Keshadu's conclusion is almost openly visible, Shisilang's fury is at the lip of rupture, Tuobaye is nearly fully exhausted, and the white-clothed woman's still pressure is on the edge of visible fracture.",
+  "segment_id": "SSJ_EP02_SC41",
+  "beat_id": "C02_B41",
+  "title": "真相将显形，静压将崩裂",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC40",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc40_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC40_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC40\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC40_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc40_formal_cut_result.json",
+    "previous_formal_segment_probe": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc40_formal_cut_probe.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC40 is approved only for pipeline validation. All four SC40 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "真相将外露，十四郎怒线将断，拓拔野几近空尽，白衣女子的静压已到将裂开边缘。",
+    "adapted_summary": "下一段要把这条线继续推进到真正外显崩裂前的门槛。科沙度的判断几乎显形，十四郎的怒势也只差一步就会失控，拓拔野几乎彻底空尽，而白衣女子的静压来到马上要崩裂的边缘。",
+    "next_source_hint": "下一段应把隐线从将外露与将裂开推进到真正外显断裂前的门槛，为明确出手、揭露或局面失控做直接引爆。"
+  }
+}

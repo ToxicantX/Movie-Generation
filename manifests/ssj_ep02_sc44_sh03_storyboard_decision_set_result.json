@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T20:52:19",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc44.json",
+    "shot_id":  "TEST_SSJ_EP02_SC44_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Tuobaye nearly-finished-exhaustion state is clear: the kneeling center figure anchors depletion while the two standing men define pressure from both sides.",
+    "notes":  "Codex visual precheck: SH03 works as the nearly-finished-exhaustion beat.",
+    "reviewer":  "",
+    "ok":  true
+}

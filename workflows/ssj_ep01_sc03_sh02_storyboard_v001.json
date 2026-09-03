@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Cinematic realistic ancient Chinese mythic fantasy storyboard frame. Adult Tuobaye kneels safely on a mossy stone bank beside cold jade Dragon Pool water. A soft jade-gold Shennong Dan glow shines from his chest and hand as he discovers a plain dark blunt ancient sword among wet stones, Wufeng sword. Rugged grey-brown cloth, rope belt, green bamboo flute, relic bundle secure. Water mist, glowing herbs, ancient pine roots, safe terrain, no blood, no injury, no text.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1024x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  ""
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC03_SH02_v001"
+                                        }
+                         }
+               }
+}

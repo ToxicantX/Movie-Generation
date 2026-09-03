@@ -1,0 +1,72 @@
+{
+  "updated": "2026-06-09T18:58:20",
+  "reviewer": "Codex storyboard visual precheck; user authorized test-mode auto-pass when absent on 2026-06-09",
+  "instructions": "Test-mode decisions for SC10 storyboard gate. Production review should still inspect sword length/prop continuity and white-clothed woman costume consistency.",
+  "review_index": [
+    {
+      "review_id": "SSJ_EP02_SC10",
+      "review_path": ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC10_STORYBOARD\\human_review.md",
+      "global_decision": "pending_storyboard_human_review",
+      "shot_count": 4
+    }
+  ],
+  "decisions": [
+    {
+      "review_id": "SSJ_EP02_SC10",
+      "review_path": ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC10_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC10_SH01",
+      "title": "恭敬递剑",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH01_v001_00001_.png",
+      "storyboard_workflow": ".\\workflows\\ssj_ep02_sc10_sh01_storyboard_v001.json",
+      "video_workflow": ".\\workflows\\ssj_ep02_sc10_sh01_i2v_v001.json",
+      "decision": "pass",
+      "reason": "Adult Tuobaye respectfully offers the broken sword to the adult white-clothed woman; moonlit pavilion setting and no readable text are clear.",
+      "notes": "Test-mode pass. Good handover composition; sword has no readable inscription."
+    },
+    {
+      "review_id": "SSJ_EP02_SC10",
+      "review_path": ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC10_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC10_SH02",
+      "title": "断剑凌空入掌",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH02_v001_00001_.png",
+      "storyboard_workflow": ".\\workflows\\ssj_ep02_sc10_sh02_storyboard_v001.json",
+      "video_workflow": ".\\workflows\\ssj_ep02_sc10_sh02_i2v_v001.json",
+      "decision": "pass",
+      "reason": "Floating broken sword and receiving gesture are clear; adult white-clothed woman, xiao, lake mist, and distant Tuobaye are usable with no readable text.",
+      "notes": "Test-mode pass with caveat: costume drifts blue-grey and sword ornamentation is more elaborate than target plain Wufeng."
+    },
+    {
+      "review_id": "SSJ_EP02_SC10",
+      "review_path": ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC10_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC10_SH03",
+      "title": "锈落白芒",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH03_v001_00001_.png",
+      "storyboard_workflow": ".\\workflows\\ssj_ep02_sc10_sh03_storyboard_v001.json",
+      "video_workflow": ".\\workflows\\ssj_ep02_sc10_sh03_i2v_v001.json",
+      "decision": "pass",
+      "reason": "Rust falling and pale glow beat are readable; blade decoration appears abstract and not clear Chinese/English text.",
+      "notes": "Test-mode pass with caveat: sword reads too long/two-section for production and should be redrawn later if strict prop continuity is required."
+    },
+    {
+      "review_id": "SSJ_EP02_SC10",
+      "review_path": ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC10_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC10_SH04",
+      "title": "剑断情伤",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC10_SH04_v001_00001_.png",
+      "storyboard_workflow": ".\\workflows\\ssj_ep02_sc10_sh04_storyboard_v001.json",
+      "video_workflow": ".\\workflows\\ssj_ep02_sc10_sh04_i2v_v001.json",
+      "decision": "pass",
+      "reason": "Restrained tear, glowing broken sword, and Tuobaye observing from distance clearly express the grief beat; no readable inscriptions or captions seen.",
+      "notes": "Test-mode pass. Strong emotional resolve frame; use only as pipeline validation until true I2V returns."
+    }
+  ]
+}

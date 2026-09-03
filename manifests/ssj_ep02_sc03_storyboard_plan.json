@@ -1,0 +1,102 @@
+{
+  "updated": "2026-06-09",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 玉屏峰险路",
+  "segment_id": "SSJ_EP02_SC03",
+  "beat_id": "C02_B03",
+  "title": "白龙鹿绕峰飞渡",
+  "purpose": "承接山门被守后的困局，让白龙鹿主动带拓拔野绕上西峰，并以月下飞渡把两人的默契和神异能力推到一个动作高潮。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC02",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc02_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC02_formal_cut_v001.mp4",
+    "previous_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC02_SH04_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc03_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt after 余下大汉围成一圈，在玉屏峰山门前站住。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 uses prior SC02 gate/warband storyboard for blocked-route continuity. SH02 and SH04 lock the white dragon-deer. SH03 locks Yuping Mountain/Tianhu location mood.",
+  "video_policy": "Gemini experimental I2V should use only each generated and approved storyboard image as source of truth. No extra character or location references in video generation.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, or English words inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "鹿兄，你真要从这里过去？",
+      "好，咱们就赌这一跃。",
+      "青帝，我拓拔野也来了。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "wufeng_corrected_prop": "G:\\ComfyUI\\output\\AIShortDrama\\props\\PROP_wufeng_blunt_iron_ref_v002_00001_.png",
+    "previous_gate_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC02_SH04_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC03_SH01",
+      "beat": "C02_B03",
+      "title": "守卫封门，白龙鹿转向",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿",
+        "黑衣守卫"
+      ],
+      "location": "玉屏峰山门外 / 西峰方向",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC03_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC03_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC02_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the input EP02 SC02 gate-and-warband storyboard as continuity for the blocked lower route. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 widescreen. Dusk deepening into night at the pine-wood gate of Yuping peak; black-clad guards form a sealed circle at the lower gate and mossy stone stair, no readable plaque or signs. Adult Tuobaye age 28 to 32 watches from a hidden boulder with the friendly white dragon-deer beside him; preserve rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, and plain dark blunt rectangular edgeless Wufeng iron object tied low. The white dragon-deer turns its head toward the western side peak, ears alert, showing it has found another path. Qingdi remains unseen. Suspenseful Chinese short-drama visual style, no captions, no subtitles, no readable text, no English words, no speech bubbles, no combat, no gore, no injury.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent decision beat. Tuobaye watches the guarded gate from hiding; the white dragon-deer slowly turns toward the western peak and nudges him to move. Guards remain distant and mostly still, mist drifts through pine shadows. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC03_SH02",
+      "beat": "C02_B03",
+      "title": "西峰密林疾奔",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "玉屏山西侧陡坡密林",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC03_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC03_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input white dragon-deer reference as the creature identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 dynamic tracking composition. The friendly white dragon-deer carries adult Tuobaye up a steep western forest slope at night; white deer body, pearl neck and shoulder scales, pale jade antlers, long white mane, calm intelligent eyes. Tuobaye clings low to its neck, grey-brown rough cloth layers whipping in the wind, Wufeng remains a plain dark blunt rectangular edgeless iron object tied low. Dense pine forest, cliff edges glimpsed through jade mist, branches sweeping past, moonlight breaking through leaves. The motion should feel agile and controlled, not chaotic. No readable text, no captions, no subtitles, no English words, no gore, no falling injury, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent uphill rush. The white dragon-deer bounds through steep moonlit pine forest with Tuobaye crouched low on its back; branches sway past, mist streaks, cliff edges pass safely in the background. Keep motion controlled and readable. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC03_SH03",
+      "beat": "C02_B03",
+      "title": "月下峰顶对望玉屏",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "西峰峰顶 / 遥望玉屏峰",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC03_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC03_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input Yuping Mountain/Tianhu reference as location mood anchor, but show a small western summit instead of the lake. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 wide moonlit vista. A tiny summit with several old pine trees and jagged mossy stones under a crescent moon; adult Tuobaye and the white dragon-deer stand on the western peak, facing east across a cloud-filled chasm toward the separated dark silhouette of Yuping peak. The lower valley is hidden by jade mist and moonlit cloud. Tuobaye rests one hand on the white dragon-deer's neck, half amazed and half resolved. Qingdi is unseen; black guards are far below and not the focus. No readable text, no captions, no subtitles, no English words, no speech bubbles, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent vista beat. Tuobaye and the white dragon-deer pause on the moonlit western summit, looking across the cloud-filled chasm at Yuping peak. Mist slowly rolls below; pine branches move gently; camera holds the distance and danger. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC03_SH04",
+      "beat": "C02_B03",
+      "title": "千丈云海一跃",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿"
+      ],
+      "location": "西峰至玉屏峰之间的月下云海",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC03_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC03_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input white dragon-deer reference as the creature identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 heroic but restrained composition. The white dragon-deer is captured in a clean mid-leap silhouette over moonlit jade cloud sea between two separated peaks; white deer body, pale jade antlers, long mane, pearl scales visible. Adult Tuobaye clings tightly to its neck, grey-brown robes streaming backward, Wufeng tied low as a plain dark blunt rectangular edgeless iron object. Below: distant dark forest canopy and cloud gap, not a graphic fall. Ahead: the landing ridge of Yuping peak, pine silhouettes. Keep the pose simple and readable for I2V, not too many limbs or extra animals. No readable text, no captions, no subtitles, no English words, no gore, no injury, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second simplified silent leap. Hold one clear heroic side-view angle: the white dragon-deer accelerates, floats across moonlit mist between peaks, and lands safely on the opposite ridge while Tuobaye clings to its neck. Keep the motion simple, smooth, and readable; avoid complex camera spins. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

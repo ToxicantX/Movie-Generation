@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sandbox_ep01_human_review_branches\\allpass_ssj_ep01_sc03_consistency_review.json",
+  "output_path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\sandbox_ep01_human_review_branches\\SSJ_EP01_SC03_formal_cut_sandbox.mp4",
+  "sources": [
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH01_i2v_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    },
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH02_i2v_v002_wufeng.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    },
+    {
+      "path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC03_SH03_i2v_v001.mp4",
+      "fps": 24.0,
+      "width": 1280,
+      "height": 720,
+      "frame_count": 240
+    }
+  ],
+  "frame_count": 720,
+  "fps": 24.0,
+  "size": [
+    1280,
+    720
+  ],
+  "bytes": 27395151
+}

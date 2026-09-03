@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-08T13:22:56",
+    "shot_id":  "TEST_ref_storyboard_single_turnaround",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\test_ref_image_storyboard_single_turnaround_v001.json",
+    "prompt_id":  "9168d4cc-81b1-4385-b988-80c0b229b81f",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\test_ref_image_storyboard_single_turnaround_v001.json -\u003e prompt_id=9168d4cc-81b1-4385-b988-80c0b229b81f"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "9168d4cc-81b1-4385-b988-80c0b229b81f",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

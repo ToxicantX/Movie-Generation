@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-10T00:56:32",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc13.json",
+    "shot_id":  "TEST_SSJ_EP02_SC13_SH02",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "test-mode auto-pass: Qingdi remains absent; location and hope/disappointment beat are clear",
+    "notes":  "Production caveat: keep single storyboard as I2V source; do not add spoken dialogue or captions.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

@@ -1,0 +1,141 @@
+{
+    "project":  "AI短剧生成工厂",
+    "source":  "搜神记 第一卷 第一章 神农使者",
+    "review_schema":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\consistency_review_schema.json",
+    "episode_id":  "SSJ_EP01",
+    "segment_id":  "SSJ_EP01_TECHNICAL_ROUGH_CUT",
+    "beat_id":  "C01_B01_TO_C01_B08",
+    "title":  "Episode 01 technical rough cut from SC01-SC04",
+    "updated":  "2026-06-08",
+    "global_decision":  "pending_human_consistency_review",
+    "global_reason":  "SC01-SC04 are stitched as an episode-level technical rough cut to validate continuity, runtime, pacing, review package generation, and downstream handoff. Current source segments no longer contain technical fallback footage, but segment-level human consistency review is still pending.",
+    "assembly_policy":  {
+                            "purpose":  "Validate episode-level continuity, total runtime, rough pacing, review package generation, and downstream handoff.",
+                            "not_formal_release":  true,
+                            "requires_before_formal_cut":  [
+                                                               "Human consistency review must pass SC01-SC04.",
+                                                               "SC04 SH02 no-reference storyboard must be checked for white dragon-deer identity.",
+                                                               "Formal gate must pass with every segment shot status/check set to pass."
+                                                           ]
+                        },
+    "source_segments":  [
+                            {
+                                "segment_id":  "SSJ_EP01_SC01",
+                                "review":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                                "cut_manifest":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_episode_cut_result.json",
+                                "cut_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC01_test_cv2_v001.mp4",
+                                "quality_status":  "i2v_generated_pending_human_review"
+                            },
+                            {
+                                "segment_id":  "SSJ_EP01_SC02",
+                                "review":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                                "cut_manifest":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_postprocess_smoke_result.json",
+                                "cut_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC02_technical_smoke_cut.mp4",
+                                "quality_status":  "i2v_generated_pending_human_review"
+                            },
+                            {
+                                "segment_id":  "SSJ_EP01_SC03",
+                                "review":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                                "cut_manifest":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_postprocess_smoke_result.json",
+                                "cut_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC03_technical_smoke_cut.mp4",
+                                "quality_status":  "i2v_generated_pending_human_review"
+                            },
+                            {
+                                "segment_id":  "SSJ_EP01_SC04",
+                                "review":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+                                "cut_manifest":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_postprocess_smoke_result.json",
+                                "cut_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC04_technical_smoke_cut.mp4",
+                                "quality_status":  "i2v_generated_pending_human_review"
+                            }
+                        ],
+    "shots":  [
+                  {
+                      "shot_id":  "SSJ_EP01_ROUGH_SC01",
+                      "title":  "SC01 Mission transfer opening",
+                      "beat":  "C01_B01_TO_C01_B05",
+                      "duration_seconds":  "30",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH01_v001_00001_.png",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC01_test_cv2_v001.mp4",
+                      "video_filename_prefix":  "AIShortDrama/episodes/SSJ_EP01_SC01_test_cv2_v001",
+                      "preferred_video_mode":  "segment_cut_for_episode_rough_cut",
+                      "status":  "generated_pending_human_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Uses SSJ_EP01_SC01 segment-level cut. Source segment fallback markers: False. Segment global decision: pending_human_consistency_review."
+                  },
+                  {
+                      "shot_id":  "SSJ_EP01_ROUGH_SC02",
+                      "title":  "SC02 Farewell and descent",
+                      "beat":  "C01_B06",
+                      "duration_seconds":  "30",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC02_SH01_v001_00001_.png",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC02_technical_smoke_cut.mp4",
+                      "video_filename_prefix":  "AIShortDrama/episodes/SSJ_EP01_SC02_technical_smoke_cut",
+                      "preferred_video_mode":  "segment_cut_for_episode_rough_cut",
+                      "status":  "generated_pending_human_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Uses SSJ_EP01_SC02 segment-level cut. Source segment fallback markers: False. Segment global decision: pending_human_consistency_review."
+                  },
+                  {
+                      "shot_id":  "SSJ_EP01_ROUGH_SC03",
+                      "title":  "SC03 Dragon pool ordeal and awakening",
+                      "beat":  "C01_B07",
+                      "duration_seconds":  "28",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC03_SH01_v001_00001_.png",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC03_technical_smoke_cut.mp4",
+                      "video_filename_prefix":  "AIShortDrama/episodes/SSJ_EP01_SC03_technical_smoke_cut",
+                      "preferred_video_mode":  "segment_cut_for_episode_rough_cut",
+                      "status":  "generated_pending_human_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Uses SSJ_EP01_SC03 segment-level cut. Source segment fallback markers: False. Segment global decision: pending_human_consistency_review."
+                  },
+                  {
+                      "shot_id":  "SSJ_EP01_ROUGH_SC04",
+                      "title":  "SC04 White dragon-deer mount and departure",
+                      "beat":  "C01_B08",
+                      "duration_seconds":  "24",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH01_v001_00001_.png",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC04_technical_smoke_cut.mp4",
+                      "video_filename_prefix":  "AIShortDrama/episodes/SSJ_EP01_SC04_technical_smoke_cut",
+                      "preferred_video_mode":  "segment_cut_for_episode_rough_cut",
+                      "status":  "generated_pending_human_review",
+                      "checks":  {
+                                     "character_identity":  "pending_human_review",
+                                     "character_props":  "pending_human_review",
+                                     "location_identity":  "pending_human_review",
+                                     "storyboard_match":  "pending_human_review",
+                                     "motion_continuity":  "pending_human_review",
+                                     "safety_constraints":  "pending_human_review",
+                                     "clean_output":  "pending_human_review",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Uses SSJ_EP01_SC04 segment-level cut. Source segment fallback markers: False. Segment global decision: pending_human_consistency_review."
+                  }
+              ]
+}

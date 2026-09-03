@@ -1,0 +1,96 @@
+{
+  "updated": "2026-06-13",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 真相将外露，静压将裂开",
+  "segment_id": "SSJ_EP02_SC40",
+  "beat_id": "C02_B40",
+  "title": "真相将外露，静压将裂开",
+  "purpose": "承接 SC39：局面已经来到真正外显失控前的门槛。此段继续按节点拆开：先是科沙度的判断几乎已成公开事实，再是十四郎的怒线逼近真正崩断，接着拓拔野在几乎完全空尽的边缘继续苦撑，最后把白衣女子那股将裂未裂的静压推进到真正只差最后一线就会裂开的状态。全段继续保持无声视觉，不生成口播、字幕或任何可读文本。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC39",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc39_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC39_formal_cut_v001.mp4",
+    "previous_truth_breakout_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH01_v001_00001_.png",
+    "previous_break_breath_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH02_v001_00001_.png",
+    "previous_empty_limit_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH03_v001_00001_.png",
+    "previous_split_edge_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH04_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc40_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 真相将外露 / 怒线将断 / 拓拔野空尽 / 静压将裂开。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 anchors to the approved truth-about-to-break-out frame. SH02 anchors to the approved one-breath-before-break frame. SH03 anchors to the approved emptying-to-the-limit frame. SH04 anchors to the approved still-pressure-about-to-split frame and pushes it to the threshold of visible cracking.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, gate calligraphy, speech bubbles, English words, or clear Chinese inscriptions inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, accusation, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "真相将外露。",
+      "十四郎怒线将断。",
+      "拓拔野几近空尽。",
+      "白衣女子静压将裂开。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_truth_breakout_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH01_v001_00001_.png",
+    "previous_break_breath_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH02_v001_00001_.png",
+    "previous_empty_limit_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH03_v001_00001_.png",
+    "previous_split_edge_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH04_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC40_SH01",
+      "beat": "C02_B40",
+      "title": "科沙度真相将外露",
+      "duration_seconds": "8-10",
+      "characters": ["科沙度", "拓拔野", "白衣女子"],
+      "location": "禁院门前 / 真相将外露",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC40_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC40_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH01_v001_00001_.png",
+      "storyboard_prompt": "Use the approved SC39 truth-about-to-break-out storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 truth-nearly-exposed composition. Keshadu should now feel as if his conclusion is nearly already public. Adult Tuobaye remains battered and almost fully emptied; the white-clothed woman remains outwardly composed while still holding the hidden axis of pressure. The frame should feel like truth is about to stand bare in the scene. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent truth-nearly-exposed beat. Keshadu's certainty nearly stands bare as public fact while Tuobaye remains strained and the white-clothed woman stays still; robes, gaze shifts, mist, and lantern light move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC40_SH02",
+      "beat": "C02_B40",
+      "title": "十四郎怒线将断",
+      "duration_seconds": "8-10",
+      "characters": ["十四郎", "拓拔野"],
+      "location": "禁院门前 / 怒线将断",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC40_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC40_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH02_v001_00001_.png",
+      "storyboard_prompt": "Use the approved SC39 one-breath-before-break storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 rage-line-about-to-break composition. Fourteen's fury should now feel one direct instant from breaking outward. Tuobaye remains battered and defensive, never in control. The frame should read as the final hold before visible rupture. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent rage-line-about-to-break beat. Fourteen's fury strains toward visible rupture while Tuobaye remains battered and defensive; robes, breath, hair, and lantern light move with unstable force. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC40_SH03",
+      "beat": "C02_B40",
+      "title": "拓拔野几近空尽",
+      "duration_seconds": "8-10",
+      "characters": ["拓拔野", "科沙度", "十四郎"],
+      "location": "禁院门前 / 空尽临界",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC40_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC40_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH03_v001_00001_.png",
+      "storyboard_prompt": "Use the approved SC39 emptying-to-the-limit storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 near-total-exhaustion composition. Adult Tuobaye should now read as almost entirely spent: battered, hollow, and surviving on nearly nothing. Keshadu's certainty and Fourteen's instability leave him almost no margin at all. The frame should feel like body and will are both on the threshold of complete exhaustion. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent near-total-exhaustion beat. Tuobaye persists on almost nothing while pressure closes from every side; robes, breath, mist, and lantern light move with near-collapse instability. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC40_SH04",
+      "beat": "C02_B40",
+      "title": "白衣女子静压将裂开",
+      "duration_seconds": "8-10",
+      "characters": ["白衣女子", "科沙度", "拓拔野"],
+      "location": "禁院门前 / 静压将裂开",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC40_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC40_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the approved SC39 still-pressure-about-to-split storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 still-pressure-about-to-crack composition. The white-clothed woman remains outwardly composed, but now the frame should feel like that stillness is about to visibly crack. Keshadu remains dangerously near the truth; Tuobaye is still trapped inside the same field. No overt magic spectacle yet unless the true source beat demands it, but the emotional sense of imminent cracking must be unmistakable. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent still-pressure-about-to-crack beat. The white-clothed woman remains almost perfectly still while the sense that that stillness is about to crack becomes unmistakable; sleeves, hair, mist, and lantern light move with dangerous restraint. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

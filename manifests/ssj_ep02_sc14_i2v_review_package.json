@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "updated": "2026-06-11T20:53:09",
+  "review_path": "manifests\\ssj_ep02_sc14_storyboard_review.json",
+  "output_dir": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14",
+  "markdown_path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\human_review.md",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH01",
+      "ok": true,
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC14_SH01_technical_still_fallback_v001.mp4",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH01_v001_00001_.png",
+      "frames": {
+        "first": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH01\\TEST_SSJ_EP02_SC14_SH01_first.jpg",
+          "frame": 0
+        },
+        "middle": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH01\\TEST_SSJ_EP02_SC14_SH01_middle.jpg",
+          "frame": 120
+        },
+        "last": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH01\\TEST_SSJ_EP02_SC14_SH01_last.jpg",
+          "frame": 239
+        }
+      },
+      "contact_sheet": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH01\\TEST_SSJ_EP02_SC14_SH01_contact_sheet.jpg",
+      "storyboard_compare": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH01\\TEST_SSJ_EP02_SC14_SH01_storyboard_compare.jpg",
+      "technical": {
+        "fps": 24.0,
+        "width": 1280,
+        "height": 720,
+        "frame_count": 240,
+        "duration_seconds": 10.0,
+        "bytes": 1629261
+      },
+      "error": null
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH02",
+      "ok": true,
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC14_SH02_technical_still_fallback_v001.mp4",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH02_v001_00001_.png",
+      "frames": {
+        "first": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH02\\TEST_SSJ_EP02_SC14_SH02_first.jpg",
+          "frame": 0
+        },
+        "middle": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH02\\TEST_SSJ_EP02_SC14_SH02_middle.jpg",
+          "frame": 120
+        },
+        "last": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH02\\TEST_SSJ_EP02_SC14_SH02_last.jpg",
+          "frame": 239
+        }
+      },
+      "contact_sheet": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH02\\TEST_SSJ_EP02_SC14_SH02_contact_sheet.jpg",
+      "storyboard_compare": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH02\\TEST_SSJ_EP02_SC14_SH02_storyboard_compare.jpg",
+      "technical": {
+        "fps": 24.0,
+        "width": 1280,
+        "height": 720,
+        "frame_count": 240,
+        "duration_seconds": 10.0,
+        "bytes": 3013651
+      },
+      "error": null
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH03",
+      "ok": true,
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC14_SH03_technical_still_fallback_v001.mp4",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH03_v001_00001_.png",
+      "frames": {
+        "first": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH03\\TEST_SSJ_EP02_SC14_SH03_first.jpg",
+          "frame": 0
+        },
+        "middle": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH03\\TEST_SSJ_EP02_SC14_SH03_middle.jpg",
+          "frame": 120
+        },
+        "last": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH03\\TEST_SSJ_EP02_SC14_SH03_last.jpg",
+          "frame": 239
+        }
+      },
+      "contact_sheet": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH03\\TEST_SSJ_EP02_SC14_SH03_contact_sheet.jpg",
+      "storyboard_compare": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH03\\TEST_SSJ_EP02_SC14_SH03_storyboard_compare.jpg",
+      "technical": {
+        "fps": 24.0,
+        "width": 1280,
+        "height": 720,
+        "frame_count": 240,
+        "duration_seconds": 10.0,
+        "bytes": 3584178
+      },
+      "error": null
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC14_SH04",
+      "ok": true,
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC14_SH04_technical_still_fallback_v001.mp4",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC14_SH04_v001_00001_.png",
+      "frames": {
+        "first": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH04\\TEST_SSJ_EP02_SC14_SH04_first.jpg",
+          "frame": 0
+        },
+        "middle": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH04\\TEST_SSJ_EP02_SC14_SH04_middle.jpg",
+          "frame": 120
+        },
+        "last": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH04\\TEST_SSJ_EP02_SC14_SH04_last.jpg",
+          "frame": 239
+        }
+      },
+      "contact_sheet": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH04\\TEST_SSJ_EP02_SC14_SH04_contact_sheet.jpg",
+      "storyboard_compare": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC14\\TEST_SSJ_EP02_SC14_SH04\\TEST_SSJ_EP02_SC14_SH04_storyboard_compare.jpg",
+      "technical": {
+        "fps": 24.0,
+        "width": 1280,
+        "height": 720,
+        "frame_count": 240,
+        "duration_seconds": 10.0,
+        "bytes": 3419213
+      },
+      "error": null
+    }
+  ]
+}

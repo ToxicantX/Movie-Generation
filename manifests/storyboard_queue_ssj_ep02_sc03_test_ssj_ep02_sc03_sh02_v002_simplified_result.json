@@ -1,0 +1,19 @@
+﻿{
+    "updated":  "2026-06-09T12:44:23",
+    "shot_id":  "TEST_SSJ_EP02_SC03_SH02",
+    "mode":  "image_to_video_with_storyboard_image_path",
+    "workflow_path":  ".\\workflows\\ssj_ep02_sc03_sh02_i2v_v002_simplified.json",
+    "prompt_id":  "124d70a7-743c-45fa-a9bc-9a26e4020842",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          ".\\workflows\\ssj_ep02_sc03_sh02_i2v_v002_simplified.json -\u003e prompt_id=124d70a7-743c-45fa-a9bc-9a26e4020842"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "124d70a7-743c-45fa-a9bc-9a26e4020842",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

@@ -1,0 +1,112 @@
+{
+    "project":  "AI鐭墽鐢熸垚宸ュ巶",
+    "source":  "搜神记 第一卷 第一章 神农使者",
+    "review_schema":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\consistency_review_schema.json",
+    "segment_id":  "SSJ_EP01_SC02",
+    "beat_id":  "C01_B06",
+    "title":  "Farewell and descent",
+    "updated":  "2026-06-08",
+    "global_decision":  "approved_for_episode_cut",
+    "global_reason":  "All shots passed human consistency review.",
+    "shots":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC02_SH01",
+                      "title":  "Relics secured after the mandate",
+                      "beat":  "C01_B06",
+                      "duration_seconds":  "8-10",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC02_SH01_v001_00001_.png",
+                      "storyboard_filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC02_SH01_v001",
+                      "video_filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC02_SH01_i2v_v001",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc02_sh01_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc02_sh01_i2v_v001.json",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH01_i2v_v001_00001.mp4",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth.\nAI precheck history: first SH01 generation was rejected because middle and last frames drifted away from the relic-securing action. The rejected file is recorded in rejected_video_outputs.json.\nAI precheck after rerun: current video_path points to the rerun candidate. Tuobaye and Shennong remain in the same meadow frame, relic bundle action persists through first/middle/last frames, and identity/location are stable enough for human review.\nHuman review: Sandbox branch test generated decision.",
+                      "human_review":  {
+                                           "updated":  "2026-06-08T19:10:13",
+                                           "reviewer":  "sandbox_branch_test",
+                                           "decision":  "pass",
+                                           "regeneration_scope":  "video",
+                                           "reason":  "Sandbox all-pass branch validation.",
+                                           "notes":  "Sandbox branch test generated decision."
+                                       }
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC02_SH02",
+                      "title":  "Last look back from the meadow path",
+                      "beat":  "C01_B06",
+                      "duration_seconds":  "8-10",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC02_SH02_v001_00001_.png",
+                      "storyboard_filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC02_SH02_v001",
+                      "video_filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC02_SH02_i2v_v001",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc02_sh02_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc02_sh02_i2v_v001.json",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH02_i2v_v001.mp4",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth.\nHuman review: AI precheck: usable candidate. Identity, Shennong placement, safe path, and farewell intent are mostly preserved.\nHuman review: Sandbox branch test generated decision.",
+                      "human_review":  {
+                                           "updated":  "2026-06-08T19:10:13",
+                                           "reviewer":  "sandbox_branch_test",
+                                           "decision":  "pass",
+                                           "regeneration_scope":  "video",
+                                           "reason":  "Sandbox all-pass branch validation.",
+                                           "notes":  "Sandbox branch test generated decision."
+                                       }
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC02_SH03",
+                      "title":  "Departure into the mountain night",
+                      "beat":  "C01_B06",
+                      "duration_seconds":  "8-10",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC02_SH03_v001_00001_.png",
+                      "storyboard_filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC02_SH03_v001",
+                      "video_filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC02_SH03_i2v_v001",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc02_sh03_storyboard_v001.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc02_sh03_i2v_v001.json",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC02_SH03_i2v_v001.mp4",
+                      "preferred_video_mode":  "image_to_video_required",
+                      "status":  "pass",
+                      "checks":  {
+                                     "character_identity":  "pass",
+                                     "character_props":  "pass",
+                                     "location_identity":  "pass",
+                                     "storyboard_match":  "pass",
+                                     "motion_continuity":  "pass",
+                                     "safety_constraints":  "pass",
+                                     "clean_output":  "pass",
+                                     "technical_output":  "pass"
+                                 },
+                      "notes":  "Storyboard stage only. Video should use this approved storyboard as the single visual source of truth.\nHuman review: AI precheck: usable candidate with minor costume/prop drift. Safe path constraint is preserved.\nHuman review: Sandbox branch test generated decision.",
+                      "human_review":  {
+                                           "updated":  "2026-06-08T19:10:13",
+                                           "reviewer":  "sandbox_branch_test",
+                                           "decision":  "pass",
+                                           "regeneration_scope":  "video",
+                                           "reason":  "Sandbox all-pass branch validation.",
+                                           "notes":  "Sandbox branch test generated decision."
+                                       }
+                  }
+              ]
+}

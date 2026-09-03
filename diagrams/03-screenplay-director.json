@@ -1,0 +1,203 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "03 · 剧本与导演设计",
+    "locale": "zh-CN",
+    "output": "diagrams/03-screenplay-director.html",
+    "animation": "none",
+    "quality_profile": "showcase"
+  },
+  "lanes": [
+    {
+      "id": "plan",
+      "label": "读取确认规划"
+    },
+    {
+      "id": "screenplay",
+      "label": "生成剧本"
+    },
+    {
+      "id": "normalize",
+      "label": "导入并标准化"
+    },
+    {
+      "id": "director",
+      "label": "导演分镜设计"
+    },
+    {
+      "id": "review",
+      "label": "导演审核与返修"
+    },
+    {
+      "id": "lock",
+      "label": "锁定导演包"
+    }
+  ],
+  "semanticChecks": {
+    "allowedRoots": [
+      "confirmed_plan",
+      "external_script"
+    ],
+    "allowedTerminals": [
+      "locked_package"
+    ],
+    "requiredPaths": [
+      {
+        "from": "confirmed_plan",
+        "to": "locked_package"
+      },
+      {
+        "from": "external_script",
+        "to": "normalize_script"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "confirmed_plan",
+      "lane": "plan",
+      "col": 3,
+      "type": "database",
+      "label": "读取确认规划",
+      "sublabel": "方案 · 圣经 · 内容单元",
+      "width": 132
+    },
+    {
+      "id": "screenplay",
+      "lane": "screenplay",
+      "col": 3,
+      "type": "backend",
+      "label": "生成剧本",
+      "sublabel": "场次 · 动作 · 台词",
+      "width": 132
+    },
+    {
+      "id": "normalize_script",
+      "lane": "normalize",
+      "col": 3,
+      "width": 132,
+      "type": "backend",
+      "label": "导入并标准化",
+      "sublabel": "统一剧本结构"
+    },
+    {
+      "id": "director_design",
+      "lane": "director",
+      "col": 3,
+      "width": 132,
+      "type": "backend",
+      "label": "导演分镜设计",
+      "sublabel": "调度 · 节奏 · 运镜"
+    },
+    {
+      "id": "director_review",
+      "lane": "review",
+      "col": 3,
+      "type": "security",
+      "label": "导演审核",
+      "sublabel": "叙事与可生成性",
+      "tag": "人工",
+      "width": 132
+    },
+    {
+      "id": "locked_package",
+      "lane": "lock",
+      "col": 3,
+      "type": "database",
+      "label": "锁定导演包",
+      "sublabel": "进入分集与分镜",
+      "width": 132
+    },
+    {
+      "id": "external_script",
+      "lane": "normalize",
+      "col": 1,
+      "type": "external",
+      "label": "现成剧本",
+      "sublabel": "用户导入",
+      "width": 132
+    },
+    {
+      "id": "revise_script",
+      "lane": "review",
+      "col": 5,
+      "type": "frontend",
+      "label": "返修剧本",
+      "sublabel": "保留退回原因",
+      "width": 132
+    }
+  ],
+  "edges": [
+    {
+      "from": "confirmed_plan",
+      "to": "screenplay",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "screenplay",
+      "to": "normalize_script",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "normalize_script",
+      "to": "director_design",
+      "role": "main",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "director_design",
+      "to": "director_review",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "director_review",
+      "to": "locked_package",
+      "role": "main",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    },
+    {
+      "from": "external_script",
+      "to": "normalize_script",
+      "label": "人工剧本",
+      "role": "branch"
+    },
+    {
+      "from": "director_review",
+      "to": "revise_script",
+      "label": "退回",
+      "role": "error",
+      "variant": "security"
+    },
+    {
+      "from": "revise_script",
+      "to": "screenplay",
+      "label": "重新生成 / 编辑",
+      "role": "return",
+      "variant": "security"
+    }
+  ],
+  "mainPath": [
+    "confirmed_plan",
+    "screenplay",
+    "normalize_script",
+    "director_design",
+    "director_review",
+    "locked_package"
+  ]
+}

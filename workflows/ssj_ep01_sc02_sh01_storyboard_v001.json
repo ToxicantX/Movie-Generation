@@ -1,0 +1,24 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9. Adult Tuobaye age 28 to 32 kneels in a safe open Nanji Mountain meadow at late golden sunset, carefully wrapping ancient relics and three worn sheepskin books into a cloth bundle at his waist, green bamboo flute still visible. White-haired Shennong in deep purple herbal robe sits nearby with calm wise farewell expression, not dead, not injured, simply solemn and peaceful. Distant sea glow, waterfall mist far behind, poplar trees, drifting white catkins, jade-green begonia in grass. Natural fabric textures, restrained drama lighting, no text, no watermark.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP01_SC02_SH01_v001"
+                                        }
+                         }
+               }
+}

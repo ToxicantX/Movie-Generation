@@ -1,0 +1,49 @@
+{
+    "updated":  "2026-06-08T17:46:21",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\tmp_human_review_decisions_ep01_test.json",
+    "review_paths":  [
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json"
+                     ],
+    "include_pending":  false,
+    "include_technical_fallback":  false,
+    "summary":  {
+                    "pass":  0,
+                    "pending":  15,
+                    "needs_regeneration":  1,
+                    "blocked":  0,
+                    "technical_fallback":  6,
+                    "missing_workflow":  0
+                },
+    "queue_count":  1,
+    "queue":  [
+                  {
+                      "review_id":  "SSJ_EP01_SC04",
+                      "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+                      "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                      "title":  "Mounting the white dragon-deer",
+                      "decision":  "needs_regeneration",
+                      "regeneration_scope":  "storyboard",
+                      "reason":  "Test only: creature identity mismatch",
+                      "notes":  "Temporary dry-run decision; do not use for production.",
+                      "current_status":  "technical_fallback_pending_human_review",
+                      "preferred_video_mode":  "technical_still_fallback_after_i2v_failure",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH02_v001_00001_.png",
+                      "video_path":  "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP01_SC04_SH02_technical_still_fallback_v001.mp4",
+                      "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_storyboard_v001_noref_retry.json",
+                      "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_i2v_v001.json",
+                      "selected_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_storyboard_v001_noref_retry.json",
+                      "can_auto_rerun":  true,
+                      "is_technical_fallback":  true
+                  }
+              ],
+    "next_actions":  [
+                         "Fill human_review_decisions_ep01.json after reviewing the packages.",
+                         "Run this script again to refresh regeneration_queue_ep01.json.",
+                         "Auto-rerun only queue items where can_auto_rerun is true and regeneration_scope is storyboard or video."
+                     ],
+    "ok":  true
+}

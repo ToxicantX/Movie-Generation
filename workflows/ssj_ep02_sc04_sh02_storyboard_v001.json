@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Yuping Mountain/Tianhu reference as the location mood anchor, but show a moonlit stone path above the lake before it is found. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 wide quiet tracking composition. Adult Tuobaye and the white dragon-deer walk down a winding mossy stone path through tall pine trees under slanting moonlight. Tuobaye pauses and turns his head as if hearing faint spring water; the dragon-deer listens too. Jade-green mist, pine shadows, sacred empty mountain atmosphere. No houses visible yet, no Qingdi, no readable signs, no captions, no subtitles, no English words, no combat, no injury, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC04_SH02_v001"
+                                        }
+                         }
+               }
+}

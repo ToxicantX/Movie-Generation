@@ -1,0 +1,28 @@
+{
+  "updated": "2026-06-09T12:52:12",
+  "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc03_storyboard_review.json",
+  "workflow_create_result_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc03_workflow_create_result.json",
+  "state": "technical_preview_cut_built_pending_human_video_review",
+  "build_review_package": true,
+  "build_technical_preview_cut": true,
+  "allow_missing_videos": false,
+  "note": "Outer postprocess command timed out after child outputs were written; this manifest reconciles verified refresh/package/cut results. SH02 v001 hit Gemini 1155; v002_simplified succeeded.",
+  "refresh": {
+    "ready_to_review": true,
+    "found_count": 4,
+    "invalid_count": 0
+  },
+  "review_package": {
+    "ok": true,
+    "markdown_path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC03\\human_review.md",
+    "shot_count": 4
+  },
+  "cut": {
+    "ok": true,
+    "output_path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC03_technical_preview_cut.mp4",
+    "frame_count": 960,
+    "fps": 24.0,
+    "bytes": 24434985
+  },
+  "ok": true
+}

@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-12T12:45:00",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC21_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; the first real whip hit remains readable and Tuobaye is clearly outmatched."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC21_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; repeated punishment pressure is readable without crossing into gore."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC21_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Duan Yukai's frustration and inability to rise remain legible."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC21_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; approved regenerated version keeps the white dragon-deer as a protective interruption in the same gate-space confrontation."
+    }
+  ]
+}

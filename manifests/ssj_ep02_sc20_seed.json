@@ -1,0 +1,55 @@
+{
+  "updated": "2026-06-12T04:12:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 神剑暴露，怒意暗起",
+  "purpose": "Seed for EP02 SC20 after EP02 SC19 formal test-mode segment. Continue the ComfyUI short-drama pipeline from Tang Qi being kicked away into the next turn of escalation: the crowd is stunned; Keshadu's suspicion deepens; Duan Yukai praises Tuobaye; Tuobaye shows or draws the broken Wufeng/No-Edge Sword and shocks everyone; Shisilang decides to fight personally; the white-clothed woman grows quietly angry at Tuobaye's recklessness and prepares to intervene invisibly again.",
+  "segment_id": "SSJ_EP02_SC20",
+  "beat_id": "C02_B20",
+  "title": "神剑暴露，怒意暗起",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC19",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc19_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC19_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC19\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC19_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc19_formal_cut_result.json",
+    "previous_formal_segment_probe": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc19_formal_cut_probe.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC19 is approved only for pipeline validation. All four SC19 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing. SH03 and SH04 required storyboard regeneration before pass."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "拓拔野在白衣女子暗助下误打误撞踢飞唐七，众人错愕。",
+    "adapted_summary": "唐七被踢飞后，段聿铠拍掌叫好，科沙度越发怀疑拓拔野的真实来历。拓拔野得意忘形，与十四郎针锋相对，甚至亮出无锋剑，令众人震惊。白衣女子暗中嗔怒他不知轻重，却仍被迫准备再次助他收拾残局。十四郎一面心虚忌惮，一面终于亲自下场，下一轮真正的危险逼近。",
+    "next_source_hint": "随后十四郎正式与拓拔野交手，拓拔野先吃重鞭，在白衣女子暗助下又一次强行支撑，局面更加危险。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_accidental_counter_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC19_SH04_v001_00002_.png",
+    "previous_challenge_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC19_SH01_v001_00001_.png"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, right-waist green bamboo sheath, hidden broken Wufeng.",
+    "White-clothed woman remains elegant and mostly restrained; her anger should register as stillness and gaze, not overt magical spectacle.",
+    "Duan Yukai remains injured but impressed, never suddenly healed into full strength.",
+    "Shisilang remains proud, volatile, and suspicious. Keshadu remains colder and more calculating.",
+    "If the no-edge sword appears, it must feel like an alarming revelation rather than a triumphant hero shot.",
+    "No readable text, captions, subtitles, plaques, gate calligraphy, speech bubbles, English words, or UI."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Keep the sequence readable: shock, suspicion, sword reveal, and the decision to escalate should each read as a distinct beat rather than a muddled argument scene."
+  }
+}

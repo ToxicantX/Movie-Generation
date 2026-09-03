@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input SC13 courtyard storyboard as spatial continuity for wet stone courtyard, layered doors, bamboo, mist, and moonlit pavilion architecture. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 tense hidden-observer composition. Adult Tuobaye hides behind west-side bamboo with the white dragon-deer, peering through leaves; the adult white-clothed woman stands apart under east-side bamboo, calm and silent. Beyond layered doors and pine shadows, distant black-clothed Chaoyang Valley visitors wait respectfully outside the forbidden courtyard, not entering. Qingdi is absent. Do not show readable plaques, gate signs, door text, banners, or calligraphy. No Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC13_SH02_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC14_SH04_v001"
+                                        }
+                         }
+               }
+}

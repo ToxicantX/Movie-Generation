@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Yuping Mountain/Tianhu reference as location identity, but show the inner residence: simple bamboo corridors, pine-log beams, plain wooden platform, moonlight and jade mist. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium-wide composition. Adult Tuobaye in consistent grey-brown rough cloth, rope belt, travel pouch, green bamboo flute at waist, bamboo-sheathed blunt Wufeng iron object, stands on a pine-wood platform and looks around searching for Qingdi. The white dragon-deer waits nearby, alert but calm. The corridors and bamboo building are empty, handmade, unpainted, no ornate roof, no palace gold. No Qingdi visible, no white-clothed woman, no other people, no readable text, no captions, no subtitles, no English words, no signs, no plaques, no modern objects.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC05_SH02_v001"
+                                        }
+                         }
+               }
+}

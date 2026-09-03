@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "updated": "2026-06-08T18:52:12",
+  "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json",
+  "output_dir": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT",
+  "markdown_path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\human_review.md",
+  "shots": [
+    {
+      "shot_id": "SSJ_EP01_ROUGH_SC01",
+      "ok": true,
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC01_test_cv2_v001.mp4",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH01_v001_00001_.png",
+      "frames": {
+        "first": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC01\\SSJ_EP01_ROUGH_SC01_first.jpg",
+          "frame": 0
+        },
+        "middle": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC01\\SSJ_EP01_ROUGH_SC01_middle.jpg",
+          "frame": 360
+        },
+        "last": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC01\\SSJ_EP01_ROUGH_SC01_last.jpg",
+          "frame": 719
+        }
+      },
+      "contact_sheet": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC01\\SSJ_EP01_ROUGH_SC01_contact_sheet.jpg",
+      "storyboard_compare": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC01\\SSJ_EP01_ROUGH_SC01_storyboard_compare.jpg",
+      "technical": {
+        "fps": 24.0,
+        "width": 1280,
+        "height": 720,
+        "frame_count": 720,
+        "duration_seconds": 30.0,
+        "bytes": 26810874
+      },
+      "error": null
+    },
+    {
+      "shot_id": "SSJ_EP01_ROUGH_SC02",
+      "ok": true,
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC02_technical_smoke_cut.mp4",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC02_SH01_v001_00001_.png",
+      "frames": {
+        "first": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC02\\SSJ_EP01_ROUGH_SC02_first.jpg",
+          "frame": 0
+        },
+        "middle": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC02\\SSJ_EP01_ROUGH_SC02_middle.jpg",
+          "frame": 360
+        },
+        "last": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC02\\SSJ_EP01_ROUGH_SC02_last.jpg",
+          "frame": 719
+        }
+      },
+      "contact_sheet": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC02\\SSJ_EP01_ROUGH_SC02_contact_sheet.jpg",
+      "storyboard_compare": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC02\\SSJ_EP01_ROUGH_SC02_storyboard_compare.jpg",
+      "technical": {
+        "fps": 24.0,
+        "width": 1280,
+        "height": 720,
+        "frame_count": 720,
+        "duration_seconds": 30.0,
+        "bytes": 22997689
+      },
+      "error": null
+    },
+    {
+      "shot_id": "SSJ_EP01_ROUGH_SC03",
+      "ok": true,
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC03_technical_smoke_cut.mp4",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC03_SH01_v001_00001_.png",
+      "frames": {
+        "first": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC03\\SSJ_EP01_ROUGH_SC03_first.jpg",
+          "frame": 0
+        },
+        "middle": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC03\\SSJ_EP01_ROUGH_SC03_middle.jpg",
+          "frame": 360
+        },
+        "last": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC03\\SSJ_EP01_ROUGH_SC03_last.jpg",
+          "frame": 719
+        }
+      },
+      "contact_sheet": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC03\\SSJ_EP01_ROUGH_SC03_contact_sheet.jpg",
+      "storyboard_compare": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC03\\SSJ_EP01_ROUGH_SC03_storyboard_compare.jpg",
+      "technical": {
+        "fps": 24.0,
+        "width": 1280,
+        "height": 720,
+        "frame_count": 720,
+        "duration_seconds": 30.0,
+        "bytes": 27395151
+      },
+      "error": null
+    },
+    {
+      "shot_id": "SSJ_EP01_ROUGH_SC04",
+      "ok": true,
+      "video_path": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP01_SC04_technical_smoke_cut.mp4",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH01_v001_00001_.png",
+      "frames": {
+        "first": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC04\\SSJ_EP01_ROUGH_SC04_first.jpg",
+          "frame": 0
+        },
+        "middle": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC04\\SSJ_EP01_ROUGH_SC04_middle.jpg",
+          "frame": 360
+        },
+        "last": {
+          "path": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC04\\SSJ_EP01_ROUGH_SC04_last.jpg",
+          "frame": 719
+        }
+      },
+      "contact_sheet": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC04\\SSJ_EP01_ROUGH_SC04_contact_sheet.jpg",
+      "storyboard_compare": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_TECHNICAL_ROUGH_CUT\\SSJ_EP01_ROUGH_SC04\\SSJ_EP01_ROUGH_SC04_storyboard_compare.jpg",
+      "technical": {
+        "fps": 24.0,
+        "width": 1280,
+        "height": 720,
+        "frame_count": 720,
+        "duration_seconds": 30.0,
+        "bytes": 22959740
+      },
+      "error": null
+    }
+  ]
+}

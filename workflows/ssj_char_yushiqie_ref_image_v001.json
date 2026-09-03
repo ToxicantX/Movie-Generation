@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "inputs": {
+        "prompt": "A mature adult rain priestess in an ancient Chinese mythic fantasy world, visual age twenty-six to thirty-five, cool elegant face, rain-blue and mist-gray flowing robes with subtle water pattern embroidery, delicate silver ornaments, mysterious restrained presence, cinematic realistic portrait, three-quarter body character reference, soft rain mist and distant water background, clear face and costume, natural film lighting, no text, no watermark",
+        "model": "gpt-image-2",
+        "size": "1024x1536",
+        "negative_prompt": "child, teenager, schoolgirl, oversexualized costume, modern dress, anime girl, western mermaid, sci-fi, neon, text, watermark, logo"
+      },
+      "class_type": "OpenAICompatibleImageGenerate"
+    },
+    "2": {
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/characters/CHAR_yushiqie_ref_v001"
+      },
+      "class_type": "SaveImage"
+    }
+  }
+}

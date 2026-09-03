@@ -1,0 +1,72 @@
+{
+  "updated": "2026-06-12T14:08:30",
+  "reviewer": "Codex test-mode visual review",
+  "instructions": "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+  "review_index": [
+    {
+      "review_id": "SSJ_EP02_SC22",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC22_STORYBOARD\\human_review.md",
+      "global_decision": "pending_storyboard_human_review",
+      "shot_count": 4
+    }
+  ],
+  "decisions": [
+    {
+      "review_id": "SSJ_EP02_SC22",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC22_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC22_SH01",
+      "title": "暗劲回拉脱险",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC22_SH01_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh01_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh01_i2v_v001.json",
+      "decision": "pass",
+      "reason": "Hidden pull reads clearly; gate-space continuity, white-clothed woman restraint, and white dragon-deer presence all hold.",
+      "notes": "Codex visual precheck: SH01 is readable and can proceed to video generation."
+    },
+    {
+      "review_id": "SSJ_EP02_SC22",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC22_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC22_SH02",
+      "title": "借势反掌击退",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC22_SH02_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh02_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh02_i2v_v001.json",
+      "decision": "pass",
+      "reason": "Regenerated version now reads as a battered lucky palm/body counter after hidden aid, instead of a whip-drag visual.",
+      "notes": "Approved regenerated storyboard uses direct chest/shoulder impact and keeps Tuobaye visibly wounded and off-balance."
+    },
+    {
+      "review_id": "SSJ_EP02_SC22",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC22_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC22_SH03",
+      "title": "众人目瞪口呆",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC22_SH03_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh03_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh03_i2v_v001.json",
+      "decision": "pass",
+      "reason": "The public reversal and crowd shock are clear; Fourteen, Tuobaye, the white dragon-deer, and the gate-space all remain legible in one frame.",
+      "notes": "Codex visual precheck: SH03 cleanly sells the stunned aftermath beat."
+    },
+    {
+      "review_id": "SSJ_EP02_SC22",
+      "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc22_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC22_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC22_SH04",
+      "title": "科沙度冷眼起疑",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC22_SH04_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh04_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc22_sh04_i2v_v001.json",
+      "decision": "pass",
+      "reason": "Keshadu's suspicion reads clearly, and the composition keeps Tuobaye wounded, Fourteen embarrassed, and the white-clothed woman quietly implicated without overt magic.",
+      "notes": "Codex visual precheck: SH04 is suitable as the deduction beat source frame."
+    }
+  ]
+}

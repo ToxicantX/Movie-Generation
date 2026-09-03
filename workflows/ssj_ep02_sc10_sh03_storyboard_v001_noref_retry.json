@@ -1,0 +1,24 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Wufeng storyboard only as prop continuity for the broken blue-grey sword; keep the white-clothed woman adult and respectful. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium insert, not an extreme macro. The adult white-clothed woman holds the broken Wufeng horizontally in moonlight; rust flakes fall from the blade, revealing a pale blue-white glow and faint abstract gold engraved strokes. The engraved strokes must be decorative and unreadable, not real Chinese characters or English letters. Her expression begins to change from calm to distant grief. Moonlit bamboo, lake mist, incense smoke. No readable text, no captions, no subtitles, no English words, no speech bubbles, no signs, no plaques, no UI, no clear inscriptions. No input reference image is attached in this retry because the reference-image edit endpoint failed; rely on the written character, creature, costume, prop, and location continuity locks. Keep the frame coherent and production-reviewable.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC10_SH03_v001"
+                                        }
+                         }
+               }
+}

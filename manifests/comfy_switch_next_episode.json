@@ -1,0 +1,11 @@
+{
+  "updated": "2026-06-18T20:16:44",
+  "stage_name": "进入下一章循环",
+  "enabled": false,
+  "status": "waiting",
+  "note": "Web 控制台：页面审核通过后创建下一章骨架。",
+  "next_action": "open this switch after review",
+  "auto_run_on_open": true,
+  "confirm_before_auto_run": false,
+  "auto_run_delay_ms": 500
+}

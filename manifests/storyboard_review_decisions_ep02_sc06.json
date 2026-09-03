@@ -1,0 +1,72 @@
+{
+  "updated": "2026-06-09T14:30:00",
+  "reviewer": "Codex auto-pass test mode; user authorized auto-pass when absent on 2026-06-09",
+  "instructions": "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+  "review_index": [
+    {
+      "review_id": "SSJ_EP02_SC06",
+      "review_path": ".\\manifests\\ssj_ep02_sc06_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC06_STORYBOARD\\human_review.md",
+      "global_decision": "pending_storyboard_human_review",
+      "shot_count": 4
+    }
+  ],
+  "decisions": [
+    {
+      "review_id": "SSJ_EP02_SC06",
+      "review_path": ".\\manifests\\ssj_ep02_sc06_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC06_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC06_SH01",
+      "title": "湖边小亭焚香无人",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC06_SH01_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc06_sh01_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc06_sh01_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: lakeside pavilion, incense, Tuobaye and white dragon-deer are clear; no readable text or white-clothed woman reveal."
+    },
+    {
+      "review_id": "SSJ_EP02_SC06",
+      "review_path": ".\\manifests\\ssj_ep02_sc06_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC06_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC06_SH02",
+      "title": "玛瑙香炉紫烟如箫",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC06_SH02_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc06_sh02_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc06_sh02_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: incense insert is usable; white agate burner may read as white jade, acceptable for test."
+    },
+    {
+      "review_id": "SSJ_EP02_SC06",
+      "review_path": ".\\manifests\\ssj_ep02_sc06_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC06_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC06_SH03",
+      "title": "石壁旧歌触动神农记忆",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC06_SH03_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc06_sh03_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc06_sh03_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: stone wall marks are raised and unreadable, satisfying no-readable-text rule; emotional recognition beat is clear."
+    },
+    {
+      "review_id": "SSJ_EP02_SC06",
+      "review_path": ".\\manifests\\ssj_ep02_sc06_storyboard_review.json",
+      "review_package_markdown": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC06_STORYBOARD\\human_review.md",
+      "shot_id": "TEST_SSJ_EP02_SC06_SH04",
+      "title": "月下竹笛回应箫声",
+      "current_status": "storyboard_generated_pending_review",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC06_SH04_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc06_sh04_storyboard_v001.json",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc06_sh04_i2v_v001.json",
+      "decision": "pass",
+      "reason": "auto-pass storyboard gate for pipeline test with user authorization",
+      "notes": "Visual precheck: flute-response beat is strong; white dragon-deer face reads more deer-like than prior reference, acceptable for pipeline test only."
+    }
+  ]
+}

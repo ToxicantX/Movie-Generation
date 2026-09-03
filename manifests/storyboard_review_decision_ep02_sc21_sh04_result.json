@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T07:47:39",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc21.json",
+    "shot_id":  "TEST_SSJ_EP02_SC21_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "needs_regeneration",
+    "reason":  "blocking scene and role drift: the white dragon-deer is rendered like a full battle-combat lead in a disconnected arena instead of a protective charge into the same gate-space confrontation",
+    "notes":  "Regenerate with strict continuity: keep the same gate/courtyard environment, Tuobaye still wounded and grounded nearby, Fourteen remains the aggressor, and the white dragon-deer should charge protectively but not replace the whole fight with a fantasy creature battle tableau.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

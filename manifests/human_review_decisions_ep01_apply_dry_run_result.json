@@ -1,0 +1,202 @@
+{
+    "updated":  "2026-06-08T18:06:01",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\human_review_decisions_ep01.json",
+    "review_paths":  [
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json"
+                     ],
+    "dry_run":  true,
+    "allow_technical_fallback_pass":  false,
+    "applied_count":  0,
+    "skipped_count":  16,
+    "invalid_count":  0,
+    "unsafe_pass_count":  0,
+    "applied":  [
+
+                ],
+    "skipped":  [
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                        "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                        "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                        "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                        "shot_id":  "TEST_SSJ_EP01_SC02_SH01",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                        "shot_id":  "TEST_SSJ_EP01_SC02_SH02",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                        "shot_id":  "TEST_SSJ_EP01_SC02_SH03",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                        "shot_id":  "TEST_SSJ_EP01_SC03_SH01",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                        "shot_id":  "TEST_SSJ_EP01_SC03_SH02",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                        "shot_id":  "TEST_SSJ_EP01_SC03_SH03",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+                        "shot_id":  "TEST_SSJ_EP01_SC04_SH01",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+                        "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+                        "shot_id":  "TEST_SSJ_EP01_SC04_SH03",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json",
+                        "shot_id":  "SSJ_EP01_ROUGH_SC01",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json",
+                        "shot_id":  "SSJ_EP01_ROUGH_SC02",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json",
+                        "shot_id":  "SSJ_EP01_ROUGH_SC03",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_technical_rough_cut_review.json",
+                        "shot_id":  "SSJ_EP01_ROUGH_SC04",
+                        "decision":  "pending",
+                        "reason":  "Pending decisions do not mutate review files."
+                    }
+                ],
+    "invalid":  [
+
+                ],
+    "unsafe_passes":  [
+
+                      ],
+    "reviews":  [
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc01_consistency_review.json",
+                        "changed":  false,
+                        "global_decision":  "pending_human_consistency_review",
+                        "shot_statuses":  [
+                                              {
+                                                  "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                                                  "status":  "generated_pending_human_review"
+                                              },
+                                              {
+                                                  "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                                                  "status":  "generated_pending_human_review"
+                                              },
+                                              {
+                                                  "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                                                  "status":  "generated_pending_human_review"
+                                              }
+                                          ]
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+                        "changed":  false,
+                        "global_decision":  "pending_human_consistency_review",
+                        "shot_statuses":  [
+                                              {
+                                                  "shot_id":  "TEST_SSJ_EP01_SC02_SH01",
+                                                  "status":  "generated_pending_human_review"
+                                              },
+                                              {
+                                                  "shot_id":  "TEST_SSJ_EP01_SC02_SH02",
+                                                  "status":  "generated_pending_human_review"
+                                              },
+                                              {
+                                                  "shot_id":  "TEST_SSJ_EP01_SC02_SH03",
+                                                  "status":  "generated_pending_human_review"
+                                              }
+                                          ]
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+                        "changed":  false,
+                        "global_decision":  "pending_human_consistency_review",
+                        "shot_statuses":  [
+                                              {
+                                                  "shot_id":  "TEST_SSJ_EP01_SC03_SH01",
+                                                  "status":  "generated_pending_human_review"
+                                              },
+                                              {
+                                                  "shot_id":  "TEST_SSJ_EP01_SC03_SH02",
+                                                  "status":  "technical_fallback_pending_human_review"
+                                              },
+                                              {
+                                                  "shot_id":  "TEST_SSJ_EP01_SC03_SH03",
+                                                  "status":  "generated_pending_human_review"
+                                              }
+                                          ]
+                    },
+                    {
+                        "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_consistency_review.json",
+                        "changed":  false,
+                        "global_decision":  "pending_human_consistency_review",
+                        "shot_statuses":  [
+                                              {
+                                                  "shot_id":  "TEST_SSJ_EP01_SC04_SH01",
+                                                  "status":  "technical_fallback_pending_human_review"
+                                              },
+                                              {
+                                                  "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+                                                  "status":  "technical_fallback_pending_human_review"
+                                              },
+                                              {
+                                                  "shot_id":  "TEST_SSJ_EP01_SC04_SH03",
+                                                  "status":  "technical_fallback_pending_human_review"
+                                              }
+                                          ]
+                    }
+                ],
+    "ok":  true
+}

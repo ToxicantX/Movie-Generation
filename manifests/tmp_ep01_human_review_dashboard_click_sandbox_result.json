@@ -1,0 +1,14 @@
+﻿{
+    "updated":  "2026-06-09T00:25:27",
+    "decision_path":  ".\\manifests\\tmp_human_review_decisions_ep01_click_sandbox.json",
+    "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SANDBOX_EP01_HUMAN_REVIEW_DASHBOARD.html",
+    "api_base_url":  "http://127.0.0.1:8103",
+    "decision_count":  16,
+    "summary":  {
+                    "pending":  16,
+                    "pass":  0,
+                    "needs_regeneration":  0,
+                    "blocked":  0
+                },
+    "ok":  true
+}

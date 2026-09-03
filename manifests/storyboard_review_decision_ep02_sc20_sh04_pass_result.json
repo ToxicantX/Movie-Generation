@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T05:56:44",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc20.json",
+    "shot_id":  "TEST_SSJ_EP02_SC20_SH04",
+    "old_decision":  "needs_regeneration",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass after regeneration: Fourteen now clearly takes the initiative while Tuobaye feels pressured and the white-clothed woman reads as restrained but displeased",
+    "notes":  "Approved regenerated version should be the only downstream source. Preserve Tuobaye as bluffing and overmatched in video.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

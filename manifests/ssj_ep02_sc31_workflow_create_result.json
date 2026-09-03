@@ -1,0 +1,31 @@
+{
+    "updated":  "2026-06-13T06:31:46",
+    "plan_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc31_storyboard_plan.json",
+    "workflow_dir":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows",
+    "created":  [
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC31_SH01",
+                        "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc31_sh01_storyboard_v001.json",
+                        "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc31_sh01_i2v_v001.json",
+                        "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC31_SH01_v001_00001_.png"
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC31_SH02",
+                        "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc31_sh02_storyboard_v001.json",
+                        "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc31_sh02_i2v_v001.json",
+                        "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC31_SH02_v001_00001_.png"
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC31_SH03",
+                        "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc31_sh03_storyboard_v001.json",
+                        "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc31_sh03_i2v_v001.json",
+                        "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC31_SH03_v001_00001_.png"
+                    },
+                    {
+                        "shot_id":  "TEST_SSJ_EP02_SC31_SH04",
+                        "storyboard_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc31_sh04_storyboard_v001.json",
+                        "video_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc31_sh04_i2v_v001.json",
+                        "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC31_SH04_v001_00001_.png"
+                    }
+                ]
+}

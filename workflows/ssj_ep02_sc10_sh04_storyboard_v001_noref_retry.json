@@ -1,0 +1,24 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input adult Yushiqie reference as the respectful identity anchor for the adult white-clothed woman. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 emotional medium two-character composition. The adult white-clothed woman in pale white robes holds the softly glowing broken Wufeng and silently sheds one tear; her grief is restrained and ancient, not melodramatic. Adult Tuobaye stands several steps away in rough grey-brown travel clothes, anxious and unsure whether to speak. Moonlit lake, bamboo shadows, mist, incense smoke. The blade may show faint abstract glow marks but no readable inscriptions or text. No captions, no subtitles, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements. No input reference image is attached in this retry because the reference-image edit endpoint failed; rely on the written character, creature, costume, prop, and location continuity locks. Keep the frame coherent and production-reviewable.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC10_SH04_v001"
+                                        }
+                         }
+               }
+}

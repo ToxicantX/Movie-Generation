@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Cinematic realistic creature reference for an ancient Chinese mythic fantasy short drama, 16:9. White dragon-deer mount: elegant adult deer body, white fur with subtle pearl sheen, small jade antlers with faint dragon-horn curves, long flowing mane, gentle intelligent eyes, light dragon-like scales along neck and shoulders, strong graceful legs, calm noble presence beside misty mountain water. Full body visible, safe friendly magical mount, no saddle yet, no rider, no text, no watermark.",
+        "model": "gpt-image-2",
+        "size": "1536x1024",
+        "negative_prompt": "horse only, unicorn, western dragon, monster horror, aggressive beast, gore, injury, saddle, rider, text, watermark, logo, anime, cartoon, childlike mascot, extra legs, distorted anatomy"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/creatures/CRE_bailonglu_ref_v001"
+      }
+    }
+  }
+}

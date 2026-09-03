@@ -1,0 +1,6 @@
+﻿{
+    "prompt_id":  "9974af1e-55bb-4502-b5fa-261e55b17250",
+    "status":  "error",
+    "completed":  false,
+    "error":  "HTTPConnectionPool(host=\u0027127.0.0.1\u0027, port=7860): Read timed out. (read timeout=600)\n"
+}

@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-13T02:07:30",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC25_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Keshadu's testing pressure feels one step from open accusation."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC25_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Shisilang's wounded pride reads as increasingly unstable."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC25_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Tuobaye's no-way-out pressure is clear without implying an easy rescue."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC25_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; the white-clothed woman's restraint now feels one breath away from action."
+    }
+  ]
+}

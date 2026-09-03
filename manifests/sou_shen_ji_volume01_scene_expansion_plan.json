@@ -1,0 +1,46 @@
+{
+  "updated": "2026-06-08",
+  "source": "搜神记 第一卷 场景扩展计划",
+  "status": "scene_plan_v1",
+  "purpose": "Prepare scene-card expansion after first-chapter I2V path is verified.",
+  "current_locked_scene": {
+    "id": "LOC_nanjishan_clifftop",
+    "name": "南际山顶",
+    "status": "location_v1",
+    "manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_location_nanjishan_v1.json"
+  },
+  "next_scene_cards": [
+    {
+      "id": "LOC_yupingshan_tianhu",
+      "name": "玉屏山 / 天湖 / 青帝御苑",
+      "priority": "P1",
+      "chapters": ["第二章", "第三章"],
+      "production_use": "青帝缺席权力中心、白衣女子/无锋剑/刹那芳华曲、段聿铠与朝阳谷冲突。",
+      "visual_identity": "moonlit pine and bamboo mountain, clear heavenly lake, austere wooden and bamboo courtyards, green wood-element atmosphere, forbidden quiet.",
+      "reference_image_status": "usable_v001",
+      "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+      "needs": ["empty courtyard storyboard anchors", "safe action variants for courtyard conflict"]
+    },
+    {
+      "id": "LOC_dongshishan_pool",
+      "name": "东始山水潭",
+      "priority": "P1",
+      "chapters": ["第四章", "第五章"],
+      "production_use": "雨师妾登场后心理张力与照护/离别改写，水族追击路线。",
+      "visual_identity": "moonlit forest pool, red-veined fu trees, clear cold water, black dragon-beast silhouette, rain/water tension.",
+      "reference_image_status": "usable_v001",
+      "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_dongshishan_pool_ref_v001_00001_.png",
+      "needs": ["safe adult rewrite prompt pack", "Yushiqie restrained water-priestess variant", "avoid explicit seduction framing"]
+    },
+    {
+      "id": "LOC_shenlou_city",
+      "name": "蜃楼城",
+      "priority": "P1",
+      "chapters": ["第五章", "第六章"],
+      "production_use": "自由之城、不悔城、游侠群像、纤纤成人化未来阶段测试、群像连续性。",
+      "visual_identity": "sea island city of white jade, crystal and coral, sunrise and ocean light, festive beach fires, free-city atmosphere.",
+      "needs": ["city establishing reference", "crowd/hero arrival storyboard", "adult-safe group character rules"]
+    }
+  ],
+  "expansion_gate": "Do not generate production video for these scenes until first-chapter reference-driven I2V passes consistency review."
+}

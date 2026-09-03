@@ -1,0 +1,107 @@
+{
+  "updated": "2026-06-09T12:24:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 玉屏峰险路",
+  "purpose": "Seed for EP02 SC03 after EP02 SC02 formal test-mode segment. Use this to plan the next 8-10 second short-drama shots through ComfyUI.",
+  "segment_id": "SSJ_EP02_SC03",
+  "beat_id": "C02_B03",
+  "title": "白龙鹿绕峰飞渡",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC02",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc02_storyboard_review.json",
+    "previous_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC02\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC02_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc02_formal_cut_result.json",
+    "previous_technical_preview_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC02_technical_preview_cut.mp4",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc02_storyboard_plan.json",
+    "previous_storyboards": [
+      "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC02_SH01_v001_00001_.png",
+      "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC02_SH02_v001_00001_.png",
+      "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC02_SH03_v001_00001_.png",
+      "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC02_SH04_v001_00001_.png"
+    ],
+    "previous_videos": [
+      "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC02_SH01_i2v_v001.mp4",
+      "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC02_SH02_i2v_v001.mp4",
+      "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC02_SH03_i2v_v001.mp4",
+      "G:\\ComfyUI\\output\\AIShortDrama\\videos\\SSJ_EP02_SC02_SH04_i2v_v002_simplified.mp4"
+    ],
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC02 is approved only for pipeline validation. SH03/SH04 have noted Shisilang age drift; future production passes should regenerate if this remains important."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "余下大汉围成一圈，在玉屏峰山门前站住。",
+    "adapted_summary": "山门被黑衣大汉把守，拓拔野正无计可施；白龙鹿忽然朝西侧山峰奔去，驮着拓拔野穿过陡峭松林登顶。月下两峰相隔，白龙鹿示意要飞渡，拓拔野抱紧它，二者越过云雾深谷，落到玉屏山顶。",
+    "next_source_hint": "落到玉屏山顶后，一人一鹿短暂大笑休息，再沿石径和山泉向天湖、青帝居所方向前进。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_tuobaye_ref_v001_00001_.png",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_tianhu_card": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_location_yupingshan_tianhu_v1.json",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "wufeng_corrected_prop": "G:\\ComfyUI\\output\\AIShortDrama\\props\\PROP_wufeng_blunt_iron_ref_v002_00001_.png"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute or empty flute position depending on continuity, relic bundle.",
+    "White dragon-deer must remain a friendly mythic mount: white deer body, pearl neck and shoulder scales, pale jade antlers, long white mane, calm intelligent eyes.",
+    "Wufeng must remain a plain dark blunt rectangular edgeless black iron object, not a sharp sword.",
+    "Yuping Mountain remains four separated peaks, steep stone cliffs, pine forest, bamboo shadows, jade mist, moonlit forbidden quiet.",
+    "Black-clad guards stay at the lower gate; Qingdi remains unseen.",
+    "Continue from SC02 trespass pressure, but shift the emotional beat to Tuobaye and white dragon-deer solving the access problem together."
+  ],
+  "localization_rules": [
+    "All planning text and eventual editing dialogue should be Chinese unless a technical field requires English.",
+    "Storyboard prompts may describe Chinese short-drama style, but must request no readable screen text.",
+    "I2V prompts must use silent visual generation: no synthesized speech, no captions, no subtitles, no readable signs, no English words.",
+    "Chinese dialogue, narration, sound design, and subtitles should be added later in editing."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "experimental_file_ids only while current local backend supports it; otherwise use official T2V smoke tests or switch provider for formal I2V",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history."
+  },
+  "suggested_shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC03_SH01",
+      "title": "守卫封门，白龙鹿转向",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye sees the lower gate sealed by black-clad guards; the white dragon-deer turns toward the western peak.",
+      "reference_anchor": "tuobaye_turnaround or bailonglu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC03_SH02",
+      "title": "西峰密林疾奔",
+      "duration_seconds": "8-10",
+      "visual_focus": "White dragon-deer carries Tuobaye up the steep forested slope, dodging branches and cliff edges under gathering moonlight.",
+      "reference_anchor": "bailonglu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC03_SH03",
+      "title": "月下峰顶对望玉屏",
+      "duration_seconds": "8-10",
+      "visual_focus": "On the small western summit, Tuobaye and the dragon-deer face the separated Yuping peak across a cloud-filled chasm.",
+      "reference_anchor": "yupingshan_tianhu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC03_SH04",
+      "title": "千丈云海一跃",
+      "duration_seconds": "8-10",
+      "visual_focus": "The dragon-deer accelerates and leaps across the moonlit void, landing on Yuping peak while Tuobaye clings to its neck.",
+      "reference_anchor": "bailonglu_reference"
+    }
+  ],
+  "next_work": [
+    "Create SSJ_EP02_SC03 storyboard plan with 3 to 5 shots, each 8-10 seconds max.",
+    "For SH04, consider simplified motion language if Gemini returns provider error 1155 on complex leap action.",
+    "Generate storyboards through ComfyUI, using one reference per storyboard and no readable text.",
+    "Run storyboard review, I2V, video review, and formal segment cut using the SC02 pattern."
+  ]
+}

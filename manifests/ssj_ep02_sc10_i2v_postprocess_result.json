@@ -1,0 +1,129 @@
+{
+    "updated":  "2026-06-09T19:03:57",
+    "review_path":  ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+    "workflow_create_result_path":  ".\\manifests\\ssj_ep02_sc10_workflow_create_result.json",
+    "state":  "technical_preview_cut_built_pending_human_video_review",
+    "build_review_package":  true,
+    "build_technical_preview_cut":  true,
+    "allow_missing_videos":  false,
+    "steps":  [
+                  {
+                      "name":  "refresh_i2v_outputs",
+                      "script":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\refresh_consistency_review_from_outputs.ps1",
+                      "arguments":  [
+                                        "-ReviewPath",
+                                        ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+                                        "-ResultPath",
+                                        ".\\manifests\\ssj_ep02_sc10_i2v_refresh_result.json",
+                                        "-WorkflowCreateResultPath",
+                                        ".\\manifests\\ssj_ep02_sc10_workflow_create_result.json"
+                                    ],
+                      "exit_code":  0,
+                      "output_tail":  [
+                                          "                  {",
+                                          "                      \"shot_id\":  \"TEST_SSJ_EP02_SC10_SH04\",",
+                                          "                      \"video_path\":  \"G:\\\\ComfyUI\\\\output\\\\AIShortDrama\\\\videos\\\\SSJ_EP02_SC10_SH04_technical_still_fallback_v001.mp4\",",
+                                          "                      \"pattern\":  \"G:\\\\ComfyUI\\\\output\\\\AIShortDrama\\\\videos\\\\SSJ_EP02_SC10_SH04_technical_still_fallback_v001.mp4\",",
+                                          "                      \"searched_patterns\":  [",
+                                          "                                                \"G:\\\\ComfyUI\\\\output\\\\AIShortDrama\\\\videos\\\\SSJ_EP02_SC10_SH04_technical_still_fallback_v001.mp4\",",
+                                          "                                                \"AIShortDrama\\\\videos\\\\SSJ_EP02_SC10_SH04_i2v_v001*.mp4\",",
+                                          "                                                \"AIShortDrama\\\\videos\\\\SSJ_EP02_SC10_SH04_*i2v*.mp4\",",
+                                          "                                                \"AIShortDrama\\\\videos\\\\SSJ_EP02_SC10_SH04_technical_still_fallback_v001*.mp4\"",
+                                          "                                            ],",
+                                          "                      \"last_write_time\":  \"2026-06-09T19:00:34\"",
+                                          "                  }",
+                                          "              ],",
+                                          "    \"invalid\":  [",
+                                          "",
+                                          "                ],",
+                                          "    \"ready_to_review\":  true",
+                                          "}"
+                                      ],
+                      "ok":  true
+                  },
+                  {
+                      "name":  "build_video_review_package",
+                      "script":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\build_review_package.ps1",
+                      "arguments":  [
+                                        "-ReviewPath",
+                                        ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+                                        "-OutputDir",
+                                        "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC10",
+                                        "-ManifestPath",
+                                        ".\\manifests\\ssj_ep02_sc10_i2v_review_package.json"
+                                    ],
+                      "exit_code":  0,
+                      "output_tail":  [
+                                          "          \"path\": \"G:\\\\ComfyUI\\\\output\\\\AIShortDrama\\\\review_packages\\\\SSJ_EP02_SC10\\\\TEST_SSJ_EP02_SC10_SH04\\\\TEST_SSJ_EP02_SC10_SH04_last.jpg\",",
+                                          "          \"frame\": 239",
+                                          "        }",
+                                          "      },",
+                                          "      \"contact_sheet\": \"G:\\\\ComfyUI\\\\output\\\\AIShortDrama\\\\review_packages\\\\SSJ_EP02_SC10\\\\TEST_SSJ_EP02_SC10_SH04\\\\TEST_SSJ_EP02_SC10_SH04_contact_sheet.jpg\",",
+                                          "      \"storyboard_compare\": \"G:\\\\ComfyUI\\\\output\\\\AIShortDrama\\\\review_packages\\\\SSJ_EP02_SC10\\\\TEST_SSJ_EP02_SC10_SH04\\\\TEST_SSJ_EP02_SC10_SH04_storyboard_compare.jpg\",",
+                                          "      \"technical\": {",
+                                          "        \"fps\": 24.0,",
+                                          "        \"width\": 1280,",
+                                          "        \"height\": 720,",
+                                          "        \"frame_count\": 240,",
+                                          "        \"duration_seconds\": 10.0,",
+                                          "        \"bytes\": 1347234",
+                                          "      },",
+                                          "      \"error\": null",
+                                          "    }",
+                                          "  ]",
+                                          "}"
+                                      ],
+                      "ok":  true
+                  },
+                  {
+                      "name":  "build_technical_preview_cut",
+                      "script":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\concat_episode_from_review_cv2.ps1",
+                      "arguments":  [
+                                        "-ReviewPath",
+                                        ".\\manifests\\ssj_ep02_sc10_storyboard_review.json",
+                                        "-OutputPath",
+                                        "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC10_technical_preview_cut.mp4",
+                                        "-ManifestPath",
+                                        ".\\manifests\\ssj_ep02_sc10_technical_preview_cut_result.json"
+                                    ],
+                      "exit_code":  0,
+                      "output_tail":  [
+                                          "      \"frame_count\": 240",
+                                          "    },",
+                                          "    {",
+                                          "      \"path\": \"G:\\\\ComfyUI\\\\output\\\\AIShortDrama\\\\videos\\\\SSJ_EP02_SC10_SH04_technical_still_fallback_v001.mp4\",",
+                                          "      \"fps\": 24.0,",
+                                          "      \"width\": 1280,",
+                                          "      \"height\": 720,",
+                                          "      \"frame_count\": 240",
+                                          "    }",
+                                          "  ],",
+                                          "  \"frame_count\": 960,",
+                                          "  \"fps\": 24.0,",
+                                          "  \"size\": [",
+                                          "    1280,",
+                                          "    720",
+                                          "  ],",
+                                          "  \"bytes\": 13897902",
+                                          "}"
+                                      ],
+                      "ok":  true
+                  }
+              ],
+    "refresh":  {
+                    "ready_to_review":  true,
+                    "found_count":  4,
+                    "invalid_count":  0
+                },
+    "review_package":  {
+                           "ok":  true,
+                           "markdown_path":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC10\\human_review.md",
+                           "shot_count":  4
+                       },
+    "cut":  {
+                "ok":  true,
+                "output_path":  "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC10_technical_preview_cut.mp4",
+                "frame_count":  960
+            },
+    "ok":  true
+}

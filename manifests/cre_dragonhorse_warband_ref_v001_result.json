@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-09T00:22:47",
+    "shot_id":  "CRE_dragonhorse_warband_ref_v001",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\cre_dragonhorse_warband_ref_v001.json",
+    "prompt_id":  "53beedb2-51d7-4a76-9b41-2882796ab43c",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\cre_dragonhorse_warband_ref_v001.json -\u003e prompt_id=53beedb2-51d7-4a76-9b41-2882796ab43c"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "53beedb2-51d7-4a76-9b41-2882796ab43c",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

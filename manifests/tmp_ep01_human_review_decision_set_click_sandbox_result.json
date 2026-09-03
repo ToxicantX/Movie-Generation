@@ -1,0 +1,13 @@
+﻿{
+    "updated":  "2026-06-09T00:25:24",
+    "decision_path":  ".\\manifests\\tmp_human_review_decisions_ep01_click_sandbox.json",
+    "shot_id":  "TEST_SSJ_EP01_SC04_SH02",
+    "old_decision":  "needs_regeneration",
+    "new_decision":  "pending",
+    "old_regeneration_scope":  "video",
+    "new_regeneration_scope":  "video",
+    "reason":  "",
+    "notes":  "",
+    "reviewer":  "",
+    "ok":  true
+}

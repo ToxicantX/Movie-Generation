@@ -1,0 +1,72 @@
+﻿{
+    "updated":  "2026-06-12T03:38:35",
+    "reviewer":  "Codex",
+    "instructions":  "Set decision to pass, needs_regeneration, or blocked. Leave pending if not reviewed. pass queues I2V; needs_regeneration queues storyboard regeneration.",
+    "review_index":  [
+                         {
+                             "review_id":  "SSJ_EP02_SC19",
+                             "review_path":  ".\\manifests\\ssj_ep02_sc19_storyboard_review.json",
+                             "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC19_STORYBOARD\\human_review.md",
+                             "global_decision":  "pending_storyboard_human_review",
+                             "shot_count":  4
+                         }
+                     ],
+    "decisions":  [
+                      {
+                          "review_id":  "SSJ_EP02_SC19",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc19_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC19_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC19_SH01",
+                          "title":  "唐七虚招探路",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC19_SH01_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc19_sh01_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc19_sh01_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: probing-feint beat is readable and Tuobaye still looks tense rather than skilled",
+                          "notes":  "Keep the test-strike tone and do not let Tang Qi look like he is already committing to a finishing blow in video."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC19",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc19_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC19_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC19_SH02",
+                          "title":  "真招突至",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC19_SH02_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc19_sh02_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc19_sh02_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass: real-strike moment is sudden and readable",
+                          "notes":  "Production caveat: keep impact credible but avoid turning this into a clean martial exchange dominated by Tang Qi."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC19",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc19_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC19_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC19_SH03",
+                          "title":  "无形托起半空",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC19_SH03_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc19_sh03_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc19_sh03_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass after regeneration: involuntary awkward lift now reads correctly",
+                          "notes":  "Approved regenerated version restores panic and loss of control. Use this approved image as the only downstream video source."
+                      },
+                      {
+                          "review_id":  "SSJ_EP02_SC19",
+                          "review_path":  ".\\manifests\\ssj_ep02_sc19_storyboard_review.json",
+                          "review_package_markdown":  "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC19_STORYBOARD\\human_review.md",
+                          "shot_id":  "TEST_SSJ_EP02_SC19_SH04",
+                          "title":  "误踢飞唐七",
+                          "current_status":  "storyboard_generated_pending_review",
+                          "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC19_SH04_v001_00001_.png",
+                          "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc19_sh04_storyboard_v001.json",
+                          "video_workflow":  ".\\workflows\\ssj_ep02_sc19_sh04_i2v_v001.json",
+                          "decision":  "pass",
+                          "reason":  "visual precheck pass after regeneration: accidental counter no longer reads as a polished martial kick",
+                          "notes":  "Approved regenerated version preserves the surprised, uncontrolled feel of the hit. Use this approved image as the only downstream video source."
+                      }
+                  ]
+}

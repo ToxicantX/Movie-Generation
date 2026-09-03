@@ -1,0 +1,15 @@
+{
+  "updated": "2026-06-08T16:29:16",
+  "shot_id": "TEST_SSJ_EP01_SC03_SH02",
+  "attempt": "gemini_i2v_v002_long_timeout",
+  "prompt_id": "2b80962d-4da3-4dc0-a4be-02b30699d2e7",
+  "workflow_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc03_sh02_i2v_v002_wufeng.json",
+  "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC03_SH02_v002_wufeng_00001_.png",
+  "status": "failed",
+  "provider": "Gemini-API experimental file_ids I2V via ComfyUI",
+  "error_type": "RuntimeError",
+  "error_summary": "Gemini video API error 500: {\"error\":{\"message\":\"Failed to generate contents (stream). Unknown API error code: 1155. This might be a temporary Google service issue.\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":500,\"request_id\":\"req-a07b157b3d95497787eee3663fd3bfd8\"},\"request_id\":\"req-a07b157b3d95497787eee3663fd3bfd8\"}\n",
+  "request_id": "req-a07b157b3d95497787eee3663fd3bfd8",
+  "output_video_found": false,
+  "next_action": "Use ComfyUI technical still-frame video fallback to keep SC03 review/cut pipeline moving; reserve Runway or official I2V provider for final-quality replacement when a video API secret is available."
+}

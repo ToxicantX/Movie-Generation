@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input SC08 white-clothed woman question storyboard as continuity reference for the adult white-clothed woman and moonlit bamboo setting. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium two-character composition. In moonlit Tianhu bamboo mist, the adult white-clothed woman in pale robes has just noticed the broken Wufeng sword at adult Tuobaye right waist; her calm black-and-white eyes shift subtly from his awkward heroic pose to the plain blue-grey broken sword in a bamboo sheath. Tuobaye remains adult age 28 to 32 in rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, and right-waist broken Wufeng. The woman is elegant, distant, fully clothed, respectful, non-sexualized, adult. No readable inscriptions on the sword, no clear Chinese characters, no captions, no subtitles, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC08_SH01_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC09_SH01_v001"
+                                        }
+                         }
+               }
+}

@@ -1,0 +1,98 @@
+﻿{
+    "updated":  "2026-06-11T23:10:49",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc16.json",
+    "review_paths":  [
+                         ".\\manifests\\ssj_ep02_sc16_storyboard_review.json"
+                     ],
+    "include_pending":  false,
+    "include_blocked":  false,
+    "summary":  {
+                    "pending":  0,
+                    "pass":  4,
+                    "needs_regeneration":  0,
+                    "blocked":  0,
+                    "missing_workflow":  0,
+                    "missing_storyboard":  0
+                },
+    "queue_count":  4,
+    "queue":  [
+                  {
+                      "review_id":  "SSJ_EP02_SC16",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc16_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC16_SH01",
+                      "title":  "请战既出手",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass with caveat: opening attack posture reads, and gate inside-outside logic stays intact",
+                      "notes":  "Production caveat: keep Duan Yukai readable in adjacent cut so this shot remains a clear attack launch rather than a standalone pose.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC16_SH01_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc16_sh01_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc16_sh01_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc16_sh01_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC16",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc16_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC16_SH02",
+                      "title":  "玄蛇破鞭而出",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass: supernatural serpent reveal is strong and readable",
+                      "notes":  "Production caveat: keep the serpent dark and non-gory, and avoid over-detailing the crowd in later regeneration.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC16_SH02_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc16_sh02_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc16_sh02_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc16_sh02_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC16",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc16_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC16_SH03",
+                      "title":  "段狂落地守势",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass after regeneration: Duan Yukai is now unarmed and the pressured-defense beat reads correctly",
+                      "notes":  "Approved regenerated version keeps the serpent as pursuit pressure rather than a posed duel. Use this approved image as the only source for downstream video.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC16_SH03_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc16_sh03_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc16_sh03_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc16_sh03_i2v_v001.json",
+                      "can_auto_run":  true
+                  },
+                  {
+                      "review_id":  "SSJ_EP02_SC16",
+                      "review_path":  ".\\manifests\\ssj_ep02_sc16_storyboard_review.json",
+                      "shot_id":  "TEST_SSJ_EP02_SC16_SH04",
+                      "title":  "拓拔野失声惊呼",
+                      "decision":  "pass",
+                      "action":  "run_i2v",
+                      "regeneration_scope":  "video",
+                      "reason":  "visual precheck pass after regeneration: hidden-courtyard layout is restored and the outside battle remains outside the gate",
+                      "notes":  "Approved regenerated version restores observer geography. Keep Tuobaye and white dragon-deer behind west bamboo and avoid bringing battle or serpent inside the courtyard in video generation.",
+                      "current_status":  "storyboard_generated_pending_review",
+                      "storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC16_SH04_v001_00001_.png",
+                      "video_path":  "",
+                      "storyboard_workflow":  ".\\workflows\\ssj_ep02_sc16_sh04_storyboard_v001.json",
+                      "video_workflow":  ".\\workflows\\ssj_ep02_sc16_sh04_i2v_v001.json",
+                      "selected_workflow":  ".\\workflows\\ssj_ep02_sc16_sh04_i2v_v001.json",
+                      "can_auto_run":  true
+                  }
+              ],
+    "next_actions":  [
+                         "For pass decisions, run_i2v uses the approved storyboard as the single visual source through the prepared Comfy workflow.",
+                         "For needs_regeneration decisions, regenerate the storyboard before rebuilding this queue.",
+                         "Run run_storyboard_i2v_queue.ps1 with -DryRun first."
+                     ],
+    "ok":  true
+}

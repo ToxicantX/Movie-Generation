@@ -1,0 +1,105 @@
+{
+  "updated": "2026-06-09",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 无锋断剑与白龙鹿锁链",
+  "segment_id": "SSJ_EP02_SC09",
+  "beat_id": "C02_B09",
+  "title": "无锋来历，鹿兄昂然",
+  "purpose": "承接白衣女子问笛后的第一轮转折：她注意到拓拔野腰间无锋断剑，询问来历；拓拔野解释深潭拾剑和替白龙鹿开锁折断；白龙鹿骄傲上前；女子指出北海十七混金索与拓拔野内力不足，激起他练武决心。画面只做无声视觉，不生成口播或字幕。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC08",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc08_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC08_formal_cut_v001.mp4",
+    "previous_woman_question_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC08_SH01_v001_00001_.png",
+    "previous_tuobaye_reaction_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC08_SH02_v001_00001_.png",
+    "previous_encounter_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC08_SH03_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc09_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 公子这柄剑从何处得来 / 北海十七混金索 / 内力不够。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 uses previous SC08 woman question storyboard or Yushiqie reference to stabilize the adult white-clothed woman. SH02 uses Tuobaye turnaround for face/costume and Wufeng prop. SH03 uses Bailonglu reference to stabilize the mythic creature. SH04 uses Tuobaye turnaround or Yushiqie reference, preferring simple reaction composition.",
+  "video_policy": "Gemini experimental file_ids I2V is currently blocked by contract probe. If no provider changes, video generation should use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, speech bubbles, musical notes, or English words inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, lip-sync, flute/xiao audio, heartbeat audio, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "公子这柄剑从何处得来？",
+      "这柄剑是我从一个水潭深处捡来。可惜为了给我这位朋友开锁，把剑给砍断了。",
+      "白龙鹿被北海十七混金索困在龙潭里。你的内力不够，否则也不会将这无锋剑折断。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "previous_woman_question_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC08_SH01_v001_00001_.png",
+    "previous_tuobaye_reaction_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC08_SH02_v001_00001_.png",
+    "previous_encounter_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC08_SH03_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH01",
+      "beat": "C02_B09",
+      "title": "女子瞥见无锋",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白衣女子",
+        "拓拔野"
+      ],
+      "location": "月下竹林 / 湖边亭外",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC09_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC09_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC08_SH01_v001_00001_.png",
+      "storyboard_prompt": "Use the input SC08 white-clothed woman question storyboard as continuity reference for the adult white-clothed woman and moonlit bamboo setting. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium two-character composition. In moonlit Tianhu bamboo mist, the adult white-clothed woman in pale robes has just noticed the broken Wufeng sword at adult Tuobaye right waist; her calm black-and-white eyes shift subtly from his awkward heroic pose to the plain blue-grey broken sword in a bamboo sheath. Tuobaye remains adult age 28 to 32 in rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, and right-waist broken Wufeng. The woman is elegant, distant, fully clothed, respectful, non-sexualized, adult. No readable inscriptions on the sword, no clear Chinese characters, no captions, no subtitles, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent near-still noticing beat. The adult white-clothed woman subtly moves her gaze from Tuobaye to the broken Wufeng at his waist; robe edges, hair, mist, incense smoke, and bamboo shadows move gently. Do not animate speaking or lip-sync. No synthesized speech, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH02",
+      "beat": "C02_B09",
+      "title": "深潭拾剑开锁",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野"
+      ],
+      "location": "湖边竹亭 / 月下石地",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC09_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC09_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+      "storyboard_prompt": "Use the input Tuobaye turnaround as face, costume, and prop identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium close shot. Adult Tuobaye age 28 to 32 in rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute, and bamboo-sheathed broken Wufeng at the right waist honestly gestures to the broken plain blue-grey iron sword as if explaining he found it in a deep pool and broke it while freeing his companion. His expression is sincere, slightly embarrassed, not comic exaggeration. Moonlit pavilion stone ground, lake reflection, bamboo shadows, incense smoke. Wufeng must look broken and rusty but do not render readable inscriptions or clear Chinese characters. No captions, no subtitles, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent explanation beat. Tuobaye gently touches or gestures toward the broken Wufeng at his waist while looking toward the woman off-camera; only subtle hand, robe, mist, and bamboo shadow motion. Do not animate dialogue or lip-sync. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH03",
+      "beat": "C02_B09",
+      "title": "鹿兄昂然上前",
+      "duration_seconds": "8-10",
+      "characters": [
+        "白龙鹿",
+        "拓拔野",
+        "白衣女子"
+      ],
+      "location": "湖边竹亭 / 月下竹影",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC09_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC09_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input white dragon-deer reference as the creature identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium-wide. The mythic white dragon-deer proudly steps forward between adult Tuobaye and the adult white-clothed woman, head high and dignified, luminous white coat, dragon-like antler/horn silhouette and elegant spiritual-beast presence, not an ordinary deer. Tuobaye stands behind in rough grey-brown travel clothes with broken Wufeng at right waist; the woman watches calmly with white agate xiao lowered. Moonlit Tianhu lake, bamboo shadows, mist, faint incense smoke, restrained drama lighting. No readable text, no captions, no subtitles, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent proud-step beat. The white dragon-deer makes one slow dignified step forward and lifts its head; Tuobaye and the woman remain mostly still; mist and bamboo shadows move subtly. No animal dialogue, no synthesized speech, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC09_SH04",
+      "beat": "C02_B09",
+      "title": "内力不足暗自立誓",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子"
+      ],
+      "location": "湖边竹亭 / 月下竹影",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC09_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC09_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+      "storyboard_prompt": "Use the input Tuobaye turnaround as protagonist identity anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium emotional reaction. Adult Tuobaye age 28 to 32 in rugged grey-brown rough cloth, rope belt, travel pouch, green bamboo flute, and broken Wufeng at right waist blushes with embarrassment after being told his internal power was insufficient; his eyes lower briefly, one fist tightens in quiet resolve to train. The adult white-clothed woman stands calmly in the moonlit bamboo background, fully clothed, elegant, distant, respectful, white agate xiao lowered. Mood: gentle correction, shame, determination; not romance-body emphasis, not comedy. No readable sword inscriptions, no captions, no subtitles, no English words, no speech bubbles, no signs, no plaques, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent resolve beat. Tuobaye lowers his gaze, blushes subtly, then tightens one fist; the white-clothed woman remains calm in the background; robe edges, mist, incense smoke, and bamboo shadows move gently. Do not animate dialogue or lip-sync. No synthesized speech, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "updated": "2026-06-13T16:36:10",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 真相将外露，静压将裂开",
+  "purpose": "Seed for EP02 SC40 after EP02 SC39 formal test-mode segment. Continue the ComfyUI short-drama pipeline from the point where truth is nearly breaking out and the white-clothed woman's restraint is nearly splitting into the next threshold: Keshadu's conclusion is almost openly exposed, Shisilang's fury is at the brink of visible rupture, Tuobaye is almost completely emptied out, and the white-clothed woman's still pressure is at the edge of visible cracking.",
+  "segment_id": "SSJ_EP02_SC40",
+  "beat_id": "C02_B40",
+  "title": "真相将外露，静压将裂开",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC39",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc39_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC39_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC39\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC39_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc39_formal_cut_result.json",
+    "previous_formal_segment_probe": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc39_formal_cut_probe.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC39 is approved only for pipeline validation. All four SC39 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "真相将翻出，十四郎怒线将断，拓拔野几近空尽，白衣女子的静压已到将开裂边缘。",
+    "adapted_summary": "下一段要把这条线继续推进到真正外显裂开前的直接门槛。科沙度的判断几乎已经外露，十四郎的怒势也只差一下就会崩断，拓拔野几乎完全见空，而白衣女子的静压来到马上要裂开的边缘。",
+    "next_source_hint": "下一段应把隐线从将翻出与将开裂推进到真正外显失控前的门槛，为明确出手、揭露或局面断裂做直接引爆。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_truth_breakout_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH01_v001_00001_.png",
+    "previous_split_edge_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC39_SH04_v001_00001_.png"
+  },
+  "continuity_rules": {
+    "adult_tuobaye_only": true,
+    "white_clothed_woman_no_full_overturn_yet": true,
+    "no_readable_text": true
+  },
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history."
+  }
+}

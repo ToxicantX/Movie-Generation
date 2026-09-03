@@ -1,0 +1,20 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "inputs":  {
+                                            "base_url":  "http://127.0.0.1:7860",
+                                            "model":  "gemini-3.1-pro",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC01_SH02_i2v_v001",
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH02_v001_00001_.png",
+                                            "prompt":  "Animate this storyboard frame as a serene 8-10 second cinematic short-drama shot. Preserve the storyboard exactly as the single visual source of truth: adult Tuobaye age 28 to 32 in rugged rough cloth with a green bamboo flute, seated ancient white-haired Shennong in a deep purple herbal robe, safe Nanji Mountain meadow at golden sunset, distant sea glow, far waterfall mist, windswept grass, and drifting white catkins.\n\nShot action: Tuobaye steps respectfully toward Shennong during a quiet mission-transfer moment. Shennong remains seated, calm, wise, and solemn. Keep identities stable, keep the bamboo flute visible, keep the mountain meadow location stable. Gentle wind moves hair, robe fabric, grass, mist, and catkins. Slow subtle camera push-in only.\n\nNo new props, no bowl, no coins, no market, no village street, no poverty imagery, no face morphing, no age drift, no costume swap, no scene teleporting. Safe open mountain meadow only. No cliff-edge danger, no falling, no violence, no injury, no minors, no titles, no captions, no text, no watermark, no UI artifacts.",
+                                            "reference_field":  "file_ids",
+                                            "aspect_ratio":  "16:9",
+                                            "reference_image_paths":  "",
+                                            "video_reference_mode":  "experimental_file_ids",
+                                            "request_timeout_seconds":  2400
+                                        },
+                             "class_type":  "GeminiAPIVideoGenerate"
+                         }
+               }
+}

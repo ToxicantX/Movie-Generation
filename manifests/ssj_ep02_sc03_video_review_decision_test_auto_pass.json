@@ -1,0 +1,36 @@
+{
+  "updated": "2026-06-09T12:52:12",
+  "reviewer": "Codex test-mode auto confirmation; user authorized auto-pass when absent on 2026-06-09",
+  "global_decision": "approved_for_episode_cut",
+  "language_policy": {
+    "mode": "silent_visual_generation",
+    "rule": "Do not synthesize speech or generate captions/subtitles/readable text. Chinese dialogue/subtitles are added later during editing."
+  },
+  "known_quality_notes": [
+    "Test-mode pass only; production review should inspect white dragon-deer leg/motion artifacts.",
+    "SH02 v001 hit Gemini 1155; v002_simplified accepted after reducing motion complexity.",
+    "SC03 is an action-heavy bridge; future production may prefer a higher-quality provider for leap motion."
+  ],
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC03_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Guarded gate and white dragon-deer turn are clear; silent visual generation only."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC03_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. v002_simplified accepted after v001 Gemini 1155; inspect motion artifacts for production."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC03_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Vista beat is clean; silent visual generation only."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC03_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Leap beat should be checked for motion continuity in production."
+    }
+  ]
+}

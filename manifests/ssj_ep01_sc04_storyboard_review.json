@@ -1,0 +1,90 @@
+{
+  "updated": "2026-06-08T17:12:50",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第一章 神农使者",
+  "segment_id": "SSJ_EP01_SC04",
+  "beat_id": "C01_B08",
+  "title": "White dragon-deer mount and departure",
+  "global_decision": "storyboards_generated_pending_video",
+  "global_reason": "All three SC04 storyboard images were generated through ComfyUI. SH02 required a no-reference retry after the reference-edit endpoint returned upstream 502.",
+  "continuity_from": {
+    "previous_segment": "SSJ_EP01_SC03",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+    "previous_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC03\\human_review.md",
+    "previous_tail_frame": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC03\\TEST_SSJ_EP01_SC03_SH03\\TEST_SSJ_EP01_SC03_SH03_last.jpg"
+  },
+  "machine_checks": {
+    "all_storyboards_exist": true,
+    "expected_size": "1536x1024",
+    "comfy_history_plaintext_key_check": "pass_no_plaintext_credential_patterns",
+    "queue_after_generation": "empty"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP01_SC04_SH01",
+      "title": "Trust after the dragon-deer reveal",
+      "beat": "C01_B08",
+      "status": "storyboard_generated",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH01_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh01_storyboard_v001.json",
+      "storyboard_result": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_sh01_storyboard_result.json",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC03_SH03_v001_00001_.png",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh01_i2v_v001.json",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC04_SH01_i2v_v001",
+      "checks": {
+        "technical_output": "pass",
+        "continuity_from_sc03": "pending_human_review",
+        "tuobaye_identity": "pending_human_review",
+        "bailonglu_identity": "pending_human_review",
+        "wufeng_blunt_prop": "pending_human_review",
+        "clean_output": "pending_human_review"
+      },
+      "notes": "Reference-driven storyboard from SC03 SH03. Prompt explicitly corrects Wufeng as a blunt rectangular edgeless black iron object."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC04_SH02",
+      "title": "Mounting the white dragon-deer",
+      "beat": "C01_B08",
+      "status": "storyboard_generated_from_no_reference_retry",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH02_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_storyboard_v001_noref_retry.json",
+      "storyboard_initial_failed_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_storyboard_v001.json",
+      "storyboard_initial_failure": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_sh02_storyboard_result.json",
+      "storyboard_result": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_sh02_storyboard_retry_result.json",
+      "storyboard_reference_image": "",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh02_i2v_v001.json",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC04_SH02_i2v_v001",
+      "checks": {
+        "technical_output": "pass",
+        "tuobaye_identity": "pending_human_review",
+        "bailonglu_identity": "needs_extra_attention",
+        "mounting_pose_safety": "pending_human_review",
+        "wufeng_blunt_prop": "pending_human_review",
+        "clean_output": "pending_human_review"
+      },
+      "notes": "The first reference-image edit attempt returned upstream Image API 502. The successful retry used direct text prompting without external image references, so creature identity must be checked more carefully before video."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC04_SH03",
+      "title": "Departure toward Yuping Mountain",
+      "beat": "C01_B08",
+      "status": "storyboard_generated",
+      "storyboard_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC04_SH03_v001_00001_.png",
+      "storyboard_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh03_storyboard_v001.json",
+      "storyboard_result": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc04_sh03_storyboard_result.json",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+      "video_workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc04_sh03_i2v_v001.json",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC04_SH03_i2v_v001",
+      "checks": {
+        "technical_output": "pass",
+        "destination_location_identity": "pending_human_review",
+        "tuobaye_identity": "pending_human_review",
+        "bailonglu_identity": "pending_human_review",
+        "episode_hook": "pending_human_review",
+        "clean_output": "pending_human_review"
+      },
+      "notes": "Reference-driven storyboard from Yupingshan/Tianhu location card to bridge Chapter 1 ending into Chapter 2 destination."
+    }
+  ],
+  "next_action": "Run Gemini experimental I2V one storyboard image at a time if video quota is available; otherwise build a storyboard-only review page and wait for official I2V provider fallback."
+}

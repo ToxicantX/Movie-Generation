@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the corrected SC16 hidden-gate storyboard as the gate-geometry anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 peril composition. Duan Yukai has finally been driven to the ground just outside the forbidden gate while multiple black-clothed attackers bring blades down toward him in a frozen instant of imminent execution. Keep the danger intense but non-gory, with blades suspended or nearly striking rather than graphic contact. The courtyard threshold and observer distance must remain clear. No readable Chinese characters, no English words, no captions, no subtitles, no plaques, no gate calligraphy, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC16_SH04_v001_00002_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC17_SH03_v001"
+                                        }
+                         }
+               }
+}

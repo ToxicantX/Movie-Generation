@@ -1,0 +1,37 @@
+{
+  "updated": "2026-06-09T14:05:00",
+  "reviewer": "Codex test-mode auto confirmation; user authorized auto-pass when absent on 2026-06-09",
+  "global_decision": "approved_for_episode_cut",
+  "language_policy": {
+    "mode": "silent_visual_generation",
+    "rule": "Do not synthesize speech or generate captions/subtitles/readable text. No English words. Chinese dialogue, flute sound design, narration, and subtitles are added later during editing."
+  },
+  "known_quality_notes": [
+    "Test-mode pass only; production review should still inspect Tuobaye costume continuity and dragon-deer body consistency.",
+    "Storyboard visual precheck: SH04 Tuobaye costume skews grey-blue and slightly refined compared with target rugged grey-brown.",
+    "No premature Qingdi or white-clothed woman reveal was observed in storyboard precheck.",
+    "Keep future I2V prompts silent/no-caption/no-readable-text to avoid unwanted English dialogue."
+  ],
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC05_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Tianhu shoreline approach is usable; silent visual generation only."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC05_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Empty handmade residence search beat is usable; silent visual generation only."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC05_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Empty courtyard listening beat is usable; no generated dialogue or captions expected."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC05_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass with quality note: costume color/refinement drift. Keep source reveal deferred."
+    }
+  ]
+}

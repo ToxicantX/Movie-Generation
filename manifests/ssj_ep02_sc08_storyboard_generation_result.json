@@ -1,0 +1,274 @@
+{
+    "updated":  "2026-06-09T17:05:57",
+    "workflow_create_result_path":  ".\\manifests\\ssj_ep02_sc08_workflow_create_result.json",
+    "skip_existing":  true,
+    "force_no_reference":  false,
+    "run_count":  4,
+    "completed_count":  4,
+    "fallback_count":  2,
+    "runs":  [
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC08_SH01",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC08_SH01_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc08_sh01_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc08_sh01_storyboard_run_result.json",
+                                     "exit_code":  1,
+                                     "output_tail":  [
+                                                         "    \"completed\":  false,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc08_sh01_storyboard_v001.json -\\u003e prompt_id=31c51320-e3ab-4f64-b063-d6e53ea1a619\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"31c51320-e3ab-4f64-b063-d6e53ea1a619\",",
+                                                         "                        \"status\":  \"error\",",
+                                                         "                        \"completed\":  false,",
+                                                         "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream request failed\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                         "                    },",
+                                                         "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream request failed\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T16:41:46",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC08_SH01",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc08_sh01_storyboard_v001.json",
+                                                        "prompt_id":  "31c51320-e3ab-4f64-b063-d6e53ea1a619",
+                                                        "status":  "error",
+                                                        "completed":  false,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc08_sh01_storyboard_v001.json -\u003e prompt_id=31c51320-e3ab-4f64-b063-d6e53ea1a619"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "31c51320-e3ab-4f64-b063-d6e53ea1a619",
+                                                                            "status":  "error",
+                                                                            "completed":  false,
+                                                                            "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream request failed\",\"type\":\"upstream_error\"}}\n"
+                                                                        },
+                                                        "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream request failed\",\"type\":\"upstream_error\"}}\n"
+                                                    },
+                                     "ok":  false
+                                 },
+                     "fallback":  {
+                                      "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh01_storyboard_v001_noref_retry.json",
+                                      "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc08_sh01_storyboard_noref_retry_run_result.json",
+                                      "exit_code":  0,
+                                      "output_tail":  [
+                                                          "    \"completed\":  true,",
+                                                          "    \"submit_output\":  [",
+                                                          "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc08_sh01_storyboard_v001_noref_retry.json -\\u003e prompt_id=f111c096-14ba-4eba-8824-b837168ae1d0\"",
+                                                          "                      ],",
+                                                          "    \"wait_result\":  {",
+                                                          "                        \"prompt_id\":  \"f111c096-14ba-4eba-8824-b837168ae1d0\",",
+                                                          "                        \"status\":  \"success\",",
+                                                          "                        \"completed\":  true,",
+                                                          "                        \"error\":  null",
+                                                          "                    },",
+                                                          "    \"error\":  null",
+                                                          "}"
+                                                      ],
+                                      "run_result":  {
+                                                         "updated":  "2026-06-09T16:43:12",
+                                                         "shot_id":  "TEST_SSJ_EP02_SC08_SH01",
+                                                         "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh01_storyboard_v001_noref_retry.json",
+                                                         "prompt_id":  "f111c096-14ba-4eba-8824-b837168ae1d0",
+                                                         "status":  "success",
+                                                         "completed":  true,
+                                                         "submit_output":  [
+                                                                               "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh01_storyboard_v001_noref_retry.json -\u003e prompt_id=f111c096-14ba-4eba-8824-b837168ae1d0"
+                                                                           ],
+                                                         "wait_result":  {
+                                                                             "prompt_id":  "f111c096-14ba-4eba-8824-b837168ae1d0",
+                                                                             "status":  "success",
+                                                                             "completed":  true,
+                                                                             "error":  null
+                                                                         },
+                                                         "error":  null
+                                                     },
+                                      "ok":  true
+                                  },
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh01_storyboard_v001_noref_retry.json",
+                     "completed":  true,
+                     "fallback_used":  true
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC08_SH02",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC08_SH02_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc08_sh02_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc08_sh02_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc08_sh02_storyboard_v001.json -\\u003e prompt_id=333c3af4-29f5-4826-8317-e97f25691157\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"333c3af4-29f5-4826-8317-e97f25691157\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T16:45:33",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC08_SH02",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc08_sh02_storyboard_v001.json",
+                                                        "prompt_id":  "333c3af4-29f5-4826-8317-e97f25691157",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc08_sh02_storyboard_v001.json -\u003e prompt_id=333c3af4-29f5-4826-8317-e97f25691157"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "333c3af4-29f5-4826-8317-e97f25691157",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc08_sh02_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC08_SH03",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC08_SH03_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc08_sh03_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc08_sh03_storyboard_run_result.json",
+                                     "exit_code":  0,
+                                     "output_tail":  [
+                                                         "    \"completed\":  true,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc08_sh03_storyboard_v001.json -\\u003e prompt_id=508f6a41-9ca1-4a25-99ac-0ebdef15b2d4\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"508f6a41-9ca1-4a25-99ac-0ebdef15b2d4\",",
+                                                         "                        \"status\":  \"success\",",
+                                                         "                        \"completed\":  true,",
+                                                         "                        \"error\":  null",
+                                                         "                    },",
+                                                         "    \"error\":  null",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T16:48:09",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC08_SH03",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc08_sh03_storyboard_v001.json",
+                                                        "prompt_id":  "508f6a41-9ca1-4a25-99ac-0ebdef15b2d4",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc08_sh03_storyboard_v001.json -\u003e prompt_id=508f6a41-9ca1-4a25-99ac-0ebdef15b2d4"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "508f6a41-9ca1-4a25-99ac-0ebdef15b2d4",
+                                                                            "status":  "success",
+                                                                            "completed":  true,
+                                                                            "error":  null
+                                                                        },
+                                                        "error":  null
+                                                    },
+                                     "ok":  true
+                                 },
+                     "fallback":  null,
+                     "final_workflow":  ".\\workflows\\ssj_ep02_sc08_sh03_storyboard_v001.json",
+                     "completed":  true,
+                     "fallback_used":  false
+                 },
+                 {
+                     "shot_id":  "TEST_SSJ_EP02_SC08_SH04",
+                     "expected_storyboard_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC08_SH04_v001_00001_.png",
+                     "skipped_existing":  false,
+                     "primary":  {
+                                     "workflow_path":  ".\\workflows\\ssj_ep02_sc08_sh04_storyboard_v001.json",
+                                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc08_sh04_storyboard_run_result.json",
+                                     "exit_code":  1,
+                                     "output_tail":  [
+                                                         "    \"completed\":  false,",
+                                                         "    \"submit_output\":  [",
+                                                         "                          \".\\\\workflows\\\\ssj_ep02_sc08_sh04_storyboard_v001.json -\\u003e prompt_id=ad1e723e-0e4d-4a67-8e37-7a6ee5a1f702\"",
+                                                         "                      ],",
+                                                         "    \"wait_result\":  {",
+                                                         "                        \"prompt_id\":  \"ad1e723e-0e4d-4a67-8e37-7a6ee5a1f702\",",
+                                                         "                        \"status\":  \"error\",",
+                                                         "                        \"completed\":  false,",
+                                                         "                        \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream request failed\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                         "                    },",
+                                                         "    \"error\":  \"Image API error 502: {\\\"error\\\":{\\\"message\\\":\\\"Upstream request failed\\\",\\\"type\\\":\\\"upstream_error\\\"}}\\n\"",
+                                                         "}"
+                                                     ],
+                                     "run_result":  {
+                                                        "updated":  "2026-06-09T16:50:55",
+                                                        "shot_id":  "TEST_SSJ_EP02_SC08_SH04",
+                                                        "workflow_path":  ".\\workflows\\ssj_ep02_sc08_sh04_storyboard_v001.json",
+                                                        "prompt_id":  "ad1e723e-0e4d-4a67-8e37-7a6ee5a1f702",
+                                                        "status":  "error",
+                                                        "completed":  false,
+                                                        "submit_output":  [
+                                                                              ".\\workflows\\ssj_ep02_sc08_sh04_storyboard_v001.json -\u003e prompt_id=ad1e723e-0e4d-4a67-8e37-7a6ee5a1f702"
+                                                                          ],
+                                                        "wait_result":  {
+                                                                            "prompt_id":  "ad1e723e-0e4d-4a67-8e37-7a6ee5a1f702",
+                                                                            "status":  "error",
+                                                                            "completed":  false,
+                                                                            "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream request failed\",\"type\":\"upstream_error\"}}\n"
+                                                                        },
+                                                        "error":  "Image API error 502: {\"error\":{\"message\":\"Upstream request failed\",\"type\":\"upstream_error\"}}\n"
+                                                    },
+                                     "ok":  false
+                                 },
+                     "fallback":  {
+                                      "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh04_storyboard_v001_noref_retry.json",
+                                      "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep02_sc08_sh04_storyboard_noref_retry_run_result.json",
+                                      "exit_code":  0,
+                                      "output_tail":  [
+                                                          "    \"completed\":  true,",
+                                                          "    \"submit_output\":  [",
+                                                          "                          \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc08_sh04_storyboard_v001_noref_retry.json -\\u003e prompt_id=458dc2bc-96b7-4f5e-8f34-0e06789b62cb\"",
+                                                          "                      ],",
+                                                          "    \"wait_result\":  {",
+                                                          "                        \"prompt_id\":  \"458dc2bc-96b7-4f5e-8f34-0e06789b62cb\",",
+                                                          "                        \"status\":  \"success\",",
+                                                          "                        \"completed\":  true,",
+                                                          "                        \"error\":  null",
+                                                          "                    },",
+                                                          "    \"error\":  null",
+                                                          "}"
+                                                      ],
+                                      "run_result":  {
+                                                         "updated":  "2026-06-09T16:58:37",
+                                                         "shot_id":  "TEST_SSJ_EP02_SC08_SH04",
+                                                         "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh04_storyboard_v001_noref_retry.json",
+                                                         "prompt_id":  "458dc2bc-96b7-4f5e-8f34-0e06789b62cb",
+                                                         "status":  "success",
+                                                         "completed":  true,
+                                                         "submit_output":  [
+                                                                               "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh04_storyboard_v001_noref_retry.json -\u003e prompt_id=458dc2bc-96b7-4f5e-8f34-0e06789b62cb"
+                                                                           ],
+                                                         "wait_result":  {
+                                                                             "prompt_id":  "458dc2bc-96b7-4f5e-8f34-0e06789b62cb",
+                                                                             "status":  "success",
+                                                                             "completed":  true,
+                                                                             "error":  null
+                                                                         },
+                                                         "error":  null
+                                                     },
+                                      "ok":  true
+                                  },
+                     "final_workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc08_sh04_storyboard_v001_noref_retry.json",
+                     "completed":  true,
+                     "fallback_used":  true
+                 }
+             ],
+    "ok":  true
+}

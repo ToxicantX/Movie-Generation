@@ -1,0 +1,109 @@
+{
+  "updated": "2026-06-12",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 借势救人，少年周旋",
+  "segment_id": "SSJ_EP02_SC18",
+  "beat_id": "C02_B18",
+  "title": "借势救人，少年周旋",
+  "purpose": "承接 SC17 住手之后：拓拔野顺势假借青帝之名发令救人；黑衣众人将段聿铠抬到门边；科沙度与十四郎起疑试探；拓拔野硬着头皮周旋，白衣女子暗中相助。全段继续保持无声视觉，不生成口播、字幕、牌匾文字或任何可读文本。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC17",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc17_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC17_formal_cut_v001.mp4",
+    "previous_stop_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC17_SH04_v001_00001_.png",
+    "previous_gate_peril_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC17_SH03_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc18_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\搜神记.txt gb18030 excerpt around 你们将这姓段的抬到门口来 / 野野 / 科沙度试探 / 唐七请赐教。"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 and SH02 anchor to the SC17 stop-command / gate-peril storyboard so gate geography stays stable. SH03 and SH04 anchor to the corrected SC17 stop-command storyboard so Tuobaye, the white-clothed woman, and the white dragon-deer stay in the same hidden-courtyard layout.",
+  "video_policy": "If stable reference-driven I2V is unavailable, use Comfy technical still fallback for pipeline continuity and mark outputs non-production. If true I2V is restored, use only the approved storyboard image as source of truth.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, signs, labels, plaques, gate calligraphy, speech bubbles, English words, or clear Chinese inscriptions inside image/video.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue, lip-sync, threats, taunts, or sound effects. Chinese dialogue, narration, and subtitles should be added later in editing.",
+    "production_dialogue_lines": [
+      "你们将这姓段的抬到门口来。",
+      "你们都退下去，转过身去。",
+      "在下单名一个野字。你叫我野野即可。",
+      "野公子，请赐教。"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "duanyukai_reference": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_duanyukai_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "previous_stop_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC17_SH04_v001_00001_.png",
+    "previous_gate_peril_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC17_SH03_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC18_SH01",
+      "beat": "C02_B18",
+      "title": "借青帝之名发令",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白衣女子",
+        "朝阳谷众人"
+      ],
+      "location": "禁院门内 / 大门方向",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC18_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC18_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC17_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the corrected SC17 stop-command storyboard as the gate-geometry anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 commanding interruption composition. Adult Tuobaye remains just inside the courtyard but now takes advantage of the confusion, issuing an authoritative order toward the frozen black-clothed men outside the gate. The white-clothed woman stays still and unreadable behind him, not taking the lead. The black-clothed men hesitate outside the threshold, uncertain and wary. Keep inner/outer positions crystal clear and do not render readable plaques, captions, subtitles, speech bubbles, English words, or UI.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent false-authority beat. Tuobaye leans out with sudden authority while the black-clothed attackers freeze and hesitate outside the gate; bamboo, robes, mist, and lantern light move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC18_SH02",
+      "beat": "C02_B18",
+      "title": "抬段狂到门边",
+      "duration_seconds": "8-10",
+      "characters": [
+        "段聿铠",
+        "朝阳谷众人",
+        "拓拔野"
+      ],
+      "location": "禁院门口 / 门槛内外",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC18_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC18_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC17_SH03_v001_00001_.png",
+      "storyboard_prompt": "Use the SC17 gate-peril storyboard as the threshold anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 tense transfer composition. Several black-clothed men lift or drag the wounded Duan Yukai toward the gate under the mistaken belief they are obeying Qingdi; adult Tuobaye stands at or just inside the threshold, trying to maintain authority. Keep the wounded Duan Yukai readable but not gore-heavy. Inner/outer geography must remain clear. No readable Chinese characters, no English words, no captions, no subtitles, no plaques, no gate calligraphy, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent transfer beat. Black-clothed men carry or haul Duan Yukai toward the gate while Tuobaye holds their attention from inside the threshold; cloth, mist, lanterns, and body weight shifts move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC18_SH03",
+      "beat": "C02_B18",
+      "title": "野野周旋拖延",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "科沙度",
+        "十四郎",
+        "段聿铠"
+      ],
+      "location": "禁院门前",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC18_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC18_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC17_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the corrected SC17 stop-command storyboard as the continuity anchor for Tuobaye, the white-clothed woman, and the gate geometry. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 uneasy bluff composition. Adult Tuobaye tries to bluff with swagger at the gate while the black-clothed elder Keshadu and the young noble Shisilang study him with deep suspicion; the wounded Duan Yukai watches from near the threshold, half-dazed but intrigued. Keep the white-clothed woman calm and unreadable in the background if visible. No readable Chinese characters, no English words, no captions, no subtitles, no plaques, no gate calligraphy, no UI, no modern elements.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent bluff-and-suspicion beat. Tuobaye talks big with forced confidence while Keshadu and Shisilang scrutinize him and Duan Yukai watches warily; robes, bamboo, mist, and lantern light move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC18_SH04",
+      "beat": "C02_B18",
+      "title": "唐七试招在即",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "唐七",
+        "白衣女子"
+      ],
+      "location": "禁院门前 / 门槛外",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC18_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC18_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC17_SH04_v001_00001_.png",
+      "storyboard_prompt": "Use the corrected SC17 stop-command storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 challenge-before-impact composition. The strong black-clothed fighter Tang Qi steps forward to test Tuobaye while adult Tuobaye braces with hidden panic beneath a show of bravado. The white-clothed woman remains behind or to the side, still and subtly supportive, without overt magic display. Keep the challenge focused and uncluttered, with no readable signs, no captions, no subtitles, no speech bubbles, no English words, and no UI.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second silent challenge beat. Tang Qi advances and squares up while Tuobaye stiffens and pretends confidence, and the white-clothed woman remains quietly poised behind him; cloth, mist, bamboo, and lantern light move subtly. No dialogue, no lip-sync, no sound effects, no captions, no subtitles, no readable text, no English words."
+    }
+  ]
+}

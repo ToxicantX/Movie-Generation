@@ -1,0 +1,66 @@
+{
+  "updated": "2026-06-08",
+  "source": "搜神记 第一卷 第一章 神农使者",
+  "segment_id": "SSJ_EP01_SC04",
+  "beat_id": "C01_B08",
+  "title": "White dragon-deer mount and departure",
+  "purpose": "Validate the next-segment handoff after SC03: use the white dragon-deer reveal, Dragon Pool assets, Wufeng prop correction, and the next destination reference to create a clean departure segment.",
+  "continuity_from": {
+    "segment_id": "SSJ_EP01_SC03",
+    "review_path": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc03_consistency_review.json",
+    "review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC03\\human_review.md",
+    "previous_tail_frame": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP01_SC03\\TEST_SSJ_EP01_SC03_SH03\\TEST_SSJ_EP01_SC03_SH03_last.jpg",
+    "previous_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC03_SH03_v001_00001_.png",
+    "caveat": "SC03 SH03 is pending human review and may contain Wufeng ambiguity. SC04 prompts explicitly lock Wufeng as a blunt rectangular edgeless black iron object."
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 uses the previous SC03 dragon-deer storyboard for continuity. SH02 uses the approved white dragon-deer creature reference. SH03 uses the approved Yupingshan/Tianhu location reference as the destination handoff.",
+  "video_policy": "Gemini experimental I2V should use only the generated storyboard image as source of truth. Do not pass character, creature, location, or tail-frame refs into video generation unless testing a specific provider contract.",
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "longtan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_longtan_dragon_pool_ref_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "wufeng_corrected_prop": "G:\\ComfyUI\\output\\AIShortDrama\\props\\PROP_wufeng_blunt_iron_ref_v002_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP01_SC04_SH01",
+      "beat": "C01_B08",
+      "title": "Trust after the dragon-deer reveal",
+      "duration_seconds": "8-10",
+      "characters": ["拓拔野", "白龙鹿"],
+      "location": "龙潭雾气石岸",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP01_SC04_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC04_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC03_SH03_v001_00001_.png",
+      "storyboard_prompt": "Use the input previous storyboard as continuity anchor, but correct the prop language. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, widescreen composition. Adult Tuobaye age 28 to 32 stands on the safe mossy stone bank of the Dragon Pool, rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute visible, relic bundle secure. He lowers a plain dark blunt rectangular edgeless black iron Wufeng object, not a sharp sword, while the friendly white dragon-deer leans forward through soft mist. White dragon-deer full body visible: white fur, pearl scales along neck and shoulders, pale jade antler curves, long white mane, calm intelligent eyes. Trust, wonder, and departure readiness. Cold jade water, waterfall mist, ancient pine roots, glowing herbs, safe terrain, no attack, no chase, no injury, no text.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second trust beat. The white dragon-deer lowers its head gently while Tuobaye relaxes and lowers the blunt Wufeng iron object. Preserve adult Tuobaye, green bamboo flute, relic bundle, white dragon-deer identity, Dragon Pool mist, safe stone bank, and quiet trust. No attack, no chase, no injury, no sharp blade emphasis, no text."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC04_SH02",
+      "beat": "C01_B08",
+      "title": "Mounting the white dragon-deer",
+      "duration_seconds": "8-10",
+      "characters": ["拓拔野", "白龙鹿"],
+      "location": "龙潭谷出口",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP01_SC04_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC04_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input white dragon-deer reference as the creature anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, widescreen composition. Adult Tuobaye age 28 to 32 carefully climbs onto the friendly white dragon-deer beside the Dragon Pool valley exit, with one hand on its long white mane and one foot on a safe low mossy rock. This is calm cooperation, not combat. Tuobaye wears rugged grey-brown rough cloth, rope belt, travel pouch, green bamboo flute visible, relic bundle fastened, plain dark blunt rectangular edgeless Wufeng iron object secured low at his side. White dragon-deer remains noble and consistent: white fur, pearl neck scales, pale jade antlers, calm eyes, graceful strong legs. Moonlit mist, cold jade water behind them, mountain valley path ahead, no saddle, no fall, no injury, no text.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second safe mounting shot. Tuobaye places one hand on the white dragon-deer's mane and settles carefully while the creature stays calm. Preserve the creature reference, adult Tuobaye costume, bamboo flute, relic bundle, blunt Wufeng iron object, Dragon Pool valley exit, and cooperative mood. No falling, no violence, no injury, no text."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC04_SH03",
+      "beat": "C01_B08",
+      "title": "Departure toward Yuping Mountain",
+      "duration_seconds": "8-10",
+      "characters": ["拓拔野", "白龙鹿"],
+      "location": "通往玉屏山的山路 / 远处天湖",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP01_SC04_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC04_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input Yuping Mountain and Tianhu location reference as the destination anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, widescreen composition. Wide transition shot: adult Tuobaye rides the friendly white dragon-deer along a safe moonlit mountain path toward distant Yuping Mountain and the clear heavenly lake. Keep Tuobaye small but readable: rugged grey-brown cloth, green bamboo flute, relic bundle, plain dark blunt Wufeng iron object secured low. White dragon-deer remains identifiable by white fur, jade antlers, pearl neck scales, long mane. Destination environment matches the reference: moonlit pine and bamboo, calm lake reflection, austere wooden pavilions, jade-green mist, forbidden quiet. The mood is hopeful departure and next-episode hook, no crowded palace, no city, no combat, no fall, no text.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second departure transition. Tuobaye and the white dragon-deer move slowly along the moonlit mountain path toward distant Yuping Mountain and Tianhu. Preserve the destination landscape, white dragon-deer silhouette, adult rider, bamboo flute and relic bundle. Gentle mist, lake shimmer, and slow camera drift only. No combat, no falling, no text."
+    }
+  ]
+}

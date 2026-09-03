@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the approved SC21 white-dragon-deer interruption storyboard as the primary continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 hidden-rescue composition. Adult Tuobaye is on the verge of taking another punishing hit when an unseen force sharply yanks him backward out of the strike line. Fourteen should look momentarily thrown off by the sudden miss. The white-clothed woman remains outwardly still and controlled, with only subtle implication that she is the hidden source of aid. The white dragon-deer stays in the same gate-space as protective presence, not a separate fantasy spectacle. Keep the moonlit gate, wet stone, bamboo, and courtyard threshold continuous. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC21_SH04_v001_00003_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC22_SH01_v001"
+                                        }
+                         }
+               }
+}

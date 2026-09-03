@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input Tuobaye turnaround sheet as the protagonist identity and costume anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, widescreen medium-wide composition. Adult Tuobaye age 28 to 32 calmly dismounts from the friendly white dragon-deer before a silent pine and bamboo gate of Qingdi\u0027s secluded sanctuary. Preserve Tuobaye\u0027s rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute visible, relic bundle secure, weathered adult face, practical wilderness posture. The plain dark blunt rectangular edgeless black iron Wufeng object is tied low and reads as a heavy iron prop, not a sharp sword. White dragon-deer waits beside him with white fur, pearl neck scales, pale jade antlers, long white mane, calm eyes. Gate details: old pine beams, bamboo fence, lake mist behind, small stone lanterns, jade-green moonlight, no guards, no crowd, no Qingdi visible, no combat, no injury, no text.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC01_SH02_v001"
+                                        }
+                         }
+               }
+}

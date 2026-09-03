@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T07:47:24",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc21.json",
+    "shot_id":  "TEST_SSJ_EP02_SC21_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: first real whip hit is readable and Tuobaye remains clearly outmatched",
+    "notes":  "Production caveat: keep Fourteen as aggressor and avoid making Tuobaye look composed in motion.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

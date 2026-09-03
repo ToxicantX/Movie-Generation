@@ -1,0 +1,21 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "GeminiAPIVideoGenerate",
+                             "inputs":  {
+                                            "model":  "gemini-3.1-pro",
+                                            "prompt":  "Animate this storyboard frame as an 8-10 second silent stunned-encounter beat. Tuobaye and the white dragon-deer hold still in shock while the adult white-clothed woman calmly lowers the xiao in the background; incense smoke and bamboo shadows move gently. Do not synthesize speech, xiao audio, or lip-sync. No captions, no subtitles, no readable text, no English words.",
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP02_SC07_SH04_v001_00001_.png",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP02_SC07_SH04_i2v_v001",
+                                            "base_url":  "http://127.0.0.1:7860",
+                                            "reference_field":  "file_ids",
+                                            "video_reference_mode":  "experimental_file_ids",
+                                            "reference_image_paths":  "",
+                                            "aspect_ratio":  "16:9",
+                                            "request_timeout_seconds":  2400,
+                                            "api_key_env_path":  "E:\\workspace\\DockerProjects\\Gemini-API\\.env"
+                                        }
+                         }
+               }
+}

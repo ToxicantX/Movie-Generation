@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T16:03:48",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc38.json",
+    "shot_id":  "TEST_SSJ_EP02_SC38_SH03",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "Tuobaye nearly-emptied-out state is clear: the kneeling center figure anchors collapse while the two standing men define pressure from both sides.",
+    "notes":  "Codex visual precheck: SH03 works as the nearly-emptied-out endurance beat.",
+    "reviewer":  "",
+    "ok":  true
+}

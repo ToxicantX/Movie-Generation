@@ -1,0 +1,23 @@
+{
+    "updated":  "2026-06-08T11:56:12",
+    "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\tmp_ssj_ep01_sc01_consistency_review_pass_test.json",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\tmp_ssj_ep01_sc01_human_decision_pass_test.json",
+    "global_decision":  "approved_for_episode_cut",
+    "shots":  [
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC01_SH01",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC01_SH02",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  },
+                  {
+                      "shot_id":  "TEST_SSJ_EP01_SC01_SH03",
+                      "decision":  "pass",
+                      "status":  "pass"
+                  }
+              ]
+}

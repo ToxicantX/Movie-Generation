@@ -1,0 +1,11 @@
+{
+    "updated":  "2026-06-13T04:06:52",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc28.json",
+    "shot_id":  "TEST_SSJ_EP02_SC28_SH04",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "The white-clothed woman\u0027s restraint now unmistakably feels like the final second before release.",
+    "notes":  "Codex visual precheck: SH04 works as the imminent-break beat.",
+    "reviewer":  "Codex test-mode visual review",
+    "ok":  true
+}

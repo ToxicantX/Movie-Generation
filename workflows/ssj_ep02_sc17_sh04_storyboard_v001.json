@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the corrected SC16 hidden-gate storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 decisive interruption composition. From behind the west bamboo inside the courtyard, adult Tuobaye can no longer endure the unfair killing and shouts to stop, leaning forward out of concealment while the white dragon-deer tenses beside him; the adult white-clothed woman remains composed but does not stop him. Outside the gate, black-clothed attackers freeze in shock, turning toward the voice. Keep inner/outer courtyard geography crystal clear. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no gate calligraphy, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC16_SH04_v001_00002_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC17_SH04_v001"
+                                        }
+                         }
+               }
+}

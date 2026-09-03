@@ -1,0 +1,19 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "GeminiAPIVideoGenerate",
+                             "inputs":  {
+                                            "model":  "gemini-3.1-pro",
+                                            "prompt":  "Animate this storyboard frame as a restrained departure shot. Tuobaye walks steadily along the wide safe left-side mountain path into dusk, carrying the relic bundle and bamboo flute. Keep him on the path and away from any valley edge; camera follows the path, not the drop. Preserve adult rugged identity, mountain wilderness, blue-gold light, distant mist, and solemn new responsibility. Gentle walking motion, robe and grass moving in wind, no danger, no cliff-edge action, no violence, no injury, no text.",
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC02_SH03_v001_00001_.png",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC02_SH03_i2v_v001",
+                                            "base_url":  "http://127.0.0.1:7860",
+                                            "reference_field":  "file_ids",
+                                            "video_reference_mode":  "experimental_file_ids",
+                                            "reference_image_paths":  "",
+                                            "aspect_ratio":  "16:9"
+                                        }
+                         }
+               }
+}

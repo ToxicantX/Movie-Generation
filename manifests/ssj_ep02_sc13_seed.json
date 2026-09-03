@@ -1,0 +1,101 @@
+{
+  "updated": "2026-06-09T21:05:00",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 青帝无踪，血书难托",
+  "purpose": "Seed for EP02 SC13 after EP02 SC12 formal test-mode segment. Continue the ComfyUI short-drama pipeline from the Chana Fanghua revelation into the Qingdi and blood-letter thread: the white-clothed woman connects the tune to old Wood Tribe/Shennong history, asks whether Tuobaye came to Yuping Mountain to seek Qingdi, refuses that Qingdi can currently be found, borrows the divine emperor blood letter, and returns it with the warning that Qingdi may not follow him to Mirage City.",
+  "segment_id": "SSJ_EP02_SC13",
+  "beat_id": "C02_B13",
+  "title": "青帝无踪，血书难托",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC12",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc12_storyboard_review.json",
+    "previous_storyboard_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC12_STORYBOARD\\human_review.md",
+    "previous_video_review_package": "G:\\ComfyUI\\output\\AIShortDrama\\review_packages\\SSJ_EP02_SC12\\human_review.md",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC12_formal_cut_v001.mp4",
+    "previous_formal_segment_manifest": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc12_formal_cut_result.json",
+    "previous_storyboard_plan": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc12_storyboard_plan.json",
+    "approval_mode": "Codex auto-pass test mode with user authorization",
+    "caveat": "SC12 is approved only for pipeline validation. All four SC12 videos used Comfy StillFrameVideoFallback because stable reference-driven I2V is not currently available through Gemini and Runway secret is missing. SH03 Tuobaye costume drift and SH04 no-reference storyboard fallback need production regeneration."
+  },
+  "source_grounding": {
+    "novel_path": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+    "encoding": "gb18030",
+    "anchor_after": "白衣女子听得神农临终高歌刹那芳华曲后，沉吟片刻，转问拓拔野是否为寻访青帝而来。",
+    "adapted_summary": "拓拔野讲完神农旧事后，白衣女子从刹那芳华曲联想到神农、空桑与木族旧缘，但短剧画面不直接显示歌词或可读刻字，只用她眼中闪过的旧影表现。她问拓拔野是否为了寻访青帝而到玉屏山，拓拔野惊喜追问她是否认识青帝，求她带自己拜见。女子说青帝近年来行踪不定，自己也寻他不着。随后她请求借看神帝血书；拓拔野因受神农临终重托而迟疑，但最终被她坦然的神色打动，小心取出血书。女子隔空取过、展开、沉吟，再折好送回，告诉他即便将血书交给青帝，青帝恐怕也不会随他去蜃楼城。拓拔野焦急不解，为后续请求她同行与朝阳谷来人埋下钩子。",
+    "next_source_hint": "随后拓拔野请求白衣女子陪他去蜃楼城，被婉拒；天湖对岸传来朝阳谷十四郎拜见青帝的声音，二人避入庭院后院。"
+  },
+  "locked_assets": {
+    "visual_style_bible": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_visual_style_bible_v1.json",
+    "character_cards": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\sou_shen_ji_volume01_character_cards.json",
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "yushiqie_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png",
+    "qingdi_reference": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_qingdi_ref_v001_00001_.png",
+    "yupingshan_tianhu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "previous_recollection_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC12_SH01_v001_00001_.png",
+    "previous_shennong_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC12_SH02_v001_00001_.png",
+    "previous_emotion_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC12_SH04_v001_00001_.png",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC12_formal_cut_v001.mp4"
+  },
+  "continuity_rules": [
+    "Adult-adapted Tuobaye only: age 28 to 32, rugged grey-brown rough cloth layers, rope belt, travel pouch, relic bundle, green bamboo flute, right-waist green bamboo sheath, hidden broken Wufeng.",
+    "White-clothed woman remains adult, elegant, distant, water/rain-associated, fully clothed, and emotionally restrained after the Chana Fanghua reaction.",
+    "Qingdi should not appear as an available present character in this segment; use absence, empty courtyard, distant shadow, or non-readable symbolic memory only if needed.",
+    "Blood letter may appear only as folded, sealed, angled-away parchment/cloth; do not render blood writing, readable content, stamps, labels, or any clear characters.",
+    "Chana Fanghua and old Wood Tribe/Shennong/Kongsang history may be implied through reflection, mist, old silhouettes, or emotional reaction; do not render lyrics, carved text, or readable inscriptions.",
+    "Setting remains moonlit Yuping Mountain/Tianhu bamboo courtyard and lakeside, with mist, bamboo shadows, wet stone, quiet pavilion architecture, and restrained mythic lighting.",
+    "No readable text, captions, subtitles, speech bubbles, English words, signs, plaques, UI, clear inscriptions, song title, or visible letter contents."
+  ],
+  "localization_rules": [
+    "All planning text and eventual editing dialogue should be Chinese unless a technical field requires English.",
+    "Storyboard prompts may include intended Chinese dialogue as off-screen planning context, but must request no rendered subtitles or readable text.",
+    "I2V prompts must use silent visual generation: no synthesized speech, no lip-sync dialogue, no flute/xiao audio, no music notes, no heartbeat audio, no captions, no subtitles, no readable signs, no English words.",
+    "Chinese dialogue, narration, sound design, music, and subtitles should be added later in editing."
+  ],
+  "generation_policy": {
+    "orchestration": "ComfyUI only; cloud APIs must be called through Comfy workflow nodes.",
+    "storyboard_reference_strategy": "one_strong_reference_per_storyboard",
+    "video_reference_strategy": "single_approved_storyboard_image_only",
+    "gemini_video_mode": "Do not use experimental file_ids I2V unless the Gemini-API contract probe confirms it is supported again.",
+    "runway_video_mode": "Use Runway I2V only if RUNWAYML_API_SECRET is available; otherwise use Comfy StillFrameVideoFallback for pipeline continuity and mark it clearly.",
+    "review_gate": "Test-mode auto-pass may be used while operator is absent, but record it clearly and preserve known quality issues.",
+    "secret_hygiene": "Use api_key_env_path or local key indirection; do not inject plaintext keys into Comfy prompt JSON/history.",
+    "motion_safety": "Use stable reaction, folded-letter handling, subtle mist/sleeve movement, and restrained face beats. Avoid lip-sync, readable documents, fast flying action, and complex crowd staging."
+  },
+  "suggested_shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC13_SH01",
+      "title": "芳华旧影不可言",
+      "duration_seconds": "8-10",
+      "visual_focus": "The white-clothed woman silently connects the tune to old Shennong/Kongsang memory; use her restrained close reaction with faint abstract old silhouettes in mist, no lyrics or carved words.",
+      "reference_anchor": "previous_emotion_storyboard or yushiqie_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC13_SH02",
+      "title": "寻访青帝落空",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye brightens when Qingdi is mentioned and asks for help, while the woman gently indicates Qingdi is absent and untraceable; show empty moonlit courtyard/pavilion distance.",
+      "reference_anchor": "previous_recollection_storyboard or yupingshan_tianhu_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC13_SH03",
+      "title": "血书隔空借观",
+      "duration_seconds": "8-10",
+      "visual_focus": "Tuobaye hesitates, then carefully offers the folded sealed blood letter/relic bundle; the woman receives it by invisible force. Keep all pages folded or angled away, no readable contents.",
+      "reference_anchor": "tuobaye_turnaround and yushiqie_reference"
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC13_SH04",
+      "title": "血书难动青帝",
+      "duration_seconds": "8-10",
+      "visual_focus": "The woman returns the folded letter with a solemn warning that even Qingdi may not go to Mirage City; Tuobaye looks worried and urgent, setting up his request for her help.",
+      "reference_anchor": "previous_emotion_storyboard or yushiqie_reference"
+    }
+  ],
+  "next_work": [
+    "Create SSJ_EP02_SC13 storyboard plan with 4 shots, each 8-10 seconds max.",
+    "Use present-tense interaction and one restrained abstract memory beat; avoid explanatory text panels.",
+    "Do not render blood letter contents, lyrics, song title, 神农, 空桑, 青帝, 木族, 刹那芳华, or any readable Chinese/English text.",
+    "Use silent/no-caption/no-readable-text I2V prompts. Do not generate speech, lip-sync, flute/xiao audio, or musical notes inside video.",
+    "If Gemini file_ids I2V remains rejected and no Runway key exists, use technical still fallback only for continuity and mark every output as non-production."
+  ]
+}

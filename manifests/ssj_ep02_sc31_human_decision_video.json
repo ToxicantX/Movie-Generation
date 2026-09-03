@@ -1,0 +1,27 @@
+{
+  "updated": "2026-06-13T07:00:00",
+  "reviewer": "Codex",
+  "global_decision": "pass_test_mode",
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC31_SH01",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Keshadu's certainty now feels almost public fact."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC31_SH02",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Shisilang's rage is one breath from a true mistake or break."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC31_SH03",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; Tuobaye reads as only barely still standing on the last edge of endurance."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC31_SH04",
+      "decision": "pass",
+      "notes": "Test-mode auto-pass. Technical still fallback only; the white-clothed woman's composure now clearly feels about to turn."
+    }
+  ]
+}

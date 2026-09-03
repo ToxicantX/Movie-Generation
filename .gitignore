@@ -1,0 +1,31 @@
+# Local runtime and generated output
+logs/
+output/
+data/
+test-results/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local tooling
+.playwright-mcp/
+.playwright-cli/
+.claude/settings.local.json
+
+# Secrets and machine-local configuration
+.env
+config/*.local.json
+*.env
+!.env.example
+config/*.local.*
+manifests/latest_gemini_video_download.json
+manifests/tmp_*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

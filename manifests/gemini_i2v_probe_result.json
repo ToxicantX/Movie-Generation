@@ -1,0 +1,11 @@
+﻿{
+    "base_url":  "http://127.0.0.1:7860",
+    "image_path":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH02_v001_00001_.png",
+    "reference_field":  "file_ids",
+    "upload_ok":  true,
+    "file_id":  "file-2b9c5fe6e4eb4d65a26f605abf2c8bc6",
+    "generate_status":  0,
+    "generate_ok":  false,
+    "response":  null,
+    "error":  "You cannot call a method on a null-valued expression."
+}

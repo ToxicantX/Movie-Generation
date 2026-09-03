@@ -1,0 +1,34 @@
+{
+  "updated": "2026-06-08",
+  "status": "single_reference_image_strategy_v1",
+  "comfy_node": "G:\\ComfyUI\\custom_nodes\\openai_compatible_image_node.py",
+  "node_capability": {
+    "node": "OpenAICompatibleImageGenerate",
+    "generation_without_references": "uses /v1/images/generations",
+    "generation_with_references": "uses /v1/images/edits when reference_image_paths is provided",
+    "max_reference_images": 16
+  },
+  "test_results": [
+    {
+      "test": "two character turnaround sheets as references",
+      "workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\test_ref_image_storyboard_from_turnarounds_v001.json",
+      "result": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ref_storyboard_from_turnarounds_result.json",
+      "status": "upstream_502",
+      "meaning": "The Comfy node submitted successfully, but the image API upstream failed with 502 for two image inputs."
+    },
+    {
+      "test": "single Tuobaye turnaround sheet as reference",
+      "workflow": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\test_ref_image_storyboard_single_turnaround_v001.json",
+      "result": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ref_storyboard_single_turnaround_result.json",
+      "output": "G:\\ComfyUI\\output\\AIShortDrama\\tests\\ref_storyboard_single_turnaround_v001_00001_.png",
+      "status": "pass",
+      "meaning": "Single reference image preserved adult face, rough costume, rope belt, and green bamboo flute well enough for storyboard-stage use."
+    }
+  ],
+  "production_policy": [
+    "Use one strong character or location reference image per storyboard generation when possible.",
+    "For multi-character frames, prefer the primary character turnaround sheet as image reference and lock secondary characters with text until multi-image reference reliability improves.",
+    "Do not rely on multi-image reference generation for production until repeated 502 failures are resolved or the image provider/baseURL is changed.",
+    "Keep Gemini video generation on a single approved storyboard image as the visual source of truth."
+  ]
+}

@@ -1,0 +1,19 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "GeminiAPIVideoGenerate",
+                             "inputs":  {
+                                            "model":  "gemini-3.1-pro",
+                                            "prompt":  "Animate this storyboard frame as a quiet 8-10 second arrival shot. Tuobaye steps carefully on the safe stone bank, watching faint ripples in the Dragon Pool. Preserve rugged adult identity, cloth bundle, green bamboo flute, cold jade water, waterfall mist, mossy stones, and restrained mythic tension. Gentle mist and water motion only, no falling, no drowning, no injury, no text.",
+                                            "image_path":  "G:\\ComfyUI\\output\\AIShortDrama/storyboards/SSJ_EP01_SC03_SH01_v001_00001_.png",
+                                            "filename_prefix":  "AIShortDrama/videos/SSJ_EP01_SC03_SH01_i2v_v001",
+                                            "base_url":  "http://127.0.0.1:7860",
+                                            "reference_field":  "file_ids",
+                                            "video_reference_mode":  "experimental_file_ids",
+                                            "reference_image_paths":  "",
+                                            "aspect_ratio":  "16:9"
+                                        }
+                         }
+               }
+}

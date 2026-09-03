@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the approved SC22 counterattack storyboard as the continuity anchor. Cinematic realistic ancient Chinese mythic fantasy storyboard frame, 16:9 humiliation-and-rage composition. This is the beat after the hit, not the hit itself. Fourteen has already recovered his footing or risen from the setback and now stands or half-stands in visible humiliation, anger, and disbelief that adult Tuobaye touched him at all. Remove any fresh strike-contact moment, palm impact, or active shove; the attack has already finished. Make Fourteen's wounded pride, face, posture, and simmering rage the center of the frame. Tuobaye remains visibly battered, muddy, and cautious rather than actively attacking or pressing advantage. The scene must feel like a proud aggressor trying to cover embarrassment, not a reset into equal heroic duel balance. No readable Chinese characters, no English words, no captions, no subtitles, no signs, no plaques, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC22_SH02_v001_00002_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC23_SH02_v001"
+                                        }
+                         }
+               }
+}

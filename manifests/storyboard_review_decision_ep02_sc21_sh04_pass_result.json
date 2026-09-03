@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T08:59:03",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc21.json",
+    "shot_id":  "TEST_SSJ_EP02_SC21_SH04",
+    "old_decision":  "needs_regeneration",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass after regeneration: white dragon-deer now enters the same gate-space confrontation as a protective ally rather than a separate battle lead",
+    "notes":  "Approved regenerated version should be the only downstream source. Keep Tuobaye wounded and low, Fourteen active, and the deer as protective interruption.",
+    "reviewer":  "Codex",
+    "ok":  true
+}

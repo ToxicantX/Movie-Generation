@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-09T14:47:18",
+    "shot_id":  "TEST_SSJ_EP02_SC07_SH01",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh01_storyboard_v001.json",
+    "prompt_id":  "076a8b17-d2bb-4931-b367-29ec44ac3208",
+    "status":  "error",
+    "completed":  false,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep02_sc07_sh01_storyboard_v001.json -\u003e prompt_id=076a8b17-d2bb-4931-b367-29ec44ac3208"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "076a8b17-d2bb-4931-b367-29ec44ac3208",
+                        "status":  "error",
+                        "completed":  false,
+                        "error":  "Image API error 502: 502 Bad Gateway\n"
+                    },
+    "error":  "Image API error 502: 502 Bad Gateway\n"
+}

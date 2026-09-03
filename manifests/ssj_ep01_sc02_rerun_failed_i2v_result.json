@@ -1,0 +1,36 @@
+{
+    "updated":  "2026-06-08T12:48:26",
+    "review_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep01_sc02_consistency_review.json",
+    "workflow_create_result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\segment_workflow_create_result.json",
+    "target_statuses":  [
+                            "needs_regeneration"
+                        ],
+    "runs":  [
+                 {
+                     "shot_id":  "TEST_SSJ_EP01_SC02_SH01",
+                     "workflow":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc02_sh01_i2v_v001.json",
+                     "exit_code":  0,
+                     "result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\test_ssj_ep01_sc02_sh01_rerun_i2v_result.json",
+                     "result":  {
+                                    "updated":  "2026-06-08T12:48:26",
+                                    "shot_id":  "TEST_SSJ_EP01_SC02_SH01",
+                                    "mode":  "image_to_video_with_storyboard_image_path",
+                                    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc02_sh01_i2v_v001.json",
+                                    "prompt_id":  "ce3c5110-526c-4e66-8d0c-94090a3d3e5e",
+                                    "status":  "success",
+                                    "completed":  true,
+                                    "submit_output":  [
+                                                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc02_sh01_i2v_v001.json -\u003e prompt_id=ce3c5110-526c-4e66-8d0c-94090a3d3e5e"
+                                                      ],
+                                    "wait_result":  {
+                                                        "prompt_id":  "ce3c5110-526c-4e66-8d0c-94090a3d3e5e",
+                                                        "status":  "success",
+                                                        "completed":  true,
+                                                        "error":  null
+                                                    },
+                                    "error":  null
+                                }
+                 }
+             ],
+    "ok":  true
+}

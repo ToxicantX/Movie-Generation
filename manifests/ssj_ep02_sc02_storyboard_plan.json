@@ -1,0 +1,106 @@
+{
+  "updated": "2026-06-09",
+  "project": "AI短剧生成工厂",
+  "source": "搜神记 第一卷 第二章 谪仙人 / 玉屏峰山门",
+  "segment_id": "SSJ_EP02_SC02",
+  "beat_id": "C02_B02",
+  "title": "十四郎喊门与青帝沉默",
+  "purpose": "承接 EP02 SC01 的玉屏山空院氛围，正式引入朝阳谷十四郎、绿眼琴老者和玄衣龙马队伍，让青帝继续以沉默形成压迫感。",
+  "continuity_from": {
+    "previous_segment_id": "SSJ_EP02_SC01",
+    "previous_review": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_storyboard_review.json",
+    "previous_formal_segment_cut": "G:\\ComfyUI\\output\\AIShortDrama\\episodes\\SSJ_EP02_SC01_formal_cut_v001.mp4",
+    "previous_storyboard": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC01_SH03_v001_00001_.png",
+    "seed": "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc02_seed.json",
+    "source_grounding": "E:\\workspace\\ComfyUIProjects\\manifests\\ssj_comic_ep02_p008_plan.json"
+  },
+  "image_reference_policy": "Use one strong reference image per storyboard workflow. SH01 uses the prior empty-courtyard/Tianhu storyboard for location continuity. SH02 locks Shisilang. SH03 locks the green-eyed elder. SH04 locks the dragon-horse warband.",
+  "video_policy": "Gemini experimental I2V should use only each generated and approved storyboard image as source of truth. No extra character or location references in video generation.",
+  "localization_policy": {
+    "screen_text": "Do not generate readable text, captions, subtitles, UI, or English words inside the image/video. The wooden gate plaque may be blank or unreadable.",
+    "dialogue_audio": "Do not ask the video model to synthesize spoken dialogue. Chinese dialogue should be added later in editing/subtitle tracks.",
+    "production_dialogue_lines": [
+      "朝阳谷十四郎奉家父之命，前来拜见青帝。",
+      "朝阳谷十四郎有家父书信及薄礼一份，需要面呈青帝。",
+      "既然青帝默许，十四郎冒昧上山了！"
+    ]
+  },
+  "assets": {
+    "tuobaye_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_tuobaye_turnaround_basic_v001_00001_.png",
+    "bailonglu_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_bailonglu_ref_v001_00001_.png",
+    "yupingshan_reference": "G:\\ComfyUI\\output\\AIShortDrama\\locations\\LOC_yupingshan_tianhu_ref_v001_00001_.png",
+    "shisilang_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_shisilang_turnaround_basic_v001_00001_.png",
+    "green_eyed_elder_turnaround": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_green_eyed_elder_turnaround_basic_v001_00001_.png",
+    "dragonhorse_warband_reference": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_dragonhorse_warband_ref_v001_00001_.png"
+  },
+  "shots": [
+    {
+      "shot_id": "TEST_SSJ_EP02_SC02_SH01",
+      "beat": "C02_B02",
+      "title": "拓拔野藏身巨石后观望",
+      "duration_seconds": "8-10",
+      "characters": [
+        "拓拔野",
+        "白龙鹿",
+        "玄衣龙马队伍"
+      ],
+      "location": "玉屏山狭长山谷 / 松木山门外",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC02_SH01_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC02_SH01_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP02_SC01_SH03_v001_00001_.png",
+      "storyboard_prompt": "Use the input EP02 SC01 empty courtyard/Tianhu storyboard as location and mood continuity. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 widescreen. Dusk in a narrow valley between four peaks of Yuping Mountain; pine forest, bamboo shadows, jade-green mist, silent wooden mountain gate in the distance with a blank or unreadable plaque, no readable text. Adult Tuobaye age 28 to 32 hides behind a large mossy boulder with the friendly white dragon-deer crouched quietly beside him; preserve rugged grey-brown rough cloth layers, rope belt, travel pouch, green bamboo flute, relic bundle, plain dark blunt rectangular edgeless Wufeng iron object tied low. In the distance, thirty black-clad riders and dragon-horses stop before the gate and dismount, their silhouettes disciplined and ominous. Qingdi is not visible. Chinese short-drama suspense, no captions, no subtitles, no English words, no UI text, no combat, no gore, no injury.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second suspense observation shot. Tuobaye and the white dragon-deer stay hidden behind the mossy boulder while distant black-clad riders dismount at the silent pine gate. Mist and bamboo leaves move gently; slow camera push from Tuobaye's hidden viewpoint. Preserve all identities and the silent Qingdi-sanctuary mood. No spoken dialogue, no captions, no subtitles, no readable text, no English words."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC02_SH02",
+      "beat": "C02_B02",
+      "title": "十四郎三次喊门",
+      "duration_seconds": "8-10",
+      "characters": [
+        "朝阳谷十四郎",
+        "玄衣大汉"
+      ],
+      "location": "玉屏峰松木山门",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC02_SH02_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC02_SH02_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_shisilang_turnaround_basic_v001_00001_.png",
+      "storyboard_prompt": "Use the input Shisilang turnaround sheet as the identity and costume anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium-wide composition. Adult Chaoyang Valley Shisilang age 24 to 28 stands before a silent pine-wood mountain gate, arrogant black riding robe and fitted black martial coat, dark leather belt, whip held down at his side, narrow slanted eyes and cruel handsome expression, refined but predatory posture. Behind him, black-clad attendants and dragon-horses stand in a restrained formation. The gate plaque must be blank or unreadable; do not generate Chinese or English characters. Show him raising his voice toward the unseen mountain, but no speech bubble, no subtitles, no visible words. Qingdi is absent; the mountain gives no answer. Jade-green dusk mist, pine shadows, solemn forbidden silence, no combat, no gore, no readable text, no English words.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second repeated-call beat. Shisilang faces the silent gate and performs a controlled calling gesture three times, growing impatient while the mountain remains still. Attendants and dragon-horses barely move; mist drifts. No synthesized speech, no captions, no subtitles, no readable text, no English words. Chinese dialogue will be added later in editing."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC02_SH03",
+      "beat": "C02_B02",
+      "title": "绿眼琴老者低声进言",
+      "duration_seconds": "8-10",
+      "characters": [
+        "黑衣老者",
+        "朝阳谷十四郎",
+        "挑礼大汉"
+      ],
+      "location": "玉屏峰山门前",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC02_SH03_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC02_SH03_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\charactersheets\\CHAR_green_eyed_elder_turnaround_basic_v001_00001_.png",
+      "storyboard_prompt": "Use the input green-eyed elder turnaround sheet as the identity and prop anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 tense two-shot. A gaunt elderly adviser in black robe with deeply sunken green eyes and a plain tong-wood qin carried diagonally across his back leans slightly toward Shisilang, giving quiet counsel after the mountain remains silent. Shisilang listens with restrained anger. Two black-clad porters hold simple covered gift boxes on shoulder poles behind them. Pine-wood gate, blank or unreadable plaque, bamboo shadows, jade dusk mist, no visible Qingdi, no speech bubbles, no readable text, no English words. Mood: cold calculation, silent authority, political pressure. No combat, no gore, no injury.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second quiet counsel beat. The green-eyed elder leans in and murmurs silently; Shisilang restrains his anger; gift bearers stand still; mist drifts around the silent gate. No synthesized speech, no captions, no subtitles, no readable text, no English words. Chinese dialogue will be added later in editing."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP02_SC02_SH04",
+      "beat": "C02_B02",
+      "title": "十四郎冒昧上山",
+      "duration_seconds": "8-10",
+      "characters": [
+        "朝阳谷十四郎",
+        "黑衣老者",
+        "挑礼大汉",
+        "玄衣龙马队伍"
+      ],
+      "location": "玉屏峰山门 / 上山石阶",
+      "storyboard_filename_prefix": "AIShortDrama/storyboards/SSJ_EP02_SC02_SH04_v001",
+      "video_filename_prefix": "AIShortDrama/videos/SSJ_EP02_SC02_SH04_i2v_v001",
+      "storyboard_reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\creatures\\CRE_dragonhorse_warband_ref_v001_00001_.png",
+      "storyboard_prompt": "Use the input dragon-horse warband reference as the group and mount design anchor. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 wide page-turn hook. Shisilang, the green-eyed elder, and two black-clad gift bearers begin walking up mossy stone steps beyond the pine-wood gate toward the unseen Qingdi sanctuary. The remaining black-clad riders form a guarded ring around the dragon-horses outside the gate. Dragon-horses have horse bodies with subtle dragon features, dark tack, restrained fearful posture. Keep Shisilang in black noble riding robe, elder gaunt with qin on back, gifts covered and ceremonial, no palace crowd, no readable gate text, no subtitles, no English words. Tuobaye may be a tiny hidden silhouette behind a distant boulder, but the focus is the trespass into silence. Jade mist, pine shadows, ominous forbidden quiet, no combat, no gore, no injury.",
+      "video_prompt": "Animate this storyboard frame as an 8-10 second trespass hook. Shisilang, the elder, and two gift bearers start up the mossy steps while the remaining riders form a guard ring and dragon-horses shift uneasily. Slow camera hold, mist drifting, silent mountain pressure. No synthesized speech, no captions, no subtitles, no readable text, no English words. Chinese dialogue will be added later in editing."
+    }
+  ]
+}

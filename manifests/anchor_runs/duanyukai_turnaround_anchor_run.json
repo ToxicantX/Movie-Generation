@@ -1,0 +1,18 @@
+{
+    "updated":  "2026-06-09T16:48:26",
+    "shot_id":  "duanyukai_turnaround",
+    "workflow_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_duanyukai_turnaround_basic_v001.json",
+    "prompt_id":  "b5f386b6-05eb-4d08-847a-bb8b422eed59",
+    "status":  "success",
+    "completed":  true,
+    "submit_output":  [
+                          "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\char_duanyukai_turnaround_basic_v001.json -\u003e prompt_id=b5f386b6-05eb-4d08-847a-bb8b422eed59"
+                      ],
+    "wait_result":  {
+                        "prompt_id":  "b5f386b6-05eb-4d08-847a-bb8b422eed59",
+                        "status":  "success",
+                        "completed":  true,
+                        "error":  null
+                    },
+    "error":  null
+}

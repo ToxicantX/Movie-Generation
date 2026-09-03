@@ -1,0 +1,11 @@
+{
+  "updated": "2026-06-18T20:16:44",
+  "stage_name": "启动页面审核QA",
+  "enabled": false,
+  "status": "waiting",
+  "note": "Web 控制台：生成完成后执行页面组装和 QA。",
+  "next_action": "open this switch after review",
+  "auto_run_on_open": true,
+  "confirm_before_auto_run": false,
+  "auto_run_delay_ms": 500
+}

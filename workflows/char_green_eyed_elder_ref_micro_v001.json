@@ -1,0 +1,24 @@
+{
+  "client_id": "codex-longform-comic",
+  "prompt": {
+    "1": {
+      "class_type": "OpenAICompatibleImageGenerate",
+      "inputs": {
+        "prompt": "Create one clean adult character reference image for an ancient Chinese mythic fantasy long-form comic. Character: black-clad elder adviser with green eyes and a qin, elderly gaunt man, dry wood-like thin body, deeply sunken bright green eyes, expressionless face, sparse grey-white hair tied back, black ancient robe, plain tong-wood qin carried diagonally across his back, restrained uncanny presence, calm dangerous adviser, no visible injury, not a ghost. Three-quarter full body portrait, full body visible including feet, plain dark studio background, stable face, robe silhouette, and qin placement for later comic panels. Premium ink-and-watercolor graphic novel design over cinematic realistic forms, no labels, no text.",
+        "model": "gpt-image-2",
+        "size": "1024x1536",
+        "negative_prompt": "text, labels, Chinese characters, watermark, logo, anime, cartoon, child, teenager, minor, modern fashion, sci-fi armor, western medieval armor, western sorcerer costume, glowing armor, inconsistent face, duplicated head, cropped feet, missing full body, gore, nudity"
+      }
+    },
+    "2": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "1",
+          0
+        ],
+        "filename_prefix": "AIShortDrama/charactersheets/CHAR_green_eyed_elder_turnaround_basic_v001"
+      }
+    }
+  }
+}

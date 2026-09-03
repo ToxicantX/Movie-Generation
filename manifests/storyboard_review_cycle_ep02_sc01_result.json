@@ -1,0 +1,132 @@
+{
+    "updated":  "2026-06-09T00:37:03",
+    "decision_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc01.json",
+    "review_paths":  [
+                         "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_storyboard_review.json"
+                     ],
+    "queue_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_i2v_queue_ep02_sc01.json",
+    "precheck_result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc01_precheck.json",
+    "queue_run_result_path":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_i2v_queue_ep02_sc01_run_result.json",
+    "state":  "storyboard_queue_ready_dry_run_verified",
+    "skip_markdown_import":  true,
+    "run_queue":  false,
+    "live_run":  false,
+    "max_items":  0,
+    "steps":  [
+                  {
+                      "name":  "precheck_storyboard_decisions",
+                      "script":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\test_storyboard_review_decisions.ps1",
+                      "arguments":  [
+                                        "-DecisionPath",
+                                        "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc01.json",
+                                        "-ResultPath",
+                                        "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc01_precheck.json",
+                                        "-ReviewPaths",
+                                        "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_storyboard_review.json"
+                                    ],
+                      "exit_code":  0,
+                      "output_tail":  [
+                                          "                    }",
+                                          "                ],",
+                                          "    \"invalid\":  [",
+                                          "",
+                                          "                ],",
+                                          "    \"missing\":  [",
+                                          "",
+                                          "                ],",
+                                          "    \"stale\":  [",
+                                          "",
+                                          "              ],",
+                                          "    \"warnings\":  [",
+                                          "",
+                                          "                 ],",
+                                          "    \"ok\":  true",
+                                          "}"
+                                      ],
+                      "ok":  true
+                  },
+                  {
+                      "name":  "build_storyboard_i2v_queue",
+                      "script":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\build_storyboard_i2v_queue.ps1",
+                      "arguments":  [
+                                        "-DecisionPath",
+                                        "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_review_decisions_ep02_sc01.json",
+                                        "-QueuePath",
+                                        "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_i2v_queue_ep02_sc01.json",
+                                        "-ReviewPaths",
+                                        "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\ssj_ep02_sc01_storyboard_review.json"
+                                    ],
+                      "exit_code":  0,
+                      "output_tail":  [
+                                          "                      \"current_status\":  \"storyboard_generated_pending_review\",",
+                                          "                      \"storyboard_path\":  \"G:\\\\ComfyUI\\\\output\\\\AIShortDrama/storyboards/SSJ_EP02_SC01_SH03_v001_00001_.png\",",
+                                          "                      \"video_path\":  \"\",",
+                                          "                      \"storyboard_workflow\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc01_sh03_storyboard_v001.json\",",
+                                          "                      \"video_workflow\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc01_sh03_i2v_v001.json\",",
+                                          "                      \"selected_workflow\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc01_sh03_i2v_v001.json\",",
+                                          "                      \"can_auto_run\":  true",
+                                          "                  }",
+                                          "              ],",
+                                          "    \"next_actions\":  [",
+                                          "                         \"For pass decisions, run_i2v uses the approved storyboard as the single visual source through the prepared Comfy workflow.\",",
+                                          "                         \"For needs_regeneration decisions, regenerate the storyboard before rebuilding this queue.\",",
+                                          "                         \"Run run_storyboard_i2v_queue.ps1 with -DryRun first.\"",
+                                          "                     ],",
+                                          "    \"ok\":  true",
+                                          "}"
+                                      ],
+                      "ok":  true
+                  },
+                  {
+                      "name":  "run_storyboard_queue_dry_run",
+                      "script":  "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\run_storyboard_i2v_queue.ps1",
+                      "arguments":  [
+                                        "-QueuePath",
+                                        "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_i2v_queue_ep02_sc01.json",
+                                        "-ResultPath",
+                                        "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\manifests\\storyboard_i2v_queue_ep02_sc01_run_result.json",
+                                        "-DryRun"
+                                    ],
+                      "exit_code":  0,
+                      "output_tail":  [
+                                          "                     \"action\":  \"run_i2v\",",
+                                          "                     \"selected_workflow\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc01_sh03_i2v_v001.json\",",
+                                          "                     \"result_path\":  \"E:\\\\workspace\\\\ComfyUIProjects\\\\manifests\\\\storyboard_queue_ssj_ep02_sc01_test_ssj_ep02_sc01_sh03_result.json\",",
+                                          "                     \"command\":  \"powershell -ExecutionPolicy Bypass -File \\u0027E:\\\\workspace\\\\ComfyUIProjects\\\\scripts\\\\run_single_i2v_workflow_and_wait.ps1\\u0027 -WorkflowPath \\u0027E:\\\\workspace\\\\ComfyUIProjects\\\\workflows\\\\ssj_ep02_sc01_sh03_i2v_v001.json\\u0027 -ShotId \\u0027TEST_SSJ_EP02_SC01_SH03\\u0027 -ResultPath \\u0027E:\\\\workspace\\\\ComfyUIProjects\\\\manifests\\\\storyboard_queue_ssj_ep02_sc01_test_ssj_ep02_sc01_sh03_result.json\\u0027\",",
+                                          "                     \"status\":  \"dry_run\",",
+                                          "                     \"exit_code\":  null,",
+                                          "                     \"output\":  [",
+                                          "",
+                                          "                                ]",
+                                          "                 }",
+                                          "             ],",
+                                          "    \"skipped\":  [",
+                                          "",
+                                          "                ],",
+                                          "    \"ok\":  true",
+                                          "}"
+                                      ],
+                      "ok":  true
+                  }
+              ],
+    "precheck":  {
+                     "ok":  true,
+                     "pending":  0,
+                     "pass":  3,
+                     "needs_regeneration":  0,
+                     "blocked":  0,
+                     "ready_for_i2v_queue":  true,
+                     "all_storyboards_reviewed":  true
+                 },
+    "queue":  {
+                  "ok":  true,
+                  "queue_count":  3,
+                  "pending":  0,
+                  "pass":  3,
+                  "needs_regeneration":  0,
+                  "blocked":  0,
+                  "missing_workflow":  0,
+                  "missing_storyboard":  0
+              },
+    "ok":  true
+}

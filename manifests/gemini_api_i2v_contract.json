@@ -1,0 +1,47 @@
+{
+  "updated": "2026-06-08",
+  "purpose": "Reference-driven video contract between ComfyUI and Gemini-API for the AI short-drama pipeline.",
+  "consumer": {
+    "comfy_node": "G:\\ComfyUI\\custom_nodes\\gemini_api_video_node.py",
+    "class_type": "GeminiAPIVideoGenerate",
+    "workflows": [
+      "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh01_i2v_retry.json",
+      "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh02_i2v_retry.json",
+      "E:\\workspace\\ComfyUIProjects\\Movie-Generation\\workflows\\ssj_ep01_sc01_sh03_i2v_retry.json"
+    ]
+  },
+  "expected_api_flow": [
+    {
+      "step": "upload_reference_image",
+      "method": "POST",
+      "path": "/v1/gemini/files",
+      "result": "file.id"
+    },
+    {
+      "step": "generate_reference_video",
+      "method": "POST",
+      "path": "/v1/gemini/generate",
+      "body": {
+        "model": "gemini-3.1-pro",
+        "mode": "video",
+        "aspect_ratio": "16:9",
+        "prompt": "string",
+        "video_reference_file_ids": [
+          "file-id-from-upload"
+        ]
+      }
+    }
+  ],
+  "required_behavior": [
+    "Do not treat video_reference_file_ids as regular chat attachments.",
+    "Attach uploaded images through the Gemini video generation tool's reference image path.",
+    "Return at least one downloadable video item in output.videos or output.media.",
+    "Preserve standard Authorization: Bearer API_KEYS behavior.",
+    "Keep old text-to-video mode working when no reference image field is supplied."
+  ],
+  "verification": {
+    "static_contract_check": "powershell -ExecutionPolicy Bypass -File E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\test_i2v_contract.ps1",
+    "live_probe_chain": "powershell -ExecutionPolicy Bypass -File E:\\workspace\\ComfyUIProjects\\Movie-Generation\\scripts\\run_i2v_probe_chain_when_ready.ps1"
+  },
+  "status": "comfy_side_ready_backend_reference_video_support_unverified"
+}

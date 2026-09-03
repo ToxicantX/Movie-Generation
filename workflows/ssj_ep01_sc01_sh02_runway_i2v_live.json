@@ -1,0 +1,22 @@
+{
+  "client_id": "codex-ai-short-drama",
+  "prompt": {
+    "1": {
+      "class_type": "RunwayImageToVideoGenerate",
+      "inputs": {
+        "prompt": "Animate this storyboard frame as a serene 8 second cinematic short-drama shot. Preserve the storyboard composition and the locked first-chapter identity anchors: adult Tuobaye age 28 to 32 with rugged weathered face, ragged rough cloth clothing, and a green bamboo flute at his waist; ancient white-haired Shennong with calm wise eyes, deep purple robe, herbal embroidery, and solemn warm farewell mood; safe Nanji Mountain meadow with golden sunset, distant sea glow, far waterfall mist, windswept grass, and drifting white catkins. Gentle wind moves hair, robe fabric, grass, and catkins. Slow subtle camera push in. Quiet mission-transfer emotion, no danger, no violence, no injury, no minors, no cliff edge, no falling, no titles, no captions, no text.",
+        "image_path": "G:\\ComfyUI\\output\\AIShortDrama\\storyboards\\SSJ_EP01_SC01_SH02_v001_00001_.png",
+        "filename_prefix": "AIShortDrama/videos/SSJ_EP01_SC01_SH02_runway_i2v_v001",
+        "model": "gen4_turbo",
+        "base_url": "https://api.dev.runwayml.com",
+        "api_version": "2024-11-06",
+        "ratio": "1280:720",
+        "duration": 10,
+        "seed": -1,
+        "poll_seconds": 10,
+        "timeout_seconds": 1200,
+        "dry_run": false
+      }
+    }
+  }
+}

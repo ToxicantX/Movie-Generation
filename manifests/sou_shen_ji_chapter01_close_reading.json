@@ -1,0 +1,128 @@
+{
+  "updated": "2026-06-08",
+  "source": "搜神记 第一卷 第一章 神农使者",
+  "source_file": "E:\\workspace\\ComfyUIProjects\\搜神记.txt",
+  "status": "close_reading_v1",
+  "purpose": "Production guide for first-chapter short-drama adaptation, storyboard prompts, reference-driven video prompts, and consistency review.",
+  "adaptation_policy": {
+    "tuobaye_age": "Adult adaptation, visual age 28 to 32. Preserve curiosity, wildness, and emotional openness without minor visuals.",
+    "shennong_state": "Use calm elder, limited movement, solemn farewell mood. Avoid explicit dying, corpse, stone-body, cliff-danger wording in image and video prompts.",
+    "video_policy": "Production video must be image-to-video or reference-driven. Text-to-video remains smoke-test only."
+  },
+  "logline": "A rugged wandering hero meets an ancient divine elder on Nanji Mountain, earns his trust through kindness and herbal instinct, receives the mission and relics that launch the larger Great Wilderness journey, then survives the descent and gains a miraculous mount.",
+  "core_emotional_arc": [
+    "Shennong moves from lonely farewell to relief after finding a worthy inheritor.",
+    "Tuobaye moves from hunger and playful bravado to grief, responsibility, and first awakening of heroic agency.",
+    "The chapter turns a chance encounter into a mandate: friendship first, destiny second."
+  ],
+  "production_beats": [
+    {
+      "beat_id": "C01_B01",
+      "title": "Nanji Mountain farewell atmosphere",
+      "function": "Establish mythic old-world tone, Shennong's stillness, sunset meadow and waterfall environment.",
+      "characters": ["神农"],
+      "locations": ["南际山顶"],
+      "props": ["碧玉海棠"],
+      "shot_use": "Opening mood shot or elder close-up."
+    },
+    {
+      "beat_id": "C01_B02",
+      "title": "Tuobaye enters and jokes about the birds",
+      "function": "Introduce adult-adapted protagonist: ragged, bright-eyed, playful, hungry, unafraid of a strange elder.",
+      "characters": ["拓拔野", "神农"],
+      "locations": ["南际山顶林地"],
+      "props": ["绿竹笛", "鸟雀"],
+      "shot_use": "Character relationship first contact."
+    },
+    {
+      "beat_id": "C01_B03",
+      "title": "Food, herbs, and mutual recognition",
+      "function": "Show Tuobaye's survival skill and herbal instinct; Shennong identifies him as a possible inheritor.",
+      "characters": ["拓拔野", "神农"],
+      "locations": ["溪边草地"],
+      "props": ["甘华草", "赤仙果", "烤鸟"],
+      "shot_use": "Quiet two-person scene; useful for dialogue adaptation."
+    },
+    {
+      "beat_id": "C01_B04",
+      "title": "Name reveal and friendship",
+      "function": "Shennong reveals identity; Tuobaye's ignorance preserves sincerity; they become friends before mission transfer.",
+      "characters": ["拓拔野", "神农"],
+      "locations": ["南际山顶夜色"],
+      "props": [],
+      "shot_use": "Emotional midpoint."
+    },
+    {
+      "beat_id": "C01_B05",
+      "title": "Mission and relic transfer",
+      "function": "Deliver central plot engine: 神木令, 血书, 大荒经, 百草注, 五行谱, 神农丹, destination 青帝/蜃楼城.",
+      "characters": ["拓拔野", "神农", "青帝"],
+      "locations": ["南际山顶草地"],
+      "props": ["神木令", "血书", "大荒经", "百草注", "五行谱", "神农丹"],
+      "shot_use": "Current three-shot sample core."
+    },
+    {
+      "beat_id": "C01_B06",
+      "title": "Farewell and descent",
+      "function": "Tuobaye accepts responsibility; grief becomes action; first solo survival sequence begins.",
+      "characters": ["拓拔野", "神农"],
+      "locations": ["南际山山路"],
+      "props": ["神木令", "三本羊皮书"],
+      "shot_use": "Episode transition or future action expansion."
+    },
+    {
+      "beat_id": "C01_B07",
+      "title": "Dragon pool ordeal and Shennong Dan awakening",
+      "function": "Action and power-awakening section; Tuobaye survives, finds 无锋剑, frees 白龙鹿.",
+      "characters": ["拓拔野"],
+      "locations": ["龙潭", "山谷"],
+      "props": ["神农丹", "无锋剑", "白龙鹿"],
+      "shot_use": "Second-stage expansion after I2V path is stable."
+    },
+    {
+      "beat_id": "C01_B08",
+      "title": "White dragon-deer mount and departure",
+      "function": "Turns kindness into reward; Tuobaye gains a faster-than-dragon-horse mount and leaves for 玉屏山.",
+      "characters": ["拓拔野"],
+      "locations": ["龙潭谷"],
+      "props": ["白龙鹿", "无锋断剑", "神木令"],
+      "shot_use": "Episode ending hook."
+    }
+  ],
+  "current_three_shot_sample": [
+    {
+      "shot_id": "TEST_SSJ_EP01_SC01_SH01",
+      "beat": "C01_B01",
+      "purpose": "Safe scenic opening: elder and adult hero in mythic meadow, no cliff danger."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC01_SH02",
+      "beat": "C01_B05",
+      "purpose": "Mission transfer close-up using reference images and stable costume/prop language."
+    },
+    {
+      "shot_id": "TEST_SSJ_EP01_SC01_SH03",
+      "beat": "C01_B05",
+      "purpose": "Adult Tuobaye receives the mandate; maintain deep-purple Shennong and rugged Tuobaye contrast."
+    }
+  ],
+  "consistency_locks": {
+    "tuobaye": {
+      "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_tuobaye_ref_v001_00001_.png",
+      "must_keep": ["adult rugged face", "ragged rough cloth", "green bamboo flute", "lean wilderness body"]
+    },
+    "shennong": {
+      "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_shennong_ref_v001_00001_.png",
+      "must_keep": ["white hair", "deep purple robe", "herbal embroidery", "calm wise farewell expression"]
+    },
+    "nanji_mountain": {
+      "reference_image": "G:\\ComfyUI\\output\\AIShortDrama\\SSJ_TEST_anchor_nanjishan_v002_00001_.png",
+      "must_keep": ["sunset meadow", "distant waterfall mist", "ancient mythic Chinese wilderness", "safe open terrain"]
+    }
+  },
+  "next_outputs": [
+    "Upgrade CHAR_tuobaye and CHAR_shennong to close_reading_v1.",
+    "Create Nanji Mountain multi-angle scene card v1.",
+    "When cooldown clears, run reference-driven I2V probe before producing any more production video."
+  ]
+}

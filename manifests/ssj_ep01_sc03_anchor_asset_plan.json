@@ -1,0 +1,28 @@
+{
+  "updated": "2026-06-08",
+  "segment_id": "SSJ_EP01_SC03",
+  "beat_id": "C01_B07",
+  "title": "Dragon pool ordeal and awakening",
+  "purpose": "Create stable visual anchors before storyboard generation for the first action/power-awakening segment.",
+  "assets": [
+    {
+      "asset_id": "LOC_longtan_dragon_pool",
+      "type": "location",
+      "filename_prefix": "AIShortDrama/locations/LOC_longtan_dragon_pool_ref_v001",
+      "prompt": "Cinematic realistic ancient Chinese mythic fantasy location reference, 16:9. A secluded dragon pool below Nanji Mountain at blue-gold dusk turning into moonlight: cold jade water, circular mossy stone bank, waterfall mist, ancient pine and poplar roots, glowing medicinal herbs near the shore, faint dragon-shaped ripples under the water, safe readable terrain for action staging. Mythic Great Wilderness atmosphere, restrained lighting, no people, no text, no watermark, no gore, no horror swamp, no modern pool.",
+      "negative_prompt": "modern pool, swimming pool, tropical beach, horror swamp, gore, corpse, drowning body, cliff-edge danger, falling, city, western castle, sci-fi, anime, cartoon, text, watermark, logo"
+    },
+    {
+      "asset_id": "CRE_bailonglu",
+      "type": "creature",
+      "filename_prefix": "AIShortDrama/creatures/CRE_bailonglu_ref_v001",
+      "prompt": "Cinematic realistic creature reference for an ancient Chinese mythic fantasy short drama, 16:9. White dragon-deer mount: elegant adult deer body, white fur with subtle pearl sheen, small jade antlers with faint dragon-horn curves, long flowing mane, gentle intelligent eyes, light dragon-like scales along neck and shoulders, strong graceful legs, calm noble presence beside misty mountain water. Full body visible, safe friendly magical mount, no saddle yet, no rider, no text, no watermark.",
+      "negative_prompt": "horse only, unicorn, western dragon, monster horror, aggressive beast, gore, injury, saddle, rider, text, watermark, logo, anime, cartoon, childlike mascot, extra legs, distorted anatomy"
+    }
+  ],
+  "usage_policy": [
+    "Use LOC_longtan_dragon_pool as the scene reference for SC03 storyboard shots.",
+    "Use CRE_bailonglu as a single-reference image when generating the white dragon-deer reveal storyboard.",
+    "Avoid feeding multiple asset refs into one image generation until multi-image reference reliability improves."
+  ]
+}

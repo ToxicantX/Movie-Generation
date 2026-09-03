@@ -1,0 +1,25 @@
+﻿{
+    "client_id":  "codex-ai-short-drama",
+    "prompt":  {
+                   "1":  {
+                             "class_type":  "OpenAICompatibleImageGenerate",
+                             "inputs":  {
+                                            "prompt":  "Use the input adult Yushiqie reference as the identity anchor for the white-clothed woman, repairing ornate headpiece drift: simple elegant hair, pale white robes, restrained expression, no crown-like jewelry. Cinematic realistic ancient Chinese mythic fantasy short-drama storyboard frame, 16:9 medium two-character composition. Adult Tuobaye in rugged grey-brown travel clothes urgently asks her to accompany him to Mirage City, holding the folded sealed relic bundle close; she gives a faint distant smile and gently refuses, leaving him visibly disappointed. Moonlit Tianhu, bamboo shadows, wet stone, quiet pavilion edge. Keep the folded document closed and unreadable. No readable Chinese characters, no English words, no captions, no subtitles, no speech bubbles, no signs, no plaques, no gate calligraphy, no UI, no modern elements.",
+                                            "model":  "gpt-image-2",
+                                            "size":  "1536x1024",
+                                            "negative_prompt":  "modern city, market street, beggar bowl, coins, poverty imagery, sci-fi, western medieval armor, European castle, anime, cartoon, plastic skin, neon cyberpunk, overdesigned armor, text, watermark, logo, child, teenager, minor, school age, cliff-edge danger, falling, injury, gore, distorted hands, melted face",
+                                            "reference_image_paths":  "G:\\ComfyUI\\output\\AIShortDrama\\characters\\CHAR_yushiqie_ref_v001_00001_.png"
+                                        }
+                         },
+                   "2":  {
+                             "class_type":  "SaveImage",
+                             "inputs":  {
+                                            "images":  [
+                                                           "1",
+                                                           0
+                                                       ],
+                                            "filename_prefix":  "AIShortDrama/storyboards/SSJ_EP02_SC14_SH01_v001"
+                                        }
+                         }
+               }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "updated":  "2026-06-12T03:03:37",
+    "decision_path":  ".\\manifests\\storyboard_review_decisions_ep02_sc19.json",
+    "shot_id":  "TEST_SSJ_EP02_SC19_SH01",
+    "old_decision":  "pending",
+    "new_decision":  "pass",
+    "reason":  "visual precheck pass: probing-feint beat is readable and Tuobaye still looks tense rather than skilled",
+    "notes":  "Keep the test-strike tone and do not let Tang Qi look like he is already committing to a finishing blow in video.",
+    "reviewer":  "Codex",
+    "ok":  true
+}
