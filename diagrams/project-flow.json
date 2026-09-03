@@ -17,15 +17,15 @@
   "updated": "2026-09-03",
   "cover": "cover.png",
   "flows": [
-    {"id": "00", "title": "完整流水线总览", "file": "flows/00-full-pipeline-overview.html", "spec": "flows/00-full-pipeline-overview.json"},
-    {"id": "01", "title": "项目创建与输入", "file": "flows/01-project-creation.html", "spec": "flows/01-project-creation.json"},
-    {"id": "02", "title": "AI 内容规划", "file": "flows/02-ai-content-planning.html", "spec": "flows/02-ai-content-planning.json"},
-    {"id": "03", "title": "剧本与导演设计", "file": "flows/03-screenplay-director.html", "spec": "flows/03-screenplay-director.json"},
-    {"id": "04", "title": "分集、场景与镜头", "file": "flows/04-episode-scene-shot.html", "spec": "flows/04-episode-scene-shot.json"},
-    {"id": "05", "title": "通用与单集资产", "file": "flows/05-asset-scope.html", "spec": "flows/05-asset-scope.json"},
-    {"id": "06", "title": "图片资产生成", "file": "flows/06-image-generation.html", "spec": "flows/06-image-generation.json"},
-    {"id": "07", "title": "视频片段生成", "file": "flows/07-video-generation.html", "spec": "flows/07-video-generation.json"},
-    {"id": "08", "title": "音频与后期边界", "file": "flows/08-audio-postprocess.html", "spec": "flows/08-audio-postprocess.json"},
-    {"id": "09", "title": "数据状态与重跑", "file": "flows/09-data-state-rerun.html", "spec": "flows/09-data-state-rerun.json"}
+    {"id": "00", "title": "完整流水线总览", "file": "flows/00-full-pipeline-overview.html", "spec": "flows/00-full-pipeline-overview.json", "sourceFile": "00-full-pipeline-overview.html", "sourceSpec": "00-full-pipeline-overview.json"},
+    {"id": "01", "title": "项目创建与输入", "file": "flows/01-project-creation.html", "spec": "flows/01-project-creation.json", "sourceFile": "01-project-creation.html", "sourceSpec": "01-project-creation.json"},
+    {"id": "02", "title": "AI 内容规划", "file": "flows/02-ai-content-planning.html", "spec": "flows/02-ai-content-planning.json", "sourceFile": "02-ai-content-planning.html", "sourceSpec": "02-ai-content-planning.json"},
+    {"id": "03", "title": "剧本与导演设计", "file": "flows/03-screenplay-director.html", "spec": "flows/03-screenplay-director.json", "sourceFile": "03-screenplay-director.html", "sourceSpec": "03-screenplay-director.json"},
+    {"id": "04", "title": "分集、场景与镜头", "file": "flows/04-episode-scene-shot.html", "spec": "flows/04-episode-scene-shot.json", "sourceFile": "04-episode-scene-shot.html", "sourceSpec": "04-episode-scene-shot.json"},
+    {"id": "05", "title": "通用与单集资产", "file": "flows/05-asset-scope.html", "spec": "flows/05-asset-scope.json", "sourceFile": "05-asset-scope.html", "sourceSpec": "05-asset-scope.json"},
+    {"id": "06", "title": "图片资产生成", "file": "flows/06-image-generation.html", "spec": "flows/06-image-generation.json", "sourceFile": "06-image-generation.html", "sourceSpec": "06-image-generation.json"},
+    {"id": "07", "title": "视频片段生成", "file": "flows/07-video-generation.html", "spec": "flows/07-video-generation.json", "sourceFile": "07-video-generation.html", "sourceSpec": "07-video-generation.json"},
+    {"id": "08", "title": "音频与后期边界", "file": "flows/08-audio-postprocess.html", "spec": "flows/08-audio-postprocess.json", "sourceFile": "08-audio-postprocess.html", "sourceSpec": "08-audio-postprocess.json"},
+    {"id": "09", "title": "数据状态与重跑", "file": "flows/09-data-state-rerun.html", "spec": "flows/09-data-state-rerun.json", "sourceFile": "09-data-state-rerun.html", "sourceSpec": "09-data-state-rerun.json"}
   ]
 }
